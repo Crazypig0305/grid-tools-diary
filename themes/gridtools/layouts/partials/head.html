@@ -3,6 +3,7 @@
 <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
+<meta name="google-site-verification" content="_5D0dvv3xZmke2Od9KnN3KkRtOmgMDGTA2QCz7tNTiQ">
 {{ if .IsPage }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
 <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02" }}">{{ end }}
 <link rel="preconnect" href="https://fonts.googleapis.com">
