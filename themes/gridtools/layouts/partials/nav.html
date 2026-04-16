@@ -1,0 +1,24 @@
+{{ $currentPage := . }}
+{{ $catColors := dict "earn-apps" "blue" "finance-tools" "teal" "productivity" "amber" "privacy" "purple" }}
+<nav class="top-nav">
+  <div class="top-nav-inner">
+    <a href="/" class="nav-logo" aria-label="格子工具誌首頁">
+      <div class="logo-grid">
+        <span></span><span></span>
+        <span></span><span style="background:var(--amber)"></span>
+      </div>
+    </a>
+    <div class="tab-list">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}" class="tab-item{{ if or (eq $currentPage.RelPermalink .URL) (and (eq .URL "/") $currentPage.IsHome) }} active{{ end }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+    <div class="nav-right">
+      <div class="nav-brand-inline">
+        <span class="nav-brand-name">格子工具誌</span>
+        <span class="nav-brand-sub">GRID TOOLS DIARY</span>
+      </div>
+      <a href="/about/" class="nav-about">關於</a>
+    </div>
+  </div>
+</nav>

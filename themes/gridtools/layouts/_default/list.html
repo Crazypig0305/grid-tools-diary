@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $catNames  := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
+{{ $catClasses := dict "earn-apps" "cat-earn" "finance-tools" "cat-finance" "productivity" "cat-productivity" "privacy" "cat-privacy" }}
+{{ $tagClasses := dict "earn-apps" "tag-earn" "finance-tools" "tag-finance" "productivity" "tag-productivity" "privacy" "tag-privacy" }}
+{{ $dotColors := dict "cat-earn" "var(--blue)" "cat-finance" "var(--teal)" "cat-productivity" "var(--amber)" "cat-privacy" "var(--purple)" }}
+
+{{ $section := .Section }}
+{{ $catName  := index $catNames  $section | default .Title }}
+{{ $catClass := index $catClasses $section | default "cat-earn" }}
+
+<div class="section-layout">
+  <main>
+    <div class="section-header">
+      <h1 class="section-title">{{ $catName }}</h1>
+    </div>
+
+    <div class="section-label"><span>所有文章</span></div>
+    <div class="article-list">
+      {{ range .Pages.ByDate.Reverse }}
+      {{ $s       := .Section }}
+      {{ $cc      := index $catClasses $s | default "cat-earn" }}
+      {{ $tn      := index $catNames   $s | default $s }}
+      {{ $dc      := index $dotColors  $cc | default "var(--blue)" }}
+      <a href="{{ .RelPermalink }}" class="article-row">
+        <div class="row-thumb {{ $cc }}">
+          {{ if .Params.image }}
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ else }}
+          <div class="thumb-placeholder"></div>
+          {{ end }}
+        </div>
+        <div class="row-body">
+          <span class="row-tag">
+            <span class="row-tag-dot" style="background:{{ $dc }}"></span>
+            {{ $tn }}
+          </span>
+          <h3 class="row-title">{{ .Title }}</h3>
+          <p class="row-excerpt">{{ .Description | default .Summary }}</p>
+          <div class="row-meta">{{ .Date.Format "2006-01-02" }}</div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </main>
+
+  {{ partial "sidebar.html" . }}
+</div>
+{{ end }}

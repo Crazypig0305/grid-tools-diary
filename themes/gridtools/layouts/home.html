@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{ $pages := .Site.RegularPages.ByDate.Reverse }}
+{{ $featured := index $pages 0 }}
+{{ $rest := after 1 $pages }}
+
+{{ $catNames  := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
+{{ $catClasses := dict "earn-apps" "cat-earn" "finance-tools" "cat-finance" "productivity" "cat-productivity" "privacy" "cat-privacy" }}
+{{ $tagClasses := dict "earn-apps" "tag-earn" "finance-tools" "tag-finance" "productivity" "tag-productivity" "privacy" "tag-privacy" }}
+
+<div class="layout">
+  <main>
+
+    {{/* Featured article */}}
+    {{ with $featured }}
+    {{ $section := .Section }}
+    {{ $catName  := index $catNames  $section | default $section }}
+    {{ $tagClass := index $tagClasses $section | default "tag-earn" }}
+    <a href="{{ .RelPermalink }}" class="featured">
+      <div class="featured-inner">
+        <div class="featured-img">
+          {{ if .Params.image }}
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ else }}
+          <div class="featured-img-placeholder">精選文章</div>
+          {{ end }}
+        </div>
+        <div class="featured-body">
+          <div>
+            <span class="featured-tag {{ $tagClass }}">{{ $catName }}</span>
+            <h2 class="featured-title">{{ .Title }}</h2>
+            <p class="featured-excerpt">{{ .Description | default (.Summary | truncate 100) }}</p>
+          </div>
+          <div class="featured-meta">{{ .Date.Format "2006-01-02" }}</div>
+        </div>
+      </div>
+    </a>
+    {{ end }}
+
+    {{/* Article list */}}
+    <div class="section-label"><span>最新文章</span></div>
+    <div class="article-list">
+      {{ range $rest }}
+      {{ $section := .Section }}
+      {{ $catName   := index $catNames   $section | default $section }}
+      {{ $catClass  := index $catClasses $section | default "cat-earn" }}
+      {{ $dotColor  := dict "cat-earn" "var(--blue)" "cat-finance" "var(--teal)" "cat-productivity" "var(--amber)" "cat-privacy" "var(--purple)" }}
+      {{ $dc := index $dotColor $catClass | default "var(--blue)" }}
+      <a href="{{ .RelPermalink }}" class="article-row">
+        <div class="row-thumb {{ $catClass }}">
+          {{ if .Params.image }}
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ else }}
+          <div class="thumb-placeholder"></div>
+          {{ end }}
+        </div>
+        <div class="row-body">
+          <span class="row-tag">
+            <span class="row-tag-dot" style="background:{{ $dc }}"></span>
+            {{ $catName }}
+          </span>
+          <h3 class="row-title">{{ .Title }}</h3>
+          <p class="row-excerpt">{{ .Description | default .Summary }}</p>
+          <div class="row-meta">{{ .Date.Format "2006-01-02" }}</div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+
+  </main>
+
+  {{ partial "sidebar.html" . }}
+</div>
+{{ end }}

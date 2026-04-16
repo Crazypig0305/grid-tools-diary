@@ -1,0 +1,30 @@
+{{ $catNames := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
+<aside class="sidebar">
+
+  <!-- 熱門文章（最新 5 篇代替） -->
+  <div class="sidebar-block">
+    <div class="sidebar-head">
+      <span class="sidebar-head-text">近期評測</span>
+    </div>
+    <nav class="popular-list">
+      {{ range $i, $p := first 5 .Site.RegularPages.ByDate.Reverse }}
+      <a href="{{ $p.RelPermalink }}" class="popular-item">
+        <span class="popular-num">{{ add $i 1 }}</span>
+        <span class="popular-title">{{ $p.Title }}</span>
+      </a>
+      {{ end }}
+    </nav>
+  </div>
+
+  <!-- 關於 -->
+  <div class="sidebar-block">
+    <div class="sidebar-head">
+      <span class="sidebar-head-text">關於本站</span>
+    </div>
+    <div class="about-block">
+      <p class="about-text">{{ .Site.Params.aboutText }}</p>
+      <a href="{{ .Site.Params.aboutLink }}" class="about-cta">了解更多 →</a>
+    </div>
+  </div>
+
+</aside>
