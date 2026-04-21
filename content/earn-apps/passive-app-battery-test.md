@@ -5,7 +5,7 @@ lastmod: 2026-04-16
 categories: ["earn-apps"]
 tags: ["Honeygain", "EarnApp", "Repocket", "掛機App", "耗電測試"]
 description: "掛機 App 到底多耗電？Honeygain、EarnApp、Repocket 三款在同一支手機實測，告訴你對電池和流量的真實影響。"
-image: /images/honeygain-og.png
+image: /images/passive-app-compare.jpg
 draft: false
 ---
 

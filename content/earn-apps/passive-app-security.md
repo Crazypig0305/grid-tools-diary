@@ -5,7 +5,7 @@ lastmod: 2026-04-16
 categories: ["earn-apps"]
 tags: ["Honeygain", "EarnApp", "掛機App", "資安", "頻寬共享"]
 description: "掛機賺錢 App 讓別人用你的網路流量，安不安全？不看業配軟文，直接分析頻寬共享的實際運作機制和真實風險。"
-image: /images/honeygain-og.png
+image: /images/passive-app-compare.jpg
 draft: false
 ---
 

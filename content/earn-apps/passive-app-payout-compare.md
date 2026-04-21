@@ -5,7 +5,7 @@ lastmod: 2026-04-16
 categories: ["earn-apps"]
 tags: ["Honeygain", "EarnApp", "Repocket", "出金", "掛機App"]
 description: "Honeygain、EarnApp、Repocket 出金門檻、手續費、處理速度實際比較，告訴你哪個拿錢最省事。"
-image: /images/repocket-og.png
+image: /images/passive-app-compare.jpg
 draft: false
 ---
 
