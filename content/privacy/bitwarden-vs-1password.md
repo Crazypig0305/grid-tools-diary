@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["privacy"]
 tags: ["Bitwarden", "1Password", "密碼管理器", "資安工具", "隱私安全"]
 description: "Bitwarden 免費版 vs 1Password 付費版，差在哪裡？功能、安全性、價格逐項比較，直接說哪個值得用。"
+image: /images/1password-press.webp
 draft: false
 ---
 

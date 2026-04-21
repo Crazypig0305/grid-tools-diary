@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["privacy"]
 tags: ["VPN", "NordVPN", "Surfshark", "VPN比較", "隱私安全"]
 description: "NordVPN 和 Surfshark 哪個值得買？價格、速度、隱私政策、台灣適用性逐項比較，給你一個有立場的答案。"
+image: /images/nordvpn-og.jpg
 draft: false
 ---
 

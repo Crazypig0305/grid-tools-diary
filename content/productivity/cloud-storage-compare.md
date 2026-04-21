@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["productivity"]
 tags: ["Google Drive", "OneDrive", "iCloud", "雲端儲存", "效率工具"]
 description: "Google Drive、OneDrive、iCloud 三選一？從免費容量、跨平台、整合體驗三個維度直接比，告訴你哪個值得當主力。"
+image: /images/google-one-og.jpg
 draft: false
 ---
 

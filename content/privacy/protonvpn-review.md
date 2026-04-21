@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["privacy"]
 tags: ["ProtonVPN", "VPN", "隱私安全", "網路安全"]
 description: "ProtonVPN 主打隱私和安全，免費版也有一定誠意。實際測過之後，說清楚它適合誰、不適合誰。"
+image: /images/protonvpn-og.png
 draft: false
 ---
 

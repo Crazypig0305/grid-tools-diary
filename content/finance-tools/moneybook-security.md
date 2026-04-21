@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["finance-tools"]
 tags: ["麻布記帳", "Moneybook", "開放銀行", "資安", "Open Banking"]
 description: "讓 App 連接你的銀行帳戶，安不安全？分析麻布記帳使用的 Open Banking 機制，說清楚真實風險和它的邊界。"
+image: /images/moneybook-og.png
 draft: false
 ---
 

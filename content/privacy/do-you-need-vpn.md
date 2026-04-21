@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["privacy"]
 tags: ["VPN", "網路安全", "隱私工具", "資安"]
 description: "VPN 到底該不該買？先搞清楚它能做什麼、不能做什麼，再決定要不要花這筆錢。"
+image: /images/surfshark-og.png
 draft: false
 ---
 

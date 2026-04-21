@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["productivity"]
 tags: ["Canva", "設計工具", "訂閱服務", "效率工具"]
 description: "Canva Pro 每年 $120 美金，免費版到底差多少？實際在工作中用了兩個月，告訴你哪些 Pro 功能真的用得到、哪些升級了也不會碰。"
+image: /images/canva-og.jpg
 draft: false
 ---
 

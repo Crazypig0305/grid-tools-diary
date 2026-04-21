@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["productivity"]
 tags: ["Google One", "雲端儲存", "訂閱服務", "Google", "效率工具"]
 description: "Google One 100GB 方案每月 NT$65，到底值不值得訂？搞清楚你買的是什麼，再決定要不要付這筆錢。"
+image: /images/google-one-og.jpg
 draft: false
 ---
 

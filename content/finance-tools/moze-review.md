@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["finance-tools"]
 tags: ["MOZE", "記帳App", "理財工具", "iOS"]
 description: "MOZE 免費版和付費版的差距在哪？用了三個月後，直接告訴你哪種人免費版就夠，哪種人值得升 Premium。"
+image: /images/moze-og.jpg
 draft: false
 ---
 

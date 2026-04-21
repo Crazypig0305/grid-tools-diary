@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["finance-tools"]
 tags: ["數位帳戶", "Richart", "LINE Bank", "理財工具", "App體驗"]
 description: "Richart、LINE Bank、台新 Richart——哪個數位帳戶 App 最好用？不比利率，只比 App 體驗。"
+image: /images/moneybook-og.png
 draft: false
 ---
 

@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["productivity"]
 tags: ["Notion", "Obsidian", "筆記軟體", "知識管理", "效率工具"]
 description: "Notion 和 Obsidian 到底差在哪？不從技術角度出發，直接從使用情境說清楚哪種人適合哪個。"
+image: /images/obsidian-og.png
 draft: false
 ---
 

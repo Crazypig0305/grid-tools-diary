@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["finance-tools"]
 tags: ["記帳App", "MOZE", "麻布記帳", "CWMoney", "理財工具"]
 description: "MOZE、麻布記帳、CWMoney 三款記帳 App 哪個最值得用？功能、介面、銀行同步能力全面比較，依你的懶惰程度給推薦。"
+image: /images/moze-og.jpg
 draft: false
 ---
 

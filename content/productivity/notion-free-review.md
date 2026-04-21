@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["productivity"]
 tags: ["Notion", "筆記軟體", "效率工具", "免費工具"]
 description: "Notion 免費版移除 block 數量限制後，到底夠不夠用？實際用了三個月，直接告訴你免費版的真實上限在哪。"
+image: /images/notion-og.png
 draft: false
 ---
 
