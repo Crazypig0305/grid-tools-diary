@@ -5,7 +5,7 @@ lastmod: 2026-04-16
 categories: ["privacy"]
 tags: ["VPN", "免費VPN", "隱私安全", "網路安全"]
 description: "市場上的免費 VPN 良莠不齊，有些是可用的工具，有些商業模式本身就是問題。測過五款之後，直接告訴你哪個能用、哪個不要碰。"
-image: /images/protonvpn-og.png
+image: /images/free-vpn-test.jpg
 draft: false
 ---
 
