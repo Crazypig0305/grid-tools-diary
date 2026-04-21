@@ -5,6 +5,7 @@ lastmod: 2026-04-16
 categories: ["privacy"]
 tags: ["Bitwarden", "密碼管理器", "資安工具", "免費工具", "隱私安全"]
 description: "Bitwarden 真的免費而且好用嗎？用了三個月，從設定到日常使用告訴你它的實際優缺點。"
+image: /images/bitwarden-password.png
 draft: false
 ---
 

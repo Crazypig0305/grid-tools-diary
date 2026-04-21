@@ -19,6 +19,12 @@
       </div>
     </header>
 
+    {{- with .Params.image }}
+    <div class="article-cover">
+      <img src="{{ . }}" alt="{{ $.Title }}">
+    </div>
+    {{- end }}
+
     <div class="article-body">
       {{ .Content }}
     </div>

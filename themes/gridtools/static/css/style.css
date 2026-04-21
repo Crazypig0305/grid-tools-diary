@@ -416,6 +416,16 @@ footer {
   border-bottom: 1px solid var(--border-md);
 }
 
+.article-cover {
+  margin-bottom: 32px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border-md);
+}
+.article-cover img {
+  width: 100%; display: block;
+}
+
 /* Article body typography */
 .article-body { font-family: var(--zh); font-size: 1rem; line-height: 1.9; color: var(--ink-mid); }
 
