@@ -551,4 +551,23 @@ footer {
 @media (max-width: 600px) {
   .article-row { grid-template-columns: 120px 1fr; gap: 14px; }
   .tab-item { padding: 0 10px; font-size: .78rem; }
+
+  /* Nav：藏掉關於連結，讓 tab 有更多空間 */
+  .nav-about { display: none; }
+  .top-nav-inner { padding: 0 0 0 8px; }
+
+  /* 右側淡出漸層，提示還有更多 tab 可以滑 */
+  .top-nav::after {
+    content: '';
+    position: absolute; right: 0; top: 0; bottom: 0;
+    width: 28px;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,.97));
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-item { padding: 0 8px; font-size: .75rem; }
+  .article-row { grid-template-columns: 100px 1fr; gap: 12px; }
 }
