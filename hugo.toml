@@ -1,4 +1,4 @@
-baseURL = 'https://grid-tools-diary.pages.dev/'
+baseURL = 'https://gridtoolsdiary.com/'
 title = '格子工具誌'
 languageCode = 'zh-TW'
 theme = 'gridtools'
