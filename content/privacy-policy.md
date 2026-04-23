@@ -7,7 +7,7 @@ lastmod: 2026-04-23
 
 ## 站點身份與聯絡資訊
 
-本站為「格子工具誌（Grid Tools Diary）」，網址為 `https://grid-tools-diary.pages.dev`。如對本政策有任何疑問，請來信：`gridtoolsdiary[at]gmail.com`（請將 `[at]` 替換為 `@`）。
+本站為「格子工具誌（Grid Tools Diary）」，網址為 `https://gridtoolsdiary.com`。如對本政策有任何疑問，請來信：`gridtoolsdiary[at]gmail.com`（請將 `[at]` 替換為 `@`）。
 
 ---
 

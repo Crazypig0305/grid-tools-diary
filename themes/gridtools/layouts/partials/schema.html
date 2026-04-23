@@ -1,0 +1,17 @@
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  "url": {{ .Permalink | jsonify }}{{ if not .Date.IsZero }},
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }}{{ end }}{{ if not .Lastmod.IsZero }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }}{{ end }},
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Title | jsonify }}
+  }{{ with .Params.image }},
+  "image": {{ . | absURL | jsonify }}{{ end }}
+}
+</script>
+{{ end }}
