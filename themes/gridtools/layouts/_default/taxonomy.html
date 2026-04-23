@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="layout">
+  <main>
+    <div class="section-label"><span>{{ .Title }}</span></div>
+    <div class="article-list">
+      {{ range .Data.Terms.Alphabetical }}
+      <a href="{{ .Page.Permalink }}" class="article-row" style="grid-template-columns: 1fr;">
+        <div class="row-body">
+          <h3 class="row-title">{{ .Page.Title }}</h3>
+          <div class="row-meta">{{ .Count }} 篇文章</div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </main>
+  {{ partial "sidebar.html" . }}
+</div>
+{{ end }}

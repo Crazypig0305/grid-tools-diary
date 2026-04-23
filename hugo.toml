@@ -3,6 +3,11 @@ title = '格子工具誌'
 languageCode = 'zh-TW'
 theme = 'gridtools'
 enableRobotsTXT = true
+hasCJKLanguage = true
+enableGitInfo = false
+
+[outputs]
+  home = ["HTML", "RSS"]
 
 [pagination]
   pagerSize = 12

@@ -132,6 +132,41 @@ body {
 }
 .nav-about:hover { color: var(--blue); }
 
+/* ══ HAMBURGER + MOBILE MENU ══ */
+.hamburger {
+  display: none;
+  flex-direction: column; justify-content: center; align-items: center;
+  gap: 5px;
+  width: 36px; height: 36px;
+  background: none; border: none; cursor: pointer;
+  padding: 0; margin-left: auto; flex-shrink: 0;
+}
+.bar {
+  width: 20px; height: 2px;
+  background: var(--ink-mid);
+  border-radius: 2px;
+  transition: transform .2s, opacity .2s;
+}
+.hamburger.active .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.active .bar:nth-child(2) { opacity: 0; }
+.hamburger.active .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: var(--paper);
+  border-top: 1px solid var(--border-md);
+}
+.mobile-menu.open { display: flex; }
+.mobile-tab-item {
+  padding: 14px 20px;
+  font-family: var(--zh); font-size: .9rem; font-weight: 500;
+  color: var(--ink-mid); text-decoration: none;
+  border-bottom: 1px solid var(--border);
+}
+.mobile-tab-item:hover { color: var(--blue); }
+.mobile-tab-item.active { color: var(--blue); font-weight: 700; }
+
 /* ══ MAIN LAYOUT ══ */
 .layout {
   max-width: 1160px; margin: 0 auto;
@@ -510,6 +545,20 @@ footer {
   margin: 2em 0;
 }
 
+.article-figure {
+  margin: 1.6em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-md);
+}
+.article-figure img { width: 100%; height: auto; display: block; }
+.article-figure figcaption {
+  font-family: var(--zh); font-size: .78rem; font-weight: 300;
+  color: var(--ink-lt); text-align: center;
+  padding: 8px 16px;
+  background: var(--surface);
+}
+
 .article-body a { color: var(--blue); text-decoration: underline; text-decoration-color: var(--blue-pale); }
 .article-body a:hover { text-decoration-color: var(--blue); }
 
@@ -560,21 +609,11 @@ footer {
 }
 @media (max-width: 600px) {
   .article-row { grid-template-columns: 120px 1fr; gap: 14px; }
-  .tab-item { padding: 0 10px; font-size: .78rem; }
-
-  /* Nav：藏掉關於連結，讓 tab 有更多空間 */
+  .tab-list { display: none; }
+  .hamburger { display: flex; }
   .nav-about { display: none; }
-  .top-nav-inner { padding: 0 0 0 8px; }
-
-  /* 右側淡出漸層，提示還有更多 tab 可以滑 */
-  .top-nav::after {
-    content: '';
-    position: absolute; right: 0; top: 0; bottom: 0;
-    width: 28px;
-    background: linear-gradient(to right, transparent, rgba(255,255,255,.97));
-    pointer-events: none;
-    z-index: 1;
-  }
+  .nav-brand-inline { display: none; }
+  .top-nav-inner { padding: 0 12px 0 12px; }
 }
 
 @media (max-width: 480px) {
