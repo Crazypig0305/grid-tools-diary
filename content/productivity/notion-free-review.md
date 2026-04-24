@@ -89,9 +89,9 @@ Mac + iOS 切換大概 2～5 秒有感更新，工作中隨時切沒問題。手
 | 版本紀錄 | 7 天 | 依插件或 Git | 無（Free 方案）|
 | 資料存放 | 雲端（Notion 伺服器）| 本地 Markdown | 雲端（Evernote 伺服器）|
 
-Evernote Free 現在是 50 則筆記上限、1 台裝置，幾乎就是試用版的規格，沒有長期用的理由。Obsidian 如果你在意資料放在自己手上、又願意花時間熟悉 Markdown 和插件，是合理的選擇——但多裝置同步要另外付費，協作功能基本上沒有。
+Evernote Free 現在是 50 則筆記上限、1 台裝置，幾乎就是試用版的規格，沒有長期用的理由。Obsidian 如果你在意資料放在自己手上、又願意花時間熟悉 Markdown 和插件，是合理的選擇——但多裝置同步要另外付費，協作功能基本上沒有。想深入比較這兩個的差異，可以看這篇：[Notion vs Obsidian：不寫程式的人選哪個？](/productivity/notion-vs-obsidian/)
 
-Notion Free 在這三個裡面是日常協作體驗最完整的，前提是你接受 5 MB 和 7 天版本紀錄就是它的邊界。
+Notion Free 在這三個裡面是日常協作體驗最完整的，前提是你接受 5 MB 和 7 天版本紀錄就是它的邊界。如果你想從更多工具的角度評比，可以參考[上班族筆記 App 完整比較](/productivity/note-app-compare/)。
 
 ---
 

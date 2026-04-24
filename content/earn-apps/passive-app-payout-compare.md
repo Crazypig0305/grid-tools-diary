@@ -71,7 +71,7 @@ draft: false
 
 EarnApp 門檻最低、Wise 出金手續費固定透明、每日處理速度快；Honeygain JumpToken 如果你接受加密貨幣是免費出金；Repocket 的平台費 20% 在分潤前就已扣除，出金門檻資訊也相對不透明。
 
-選掛機平台不能只看收益，把出金手續費算進去之後的實際到手金額才是真正的比較基準。
+選掛機平台不能只看收益，把出金手續費算進去之後的實際到手金額才是真正的比較基準。選平台前也建議確認資安與耗電成本：[掛機 App 資安風險評估](/earn-apps/passive-app-security/)、[掛機 App 耗電耗流量實測](/earn-apps/passive-app-battery-test/)。
 
 ---
 

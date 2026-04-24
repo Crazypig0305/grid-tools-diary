@@ -100,4 +100,4 @@ draft: false
 
 ---
 
-📌 本文為資源消耗測試評比，不含推薦連結。如需了解各平台實際收益，請參閱個別評測文章。
+📌 本文為資源消耗測試評比，不含推薦連結。如需了解各平台出金方式與手續費，見[三款掛機 App 出金體驗比較](/earn-apps/passive-app-payout-compare/)。安裝前若對資安有疑慮，可先看[掛機 App 資安風險評估](/earn-apps/passive-app-security/)。
