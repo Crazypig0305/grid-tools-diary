@@ -1,9 +1,23 @@
+{{/* figure shortcode — page bundle aware, always outputs width + height */}}
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
 {{ $caption := .Get "caption" | default "" }}
-{{ $width := .Get "width" | default "" }}
-{{ $height := .Get "height" | default "" }}
+{{ $loading := .Get "loading" | default "lazy" }}
+
+{{ $imgWidth := "" }}
+{{ $imgHeight := "" }}
+{{ $imgSrc := $src }}
+
+{{ with .Page.Resources.GetMatch $src }}
+  {{ $imgWidth = .Width }}
+  {{ $imgHeight = .Height }}
+  {{ $imgSrc = .RelPermalink }}
+{{ else }}
+  {{ $imgWidth = .Get "width" | default "" }}
+  {{ $imgHeight = .Get "height" | default "" }}
+{{ end }}
+
 <figure class="article-figure">
-  <img src="{{ $src }}" alt="{{ $alt }}"{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }} loading="lazy">
+  <img src="{{ $imgSrc }}" alt="{{ $alt }}"{{ with $imgWidth }} width="{{ . }}"{{ end }}{{ with $imgHeight }} height="{{ . }}"{{ end }} loading="{{ $loading }}" decoding="async">
   {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>

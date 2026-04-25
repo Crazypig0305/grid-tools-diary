@@ -1,32 +1,48 @@
 {{ $currentPage := . }}
+{{ $catColors := dict "earn-apps" "var(--blue)" "finance-tools" "var(--teal)" "productivity" "var(--amber)" "privacy" "var(--purple)" }}
 <nav class="top-nav">
   <div class="top-nav-inner">
     <a href="/" class="nav-logo" aria-label="格子工具誌首頁">
       <div class="logo-grid">
         <span></span><span></span>
-        <span></span><span style="background:var(--amber)"></span>
+        <span></span><span class="amber"></span>
       </div>
+      <span class="logo-brand">格子工具誌</span>
     </a>
     <div class="tab-list">
       {{ range .Site.Menus.main }}
       <a href="{{ .URL }}" class="tab-item{{ if or (eq $currentPage.RelPermalink .URL) (and (eq .URL "/") $currentPage.IsHome) }} active{{ end }}">{{ .Name }}</a>
       {{ end }}
     </div>
-    <button class="hamburger" aria-label="選單" aria-expanded="false">
+    <button class="hamburger" aria-label="選單" aria-expanded="false" aria-controls="mobile-menu">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
     <div class="nav-right">
-      <div class="nav-brand-inline">
-        <span class="nav-brand-name">格子工具誌</span>
-        <span class="nav-brand-sub">GRID TOOLS DIARY</span>
-      </div>
+      <span class="nav-sub">GRID TOOLS DIARY</span>
       <a href="/about/" class="nav-about">關於</a>
     </div>
   </div>
-  <div class="mobile-menu">
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-search">
+      <div class="mobile-search-inner">
+        <span class="mobile-search-icon">⌕</span>
+        <span class="mobile-search-placeholder">搜尋工具評測…</span>
+      </div>
+    </div>
+    <a href="/" class="mobile-menu-item{{ if $currentPage.IsHome }} active{{ end }}">
+      <span class="mobile-menu-dot" style="background:var(--navy)"></span>全部文章
+    </a>
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}" class="mobile-tab-item{{ if or (eq $currentPage.RelPermalink .URL) (and (eq .URL "/") $currentPage.IsHome) }} active{{ end }}">{{ .Name }}</a>
+    {{ if ne .URL "/" }}
+    {{ $slug := .URL | replaceRE "^/|/$" "" }}
+    {{ $color := index $catColors $slug | default "var(--navy)" }}
+    <a href="{{ .URL }}" class="mobile-menu-item{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
+      <span class="mobile-menu-dot" style="background:{{ $color }}"></span>{{ .Name }}
+    </a>
     {{ end }}
-    <a href="/about/" class="mobile-tab-item{{ if eq $currentPage.RelPermalink "/about/" }} active{{ end }}">關於</a>
+    {{ end }}
+    <a href="/about/" class="mobile-menu-item{{ if eq $currentPage.RelPermalink "/about/" }} active{{ end }}">
+      <span class="mobile-menu-dot" style="background:var(--ink-xs)"></span>關於
+    </a>
   </div>
 </nav>

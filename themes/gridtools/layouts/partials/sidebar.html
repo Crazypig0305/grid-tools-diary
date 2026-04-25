@@ -4,12 +4,13 @@
   <!-- 熱門文章（最新 5 篇代替） -->
   <div class="sidebar-block">
     <div class="sidebar-head">
+      <div class="sidebar-head-bar"></div>
       <span class="sidebar-head-text">近期評測</span>
     </div>
     <nav class="popular-list">
       {{ range $i, $p := first 5 .Site.RegularPages.ByDate.Reverse }}
       <a href="{{ $p.RelPermalink }}" class="popular-item">
-        <span class="popular-num">{{ add $i 1 }}</span>
+        <span class="popular-num">{{ printf "%02d" (add $i 1) }}</span>
         <span class="popular-title">{{ $p.Title }}</span>
       </a>
       {{ end }}
@@ -19,12 +20,36 @@
   <!-- 關於 -->
   <div class="sidebar-block">
     <div class="sidebar-head">
+      <div class="sidebar-head-bar"></div>
       <span class="sidebar-head-text">關於本站</span>
     </div>
     <div class="about-block">
       <p class="about-text">{{ .Site.Params.aboutText }}</p>
       <a href="{{ .Site.Params.aboutLink }}" class="about-cta">了解更多 →</a>
     </div>
+  </div>
+
+  <!-- 分類索引 -->
+  <div class="sidebar-block">
+    <div class="sidebar-head">
+      <div class="sidebar-head-bar"></div>
+      <span class="sidebar-head-text">分類索引</span>
+    </div>
+    <nav>
+      {{ $dotColors := dict "earn-apps" "var(--blue)" "finance-tools" "var(--teal)" "productivity" "var(--amber)" "privacy" "var(--purple)" }}
+      {{ range .Site.Sections }}
+      {{ $slug := .Section }}
+      {{ $label := index $catNames $slug | default .Title }}
+      {{ $color := index $dotColors $slug | default "var(--navy)" }}
+      <a href="{{ .RelPermalink }}" class="cat-index-item">
+        <span style="display:flex;align-items:center;gap:8px;">
+          <span class="cat-dot" style="background:{{ $color }}"></span>
+          {{ $label }}
+        </span>
+        <span class="cat-index-count">{{ len .Pages }}</span>
+      </a>
+      {{ end }}
+    </nav>
   </div>
 
 </aside>
