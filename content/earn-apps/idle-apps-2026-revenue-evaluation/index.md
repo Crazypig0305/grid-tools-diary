@@ -5,6 +5,7 @@ lastmod: 2026-04-26
 description: "Honeygain、EarnApp、Pawns 三款掛機 App 在 2025 年下半年起收益明顯下滑，主流追蹤站已停止月均更新。本文從資安評估、耗電現況、出金體驗、2026 年實際月收四個維度重新評分，給你一個「現在還值不值得裝」的明確答案。"
 categories: ["earn-apps"]
 tags: ["Honeygain", "EarnApp", "Pawns", "掛機app", "被動收入", "工具評測"]
+image: "idle-apps-2026-revenue-evaluation-hero.webp"
 draft: false
 ---
 

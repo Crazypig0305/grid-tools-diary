@@ -5,6 +5,7 @@ lastmod: 2026-04-26
 description: "Notion 和 Todoist 看起來是兩個不同類型的工具，但它們的使用族群高度重疊。本文從上班族真實使用情境切入，說清楚選擇它們的依據不是「你要記筆記還是管任務」，而是你的工作複雜度、整合需求和學習成本——三個真正有差距的維度。"
 categories: ["productivity"]
 tags: ["Notion", "Todoist", "效率工具", "任務管理", "工具評測"]
+image: "notion-vs-todoist-2026-hero.webp"
 draft: false
 ---
 

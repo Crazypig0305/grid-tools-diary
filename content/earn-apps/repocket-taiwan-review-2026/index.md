@@ -5,6 +5,7 @@ lastmod: 2026-04-26
 description: "Repocket 2026 年台灣現況：iOS / Android App 狀態、每 GB 收益、$20 出金門檻、PayPal 是否還能用、與 Honeygain / EarnApp 的資安層級比較——讓你在安裝前把問題問清楚。"
 categories: ["earn-apps"]
 tags: ["Repocket", "掛機app", "頻寬共享", "資安評估", "被動收入"]
+image: "repocket-taiwan-review-2026-hero.webp"
 draft: false
 ---
 

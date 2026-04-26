@@ -5,6 +5,7 @@ lastmod: 2026-04-26
 description: "麻布記帳 2026 年 4 月起全面收費，月費最高 149 元、年費 690～1499 元。本文評測收費後功能是否對得起這個價，並整理 CWMoney、MOZE 三款替代方案，幫你決定要留還是換。"
 categories: ["finance-tools"]
 tags: ["麻布記帳", "記帳app", "CWMoney", "MOZE", "理財工具"]
+image: "moneybook-paywall-2026-hero.webp"
 draft: false
 ---
 

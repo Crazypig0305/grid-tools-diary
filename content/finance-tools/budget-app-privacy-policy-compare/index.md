@@ -5,6 +5,7 @@ lastmod: 2026-04-26
 description: "你把消費紀錄、銀行帳戶、甚至帳密都交給了記帳 App——但那份隱私政策你真的讀過嗎？本文橫向比較麻布記帳、CWMoney、MOZE、AndroMoney、記帳城市五款 App 的資料條款，從廣告 ID 使用、第三方分享到銀行串接風險一次說清楚。"
 categories: ["finance-tools"]
 tags: ["記帳app", "隱私政策", "個資安全", "銀行串接", "資安評測"]
+image: "budget-app-privacy-policy-compare-hero.webp"
 draft: false
 ---
 

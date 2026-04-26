@@ -5,6 +5,7 @@ lastmod: 2026-04-26
 description: "Todoist 2025 年 12 月調漲 Pro 年費 25%，從每年 $48 漲到 $60。本文實測免費版 5 個專案上限在上班族日常夠不夠用、逐項評估 Pro 功能有沒有人實際用到，並比較 TickTick 和 Microsoft To Do 的遷移成本，幫你做出明確決定。"
 categories: ["productivity"]
 tags: ["todoist", "效率工具", "任務管理", "訂閱服務", "工具評測"]
+image: "todoist-free-vs-pro-2025-hero.webp"
 draft: false
 ---
 

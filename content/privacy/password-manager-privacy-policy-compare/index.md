@@ -5,6 +5,7 @@ lastmod: 2026-04-26
 description: "密碼管理器存放了你所有的帳密，但你讀過它的隱私政策嗎？本文逐條比較 Bitwarden、1Password、Dashlane 三家的資料蒐集範圍、第三方分享條款與開源稽核透明度，給你一個有依據的評分。"
 categories: ["privacy"]
 tags: ["bitwarden", "1password", "dashlane", "密碼管理器", "隱私政策"]
+image: "password-manager-privacy-policy-compare-hero.webp"
 draft: false
 ---
 
