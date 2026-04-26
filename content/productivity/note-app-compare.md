@@ -5,6 +5,7 @@ lastmod: 2026-04-23
 categories: ["productivity"]
 tags: ["Notion", "Evernote", "Obsidian", "筆記App", "工具比較", "效率工具", "上班族"]
 description: "同時用過 Notion、Evernote 和 Obsidian 三到六個月，從上班族角度評比：哪個最適合不寫程式的一般人？免費版夠不夠用？資料帶不帶得走？"
+image: /images/note-app-compare.jpg
 draft: false
 ---
 

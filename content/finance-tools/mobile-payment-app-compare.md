@@ -5,7 +5,7 @@ lastmod: 2026-04-23
 categories: ["finance-tools"]
 tags: ["LINE Pay", "街口支付", "Pi拍錢包", "行動支付", "App評比", "台灣支付", "理財工具"]
 description: "從帳號安全、付款流暢度、通知透明度、離線可用性四個面向實測三款台灣主流行動支付 App，給上班族選一個主力付款工具的依據。"
-canonicalURL: "https://grid-tools-diary.pages.dev/finance-tools/mobile-payment-app-compare/"
+image: /images/mobile-payment-app-compare.jpg
 draft: false
 ---
 
