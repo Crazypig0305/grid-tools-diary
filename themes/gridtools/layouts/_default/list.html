@@ -17,16 +17,19 @@
     <div class="section-label"><span>所有文章</span></div>
     <div class="article-list">
       {{ range .Pages.ByDate.Reverse }}
+      {{ $page := . }}
       {{ $s       := .Section }}
       {{ $cc      := index $catClasses $s | default "cat-earn" }}
       {{ $tn      := index $catNames   $s | default $s }}
       {{ $dc      := index $dotColors  $cc | default "var(--blue)" }}
       <a href="{{ .RelPermalink }}" class="article-row">
         <div class="row-thumb {{ $cc }}">
-          {{ if .Params.image }}
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ with .Params.image }}
+            {{ $src := . }}
+            {{ with $page.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
+            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="lazy">
           {{ else }}
-          <div class="thumb-placeholder"></div>
+            <div class="thumb-placeholder"></div>
           {{ end }}
         </div>
         <div class="row-body">

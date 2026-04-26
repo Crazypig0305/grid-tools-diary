@@ -12,16 +12,19 @@
 
     {{/* Featured article */}}
     {{ with $featured }}
+    {{ $page := . }}
     {{ $section := .Section }}
     {{ $catName  := index $catNames  $section | default $section }}
     {{ $tagClass := index $tagClasses $section | default "tag-earn" }}
     <a href="{{ .RelPermalink }}" class="featured">
       <div class="featured-inner">
         <div class="featured-img">
-          {{ if .Params.image }}
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ with .Params.image }}
+            {{ $src := . }}
+            {{ with $page.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
+            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="lazy">
           {{ else }}
-          <div class="featured-img-placeholder">精選文章</div>
+            <div class="featured-img-placeholder">精選文章</div>
           {{ end }}
         </div>
         <div class="featured-body">
@@ -40,6 +43,7 @@
     <div class="section-label"><span>最新文章</span></div>
     <div class="article-list">
       {{ range $rest }}
+      {{ $page := . }}
       {{ $section := .Section }}
       {{ $catName   := index $catNames   $section | default $section }}
       {{ $catClass  := index $catClasses $section | default "cat-earn" }}
@@ -47,10 +51,12 @@
       {{ $dc := index $dotColor $catClass | default "var(--blue)" }}
       <a href="{{ .RelPermalink }}" class="article-row">
         <div class="row-thumb {{ $catClass }}">
-          {{ if .Params.image }}
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+          {{ with .Params.image }}
+            {{ $src := . }}
+            {{ with $page.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
+            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="lazy">
           {{ else }}
-          <div class="thumb-placeholder"></div>
+            <div class="thumb-placeholder"></div>
           {{ end }}
         </div>
         <div class="row-body">
