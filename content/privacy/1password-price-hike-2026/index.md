@@ -5,8 +5,11 @@ lastmod: 2026-04-26
 description: "1Password 2026 年 3 月起個人版漲至 47.88 美元、家庭版漲至 71.88 美元，漲幅達 33%。本文實際試算三種方案的年費差距，比較 Bitwarden 免費版與付費版的功能落差，幫你決定要續訂、降方案還是直接換掉。"
 categories: ["privacy"]
 tags: ["1password", "bitwarden", "密碼管理器", "隱私安全", "訂閱服務"]
+image: "1password-price-hike-2026-hero.webp"
 draft: false
 ---
+
+{{< figure src="1password-price-hike-2026-hero.webp" alt="金色掛鎖放在鍵盤上，象徵 1Password 與 Bitwarden 等密碼管理器訂閱方案的安全性比較" loading="eager" >}}
 
 > 📅 原文發布：2025 年 11 月｜最後更新：2026 年 4 月
 > 本文數字已於 2026 年 4 月對照 1Password 及 Bitwarden 官網現況校對更新。
