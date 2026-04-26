@@ -9,8 +9,6 @@ image: "1password-price-hike-2026-hero.webp"
 draft: false
 ---
 
-{{< figure src="1password-price-hike-2026-hero.webp" alt="金色掛鎖放在鍵盤上，象徵 1Password 與 Bitwarden 等密碼管理器訂閱方案的安全性比較" loading="eager" >}}
-
 > 📅 原文發布：2025 年 11 月｜最後更新：2026 年 4 月
 > 本文數字已於 2026 年 4 月對照 1Password 及 Bitwarden 官網現況校對更新。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。

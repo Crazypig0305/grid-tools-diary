@@ -15,7 +15,12 @@
 {{ end }}
 {{ $ogImage := "" }}
 {{ with .Params.image }}
-  {{ $ogImage = . | absURL }}
+  {{ $imgRef := . }}
+  {{ with $.Resources.GetMatch $imgRef }}
+    {{ $ogImage = .Permalink }}
+  {{ else }}
+    {{ $ogImage = $imgRef | absURL }}
+  {{ end }}
 {{ else }}
   {{ with (.Resources.ByType "image") }}
     {{ $ogImage = (index . 0).Permalink }}

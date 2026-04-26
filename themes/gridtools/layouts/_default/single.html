@@ -20,8 +20,12 @@
     </header>
 
     {{- with .Params.image }}
+    {{- $coverSrc := . }}
+    {{- with $.Resources.GetMatch . }}
+      {{- $coverSrc = .RelPermalink }}
+    {{- end }}
     <div class="article-cover">
-      <img src="{{ . }}" alt="{{ $.Title }}">
+      <img src="{{ $coverSrc }}" alt="{{ $.Title }}" loading="eager" decoding="async">
     </div>
     {{- end }}
 
