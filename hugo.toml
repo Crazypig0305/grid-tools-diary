@@ -6,6 +6,13 @@ enableRobotsTXT = true
 hasCJKLanguage = true
 enableGitInfo = false
 
+# Disable taxonomy + term pages to remove thin tag/category archive pages from sitemap.
+# Layouts do not display tag/category badges anywhere, so disabling is safe with zero
+# front-end impact. Removes ~75 URLs from sitemap and stops Hugo from generating
+# /tags/* and /categories/* archive pages. Already-indexed thin pages will 404 and
+# naturally drop from Google index. Mirrors A site fix (commit 074e02b).
+disableKinds = ['taxonomy', 'term']
+
 [outputs]
   home = ["HTML", "RSS"]
 
