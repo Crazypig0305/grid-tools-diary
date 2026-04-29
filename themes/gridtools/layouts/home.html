@@ -1,7 +1,10 @@
 {{ define "main" }}
-{{ $pages := .Site.RegularPages.ByDate.Reverse }}
+{{ $sections := slice "earn-apps" "finance-tools" "productivity" "privacy" }}
+{{ $pages := where .Site.RegularPages "Section" "in" $sections }}
+{{ $pages = $pages.ByDate.Reverse }}
 {{ $featured := index $pages 0 }}
 {{ $rest := after 1 $pages }}
+{{ $paginator := .Paginate $rest 11 }}
 
 {{ $catNames  := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
 {{ $catClasses := dict "earn-apps" "cat-earn" "finance-tools" "cat-finance" "productivity" "cat-productivity" "privacy" "cat-privacy" }}
@@ -22,7 +25,7 @@
           {{ with .Params.image }}
             {{ $src := . }}
             {{ with $page.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
-            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="lazy">
+            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="eager" fetchpriority="high">
           {{ else }}
             <div class="featured-img-placeholder">精選文章</div>
           {{ end }}
@@ -42,7 +45,7 @@
     {{/* Article list */}}
     <div class="section-label"><span>最新文章</span></div>
     <div class="article-list">
-      {{ range $rest }}
+      {{ range $paginator.Pages }}
       {{ $page := . }}
       {{ $section := .Section }}
       {{ $catName   := index $catNames   $section | default $section }}
@@ -71,6 +74,8 @@
       </a>
       {{ end }}
     </div>
+
+    {{ partial "pagination.html" . }}
 
   </main>
 
