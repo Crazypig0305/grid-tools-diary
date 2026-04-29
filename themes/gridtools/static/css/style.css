@@ -37,9 +37,9 @@ a { color: inherit; }
   --border-lt: #EBF0F7;
   --border-md: rgba(13,27,42,.12);
 
-  /* v2 字體：IBM Plex Sans + IBM Plex Mono（取代 DM Sans / DM Mono） */
+  /* v2 字體：Noto Serif TC + Noto Sans TC + IBM Plex Mono（2026-04-29 等級 1 減 weight：移除 IBM Plex Sans 整家族技術債、Serif 移 300、Sans TC 移 300/500） */
   --serif: 'Noto Serif TC', Georgia, serif;
-  --sans:  'IBM Plex Sans', 'Noto Sans TC', sans-serif;
+  --sans:  'Noto Sans TC', sans-serif;
   --zh:    'Noto Sans TC', sans-serif;
   --mono:  'IBM Plex Mono', monospace;
 }
