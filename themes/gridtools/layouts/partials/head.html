@@ -39,6 +39,27 @@
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}">
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta name="twitter:image" content="{{ $ogImage }}">
+{{/* ── Featured/Hero image preload（above-fold LCP candidate）── */}}
+{{ if .IsHome }}
+{{ $sections := slice "earn-apps" "finance-tools" "productivity" "privacy" }}
+{{ $allPages := where .Site.RegularPages "Section" "in" $sections }}
+{{ $allPages = $allPages.ByDate.Reverse }}
+{{ with index $allPages 0 }}
+  {{ $page := . }}
+  {{ with .Params.image }}
+    {{ $src := . }}
+    {{ with $page.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
+<link rel="preload" as="image" href="{{ $src }}" fetchpriority="high">
+  {{ end }}
+{{ end }}
+{{ else if .IsPage }}
+{{ with .Params.image }}
+  {{ $src := . }}
+  {{ with $.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
+<link rel="preload" as="image" href="{{ $src }}" fetchpriority="high">
+{{ end }}
+{{ end }}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=IBM+Plex+Mono:wght@400&display=optional" rel="stylesheet">
