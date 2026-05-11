@@ -99,7 +99,7 @@ draft: false
 
 ## 付費後到底買了什麼
 
-麻布記帳的核心賣點一直是**自動銀行同步**：帳戶餘額、消費明細自動匯入，不用手動逐筆輸入。這也是它跟 [MOZE](https://www.[moze](https://www.moze5.com/)5.com/)、[CWMoney](https://www.cwmoney.net/) 最大的差異點。
+麻布記帳的核心賣點一直是**自動銀行同步**：帳戶餘額、消費明細自動匯入，不用手動逐筆輸入。這也是它跟 [MOZE](https://www.moze5.com/)、[CWMoney](https://www.cwmoney.net/) 最大的差異點。
 
 付費版涵蓋的功能：
 
