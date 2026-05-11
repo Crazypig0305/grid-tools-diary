@@ -31,7 +31,7 @@ draft: false
 |---|---|---|
 | [麻布記帳](https://moneybook.com.tw/)（[Moneybook](https://moneybook.com.tw/)）| 自動銀行同步、2026 年全面收費 | ✅ 33 家銀行 |
 | [CWMoney](https://www.cwmoney.net/) | 台灣用量最大、掃發票、多幣別 | ❌ |
-| [MOZE](https://www.[moze](https://www.moze5.com/)5.com/) | iOS 限定、介面最精緻、Apple 登入 | ❌ |
+| [MOZE](https://www.moze5.com/) | iOS 限定、介面最精緻、Apple 登入 | ❌ |
 | AndroMoney | Android 主力、跨平台備份 | ❌ |
 | 記帳城市 | Google Play 台灣年度最佳 App | ❌ |
 

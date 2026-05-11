@@ -20,7 +20,7 @@ draft: false
 
 記帳這件事有兩種派別：一種是手動輸入每一筆，靠紀律建立習慣；另一種是連接銀行帳戶，讓系統自動拉交易紀錄，懶人向。
 
-[MOZE](https://www.[moze](https://www.moze5.com/)5.com/) 屬於第一派，介面精美，手動記帳做到極致。麻布記帳屬於第二派，台灣 Open Banking 認證業者，可以直接同步三十幾家銀行的資料。[CWMoney](https://www.cwmoney.net/) 介於中間，功能完整但沒有銀行自動同步。
+[MOZE](https://www.moze5.com/) 屬於第一派，介面精美，手動記帳做到極致。麻布記帳屬於第二派，台灣 Open Banking 認證業者，可以直接同步三十幾家銀行的資料。[CWMoney](https://www.cwmoney.net/) 介於中間，功能完整但沒有銀行自動同步。
 
 選哪個，先決定你是哪種人。
 
