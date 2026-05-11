@@ -11,3 +11,6 @@ Thumbs.db
 # Editor
 .vscode/
 *.swp
+
+# Local archives (not part of theme)
+_archive/
