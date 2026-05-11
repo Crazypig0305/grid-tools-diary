@@ -33,6 +33,44 @@ draft: false
 
 **結論**：收益下滑不是平台在詐騙，而是這個市場的需求結構造成的。但這個結構短期內不會改變。
 
+### 三平台台灣 IP 月收 2023 vs 2026 對比
+
+把三平台台灣用戶單台裝置的月收估算放在同一張圖上看，幅度比文字更直觀：
+
+<figure class="ig-chart" role="img" aria-label="三平台台灣 IP 月收 2023 vs 2026 對比，三平台皆下滑 40-50%">
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#F3F6FB;font-family:'Noto Sans TC','IBM Plex Sans',sans-serif;">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1F4E8E">三平台台灣 IP 單台裝置月收估算（USD）</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#5A6B82">2023 年（峰值期）vs 2026 年 4 月（下滑後）</text>
+
+  <line x1="180" y1="80" x2="180" y2="260" stroke="#C5CFDD" stroke-width="1"/>
+  <line x1="180" y1="260" x2="680" y2="260" stroke="#1F4E8E" stroke-width="1.5"/>
+
+  <text x="170" y="105" text-anchor="end" font-size="13" fill="#1F4E8E" font-weight="500">Honeygain</text>
+  <rect x="180" y="92" width="160" height="22" fill="#1F4E8E"/>
+  <text x="345" y="108" font-size="12" fill="#1F4E8E" font-weight="600">$15-20</text>
+  <rect x="180" y="118" width="60" height="22" fill="#E2943E"/>
+  <text x="245" y="134" font-size="12" fill="#E2943E" font-weight="600">$3-9</text>
+
+  <text x="170" y="170" text-anchor="end" font-size="13" fill="#1F4E8E" font-weight="500">EarnApp</text>
+  <rect x="180" y="157" width="240" height="22" fill="#1F4E8E"/>
+  <text x="425" y="173" font-size="12" fill="#1F4E8E" font-weight="600">$20-30</text>
+  <rect x="180" y="183" width="104" height="22" fill="#E2943E"/>
+  <text x="289" y="199" font-size="12" fill="#E2943E" font-weight="600">$7.8-15.6</text>
+
+  <text x="170" y="235" text-anchor="end" font-size="13" fill="#1F4E8E" font-weight="500">Pawns.app</text>
+  <rect x="180" y="222" width="100" height="22" fill="#1F4E8E"/>
+  <text x="285" y="238" font-size="12" fill="#1F4E8E" font-weight="600">$8-12</text>
+  <rect x="180" y="248" width="55" height="11" fill="#E2943E"/>
+  <text x="240" y="258" font-size="11" fill="#E2943E" font-weight="600">$4-10</text>
+
+  <rect x="180" y="285" width="14" height="10" fill="#1F4E8E"/>
+  <text x="200" y="294" font-size="11" fill="#5A6B82">2023 月收（峰值期）</text>
+  <rect x="340" y="285" width="14" height="10" fill="#E2943E"/>
+  <text x="360" y="294" font-size="11" fill="#5A6B82">2026 月收（4 月確認）</text>
+</svg>
+<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：wesleymusasi.com 月均統計（2025-08 停更前）+ 各平台 2026 年 4 月台灣 IP 費率 × 月均流量推估。三平台 2023→2026 月收降幅約 40-60%、結構性下滑而非個別平台問題。</figcaption>
+</figure>
+
 ---
 
 ## Honeygain 2026 年現況

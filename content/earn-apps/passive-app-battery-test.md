@@ -58,6 +58,61 @@ draft: false
 
 流量差異比較大，因為這直接取決於平台當下的需求量，不是固定值。同樣的裝置和時段，某天可能用 200 MB，另一天可能不到 50 MB。
 
+### 三款 App 資源消耗對照圖
+
+把上面兩張表用同一張圖呈現，每天耗電與每天流量的差距能直接看出來：
+
+<figure class="ig-chart" role="img" aria-label="三平台耗電與流量雙軸對比，EarnApp 最省電但流量最多">
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#F3F6FB;font-family:'Noto Sans TC','IBM Plex Sans',sans-serif;">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1F4E8E">三款掛機 App 7 天實測資源消耗</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#5A6B82">Android 6,000 mAh + 200 Mbps Wi-Fi + 螢幕關閉背景運行</text>
+
+  <line x1="80" y1="80" x2="80" y2="280" stroke="#1F4E8E" stroke-width="1.5"/>
+  <line x1="80" y1="280" x2="680" y2="280" stroke="#1F4E8E" stroke-width="1.5"/>
+  <line x1="680" y1="80" x2="680" y2="280" stroke="#E2943E" stroke-width="1.5"/>
+
+  <text x="70" y="85" text-anchor="end" font-size="11" fill="#1F4E8E">8%</text>
+  <text x="70" y="135" text-anchor="end" font-size="11" fill="#1F4E8E">6%</text>
+  <text x="70" y="185" text-anchor="end" font-size="11" fill="#1F4E8E">4%</text>
+  <text x="70" y="235" text-anchor="end" font-size="11" fill="#1F4E8E">2%</text>
+  <text x="70" y="285" text-anchor="end" font-size="11" fill="#1F4E8E">0</text>
+
+  <text x="40" y="180" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="500" transform="rotate(-90 40 180)">每日耗電 %</text>
+
+  <text x="690" y="85" font-size="11" fill="#E2943E">120</text>
+  <text x="690" y="135" font-size="11" fill="#E2943E">90</text>
+  <text x="690" y="185" font-size="11" fill="#E2943E">60</text>
+  <text x="690" y="235" font-size="11" fill="#E2943E">30</text>
+  <text x="690" y="285" font-size="11" fill="#E2943E">0</text>
+
+  <text x="715" y="180" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="500" transform="rotate(-90 715 180)">每日流量 MB</text>
+
+  <rect x="140" y="180" width="40" height="100" fill="#1F4E8E"/>
+  <text x="160" y="172" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">3-5%</text>
+  <rect x="185" y="155" width="40" height="125" fill="#E2943E"/>
+  <text x="205" y="147" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">40-60</text>
+  <text x="182" y="305" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">Honeygain</text>
+
+  <rect x="320" y="205" width="40" height="75" fill="#1F4E8E"/>
+  <text x="340" y="197" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">2-4%</text>
+  <rect x="365" y="105" width="40" height="175" fill="#E2943E"/>
+  <text x="385" y="97" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">50-100</text>
+  <text x="362" y="305" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">EarnApp</text>
+
+  <rect x="500" y="155" width="40" height="125" fill="#1F4E8E"/>
+  <text x="520" y="147" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">4-6%</text>
+  <rect x="545" y="220" width="40" height="60" fill="#E2943E"/>
+  <text x="565" y="212" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">20-50</text>
+  <text x="542" y="305" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">Repocket</text>
+
+  <rect x="200" y="330" width="14" height="10" fill="#1F4E8E"/>
+  <text x="220" y="339" font-size="11" fill="#5A6B82">每日耗電（%）</text>
+  <rect x="370" y="330" width="14" height="10" fill="#E2943E"/>
+  <text x="390" y="339" font-size="11" fill="#5A6B82">每日流量（MB）</text>
+</svg>
+<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：Android 系統電池用量統計 + 各 App 後台流量紀錄、7 天連跑取每日平均值。注意：流量為平台需求決定、非固定值；耗電主要來自維持網路連線、非運算負荷。</figcaption>
+</figure>
+
 ---
 
 ## 行動網路 vs Wi-Fi 的差距

@@ -86,6 +86,59 @@ Repocket 官方的 Internet Sharing Policy 頁面並沒有明確說明哪些 por
 
 這個對比的結論：Repocket 不是特別危險，但在同類工具裡，它的資安透明度最低、可供參照的獨立研究最少。這對重視「在裝之前把問題搞清楚」的人來說是一個實質的資訊缺口。
 
+### 四維度資安層級對照圖
+
+把上面四個維度的對比評為 1-5 分（5 = 透明度 / 風險可控度最高），三平台的差距用圖看更明顯：
+
+<figure class="ig-chart" role="img" aria-label="四平台資安透明度評分對照，Repocket 全維度墊底">
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#F3F6FB;font-family:'Noto Sans TC','IBM Plex Sans',sans-serif;">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1F4E8E">三平台資安透明度評分（1-5 分制）</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#5A6B82">分數越高 = 透明度 / 可參照研究 / 風險可控度越好</text>
+
+  <line x1="200" y1="80" x2="200" y2="280" stroke="#C5CFDD" stroke-width="1"/>
+  <line x1="200" y1="280" x2="680" y2="280" stroke="#1F4E8E" stroke-width="1.5"/>
+
+  <text x="200" y="295" font-size="11" fill="#5A6B82">0</text>
+  <text x="296" y="295" font-size="11" fill="#5A6B82">1</text>
+  <text x="392" y="295" font-size="11" fill="#5A6B82">2</text>
+  <text x="488" y="295" font-size="11" fill="#5A6B82">3</text>
+  <text x="584" y="295" font-size="11" fill="#5A6B82">4</text>
+  <text x="680" y="295" font-size="11" fill="#5A6B82">5</text>
+
+  <text x="190" y="110" text-anchor="end" font-size="12" fill="#1F4E8E" font-weight="500">公司透明度</text>
+  <rect x="200" y="98" width="288" height="14" fill="#1F4E8E"/>
+  <text x="495" y="110" font-size="11" fill="#1F4E8E" font-weight="600">EarnApp 3.0</text>
+  <rect x="200" y="114" width="192" height="14" fill="#5A8CC4"/>
+  <text x="399" y="126" font-size="11" fill="#5A8CC4" font-weight="600">Honeygain 2.0</text>
+  <rect x="200" y="130" width="96" height="14" fill="#E2943E"/>
+  <text x="303" y="142" font-size="11" fill="#E2943E" font-weight="600">Repocket 1.0</text>
+
+  <text x="190" y="170" text-anchor="end" font-size="12" fill="#1F4E8E" font-weight="500">第三方研究</text>
+  <rect x="200" y="158" width="288" height="14" fill="#1F4E8E"/>
+  <text x="495" y="170" font-size="11" fill="#1F4E8E" font-weight="600">EarnApp 3.0</text>
+  <rect x="200" y="174" width="288" height="14" fill="#5A8CC4"/>
+  <text x="495" y="186" font-size="11" fill="#5A8CC4" font-weight="600">Honeygain 3.0</text>
+  <rect x="200" y="190" width="96" height="14" fill="#E2943E"/>
+  <text x="303" y="202" font-size="11" fill="#E2943E" font-weight="600">Repocket 1.0</text>
+
+  <text x="190" y="230" text-anchor="end" font-size="12" fill="#1F4E8E" font-weight="500">出金穩定性</text>
+  <rect x="200" y="218" width="384" height="14" fill="#1F4E8E"/>
+  <text x="590" y="230" font-size="11" fill="#1F4E8E" font-weight="600">EarnApp 4.0</text>
+  <rect x="200" y="234" width="288" height="14" fill="#5A8CC4"/>
+  <text x="495" y="246" font-size="11" fill="#5A8CC4" font-weight="600">Honeygain 3.0</text>
+  <rect x="200" y="250" width="96" height="14" fill="#E2943E"/>
+  <text x="303" y="262" font-size="11" fill="#E2943E" font-weight="600">Repocket 1.0</text>
+
+  <rect x="200" y="310" width="14" height="10" fill="#1F4E8E"/>
+  <text x="220" y="319" font-size="11" fill="#5A6B82">EarnApp（Bright Data）</text>
+  <rect x="370" y="310" width="14" height="10" fill="#5A8CC4"/>
+  <text x="390" y="319" font-size="11" fill="#5A6B82">Honeygain</text>
+  <rect x="500" y="310" width="14" height="10" fill="#E2943E"/>
+  <text x="520" y="319" font-size="11" fill="#5A6B82">Repocket（Geonode）</text>
+</svg>
+<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：各平台公司結構（上市 vs 中小型 vs 新創）、第三方資安研究數量（2023-2026 公開資料）、用戶出金管道穩定性回報。Repocket 在三維度都明顯落後、非「特別危險」但屬資訊缺口最大。</figcaption>
+</figure>
+
 ---
 
 ## 收益與出金：台灣能賺多少

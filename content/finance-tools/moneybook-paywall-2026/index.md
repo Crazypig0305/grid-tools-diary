@@ -37,6 +37,58 @@ draft: false
 - **2027 年起年費跳到 NT$1,499**，折合每月 124.9 元，漲幅明顯
 - 現在訂就能鎖住 NT$690 年費的資格，要訂就趁現在
 
+### 三階段價格曲線
+
+把月費 / 年費 / 等效月攤的數字放在時間軸上看，2027 年漲幅是真的明顯：
+
+<figure class="ig-chart" role="img" aria-label="麻布記帳 2026-2027 三階段價格曲線，2027 年起年費跳到 NT$1499">
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#F3F6FB;font-family:'Noto Sans TC','IBM Plex Sans',sans-serif;">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1F4E8E">麻布記帳 2026-2027 訂閱價格時間軸（NT$）</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#5A6B82">早鳥期 → 凍漲期 → 全價期</text>
+
+  <line x1="80" y1="80" x2="80" y2="240" stroke="#1F4E8E" stroke-width="1.5"/>
+  <line x1="80" y1="240" x2="680" y2="240" stroke="#1F4E8E" stroke-width="1.5"/>
+
+  <text x="70" y="85" text-anchor="end" font-size="11" fill="#1F4E8E">1500</text>
+  <text x="70" y="125" text-anchor="end" font-size="11" fill="#1F4E8E">1200</text>
+  <text x="70" y="165" text-anchor="end" font-size="11" fill="#1F4E8E">900</text>
+  <text x="70" y="205" text-anchor="end" font-size="11" fill="#1F4E8E">600</text>
+  <text x="70" y="245" text-anchor="end" font-size="11" fill="#1F4E8E">300</text>
+
+  <text x="160" y="258" text-anchor="middle" font-size="11" fill="#5A6B82">2026/4-5</text>
+  <text x="160" y="272" text-anchor="middle" font-size="10" fill="#5A6B82">早鳥期</text>
+  <text x="380" y="258" text-anchor="middle" font-size="11" fill="#5A6B82">2026/6-12</text>
+  <text x="380" y="272" text-anchor="middle" font-size="10" fill="#5A6B82">凍漲期</text>
+  <text x="600" y="258" text-anchor="middle" font-size="11" fill="#5A6B82">2027/1 起</text>
+  <text x="600" y="272" text-anchor="middle" font-size="10" fill="#5A6B82">全價期</text>
+
+  <polyline points="160,148 380,148 600,40" stroke="#1F4E8E" stroke-width="3" fill="none"/>
+  <circle cx="160" cy="148" r="5" fill="#1F4E8E"/>
+  <circle cx="380" cy="148" r="5" fill="#1F4E8E"/>
+  <circle cx="600" cy="40" r="6" fill="#1F4E8E"/>
+  <text x="160" y="138" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">$690</text>
+  <text x="380" y="138" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">$690</text>
+  <text x="600" y="30" text-anchor="middle" font-size="12" fill="#1F4E8E" font-weight="700">$1,499</text>
+
+  <polyline points="160,232 380,221 600,221" stroke="#E2943E" stroke-width="3" fill="none" stroke-dasharray="6,3"/>
+  <circle cx="160" cy="232" r="5" fill="#E2943E"/>
+  <circle cx="380" cy="221" r="5" fill="#E2943E"/>
+  <circle cx="600" cy="221" r="5" fill="#E2943E"/>
+  <text x="160" y="225" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$69</text>
+  <text x="380" y="214" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$149</text>
+  <text x="600" y="214" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$149</text>
+
+  <text x="660" y="55" font-size="11" fill="#1F4E8E" font-weight="600">+117%</text>
+  <text x="660" y="68" font-size="10" fill="#5A6B82">年費漲幅</text>
+
+  <rect x="200" y="290" width="14" height="10" fill="#1F4E8E"/>
+  <text x="220" y="299" font-size="11" fill="#5A6B82">年費（NT$/年）</text>
+  <rect x="370" y="290" width="14" height="10" fill="#E2943E"/>
+  <text x="390" y="299" font-size="11" fill="#5A6B82">月費（NT$/月）</text>
+</svg>
+<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：麻布記帳 2026 年初官方公告。早鳥期訂閱可鎖住 NT$690 年費直到續約、2027 年起新訂用戶為 NT$1,499 年費（+117%）。決策窗口在 2026/5/31 之前。</figcaption>
+</figure>
+
 **未訂閱用戶現在能做什麼？**
 
 自 4 月 1 日起，未訂閱帳號「無法進行同步及手動記帳等功能」，等於 App 基本功能全鎖。你可以登入查看舊有歷史紀錄，但無法新增任何資料、無法觸發同步。

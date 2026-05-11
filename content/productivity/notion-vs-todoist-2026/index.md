@@ -113,6 +113,62 @@ Notion 可以建 To-do List 資料庫，設截止日、優先度、狀態，跟 
 
 PTT Salary 板的討論裡，可以看到很多人「裝了 Notion 但從來沒真的在用它」——因為設定門檻高，找了個模板改一改但不符合自己的習慣，最後打開的頻率越來越低。
 
+### 三維度差距視覺化
+
+把上面三個維度的差距用評分（1-5 分制）並排看，兩個工具的「強項 / 弱項」分布很明確：
+
+<figure class="ig-chart" role="img" aria-label="Notion vs Todoist 三維度評分對比，兩工具強弱項剛好互補">
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#F3F6FB;font-family:'Noto Sans TC','IBM Plex Sans',sans-serif;">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1F4E8E">Notion vs Todoist 三維度評分對比</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#5A6B82">1-5 分制（分數高 = 在該維度表現越好）</text>
+
+  <line x1="80" y1="80" x2="80" y2="270" stroke="#1F4E8E" stroke-width="1.5"/>
+  <line x1="80" y1="270" x2="680" y2="270" stroke="#1F4E8E" stroke-width="1.5"/>
+
+  <text x="70" y="85" text-anchor="end" font-size="11" fill="#1F4E8E">5</text>
+  <text x="70" y="123" text-anchor="end" font-size="11" fill="#1F4E8E">4</text>
+  <text x="70" y="161" text-anchor="end" font-size="11" fill="#1F4E8E">3</text>
+  <text x="70" y="199" text-anchor="end" font-size="11" fill="#1F4E8E">2</text>
+  <text x="70" y="237" text-anchor="end" font-size="11" fill="#1F4E8E">1</text>
+  <text x="70" y="275" text-anchor="end" font-size="11" fill="#1F4E8E">0</text>
+
+  <text x="40" y="175" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="500" transform="rotate(-90 40 175)">評分（1-5）</text>
+
+  <line x1="80" y1="84" x2="680" y2="84" stroke="#C5CFDD" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="80" y1="122" x2="680" y2="122" stroke="#C5CFDD" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="80" y1="160" x2="680" y2="160" stroke="#C5CFDD" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="80" y1="198" x2="680" y2="198" stroke="#C5CFDD" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="80" y1="236" x2="680" y2="236" stroke="#C5CFDD" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+  <rect x="160" y="198" width="40" height="72" fill="#1F4E8E"/>
+  <text x="180" y="190" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">2</text>
+  <rect x="205" y="84" width="40" height="186" fill="#E2943E"/>
+  <text x="225" y="76" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">5</text>
+  <text x="202" y="290" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">任務管理</text>
+  <text x="202" y="305" text-anchor="middle" font-size="11" fill="#5A6B82">（複雜度低 / 量多）</text>
+
+  <rect x="340" y="84" width="40" height="186" fill="#1F4E8E"/>
+  <text x="360" y="76" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">5</text>
+  <rect x="385" y="198" width="40" height="72" fill="#E2943E"/>
+  <text x="405" y="190" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">2</text>
+  <text x="382" y="290" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">知識整理</text>
+  <text x="382" y="305" text-anchor="middle" font-size="11" fill="#5A6B82">（結構化 / 連結）</text>
+
+  <rect x="520" y="198" width="40" height="72" fill="#1F4E8E"/>
+  <text x="540" y="190" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">2</text>
+  <rect x="565" y="84" width="40" height="186" fill="#E2943E"/>
+  <text x="585" y="76" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">5</text>
+  <text x="562" y="290" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">學習成本</text>
+  <text x="562" y="305" text-anchor="middle" font-size="11" fill="#5A6B82">（10 分鐘上手）</text>
+
+  <rect x="240" y="320" width="14" height="10" fill="#1F4E8E"/>
+  <text x="260" y="329" font-size="11" fill="#5A6B82">Notion（Plus 級）</text>
+  <rect x="400" y="320" width="14" height="10" fill="#E2943E"/>
+  <text x="420" y="329" font-size="11" fill="#5A6B82">Todoist（Pro 級）</text>
+</svg>
+<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：本站對 Notion Plus / Todoist Pro 2026 年版本的評估（PTT iOS 板 + Dcard 工作板使用情境取樣對照）。兩工具強弱項剛好互補、所以「兩個都用」是常見模式而非冗餘。</figcaption>
+</figure>
+
 ---
 
 ## 五維度評分（B 站獨占欄位）
