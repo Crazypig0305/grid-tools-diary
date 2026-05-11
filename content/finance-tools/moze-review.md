@@ -10,7 +10,7 @@ draft: false
 ---
 
 > 📅 原文發布：2022 年 11 月｜最後更新：2026 年 4 月
-> MOZE 於 2024–2025 年推出 4.0 版，加入 iPad 支援和 AI 語音記帳，定價已更新。
+> [MOZE](https://www.[moze](https://www.moze5.com/)5.com/) 於 2024–2025 年推出 4.0 版，加入 iPad 支援和 AI 語音記帳，定價已更新。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 ---
@@ -77,7 +77,7 @@ MOZE 的設計是它在市場上最清楚的差異點，這點不能不提。同
 
 **適合用 MOZE 的人**：iOS 用戶、在乎 App 設計、想要手動記帳但介面要好看、有跨 Apple 裝置使用需求。
 
-**不適合的人**：Android 用戶（根本無法安裝）、想要銀行帳戶自動同步的人（MOZE 不支援 Open Banking，需要手動輸入每一筆，若想要自動同步可參考[記帳 App 比較](/finance-tools/budget-app-compare/)中麻布記帳的介紹）、需要家庭共帳功能的人。
+**不適合的人**：Android 用戶（根本無法安裝）、想要銀行帳戶自動同步的人（MOZE 不支援 Open Banking，需要手動輸入每一筆，若想要自動同步可參考[記帳 App 比較](/finance-tools/budget-app-compare/)中[麻布記帳](https://moneybook.com.tw/)的介紹）、需要家庭共帳功能的人。
 
 ---
 

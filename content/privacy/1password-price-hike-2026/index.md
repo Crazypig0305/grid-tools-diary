@@ -10,7 +10,7 @@ draft: false
 ---
 
 > 📅 原文發布：2025 年 11 月｜最後更新：2026 年 4 月
-> 本文數字已於 2026 年 4 月對照 1Password 及 Bitwarden 官網現況校對更新。
+> 本文數字已於 2026 年 4 月對照 [1Password](https://1password.com/) 及 [Bitwarden](https://bitwarden.com/) 官網現況校對更新。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 用了 1Password 兩年多，帳單自動續費扣的那天才發現多了一筆——原來漲價通知寄到垃圾信件夾，根本沒看到。
@@ -53,7 +53,7 @@ draft: false
 - **無限裝置同步**：iOS / Android / Mac / Windows / Linux / 瀏覽器延伸套件（Chrome / Firefox / Safari / Edge）
 - **Travel Mode**：出入境前可暫時隱藏選定密碼庫，清關後恢復——這是 1Password 獨有功能
 - **1Password Watchtower**：主動偵測弱密碼、重複密碼、已外洩密碼（整合 HaveIBeenPwned 資料庫）
-- **2FA / TOTP 整合**：把 Google Authenticator 那種驗證碼直接放進密碼庫管，自動填寫
+- **[2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication) / TOTP 整合**：把 Google Authenticator 那種驗證碼直接放進密碼庫管，自動填寫
 - **1GB 加密附件空間**：護照掃描、保險單 PDF 等敏感文件可加密存放
 - **緊急聯絡人設定**：你離世後，指定聯絡人可在等待期後取得密碼庫存取權
 
@@ -151,11 +151,11 @@ Bitwarden Families 方案對比 1Password 家庭版有兩個明確優勢：
 | CP 值 | ★★★★★ | 是 1Password 的 41% 費用，核心功能差距不大 |
 | 台灣可用性 | ★★★☆☆ | 介面有繁中，App 功能性強但 UI 精緻度不如 1Password |
 
-### Dashlane Premium（$4.99 USD/月，約 $59.88 USD/年）
+### [Dashlane](https://www.dashlane.com/) Premium（$4.99 USD/月，約 $59.88 USD/年）
 
 | 維度 | 評分 | 說明 |
 |---|---|---|
-| 功能完整度 | ★★★★★ | 含內建 VPN（Hotspot Shield），功能最豐富，但 VPN 品質一般 |
+| 功能完整度 | ★★★★★ | 含內建 [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF)（Hotspot Shield），功能最豐富，但 VPN 品質一般 |
 | 隱私透明度 | ★★★☆☆ | 閉源，有第三方稽核 |
 | CP 值 | ★★☆☆☆ | 比 1Password 還貴，且免費方案已結束，2026 年 9 月將刪除舊免費帳號 |
 | 台灣可用性 | ★★★☆☆ | 介面有中文，但 2025 年 9 月起免費帳號轉為唯讀，需注意遷移時程 |

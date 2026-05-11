@@ -33,7 +33,7 @@ draft: false
 
 ## 快速結論
 
-| 評分項目 | LINE Pay | 街口支付 | Pi 拍錢包 |
+| 評分項目 | [LINE Pay](https://pay.line.me/tw/) | [街口支付](https://www.jkos.com/) | Pi 拍錢包 |
 |---|---|---|---|
 | 帳號安全機制 | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 | 付款流暢度 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
@@ -51,7 +51,7 @@ LINE Pay 的安全設計依附在 LINE 帳號上，這是優點也是弱點。
 
 優點：生物辨識（Face ID / 指紋）啟用後每次付款都要驗證，沒有「已登入就能一直用」的漏洞。每筆成功交易都會在 LINE 推播通知，延遲通常在 3 秒內。
 
-弱點：如果 LINE 帳號本身遭到入侵，LINE Pay 的保護力就跟著失效。LINE 帳號並未強制開啟兩步驟驗證（2FA），這是目前最大的安全死角。
+弱點：如果 LINE 帳號本身遭到入侵，LINE Pay 的保護力就跟著失效。LINE 帳號並未強制開啟[兩步驟驗證](https://zh.wikipedia.org/wiki/%E5%A4%9A%E9%87%8D%E8%AA%8D%E8%AD%89)（[2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication)），這是目前最大的安全死角。
 
 ### 付款流暢度
 
@@ -63,7 +63,7 @@ LINE Pay 的安全設計依附在 LINE 帳號上，這是優點也是弱點。
 
 ### 離線可用性
 
-LINE Pay 的條碼生成需要聯網確認，弱訊號環境（捷運站月台、地下賣場）偶有條碼無法刷新的情況。備用方案是改用 NFC（Apple Pay / Google Pay 綁定），但這需要額外設定。
+LINE Pay 的條碼生成需要聯網確認，弱訊號環境（捷運站月台、地下賣場）偶有條碼無法刷新的情況。備用方案是改用 NFC（[Apple Pay](https://www.apple.com/tw/apple-pay/) / [Google Pay](https://pay.google.com/) 綁定），但這需要額外設定。
 
 ---
 

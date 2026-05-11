@@ -10,7 +10,7 @@ draft: false
 ---
 
 > 📅 原文發布：2022 年 4 月｜最後更新：2026 年 4 月
-> VPN 相關法規與使用情境持續演變，本文內容已於 2026 年 4 月確認仍適用台灣用戶。
+> [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF) 相關法規與使用情境持續演變，本文內容已於 2026 年 4 月確認仍適用台灣用戶。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 ---
@@ -106,7 +106,7 @@ VPN 的核心功能只有兩件事：
 
 常用公共 WiFi、需要跨區、在乎 ISP 紀錄——這三個其中之一符合，VPN 是值得的工具，一個月幾塊美金不算貴。都不符合，可能你對 VPN 的期待是它做不到的事，買了也不會有你要的效果。
 
-如果確定需要，再看 [NordVPN 和 Surfshark 的具體選擇比較](/privacy/nordvpn-vs-surfshark/)。
+如果確定需要，再看 [NordVPN 和 [Surfshark](https://surfshark.com/) 的具體選擇比較](/privacy/nordvpn-vs-surfshark/)。
 
 ---
 

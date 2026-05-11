@@ -15,7 +15,7 @@ draft: false
 
 ---
 
-## Notion 是什麼
+## [Notion](https://www.notion.so/) 是什麼
 
 把筆記、資料庫、任務管理、Wiki 整進同一個 App 的工作空間工具。一句話就這樣。
 
@@ -39,7 +39,7 @@ draft: false
 
 ## 我怎麼測的
 
-我在內容行銷的工作裡大概同時跑三到五個專案。在用 Notion 之前，手邊是 Evernote 存資料、Trello 跑任務、Google Docs 寫文件，三個工具並用，每次要找個東西都要先想「這放哪了」。
+我在內容行銷的工作裡大概同時跑三到五個專案。在用 Notion 之前，手邊是 [Evernote](https://evernote.com/) 存資料、[Trello](https://trello.com/) 跑任務、Google Docs 寫文件，三個工具並用，每次要找個東西都要先想「這放哪了」。
 
 2021 年 8 月起把所有東西搬進 Notion Free，主要的使用場景是內容企劃資料庫、每週四到六場的會議紀錄、廠商文件與素材的彙整、還有個人任務。連續用了三個月，沒有換回去。
 
@@ -65,7 +65,7 @@ Mac + iOS 切換大概 2～5 秒有感更新，工作中隨時切沒問題。手
 
 這個才是真正每週都在煩的事。
 
-上傳設計稿截圖、簡報 PDF、稍微重一點的圖，十之八九就跳出紅色錯誤提示。三個月大概踩了十幾次，後來的解法是把圖全丟 Google Drive 再把連結貼進 Notion。
+上傳設計稿截圖、簡報 PDF、稍微重一點的圖，十之八九就跳出紅色錯誤提示。三個月大概踩了十幾次，後來的解法是把圖全丟 [Google Drive](https://drive.google.com/) 再把連結貼進 Notion。
 
 有點可笑——本來就是不想多開一個工具才來用 Notion，結果還是同時開著 Google Drive。只要工作跟視覺素材、PDF 有關，這個問題幾乎躲不掉。
 
@@ -75,7 +75,7 @@ Mac + iOS 切換大概 2～5 秒有感更新，工作中隨時切沒問題。手
 
 ---
 
-## 三工具比較：Notion Free vs Obsidian vs Evernote Free
+## 三工具比較：Notion Free vs [Obsidian](https://obsidian.md/) vs Evernote Free
 
 | 比較項目 | Notion Free | Obsidian（免費版） | Evernote Free |
 |---|---|---|---|
