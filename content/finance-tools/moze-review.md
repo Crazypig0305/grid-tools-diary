@@ -77,7 +77,7 @@ MOZE 的設計是它在市場上最清楚的差異點，這點不能不提。同
 
 **適合用 MOZE 的人**：iOS 用戶、在乎 App 設計、想要手動記帳但介面要好看、有跨 Apple 裝置使用需求。
 
-**不適合的人**：Android 用戶（根本無法安裝）、想要銀行帳戶自動同步的人（MOZE 不支援 Open Banking，需要手動輸入每一筆，若想要自動同步可參考[記帳 App 比較](/finance-tools/budget-app-compare/)中[麻布記帳](https://moneybook.com.tw/)的介紹）、需要家庭共帳功能的人。
+**不適合的人**：Android 用戶（根本無法安裝）、想要銀行帳戶自動同步的人（MOZE 不支援 [Open Banking（開放銀行）](https://en.wikipedia.org/wiki/Open_banking) 機制，需要手動輸入每一筆，若想要透過台灣[金融監督管理委員會](https://www.fsc.gov.tw/)推動的開放銀行體系自動同步銀行帳戶，可參考[記帳 App 比較](/finance-tools/budget-app-compare/)中[麻布記帳](https://moneybook.com.tw/)的介紹）、需要家庭共帳功能的人。
 
 ---
 

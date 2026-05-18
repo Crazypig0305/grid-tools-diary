@@ -17,7 +17,7 @@ draft: false
 
 ## Google One 是什麼
 
-Google 帳號免費提供 15 GB 儲存空間，跨 Gmail、[Google Drive](https://drive.google.com/) 和 Google Photos 共用。15 GB 超過之後，要嘛清資料，要嘛付費升級——Google One 就是付費方案的名稱。
+Google 帳號免費提供 15 GB 儲存空間，跨 Gmail、[Google Drive](https://drive.google.com/) 和 Google Photos 共用。15 GB 超過之後，要嘛清資料，要嘛付費升級——[Google One](https://en.wikipedia.org/wiki/Google_One) 就是付費方案的名稱，於 2018 年正式推出、屬於 Google 的[訂閱經濟（subscription business model）](https://en.wikipedia.org/wiki/Subscription_business_model)消費端服務。
 
 不是什麼新服務，就是 Google 的雲端儲存付費計劃。
 

@@ -27,7 +27,7 @@ draft: false
 
 以 [Honeygain](https://www.honeygain.com/) 和 [EarnApp](https://earnapp.com/) 為主，這兩家的商業模式大致相同：
 
-他們的客戶是需要住宅 IP 的企業——通常是電商比價、市場調查、廣告驗證、SEO 排名監測這類用途。這些企業需要從真實家庭 IP 發出請求，才能拿到未被封鎖的資料，而不是用很容易被識別的機房 IP。
+他們的客戶是需要[住宅代理（residential proxy）](https://en.wikipedia.org/wiki/Proxy_server#Residential_proxy) IP 的企業——通常是電商比價、市場調查、廣告驗證、SEO 排名監測這類用途。這些企業需要從真實家庭 IP 發出請求，才能拿到未被封鎖的資料，而不是用很容易被識別的機房 IP。
 
 你的裝置提供的就是這個：一個看起來像一般家庭用戶的 IP 地址，讓他們的流量從你這裡出去。
 

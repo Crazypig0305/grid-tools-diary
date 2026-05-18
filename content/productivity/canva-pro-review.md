@@ -18,7 +18,7 @@ draft: false
 
 ## Canva 是什麼
 
-把設計門檻降到接近零的雲端設計工具，目標是讓不會 Photoshop 的人也能做出像樣的視覺。
+把設計門檻降到接近零的雲端設計工具，目標是讓不會 Photoshop 的人也能做出像樣的視覺。[Canva](https://en.wikipedia.org/wiki/Canva) 由澳洲團隊 2013 年創立、目前全球月活躍用戶超過 1.7 億，已是設計類 SaaS（[軟體即服務](https://en.wikipedia.org/wiki/Software_as_a_service)）市場規模最大的玩家之一。
 
 ---
 

@@ -17,7 +17,7 @@ draft: false
 
 ## [Notion](https://www.notion.so/) 是什麼
 
-把筆記、資料庫、任務管理、Wiki 整進同一個 App 的工作空間工具。一句話就這樣。
+把筆記、資料庫、任務管理、Wiki 整進同一個 App 的工作空間工具。一句話就這樣。底層架構是經典的 [block-based editor（區塊式編輯器）](https://en.wikipedia.org/wiki/Notion_(productivity_software))設計、由 Notion Labs 於 2016 年正式推出，目前全球用戶超過 1 億。
 
 ---
 

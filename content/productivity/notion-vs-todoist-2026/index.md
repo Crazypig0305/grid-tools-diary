@@ -13,7 +13,7 @@ draft: false
 > 本文數字已於 2026 年 4 月對照 [Notion](https://www.notion.so/) 及 [Todoist](https://todoist.com/) 官網現況校對更新。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
-市面上的 Notion vs Todoist 比較文，九成都用同一個框架：「Notion 是筆記工具，Todoist 是任務管理工具，看你需要哪個。」
+市面上的 Notion vs Todoist 比較文，九成都用同一個框架：「Notion 是筆記工具，Todoist 是任務管理工具，看你需要哪個。」兩款都屬於[個人資訊管理（Personal Information Management）](https://en.wikipedia.org/wiki/Personal_information_management)範疇，但 [Todoist](https://en.wikipedia.org/wiki/Todoist) 的設計核心是基於 [Getting Things Done（GTD 時間管理法）](https://en.wikipedia.org/wiki/Getting_Things_Done)，而 Notion 是以 block-based 編輯器為核心的全功能工作空間。
 
 這個說法沒錯，但對真正在選工具的人幾乎沒有幫助。
 

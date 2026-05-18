@@ -19,7 +19,7 @@ draft: false
 
 評測掛機 App 的文章大多著重「能賺多少」，但賺到錢和拿到錢是兩回事。出金門檻太高、手續費吃掉一大塊、或者處理時間拖很長——這些都是真實的使用成本。
 
-這篇只比一件事：從你的帳戶餘額，到錢進你的 PayPal（或其他帳戶），這段路有多順。
+這篇只比一件事：從你的帳戶餘額，到錢進你的 PayPal（或其他帳戶），這段路有多順。出金第三方服務的手續費結構可參考 [PayPal 官方手續費頁](https://www.paypal.com/tw/webapps/mpp/paypal-fees) 與 [Wise（前 TransferWise）匯款費率頁](https://wise.com/tw/pricing/)交叉確認，本文數據以 2026 年 4 月校對為基準。
 
 ---
 
@@ -51,7 +51,7 @@ draft: false
 
 **EarnApp 出金門檻最低**（$10），這意味著你可以更早拿到錢、不需要讓餘額累積到 $20。對新用戶來說，較低的門檻也降低了「不知道這個平台能不能真的出金」的疑慮。
 
-**Honeygain 的 JumpToken 選項**是唯一完全免手續費的出金路線，但前提是你能接受持有加密貨幣（JMPT 代幣）的波動風險。如果你只要拿美金或台幣，PayPal 的手續費不算低。
+**Honeygain 的 JumpToken 選項**是唯一完全免手續費的出金路線，但前提是你能接受持有[加密貨幣（cryptocurrency）](https://en.wikipedia.org/wiki/Cryptocurrency)（JMPT 代幣）的波動風險。如果你只要拿美金或台幣，PayPal 的手續費不算低。
 
 **EarnApp 的 Wise 選項**在多次出金的情境下比 PayPal 划算，$1.13 固定費 vs 2%，出金額度越大，Wise 越省。
 

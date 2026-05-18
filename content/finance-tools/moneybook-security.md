@@ -25,7 +25,7 @@ draft: false
 
 ## Open Banking 是什麼
 
-「開放銀行（Open Banking）」是[金管會](https://www.fsc.gov.tw/)推動的制度，讓第三方服務（如麻布記帳）可以在用戶授權下，透過標準化的 API 介面存取銀行的帳戶資訊。
+「[開放銀行（Open Banking）](https://en.wikipedia.org/wiki/Open_banking)」是[金管會](https://www.fsc.gov.tw/)推動的制度，讓第三方服務（如麻布記帳）可以在用戶授權下，透過標準化的 API 介面存取銀行的帳戶資訊。這個 API 機制底層通常採用 [OAuth 2.0 授權框架](https://datatracker.ietf.org/doc/html/rfc6749)（由 IETF 制定的開放標準），確保使用者不需把銀行密碼交給第三方 App。
 
 關鍵在「授權」和「API 介面」這兩個詞。
 

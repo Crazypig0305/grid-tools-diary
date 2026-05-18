@@ -17,7 +17,7 @@ draft: false
 
 ## 一句話定位
 
-[Notion](https://www.notion.so/) 是有資料庫功能的協作工作空間。[Obsidian](https://obsidian.md/) 是本地儲存、以連結為核心的知識庫。
+[Notion](https://www.notion.so/) 是有資料庫功能的協作工作空間。[Obsidian](https://obsidian.md/) 是本地儲存、以連結為核心的知識庫——筆記以 [Markdown（純文字標記語言）](https://en.wikipedia.org/wiki/Markdown) 格式存於本地，採用 [Personal Knowledge Management（個人知識管理）](https://en.wikipedia.org/wiki/Personal_knowledge_management)學派常見的雙向連結（backlinks）架構、概念追隨 [Zettelkasten 卡片盒筆記法](https://en.wikipedia.org/wiki/Zettelkasten)。
 
 這兩句話說的不是同一件事，這才是比較兩者的起點。
 

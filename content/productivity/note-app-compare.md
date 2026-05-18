@@ -25,6 +25,8 @@ draft: false
 
 ## 三個工具的核心差異
 
+三者皆屬於[筆記軟體（note-taking software）](https://en.wikipedia.org/wiki/Comparison_of_note-taking_software)範疇，但設計哲學差異很大。Obsidian 的資料以 [Markdown](https://en.wikipedia.org/wiki/Markdown) 格式儲存於本地（屬於 plain-text 純文字標記語言、由 John Gruber 與 Aaron Swartz 共同制定），是三者中唯一不綁定平台的格式。
+
 | 項目 | Notion | [Evernote](https://evernote.com/) | Obsidian |
 |---|---|---|---|
 | 主要定位 | 多功能工作台 | 傳統筆記本 | 本地知識庫 |
