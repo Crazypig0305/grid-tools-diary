@@ -1,17 +1,193 @@
-{{- if .IsPage -}}
-{{- $author := dict "@type" "Person" "name" .Site.Title -}}
-{{- $schema := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "url" .Permalink "author" $author -}}
-{{- if not .Date.IsZero -}}{{- $schema = merge $schema (dict "datePublished" (.Date.Format "2006-01-02")) -}}{{- end -}}
-{{- if not .Lastmod.IsZero -}}{{- $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) -}}{{- end -}}
-{{- with .Params.image -}}
-  {{- $imgRef := . -}}
-  {{- $imgURL := "" -}}
-  {{- with $.Resources.GetMatch $imgRef -}}
-    {{- $imgURL = .Permalink -}}
-  {{- else -}}
-    {{- $imgURL = $imgRef | absURL -}}
-  {{- end -}}
-  {{- $schema = merge $schema (dict "image" $imgURL) -}}
-{{- end -}}
-<script type="application/ld+json">{{- $schema | jsonify | safeJS -}}</script>
-{{- end -}}
+{{/* ══════════════════════════════════════════════════════════════════════
+     Schema (JSON-LD) — 依頁面類型分流輸出（GEO 硬閘 G17-G21）
+     ─────────────────────────────────────────────────────────────────────
+     home（.IsHome）          → WebSite + Organization
+     section list（.IsSection）→ CollectionPage + BreadcrumbList
+     真正部落格文章            → BlogPosting (+image 僅非空) + BreadcrumbList + FAQPage(條件)
+     ceremony / 無真實日期頁   → WebPage（不輸出零日期 BlogPosting）
+     ══════════════════════════════════════════════════════════════════════ */}}
+
+{{/* ── 共用：Organization dict（home + publisher 共用、logo 用站級 og-default 後備） ── */}}
+{{- $orgLogo := "/og-default.jpg" | absURL }}
+{{- $organization := dict
+  "@type" "Organization"
+  "name" site.Title
+  "url" site.BaseURL
+  "logo" (dict "@type" "ImageObject" "url" $orgLogo)
+}}
+
+{{/* ════════════════ 1. HOME：WebSite + Organization ════════════════ */}}
+{{- if .IsHome }}
+{{- $website := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "name" site.Title
+  "url" site.BaseURL
+  "inLanguage" "zh-TW"
+  "description" site.Params.description
+  "publisher" (dict "@type" "Organization" "name" site.Title "url" site.BaseURL)
+}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- $orgHome := merge $organization (dict "@context" "https://schema.org") }}
+<script type="application/ld+json">{{ $orgHome | jsonify | safeJS }}</script>
+
+{{/* ════════════════ 2. SECTION LIST：CollectionPage + BreadcrumbList ════════════════ */}}
+{{- else if .IsSection }}
+{{- $listDesc := "" }}
+{{- with .Description }}{{ $listDesc = . }}{{ else }}{{ $listDesc = .Title }}{{ end }}
+{{- $collection := dict
+  "@context" "https://schema.org"
+  "@type" "CollectionPage"
+  "name" .Title
+  "url" .Permalink
+  "description" $listDesc
+  "inLanguage" "zh-TW"
+  "isPartOf" (dict "@type" "WebSite" "name" site.Title "url" site.BaseURL)
+}}
+<script type="application/ld+json">{{ $collection | jsonify | safeJS }}</script>
+{{/* BreadcrumbList：Home → 分類 */}}
+{{- $crumbs := slice }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 1 "name" site.Title "item" site.Home.Permalink) }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink) }}
+{{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs }}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
+
+{{/* ════════════════ 3 / 4. 單一頁面（.Kind page）：文章 vs ceremony 分流 ════════════════
+     真正部落格文章判定：在內容分類 section 下（.Section 非空）+ 有真實日期（非 0001-01-01）。
+     ceremony / 無真實日期頁（start-here / about / privacy-policy / contact、.Section 空 或 零日期）
+     → 輸出 WebPage、不帶零日期 BlogPosting。 */}}
+{{- else if eq .Kind "page" }}
+{{- $contentSections := slice "earn-apps" "finance-tools" "privacy" "productivity" }}
+{{- $inContentSection := in $contentSections .Section }}
+{{- $hasRealDate := not .Date.IsZero }}
+{{- $isArticle := and $inContentSection $hasRealDate }}
+
+{{- if $isArticle }}
+{{/* ── 取 OG image（三段邏輯：完整 URL / 站根絕對路徑 / page bundle 相對檔名）──
+     B 站文章 image 來源有二：單檔文章用站根絕對路徑（/images/foo.png）、
+     page bundle 用相對檔名（foo-hero.webp、走 .Resources.GetMatch 解析）。 */}}
+{{- $schemaImage := "" }}
+{{- with .Params.image }}
+  {{- if hasPrefix . "http" }}
+    {{- $schemaImage = . }}
+  {{- else if hasPrefix . "/" }}
+    {{- $schemaImage = . | absURL }}
+  {{- else }}
+    {{- $resource := $.Resources.GetMatch . }}
+    {{- if $resource }}
+      {{- $schemaImage = $resource.Permalink }}
+    {{- else }}
+      {{- $schemaImage = (printf "%s%s" $.RelPermalink .) | absURL }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- $bundleImgs := .Resources.ByType "image" }}
+  {{- if gt (len $bundleImgs) 0 }}
+    {{- $schemaImage = (index $bundleImgs 0).Permalink }}
+  {{- end }}
+{{- end }}
+
+{{/* 取 canonical URL（B 站 head.html canonical = .Permalink、無 canonicalURL front-matter param） */}}
+{{- $canonURL := .Permalink }}
+
+{{/* 取 description（front-matter 優先、否則 Summary 截 160） */}}
+{{- $description := "" }}
+{{- with .Description }}{{ $description = . }}{{ else }}{{ $description = .Summary | plainify | truncate 160 }}{{ end }}
+
+{{/* 取 dateModified（lastmod 優先、否則 fallback Date） */}}
+{{- $dateModified := .Date.Format "2006-01-02T15:04:05Z07:00" }}
+{{- if not .Lastmod.IsZero }}{{ $dateModified = .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}
+
+{{/* BlogPosting：image 僅在解析到非空 url 時才輸出（Google image 非必填、寧缺勿空、
+     禁再輸出 url:""）。dict 動態組裝、解析不到 image 時整個 image 鍵省略。
+     author 用站級 Person（沿用 B 站既有站級 author 模式）。 */}}
+{{- $data := dict
+  "@context" "https://schema.org"
+  "@type" "BlogPosting"
+  "headline" .Title
+  "description" $description
+  "url" $canonURL
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" $dateModified
+  "author" (dict "@type" "Person" "name" site.Title)
+  "publisher" (dict "@type" "Organization" "name" site.Title "url" site.BaseURL)
+  "inLanguage" "zh-TW"
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" $canonURL)
+}}
+{{- if $schemaImage }}
+  {{- $data = merge $data (dict "image" (dict "@type" "ImageObject" "url" $schemaImage)) }}
+{{- end }}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>
+
+{{/* ── BreadcrumbList：Home → 分類 → 文章 ── */}}
+{{- $crumbs := slice }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 1 "name" site.Title "item" site.Home.Permalink) }}
+{{- $pos := 2 }}
+{{- with .Parent }}
+  {{- if not .IsHome }}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+    {{- $pos = add $pos 1 }}
+  {{- end }}
+{{- end }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" $canonURL) }}
+{{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs }}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
+
+{{/* ── FAQPage（條件性硬閘 G19）──
+     偵測渲染後 .Content 中以「？/?」結尾的 H2/H3（問句 heading）、取該 heading 到
+     下一個 H2/H3 之間的 HTML 純文字為答案。≥ 2 組則輸出 FAQPage。
+     口徑對齊 stage-08 G19（_count_question_headings：H2/H3 結尾 ? / ？）。
+     答案抽取：把 .Content 以問句 heading 切段、每段「下一個 heading 前」的內容 = 答案。 */}}
+{{- $content := .Content }}
+{{- $faqItems := slice }}
+{{/* 以 H2/H3 開標籤把內容切成 chunk：每個 chunk = 一個 heading + 其後內容（到下個 heading）。
+     用 replaceRE 在每個 <h2 / <h3 前插入唯一分隔符、再 split。 */}}
+{{- $marked := replaceRE "(?i)(<h[23][ >])" "␟$1" $content }}
+{{- $chunks := split $marked "␟" }}
+{{- range $chunks }}
+  {{- $chunk := . }}
+  {{/* 抓 heading 文字：第一個 <hN ...>...</hN> */}}
+  {{- $hMatch := findRE "(?is)<h[23][^>]*>(.*?)</h[23]>" $chunk 1 }}
+  {{- if $hMatch }}
+    {{- $hFull := index $hMatch 0 }}
+    {{- $qText := $hFull | plainify | strings.TrimSpace }}
+    {{- if or (hasSuffix $qText "？") (hasSuffix $qText "?") }}
+      {{/* 答案 = chunk 去掉 heading 後、再去掉所有後續 heading（H2-H6）、plainify、截斷分隔線 */}}
+      {{- $afterH := replaceRE "(?is)^.*?</h[23]>" "" $chunk }}
+      {{- $answerRaw := replaceRE "(?is)<h[1-6][^>]*>.*$" "" $afterH }}
+      {{- $answer := $answerRaw | plainify | strings.TrimSpace }}
+      {{- if and (gt (len $qText) 0) (gt (len $answer) 0) }}
+        {{- $faqItems = $faqItems | append (dict
+          "@type" "Question"
+          "name" $qText
+          "acceptedAnswer" (dict "@type" "Answer" "text" $answer)
+        ) }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- if ge (len $faqItems) 2 }}
+{{- $faqPage := dict
+  "@context" "https://schema.org"
+  "@type" "FAQPage"
+  "mainEntity" $faqItems
+}}
+<script type="application/ld+json">{{ $faqPage | jsonify | safeJS }}</script>
+{{- end }}
+
+{{- else }}
+{{/* ── ceremony / 無真實日期頁：WebPage（不輸出零日期 BlogPosting）── */}}
+{{- $pageDesc := "" }}
+{{- with .Description }}{{ $pageDesc = . }}{{ else }}{{ $pageDesc = .Summary | plainify | truncate 160 }}{{ end }}
+{{- $webpage := dict
+  "@context" "https://schema.org"
+  "@type" "WebPage"
+  "name" .Title
+  "url" .Permalink
+  "description" $pageDesc
+  "inLanguage" "zh-TW"
+  "isPartOf" (dict "@type" "WebSite" "name" site.Title "url" site.BaseURL)
+}}
+<script type="application/ld+json">{{ $webpage | jsonify | safeJS }}</script>
+{{- end }}
+{{- end }}
