@@ -2,7 +2,7 @@ baseURL = 'https://gridtoolsdiary.com/'
 title = '格子工具誌'
 languageCode = 'zh-TW'
 theme = 'gridtools'
-enableRobotsTXT = true
+enableRobotsTXT = false
 hasCJKLanguage = true
 enableGitInfo = false
 
