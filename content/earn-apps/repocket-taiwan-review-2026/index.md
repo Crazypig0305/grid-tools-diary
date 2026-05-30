@@ -62,7 +62,7 @@ Honeygain 的母公司 Tengai 是立陶宛公司，有 [GDPR](https://en.wikiped
 
 ### 流量使用的可見性
 
-這三款 App（Honeygain、EarnApp、Repocket）的共同問題是：你無法看到流量日誌，無法知道你的 IP 被用來做什麼。Repocket 的官方「Internet Sharing Policy」聲明用途限於合法商業活動（web scraping 公開資料、比價監測、SEO 追蹤、廣告驗證），但沒有提供任何機制讓使用者驗證這個聲明。
+這三款 App（Honeygain、EarnApp、Repocket）的共同問題是：你無法看到流量日誌，無法知道你的 IP 被用來做什麼。Repocket 在官方的 [Internet Sharing Policy](https://repocket.com/internet-sharing-policy/) 中寫道：「When you participate, your IP address is used to assist with legitimate business activities including:」（當你參與時，你的 IP 位址會被用於協助合法商業活動，包括：），其後列出的合法用途包含公開資料的 web scraping、比價監測與彙整、SEO 追蹤與廣告驗證等。但這份政策只是單方面的用途聲明，沒有提供任何機制讓使用者驗證自己的流量是否真的只用於這些用途。
 
 這個問題在 Honeygain 和 EarnApp 上也存在，但那兩家有更長的運作歷史和更多的第三方資安研究可以參照。Repocket 在這方面的獨立研究較少。
 

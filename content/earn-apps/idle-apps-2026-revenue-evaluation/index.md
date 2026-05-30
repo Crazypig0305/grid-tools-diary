@@ -29,7 +29,7 @@ draft: false
 
 **供給端過剩**：2020–2024 年間，這類 App 在台灣和東南亞推廣擴散，使用者數量大量增加，IP 供給端快速膨脹，而企業客戶的需求並沒有以同等速度成長。供過於求，單價下滑。
 
-**台灣 IP 需求結構性偏低**：這類平台的客戶主要需要歐美地區的住宅 IP，用來繞過地區限制或進行當地市場調查。台灣 IP 對這些客戶的吸引力本來就低於美國、英國 IP，流量需求天花板有限。Honeygain 官方支援文件也直接說明：你的連線是否被使用，取決於「你所在地區當時的需求量」。
+**台灣 IP 需求結構性偏低**：這類平台的客戶主要需要歐美地區的住宅 IP，用來繞過地區限制或進行當地市場調查。台灣 IP 對這些客戶的吸引力本來就低於美國、英國 IP，流量需求天花板有限。Honeygain 官方在 [How is Location Important for My Earnings?](https://www.honeygain.com/blog/how-is-location-important-for-my-earnings/) 一文中表示，這套機制本質就是供需決定的：「Just like any commodity, there is supply and demand on our end.」（就像任何商品一樣，我們這端存在供給與需求。）並指出：「But the number of people providing data in any given country can have a significant impact on your earnings.」（但任一國家內提供資料的人數，會對你的收益造成顯著影響。）換句話說，台灣供給端使用者一多、需求端又有限，單台收益自然被稀釋。
 
 **結論**：收益下滑不是平台在詐騙，而是這個市場的需求結構造成的。但這個結構短期內不會改變。
 
