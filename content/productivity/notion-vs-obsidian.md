@@ -51,7 +51,7 @@ draft: false
 
 ## Obsidian 適合的場景
 
-**你在乎資料放在哪**：所有筆記都是 Markdown 檔案，存在你自己的電腦裡，不依賴任何服務商。Notion 關了或漲價，你的資料還在你手上。
+**你在乎資料放在哪**：所有筆記都是 Markdown 檔案，存在你自己的電腦裡，不依賴任何服務商。這是 Obsidian 的設計核心，[官網](https://obsidian.md/)直接寫：「Obsidian stores your notes locally as plain text Markdown files.」（Obsidian 把你的筆記以純文字 Markdown 檔案儲存在本地。）官網同一頁也標榜「You own your data for the long term.」（你長期擁有你自己的資料。）——Notion 關了或漲價，你的資料還在你手上，這不是行銷話術，是本地優先架構帶來的實際結果。
 
 **長期知識累積**：Obsidian 的雙向連結和 Graph View 讓你看到不同筆記之間的關係，幾年後回頭看自己記了什麼，這個視角是 Notion 沒有的。
 

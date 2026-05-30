@@ -51,7 +51,7 @@ NordVPN 在多項 2025–2026 年的獨立測試中速度勝出，使用 [WireGu
 
 NordVPN 在巴拿馬，巴拿馬不是五眼或九眼聯盟成員，沒有強制 ISP 保存日誌的法規。Surfshark 在荷蘭，屬歐盟管轄，雖然有 [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) 保護，但荷蘭是九眼聯盟的一部分，理論上政府間的情報共享範圍更廣。
 
-兩家都通過了 Deloitte 的無日誌稽核，也都採 RAM-only 伺服器。日常使用的隱私保護都是夠的，但如果你非常在意管轄地，NordVPN 的巴拿馬是更中立的選擇。
+兩家都通過了 Deloitte 的無日誌稽核，也都採 RAM-only 伺服器。以 Surfshark 為例，[官方無日誌頁](https://surfshark.com/features/no-logs)直接寫：「Surfshark VPN doesn't retain and record your online activity, and has successfully completed Deloitte's assessment to prove it.」（Surfshark VPN 不會保留或記錄你的線上活動，並已通過 Deloitte 的評估來證明這一點。）同一頁也說明「Surfshark uses RAM-only servers, where data is stored only in volatile memory and automatically erased when a session ends or a server restarts.」（Surfshark 使用純記憶體伺服器，資料只存在揮發性記憶體中，工作階段結束或伺服器重啟時就自動清除。）——RAM-only 代表伺服器一斷電，資料就不存在，這是「就算想交也交不出日誌」的技術前提。日常使用的隱私保護兩家都是夠的，但如果你非常在意管轄地，NordVPN 的巴拿馬是更中立的選擇。
 
 ---
 

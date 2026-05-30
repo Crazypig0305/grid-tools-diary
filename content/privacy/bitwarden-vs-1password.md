@@ -63,9 +63,9 @@ draft: false
 
 兩者都採 AES-256 加密、零知識架構，沒有已知的重大資安事件。
 
-1Password 額外有 Secret Key 機制——帳號密碼 + Secret Key 雙重驗證才能登入新裝置，即使密碼洩露也無法只用密碼入侵。Bitwarden 沒有這個設計，但通過了 Fracture Labs 的第三方安全稽核和 SOC 2 Type 2 認證。
+1Password 額外有 Secret Key 機制——帳號密碼 + Secret Key 雙重驗證才能登入新裝置，即使密碼洩露也無法只用密碼入侵。1Password 在[官方 Secret Key 說明](https://support.1password.com/secret-key-security/)裡寫明這把密鑰的關鍵特性：「Your Secret Key was created on your own device. We have no record of your Secret Key and can't recover it.」（你的 Secret Key 是在你自己的裝置上產生的，我們沒有任何紀錄，也無法復原它。）同一份文件也載明「Like your account password, your Secret Key is never sent to us.」（如同你的帳號密碼，你的 Secret Key 從不會傳送給我們。）——這就是為什麼即使 1Password 伺服器被攻破，光靠密碼也進不了你的保險庫。Bitwarden 沒有這個設計，但通過了 Fracture Labs 的第三方安全稽核和 SOC 2 Type 2 認證。
 
-Bitwarden 是開源的，代碼公開可審查，這對在意透明度的人是加分。1Password 不開源，但稽核次數和認證層級更廣（ISO 27001 等）。
+Bitwarden 是開源的，代碼公開可審查，這對在意透明度的人是加分。這不是我幫它說好話，Bitwarden 在[官方安全說明](https://bitwarden.com/help/is-bitwarden-audited/)裡直接寫：「Bitwarden is focused on open source software with the entirety of the codebase available on github.com.」（Bitwarden 專注於開源軟體，整套程式碼都公開在 github.com 上。）開源的具體意義就在這句——你不用「相信」它安全，可以自己（或讓資安研究員）去看程式碼。1Password 不開源，但稽核次數和認證層級更廣（ISO 27001 等）。
 
 實際上，兩者的安全基礎都是可信任的，差距主要在功能和體驗，不在安全性本身。如果你對手機 App 的資安風險有更廣泛的疑問，可以參考[掛機 App 資安風險評估](/earn-apps/passive-app-security/)。
 
