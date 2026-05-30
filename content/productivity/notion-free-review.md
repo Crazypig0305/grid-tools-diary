@@ -65,6 +65,8 @@ Mac + iOS 切換大概 2～5 秒有感更新，工作中隨時切沒問題。手
 
 這個才是真正每週都在煩的事。
 
+這個 5 MB 不是我猜的數字，Notion 在[官方定價頁](https://www.notion.com/pricing)寫得很清楚：「On the Free plan, you can upload images, videos and file attachments up to 5MB each.」（在免費方案，你上傳的每個圖片、影片與檔案上限為 5MB。）
+
 上傳設計稿截圖、簡報 PDF、稍微重一點的圖，十之八九就跳出紅色錯誤提示。三個月大概踩了十幾次，後來的解法是把圖全丟 [Google Drive](https://drive.google.com/) 再把連結貼進 Notion。
 
 有點可笑——本來就是不想多開一個工具才來用 Notion，結果還是同時開著 Google Drive。只要工作跟視覺素材、PDF 有關，這個問題幾乎躲不掉。
