@@ -119,7 +119,7 @@ draft: false
 
 以上數據都是在 Wi-Fi 環境測的。如果你打算用行動數據跑掛機 App，情況完全不同。
 
-月租 30 GB 的門號，光是掛機 App 一個月就可能消耗 1–3 GB，佔總配額的 3–10%。考慮到收益通常只有幾塊美金，在行動數據上跑幾乎不划算。這三款 App 都建議只在 Wi-Fi 環境下執行，[Honeygain 官方使用條款](https://www.honeygain.com/terms-of-use/)亦明示需在使用者可控的設備與網路上運行，Honeygain 和 Repocket 甚至在設定裡有「僅 Wi-Fi」選項。
+月租 30 GB 的門號，光是掛機 App 一個月就可能消耗 1–3 GB，佔總配額的 3–10%。考慮到收益通常只有幾塊美金，在行動數據上跑幾乎不划算。順帶一提，會在背景偷吃流量的不只掛機 App，雲端硬碟的自動同步同樣會——這部分各家差異見[雲端硬碟哪個最好用](/productivity/cloud-storage-compare/)。這三款 App 都建議只在 Wi-Fi 環境下執行，[Honeygain 官方使用條款](https://www.honeygain.com/terms-of-use/)亦明示需在使用者可控的設備與網路上運行，Honeygain 和 Repocket 甚至在設定裡有「僅 Wi-Fi」選項。
 
 ---
 
