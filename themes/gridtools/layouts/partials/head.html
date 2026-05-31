@@ -65,12 +65,20 @@
 {{/* ── LCP fix A (2026-05-31): CJK web fonts loaded NON-render-blocking via preload+onload
        swap so above-fold text paints immediately in the metric-matched system fallback,
        then swaps to Noto Serif/Sans TC once the CSS+font arrive. Brand visual (明朝體標題)
-       unchanged — same families, same weights, display=swap so the web font always applies.
+       unchanged — same families, same weights. CLS held at 0 by the @font-face
+       metric-override fallbacks below.
        Per hugo-template SKILL §11.10: CJK fonts MUST use preload+onload swap (NOT sync) —
-       sync was the render-blocking cause of mobile LCP 15.2s (4-family CJK chunk fetch
-       blocked first paint). CLS held at 0 by the @font-face metric-override fallbacks below. ── */}}
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=IBM+Plex+Mono:wght@400&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=IBM+Plex+Mono:wght@400&display=swap"></noscript>
+       sync was the render-blocking cause of mobile LCP 15.2s (CJK chunk fetch blocked
+       first paint). display=optional (SKILL §11.10 table: CJK -> preload+onload swap +
+       display=optional) restored here — fix A's first cut used display=swap; optional gives
+       the late CJK chunks a ~100ms window then keeps the metric-matched fallback for that
+       load instead of blocking, so above-fold text never waits on the 28-chunk CJK fetch.
+       NOTE: this does NOT change the PSI mobile ~13s lab number on image-LCP pages
+       (home/article) — that is a Lantern simulated-4G artifact of the LCP <img> queuing
+       behind ~28 VeryHigh CJK font subset chunks; observed (real-Chrome) FCP/LCP is ~1.3s.
+       Judged by CrUX field data, not PSI lab, per SKILL §11.10 failure-handling row. ── */}}
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=IBM+Plex+Mono:wght@400&display=optional" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&family=Noto+Sans+TC:wght@400;700&family=IBM+Plex+Mono:wght@400&display=optional"></noscript>
 
 {{/* ── Critical CSS inline（above-fold：reset + vars + body + top-bar + top-nav + featured + section-label） ── */}}
 <style>
