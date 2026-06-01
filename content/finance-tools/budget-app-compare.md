@@ -1,7 +1,7 @@
 ---
 title: "記帳 App 哪個最適合懶人？MOZE vs 麻布記帳 vs CWMoney 真實評比"
 date: 2022-06-01
-lastmod: 2026-04-16
+lastmod: 2026-06-02
 categories: ["finance-tools"]
 tags: ["記帳App", "MOZE", "麻布記帳", "CWMoney", "理財工具"]
 description: "MOZE、麻布記帳、CWMoney 三款記帳 App 哪個最值得用？功能、介面、銀行同步能力全面比較，依你的懶惰程度給推薦。"
@@ -114,6 +114,8 @@ draft: false
 需要 Android 或家庭共帳，選 CWMoney。
 
 三款的功能差距實際上不是在「記帳本身」，而是「有沒有自動同步」這件事。先決定這一點，就知道該選哪個。
+
+不過自動同步銀行資料的代價，是你把財務資料交給了這些 App——它們的隱私政策怎麼寫、資料拿去做什麼，值得在付費前讀一遍。[五款台灣常用記帳 App 的隱私政策橫向比較](/finance-tools/budget-app-privacy-policy-compare/)把這些條款攤開對照，是選之前該補上的一塊。
 
 ---
 
