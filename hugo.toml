@@ -6,6 +6,12 @@ enableRobotsTXT = false
 hasCJKLanguage = true
 enableGitInfo = false
 
+# Build posts whose date is in the future relative to the build server's UTC clock.
+# Taiwan is UTC+8, so a post dated "today (Taiwan)" published between 00:00-08:00 TW
+# is a future date in UTC -> Hugo skips it (default buildFuture=false) -> live 404.
+# Enabling buildFuture makes early-morning auto-published posts render immediately.
+buildFuture = true
+
 # Disable taxonomy + term pages to remove thin tag/category archive pages from sitemap.
 # Layouts do not display tag/category badges anywhere, so disabling is safe with zero
 # front-end impact. Removes ~75 URLs from sitemap and stops Hugo from generating
