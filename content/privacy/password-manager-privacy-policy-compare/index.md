@@ -19,7 +19,7 @@ draft: false
 
 但這是一個專門用來存放你所有機密的工具。如果你對任何一個 App 的隱私政策應該有所了解，密碼管理器是排第一個的。
 
-這篇不是功能比較文（[功能與費用比較看這篇](/privacy/1password-price-hike-2026/)），也不是安裝教學。我把三家的隱私政策逐條讀過，整理成你能看懂的格式——它們各自蒐集什麼、會分享給誰、有沒有辦法驗證它們說的是真的。
+這篇不是功能比較文（[功能與費用比較看這篇](/privacy/1password-price-hike-2026/)），也不是安裝教學。我把三家的隱私政策逐條讀過，整理成你能看懂的格式——它們各自蒐集什麼、會分享給誰、有沒有辦法驗證它們說的是真的。如果你還沒決定要裝哪一款、想先有個「你是哪種人就裝哪個」的選擇框架，可以先看[密碼管理器推薦 2026：6 種情境幫你選對那一個](/privacy/password-manager-recommendation-2026/)，再回頭用這篇逐條檢視隱私條款。
 
 ---
 
@@ -230,6 +230,7 @@ VPN 整合本身是獨特功能，但 Hotspot Shield 的第三方問題讓它在
 
 相關文章：
 
+- [密碼管理器推薦 2026：6 種情境，幫你選對那一個](/privacy/password-manager-recommendation-2026/)
 - [1Password 漲價 33% 後還值得訂嗎？2026 家庭版 vs 個人版 vs Bitwarden 試算](/privacy/1password-price-hike-2026/)
 - [Bitwarden vs 1Password：小資族選免費還是付費密碼管理器？](/privacy/bitwarden-vs-1password/)
 - [Bitwarden 好用嗎？免費開源密碼管理器三個月真實評測](/privacy/bitwarden-review/)
