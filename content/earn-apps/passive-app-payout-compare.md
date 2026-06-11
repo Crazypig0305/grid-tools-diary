@@ -1,7 +1,7 @@
 ---
 title: "三款掛機 App 出金體驗比較：哪個最快、手續費最低、方式最多？"
 date: 2023-08-01
-lastmod: 2026-04-16
+lastmod: 2026-06-11
 categories: ["earn-apps"]
 tags: ["Honeygain", "EarnApp", "Repocket", "出金", "掛機App"]
 description: "Honeygain、EarnApp、Repocket 出金門檻、手續費、處理速度實際比較，告訴你哪個拿錢最省事。"
@@ -51,7 +51,7 @@ draft: false
 
 **EarnApp 出金門檻最低**（$10），這意味著你可以更早拿到錢、不需要讓餘額累積到 $20。對新用戶來說，較低的門檻也降低了「不知道這個平台能不能真的出金」的疑慮。
 
-**Honeygain 的 JumpToken 選項**是唯一完全免手續費的出金路線，但前提是你能接受持有[加密貨幣（cryptocurrency）](https://en.wikipedia.org/wiki/Cryptocurrency)（JMPT 代幣）的波動風險。如果你只要拿美金或台幣，PayPal 的手續費不算低。
+**Honeygain 的 JumpToken 選項**是唯一完全免手續費的出金路線，但前提是你能接受持有[加密貨幣（cryptocurrency）](https://en.wikipedia.org/wiki/Cryptocurrency)（JMPT 代幣）的波動風險。如果你只要拿美金或台幣，PayPal 的手續費不算低。反過來說，如果你本來就在用加密貨幣、出金後會以 USDT 收付，那「平台出金費」之外還有「鏈上轉帳費」這層成本要一起算——以流通量最大的 TRON 鏈為例，三種省法的實算見[TRON 轉帳手續費比較](/finance-tools/tron-usdt-transfer-fee-3-ways/)。
 
 **EarnApp 的 Wise 選項**在多次出金的情境下比 PayPal 划算，$1.13 固定費 vs 2%，出金額度越大，Wise 越省。
 
