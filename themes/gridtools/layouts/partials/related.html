@@ -1,0 +1,19 @@
+{{/* Related posts: same-section siblings, newest first, current page excluded.
+     Text-only links (no images) -> zero LCP/CLS cost, pure internal-link signal.
+     Adds template-level internal links from every article (incl. already-crawled
+     ones) to its section siblings, raising crawl-discovery for never-crawled pages. */}}
+{{ $catNames := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
+{{ $section := .Section }}
+{{ $siblings := where (where .Site.RegularPages "Section" $section) "Permalink" "!=" .Permalink }}
+{{ $siblings = $siblings.ByDate.Reverse }}
+{{ $related := first 6 $siblings }}
+{{ with $related }}
+<nav class="related" aria-label="同類延伸閱讀">
+  <div class="related-head">同類延伸閱讀</div>
+  <ul class="related-list">
+    {{ range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}
