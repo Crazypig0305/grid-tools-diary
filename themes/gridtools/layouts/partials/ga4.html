@@ -1,0 +1,11 @@
+{{/* ── Google Analytics 4 (gtag.js) — self-written partial, always renders in production
+       (does NOT depend on Hugo _internal/google_analytics.html which can be gated).
+       Standard gtag, async = non-render-blocking (no CWV impact). Taiwan readers,
+       non-EEA: no consent mode needed. Measurement ID from sites-registry.json B.ga4. ── */}}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WPY4S6BKVP"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WPY4S6BKVP');
+</script>

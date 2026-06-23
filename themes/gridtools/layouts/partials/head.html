@@ -103,3 +103,5 @@
 {{/* ── Cloudflare Web Analytics beacon (defer = non-render-blocking, no CWV impact).
        Token scoped to gridtoolsdiary.com only. ── */}}
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "765b09b4165347bab881d78dc10c9cca"}'></script>
+{{/* ── Google Analytics 4 (gtag.js) ── */}}
+{{ partial "ga4.html" . }}
