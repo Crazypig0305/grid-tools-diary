@@ -192,6 +192,10 @@
   .feat{padding:20px}
   .overall-n{font-size:3rem}
 }
+@media (max-width:480px){
+  .cta-row{flex-direction:column}
+  .cta-row .btn{width:100%;flex:none}
+}
 @media (max-width:420px){
   .ed-row--score{grid-template-columns:1fr}
   .mini-tile{width:110px}
