@@ -1,0 +1,15 @@
+{{/* ══════════════════════════════════════════════════════════════════════
+     score-badges — 評分維度徽章（吃 frontmatter dims 陣列）
+     ─────────────────────────────────────────────────────────────────────
+     輸入（.）= dims 陣列，每項 map：{label: "資安", value: 9.0}
+     語義色由 value 決定：>=8.5 good（綠）/ 7.0–8.4 mid（琥珀）/ <7.0 bad（紅）
+     優雅退化：. 為 nil / 空陣列時 range 不輸出任何東西（呼叫端負責包 .dims 容器）。
+     只輸出 <span class="badge"> 序列、不含外層容器，讓呼叫端自選 .dims / .tile-dims
+     / .hc-dims / .card-dims 排版容器。
+     ══════════════════════════════════════════════════════════════════════ */}}
+{{- range . -}}
+{{- $v := .value | float -}}
+{{- $cls := "bad" -}}
+{{- if ge $v 8.5 }}{{ $cls = "good" }}{{ else if ge $v 7.0 }}{{ $cls = "mid" }}{{ end -}}
+<span class="badge {{ $cls }}"><span class="lbl">{{ .label }}</span><span class="n">{{ printf "%.1f" $v }}</span></span>
+{{- end -}}

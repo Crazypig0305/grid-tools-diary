@@ -1,7 +1,8 @@
 {{ $catNames := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
+{{ $dotColors := dict "earn-apps" "var(--blue)" "finance-tools" "var(--teal)" "productivity" "var(--amber)" "privacy" "var(--purple)" }}
 <aside class="sidebar">
 
-  <!-- 熱門文章（最新 5 篇代替） -->
+  <!-- 近期評測（最新 5 篇） -->
   <div class="sidebar-block">
     <div class="sidebar-head">
       <div class="sidebar-head-bar"></div>
@@ -17,8 +18,8 @@
     </nav>
   </div>
 
-  <!-- 關於 -->
-  <div class="sidebar-block">
+  <!-- 關於本站（navy box） -->
+  <div class="sidebar-block sidebar-block--about">
     <div class="sidebar-head">
       <div class="sidebar-head-bar"></div>
       <span class="sidebar-head-text">關於本站</span>
@@ -36,7 +37,6 @@
       <span class="sidebar-head-text">分類索引</span>
     </div>
     <nav>
-      {{ $dotColors := dict "earn-apps" "var(--blue)" "finance-tools" "var(--teal)" "productivity" "var(--amber)" "privacy" "var(--purple)" }}
       {{ range .Site.Sections }}
       {{ $slug := .Section }}
       {{ $label := index $catNames $slug | default .Title }}
@@ -46,7 +46,7 @@
           <span class="cat-dot" style="background:{{ $color }}"></span>
           {{ $label }}
         </span>
-        <span class="cat-index-count">{{ len .Pages }}</span>
+        <span class="cat-index-count" style="background:{{ $color }}">{{ len .Pages }}</span>
       </a>
       {{ end }}
     </nav>

@@ -2,25 +2,23 @@
 {{ $catColors := dict "earn-apps" "var(--blue)" "finance-tools" "var(--teal)" "productivity" "var(--amber)" "privacy" "var(--purple)" }}
 <nav class="top-nav">
   <div class="top-nav-inner">
-    <a href="/" class="nav-logo" aria-label="格子工具誌首頁">
-      <div class="logo-grid">
+    <a href="/" class="nav-brand" aria-label="格子工具誌首頁">
+      <span class="logo-grid" aria-hidden="true">
         <span></span><span></span>
         <span></span><span class="amber"></span>
-      </div>
-      <span class="logo-brand">格子工具誌</span>
+      </span>
+      <span class="brand-name"><b>格子工具誌</b><em>Grid Tools Diary</em></span>
     </a>
     <div class="tab-list">
       {{ range .Site.Menus.main }}
       <a href="{{ .URL }}" class="tab-item{{ if or (eq $currentPage.RelPermalink .URL) (and (eq .URL "/") $currentPage.IsHome) }} active{{ end }}">{{ .Name }}</a>
       {{ end }}
+      <span class="nav-div" aria-hidden="true"></span>
+      <a href="/about/" class="tab-item{{ if eq $currentPage.RelPermalink "/about/" }} active{{ end }}">關於</a>
     </div>
     <button class="hamburger" aria-label="選單" aria-expanded="false" aria-controls="mobile-menu">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
-    <div class="nav-right">
-      <span class="nav-sub">GRID TOOLS DIARY</span>
-      <a href="/about/" class="nav-about">關於</a>
-    </div>
   </div>
   <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
     <div class="mobile-search">

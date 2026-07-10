@@ -2,83 +2,187 @@
 {{ $sections := slice "earn-apps" "finance-tools" "productivity" "privacy" }}
 {{ $pages := where .Site.RegularPages "Section" "in" $sections }}
 {{ $pages = $pages.ByDate.Reverse }}
-{{ $featured := index $pages 0 }}
-{{ $rest := after 1 $pages }}
-{{ $paginator := .Paginate $rest 11 }}
 
-{{ $catNames  := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
-{{ $catClasses := dict "earn-apps" "cat-earn" "finance-tools" "cat-finance" "productivity" "cat-productivity" "privacy" "cat-privacy" }}
-{{ $tagClasses := dict "earn-apps" "tag-earn" "finance-tools" "tag-finance" "productivity" "tag-productivity" "privacy" "tag-privacy" }}
+{{ $catNames := dict "earn-apps" "賺錢工具" "finance-tools" "理財工具" "productivity" "效率工具" "privacy" "隱私安全" }}
+{{/* section → mockup 修飾字（cat / score-tile / mini-tile 共用 earn|money|eff|privacy） */}}
+{{ $catMod := dict "earn-apps" "earn" "finance-tools" "money" "productivity" "eff" "privacy" "privacy" }}
+
+{{/* ============ ① 揭露條（首頁專屬信任條）============ */}}
+<div class="disclosure">
+  <p><b>我們獨立實測、不接業配。</b>部分連結為推薦連結，不影響我們的評分，也不影響你的價格。</p>
+</div>
+
+{{/* ============ ② 身分／信任帶（hero，首頁專屬）============ */}}
+<section class="band">
+  <div class="band-inner">
+    <div class="band-col">
+      <span class="band-pill"><span class="dot" aria-hidden="true"></span>2026 版・繁中工具評測</span>
+      <h1>測了才寫，只告訴你值不值得付這個錢</h1>
+      <p class="band-sub">不業配、每個工具至少比兩個、資安 × 耗電 × 穩定性都自己打分。給你立場，不給「視需求而定」。</p>
+      <div class="trust-row">
+        <span>實測 30+ 工具</span>
+        <span>每維度獨立打分</span>
+        <span>有立場不含糊</span>
+        <span>繁中在地評測</span>
+      </div>
+      <div class="cta-row">
+        <a href="#featured" class="btn btn-primary">看最新工具評測 <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        <a href="/start-here/" class="btn btn-ghost">看評分方法</a>
+      </div>
+    </div>
+
+    {{/* 評分示範卡（靜態 placeholder、之後接真資料） */}}
+    <div class="hero-card" aria-label="評分示範卡">
+      <div class="hc-top">
+        <span class="hc-label">評分示範 · 密碼管理器</span>
+        <span class="hc-pick">就選這個</span>
+      </div>
+      <div class="hc-name">Bitwarden</div>
+      <div class="hc-score"><span class="n">9.0</span><span class="d">/ 10 綜合</span></div>
+      <div class="hc-dims">
+        <span class="badge good"><span class="lbl">資安</span><span class="n">9.0</span></span>
+        <span class="badge good"><span class="lbl">CP 值</span><span class="n">9.5</span></span>
+        <span class="badge mid"><span class="lbl">介面</span><span class="n">7.4</span></span>
+      </div>
+      <p class="hc-verdict">實測 6 款密碼管理器後的綜合首選——免費版就夠用、開源可查核，大多數人不用多想。</p>
+    </div>
+  </div>
+</section>
 
 <div class="layout">
   <main>
 
-    {{/* Featured article */}}
-    {{ with $featured }}
-    {{ $page := . }}
-    {{ $section := .Section }}
-    {{ $catName  := index $catNames  $section | default $section }}
-    {{ $tagClass := index $tagClasses $section | default "tag-earn" }}
-    <a href="{{ .RelPermalink }}" class="featured">
-      <div class="featured-inner">
-        <div class="featured-img">
-          {{ with .Params.image }}
-            {{ $src := . }}
-            {{ with $page.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
-            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="eager" fetchpriority="high">
-          {{ else }}
-            <div class="featured-img-placeholder">精選文章</div>
-          {{ end }}
-        </div>
-        <div class="featured-body">
-          <div>
-            <span class="featured-tag {{ $tagClass }}">{{ $catName }}</span>
-            <h2 class="featured-title">{{ .Title }}</h2>
-            <p class="featured-excerpt">{{ .Description | default (.Summary | truncate 100) }}</p>
-          </div>
-          {{ if not .Date.IsZero }}<div class="featured-meta">{{ .Date.Format "2006-01-02" }}</div>{{ end }}
-        </div>
+    {{/* ============ ③ 精選評測 ============ */}}
+    {{ if gt (len $pages) 0 }}
+    {{ $featured := index $pages 0 }}
+    <section id="featured" aria-labelledby="feat-h">
+      <div class="sec-head">
+        <h2 id="feat-h">精選評測</h2>
+        <span class="meta">本週最花時間的一篇</span>
       </div>
-    </a>
-    {{ end }}
 
-    {{/* Article list */}}
-    <div class="section-label"><span>最新文章</span></div>
-    <div class="article-list">
-      {{ range $paginator.Pages }}
+      {{ with $featured }}
       {{ $page := . }}
-      {{ $section := .Section }}
-      {{ $catName   := index $catNames   $section | default $section }}
-      {{ $catClass  := index $catClasses $section | default "cat-earn" }}
-      {{ $dotColor  := dict "cat-earn" "var(--blue)" "cat-finance" "var(--teal)" "cat-productivity" "var(--amber)" "cat-privacy" "var(--purple)" }}
-      {{ $dc := index $dotColor $catClass | default "var(--blue)" }}
-      <a href="{{ .RelPermalink }}" class="article-row">
-        <div class="row-thumb {{ $catClass }}">
-          {{ with .Params.image }}
-            {{ $src := . }}
-            {{ with $page.Resources.GetMatch . }}{{ $src = .RelPermalink }}{{ end }}
-            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="lazy">
-          {{ else }}
-            <div class="thumb-placeholder"></div>
+      {{ $mod := index $catMod .Section | default "eff" }}
+      {{ $catName := index $catNames .Section | default .Section }}
+      {{ $hasScore := .Params.score }}
+      {{/* 只有「真 hero 圖」才走 feat--img；站級 /og-default.jpg placeholder 視同無圖 → 純 editorial text 卡（避免 featured 顯示泛用 OG 圖） */}}
+      {{ $realImg := and .Params.image (ne .Params.image "/og-default.jpg") }}
+      {{ $variant := cond (ne $hasScore nil) "feat--score" (cond $realImg "feat--img" "feat--text") }}
+      <a href="{{ .RelPermalink }}" class="feat {{ $variant }}">
+        <div class="feat-inner">
+          {{/* 左欄：有評分 → 評分 tile；否則有真圖 → 圖；都沒有 → 省略（body 佔滿） */}}
+          {{ if ne $hasScore nil }}
+          <div class="score-tile {{ $mod }}">
+            <div class="overall-lbl">綜合評分</div>
+            <div class="overall-n">{{ printf "%.1f" ($hasScore | float) }}<small>/10</small></div>
+            {{ with .Params.score_note }}<div class="tile-note">{{ . }}</div>{{ end }}
+            {{ with .Params.dims }}<div class="tile-dims">{{ partial "score-badges.html" . }}</div>{{ end }}
+          </div>
+          {{ else if $realImg }}
+          <div class="feat-img">
+            {{ $src := .Params.image }}
+            {{ with $page.Resources.GetMatch .Params.image }}{{ $src = .RelPermalink }}{{ end }}
+            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="eager" fetchpriority="high">
+          </div>
           {{ end }}
-        </div>
-        <div class="row-body">
-          <span class="row-tag">
-            <span class="row-tag-dot" style="background:{{ $dc }}"></span>
-            {{ $catName }}
-          </span>
-          <h3 class="row-title">{{ .Title }}</h3>
-          <p class="row-excerpt">{{ .Description | default .Summary }}</p>
-          {{ if not .Date.IsZero }}<div class="row-meta">{{ .Date.Format "2006-01-02" }}</div>{{ end }}
+
+          <div class="feat-body">
+            <span class="cat {{ $mod }}">{{ $catName }}</span>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Description | default (.Summary | plainify | truncate 110) }}</p>
+            <span class="feat-date">{{ $catName }}{{ if not .Date.IsZero }}・{{ .Date.Format "2006-01-02" }}{{ end }}</span>
+            <span class="read-link">讀完整實測 <span class="arrow" aria-hidden="true">&rarr;</span></span>
+          </div>
         </div>
       </a>
       {{ end }}
-    </div>
+    </section>
+    {{ end }}
 
-    {{ partial "pagination.html" . }}
+    {{/* ============ ④ 最新評測（editorial 橫排列表）============ */}}
+    {{ $rest := after 1 $pages }}
+    {{ $paginator := .Paginate $rest 11 }}
+    <section aria-labelledby="latest-h" style="margin-top:48px;">
+      <div class="sec-head">
+        <h2 id="latest-h">最新評測</h2>
+        <span class="meta">每篇都比過兩個以上</span>
+      </div>
 
+      <div class="ed-list">
+        {{ range $paginator.Pages }}
+        {{ $mod := index $catMod .Section | default "eff" }}
+        {{ $catName := index $catNames .Section | default .Section }}
+        {{ $hasScore := .Params.score }}
+        {{ $rowVariant := cond (ne $hasScore nil) "ed-row--score" "ed-row--text" }}
+        <a href="{{ .RelPermalink }}" class="ed-row {{ $rowVariant }} {{ $mod }}">
+          {{ if ne $hasScore nil }}
+          <div class="mini-tile {{ $mod }}">
+            <div class="mt-lbl">綜合</div>
+            <div class="mt-n">{{ printf "%.1f" ($hasScore | float) }}</div>
+          </div>
+          {{ end }}
+          <div class="ed-content">
+            <span class="cat {{ $mod }}">{{ $catName }}</span>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Description | default (.Summary | plainify | truncate 90) }}</p>
+            <div class="ed-foot">
+              {{ with .Params.dims }}{{ partial "score-badges.html" . }}{{ end }}
+              {{ if not .Date.IsZero }}<span class="ed-date">{{ .Date.Format "2006-01-02" }}</span>{{ end }}
+            </div>
+          </div>
+        </a>
+        {{ end }}
+      </div>
+
+      {{ partial "pagination.html" . }}
+    </section>
   </main>
 
   {{ partial "sidebar.html" . }}
 </div>
+
+{{/* ============ ⑤ 角色標籤比較卡（選擇性、資料驅動；無資料整塊隱藏）============
+     資料源：data/compare.yaml（site.Data.compare）。schema：
+       title: "本月密碼管理器對決"
+       meta: "三款主流，各有最適合的人"
+       cards:
+         - name: Bitwarden
+           tag: 大多數人的最佳解
+           role: 主推・全能        # 角色標籤文字
+           role_class: all         # all(琥珀主推) | cp(鋼藍) | sec(紫)
+           pick: true              # true 顯示「就選這個」高亮 + 邊框
+           price: "$0"
+           price_note: " / 免費夠用"
+           features: ["免費版就能無限裝置同步", "開源、可自架"]
+           dims: [{label: 資安, value: 9.0}, {label: CP 值, value: 9.5}]
+     檔案不存在 → hugo.Data.compare 為 nil → 整塊不渲染。 */}}
+{{ with hugo.Data.compare }}
+{{ if .cards }}
+<section class="compare-sec" aria-labelledby="cmp-h">
+  <div class="sec-head">
+    <h2 id="cmp-h">{{ .title | default "本月工具對決" }}</h2>
+    {{ with .meta }}<span class="meta">{{ . }}</span>{{ end }}
+  </div>
+  <div class="compare-grid">
+    {{ range .cards }}
+    {{ $card := . }}
+    <div class="pcard{{ if .pick }} pick{{ end }}">
+      {{ with .role }}<span class="role {{ $card.role_class | default "all" }}">{{ . }}</span>{{ end }}
+      {{ if .pick }}<span class="pick-corner">就選這個</span>{{ end }}
+      <div class="pname">{{ .name }}</div>
+      {{ with .tag }}<div class="ptag">{{ . }}</div>{{ end }}
+      {{ with .price }}<div class="price">{{ . }}<small>{{ $card.price_note }}</small></div>{{ end }}
+      {{ with .features }}
+      <ul class="feats">
+        {{ range . }}<li><span class="ck" aria-hidden="true">&check;</span>{{ . }}</li>{{ end }}
+      </ul>
+      {{ end }}
+      {{ with .dims }}<div class="card-dims">{{ partial "score-badges.html" . }}</div>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
 {{ end }}

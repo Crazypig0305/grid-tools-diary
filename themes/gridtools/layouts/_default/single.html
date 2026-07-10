@@ -17,6 +17,14 @@
         {{ if not .Date.IsZero }}<span>{{ .Date.Format "2006-01-02" }}</span>{{ end }}
         {{ if and (not .Date.IsZero) (not .Lastmod.IsZero) (ne .Date .Lastmod) }}<span>·</span><span>更新：{{ .Lastmod.Format "2006-01-02" }}</span>{{ end }}
       </div>
+
+      {{/* 綜合評分摘要（選擇性：有 score frontmatter 才顯示、無則不渲染） */}}
+      {{ with .Params.score }}
+      <div class="article-score">
+        <div class="article-score-overall"><span class="as-n">{{ printf "%.1f" (. | float) }}</span><span class="as-d">/ 10 綜合評分</span></div>
+        {{ with $.Params.dims }}<div class="dims">{{ partial "score-badges.html" . }}</div>{{ end }}
+      </div>
+      {{ end }}
     </header>
 
     {{- with .Params.image }}
