@@ -6,7 +6,6 @@ lastmod: 2026-05-18
 canonicalURL: "https://gridtoolsdiary.com/privacy/2fa-authenticator-app-compare/"
 categories: ["privacy"]
 tags: ["2FA", "authenticator", "雙因素驗證", "passkey", "資安"]
-image: /og-default.jpg
 draft: false
 ---
 
@@ -39,6 +38,8 @@ draft: false
 | **Authy** | 免費 | ✅（多裝置）| 雲端加密備份 | ❌ | ⚠️（Twilio Enterprise 可見）|
 | **1Password 內建** | 付費（USD 36/年起）| ✅（隨密碼庫）| 隨密碼庫雲端備份 | ❌ | ❌（個人方案）|
 | **Bitwarden 內建** | Premium USD 10/年 | ✅（隨密碼庫）| 隨密碼庫雲端備份 | ✅ | ❌（個人方案）|
+
+<!-- IG-angle: 把「企業 admin 看不看得到我的驗證碼」這個多數比較文沒列的維度拉進五款比較表，再用手機遺失／雲端帳號被盜／企業可見性三個風險場景做矩陣，把「哪個最好」換成「你最怕哪種情況」 -->
 
 ### Google Authenticator
 

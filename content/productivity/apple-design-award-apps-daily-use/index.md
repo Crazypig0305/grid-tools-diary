@@ -5,7 +5,6 @@ lastmod: 2026-06-30
 categories: ["productivity"]
 tags: ["Apple 設計大獎", "App 推薦", "iOS App", "效率工具", "上班族", "工具評測"]
 description: "2024-2025 Apple Design Awards 得獎 App 有 20 多個，但用「裝了之後一個月內還會主動打開」當過濾器，真正撐得住的只有 4 個。其餘的視覺很炫、日常打不開。直接告訴你哪些值得裝、哪些是中看不中用。"
-image: /og-default.jpg
 draft: false
 ---
 

@@ -6,7 +6,6 @@ lastmod: 2026-05-25T10:28:00+08:00
 canonicalURL: "https://gridtoolsdiary.com/privacy/passkey-vs-password/"
 categories: ["privacy"]
 tags: ["passkey", "密碼管理器", "FIDO", "webauthn", "雙因素驗證", "資安"]
-image: /og-default.jpg
 draft: false
 ---
 
