@@ -1,7 +1,7 @@
 ---
 title: "雲端硬碟哪個最好用？Google Drive vs OneDrive vs iCloud 三方比較"
 date: 2023-06-01
-lastmod: 2026-06-23
+lastmod: 2026-09-14
 categories: ["productivity"]
 tags: ["Google Drive", "OneDrive", "iCloud", "雲端儲存", "效率工具"]
 description: "Google Drive、OneDrive、iCloud 三選一？從免費容量、跨平台、整合體驗三個維度直接比，告訴你哪個值得當主力。"
@@ -9,8 +9,8 @@ image: /images/google-one-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 6 月｜最後更新：2026 年 6 月
-> 三家定價與免費容量已於 2026 年 6 月逐項校對確認，本次並補上「Google Drive vs iCloud」直接配對結論、更新 OneDrive／Microsoft 365 的現行方案價格。
+> 📅 原文發布：2023 年 6 月｜最後更新：2026 年 9 月
+> 三家的免費容量與付費方案價格已於 2026 年 9 月對照官方方案頁重新校對（Google One 台灣方案頁目前只列 100 GB、2 TB、5 TB 三層）。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 ---
@@ -20,22 +20,27 @@ draft: false
 先說清楚這三個各自代表什麼，三者皆屬於[雲端儲存（cloud storage）](https://en.wikipedia.org/wiki/Cloud_storage)服務範疇：
 
 - **[Google Drive](https://drive.google.com/)**：Google 生態系的雲端儲存，和 Gmail、Google Docs、Photos 深度整合
-- **[OneDrive](https://onedrive.live.com/)**：Microsoft 生態系的雲端儲存，和 Windows、Office 365、Teams 深度整合
+- **[OneDrive](https://onedrive.live.com/)**：Microsoft 生態系的雲端儲存，和 Windows、Microsoft 365（Word、Excel）、Teams 深度整合
 - **[iCloud](https://www.icloud.com/)**：Apple 生態系的雲端儲存，和 iPhone、Mac、iOS App 深度整合
 
 如果你已經深度在某個生態系裡，答案很可能已經決定了。問題通常出現在你使用多個生態系、或者想把某個功能做到最好的時候。
 
 ---
 
-## 免費容量比較
+## 免費容量與付費方案比較
 
-| 服務 | 免費容量 | 100GB 月費（參考）|
-|---|---|---|
-| Google Drive | 15 GB（跨 Gmail、Drive、Photos 共用）| NT$65（[Google One](https://one.google.com/)）|
-| OneDrive | 5 GB | Microsoft 365 Basic 含 100 GB，年費 NT$600（約 NT$50／月）|
-| iCloud | 5 GB | NT$30（50 GB）/ NT$90（200 GB）|
+<!-- IG-data: 2026 年 9 月對照三家官方方案頁整理的免費容量／入門付費／大容量價格，年繳方案換算成月費 -->
+| 服務 | 免費容量 | 入門付費方案 | 大容量方案 |
+|---|---|---|---|
+| Google Drive | 15 GB（Gmail、Drive、相簿共用）| 100 GB，NT$65／月（[Google One](https://one.google.com/about/plans)）| 2 TB，NT$330／月（Google AI Plus，綁 Gemini 功能）|
+| OneDrive | 5 GB | 100 GB，價格見[官方頁](https://www.microsoft.com/zh-tw/microsoft-365/p/microsoft-365-basic/cfq7ttc0ktxs)（Microsoft 365 基本版）| 1 TB，NT$3,090／年，約 NT$258／月（[Microsoft 365 個人版](https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products)，含 Word、Excel）|
+| iCloud | 5 GB | 50 GB，NT$30／月（[iCloud+](https://support.apple.com/zh-tw/108047)）| 2 TB，NT$300／月 |
 
-Google 的 15 GB 免費額度是三者最高的，但 Gmail 也在吃這個空間，實際可用量視情況而定。Apple 的 5 GB 非常容易滿，尤其 iCloud 備份會吃很多空間。OneDrive 的 5 GB 免費額度偏少，要加容量現在最便宜是 Microsoft 365 Basic（年費 NT$600 含 100 GB）；但 OneDrive 真正划算的點不在小容量，而是 Microsoft 365 個人版（2026 台灣年費 NT$3,090）就附 1 TB——如果你本來就要用 Word、Excel，這 1 TB 等於白送。
+Google 的 15 GB 免費額度是三者最高的，但 Gmail 和相簿也在吃這個空間，實際可用量視情況而定。Apple 的 5 GB 非常容易滿，尤其 iCloud 備份會吃很多空間。OneDrive 的 5 GB 免費額度偏少，而且它划算的點不在小容量——Microsoft 365 個人版一年 NT$3,090 就附 1 TB，如果你本來就要用 Word、Excel，這 1 TB 等於順便送的；沒在用 Office 的話，OneDrive 的性價比並不突出。
+
+付費的直接比較：小容量是 iCloud 50 GB 的 NT$30 最便宜；到了 2 TB，iCloud+ 的 NT$300 比 Google AI Plus 的 NT$330 便宜，而且 Google 這一層已經和 Gemini AI 功能綁在一起賣。
+
+三家都能跟家人共用：Google One 每個方案最多可再跟 5 人共用、iCloud+ 最多可與 5 位其他家庭成員共享，兩者都是全家共用同一份容量；[Microsoft 365 家用版](https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products)（NT$4,190／年）則是最多 6 人、每人各自 1 TB。
 
 ---
 
@@ -43,62 +48,25 @@ Google 的 15 GB 免費額度是三者最高的，但 Gmail 也在吃這個空�
 
 **Google Drive**：Windows、Mac、iOS、Android、Web 都有原生 App 或支援，跨平台最廣泛。唯一的問題是 Windows 上的 Drive 桌面 App 偶爾有同步問題。
 
-**OneDrive**：在 Windows 上整合最深，幾乎是 Windows 的一部分，資料夾直接出現在檔案總管裡。Mac 版可用但體驗沒有 Windows 版流暢。iOS / Android 都有 App。底層所有資料傳輸與儲存皆採用 [TLS 1.2](https://en.wikipedia.org/wiki/Transport_Layer_Security) 加密，企業版本另支援 [BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/) 磁碟層級加密。
+**OneDrive**：在 Windows 上整合最深，幾乎是 Windows 的一部分，資料夾直接出現在檔案總管裡。Mac 版可用但體驗沒有 Windows 版流暢。iOS / Android 都有 App。資料傳輸時走 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) 加密；存放在雲端時，[每個檔案以獨立的 AES-256 金鑰加密](https://support.microsoft.com/zh-tw/office/onedrive-%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AD%B7%E6%82%A8%E5%9C%A8%E9%9B%B2%E7%AB%AF%E4%B8%AD%E7%9A%84%E8%B3%87%E6%96%99-23c6ea94-3608-48d7-8bf0-80e142edd1e1)，公司／學校帳號的 OneDrive 另外加上 [BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/) 磁碟層級加密（見 [Microsoft 的 OneDrive 加密說明](https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo)）。
 
 **iCloud**：在 Apple 裝置上無縫整合，Mac 和 iPhone 之間的同步幾乎感覺不到延遲。Windows 有 iCloud for Windows，但整合度遠不如 Apple 裝置。Android 根本沒有官方 App。
 
 ---
 
-## Google One 方案怎麼選：100GB、200GB、2TB 差在哪
+## Google One 方案：主力放 Google Drive 要怎麼升級
 
-<!-- IG-data: 整理 2026 台灣 Google One 三層方案月費 + AI 方案 + 學生方案現況的一張表 -->
-**如果你決定主力放 Google Drive，付費就是訂 Google One——2026 年台灣的方案分三層：100GB NT$65／月、200GB NT$90／月、2TB NT$330／月（以 [Google One 官方方案頁](https://one.google.com/about/plans)為準）。** Google One 不是「另一個 App」，而是把你 Gmail、Drive、Photos 共用的那 15GB 免費空間往上加購的方案，所有 Google 服務共享這個額度。
+**如果你決定主力放 Google Drive，付費就是訂 Google One——2026 年 9 月台灣官方方案頁列出三層：100 GB NT$65／月、2 TB NT$330／月（Google AI Plus）、5 TB NT$650／月（Google AI Pro），改年繳最多省 16%。** Google One 不是另一個 App，而是把 Gmail、Drive、相簿共用的那 15 GB 往上加購，所有 Google 服務共用這份額度。
 
-| Google One 方案 | 月費（台灣）| 適合誰 |
-|---|---|---|
-| 100GB | NT$65 | 照片 + 文件輕量使用、15GB 不夠用的人 |
-| 200GB（AI Plus）| NT$90 | 容量稍多，並含 Gemini AI 基本額度 |
-| 2TB（Google AI Pro）| NT$330 | 大量備份／影片、想用 Gemini 3 Pro 與 Veo 進階 AI 功能 |
+怎麼選：只是要存東西，先看 100 GB 夠不夠——這是唯一不綁 AI 的一層；2 TB 以上都跟 Gemini AI 功能綁在一起，沒有「只買容量」的版本。真的需要大容量時，看你手上的裝置分流：
 
-幾個選方案常被問到的點：
+- **本來就在 Apple 生態（iPhone + Mac）**：iCloud+ 2 TB NT$300／月比 Google AI Plus 便宜，也不用替 Gemini 付錢；不需要到 2 TB 的話，iCloud+ 200 GB NT$90／月是中間選項。但 iCloud 在 Android 沒有官方 App，手上有 Android 裝置就不適用。
+- **本來就在付 Microsoft 365**：先把附帶的 1 TB 用起來，它是 Office 訂閱順便送的；但單純為了容量去訂 Microsoft 365 並不划算。
+- **兩者都不是（Android 或混用平台）**：Google 的 2 TB 只能連 Gemini 一起買（AI Plus NT$330／月）。不用 AI 的話，先評估 100 GB 夠不夠，或把照片和文件分開放，別讓它們擠在同一份額度裡。
 
-- **家庭方案怎麼算？** Google One 沒有獨立的「家庭方案」價格——你訂任何一層，都可以最多再分享給 5 個人（含你自己共 6 人），每人有自己的私人空間、但共用同一份容量額度。所以一家人合訂 2TB 攤下來，比各買各的划算很多。
-- **AI 方案要不要加？** 200GB 以上開始綁 Gemini AI 功能。如果你只是要存東西、不太用 AI，100GB 的 NT$65 就夠；會用到 Deep Research、Veo 影片生成這類進階功能的，才需要往 2TB 的 Google AI Pro 跳。純粹為了容量去買 2TB 有點浪費。
-- **學生方案還有嗎？** 要講清楚：Google 在台灣推過的「學生免費一年 Google AI Pro（含 5TB）」優惠[已於 2025 年 12 月 9 日截止申請](https://blog.google/intl/zh-tw/products/explore-get-answers/ai-pro-student-offer/)，2026 年不能再領。現在學生想用只能照一般方案付費，或用 Gemini 的免費版。網路上很多「學生免費」教學是舊的，別被誤導。
+另外，Google One 的官方方案頁目前沒有列出 200 GB 方案（iCloud+ 的 200 GB 仍在賣），如果你看到 Google One「200 GB 月付 NT$90」的比較表，先到官方頁確認還買不買得到。
 
-至於「去土耳其開帳號比較便宜」這類跨區操作，這裡不展開——跨區訂閱有付款方式被擋、帳號被鎖的風險，不是穩定省錢的路，不建議當主力方案。
-
-詳細的容量值不值得、何時該升級，可以看這篇：[Google One 100GB 方案值不值得訂？](/productivity/google-one-review/)
-
----
-
-## OneDrive vs iCloud：只在這兩個之間選的話
-
-<!-- IG-angle: 把 OneDrive 跟 iCloud 抽出來直接對打，回答只用這兩個生態系的人 -->
-**如果你不用 Google 生態系、只在 OneDrive 和 iCloud 之間猶豫，判斷只看一件事：你的電腦是 Windows 還是 Mac。** 這兩款的差別不在容量或價格，而在「跟哪個作業系統綁得最緊」。
-
-- **Windows + iPhone 的人**：OneDrive 在 Windows 檔案總管裡是原生的，但你 iPhone 的照片備份歸 iCloud 管——這組合最尷尬，照片在 iCloud、文件在 OneDrive，兩邊各管一塊。實務上多數人會讓 iCloud 只備份手機系統資料、文件全部丟 OneDrive。
-- **Mac + Android（少數）**：iCloud 在 Android 沒有官方 App，等於廢一半，這種組合直接選 OneDrive。
-- **純 Apple 全家桶**：iCloud 無腦贏，OneDrive 在 Mac 上的體驗就是「能用但不順」。
-- **價格層面**：iCloud 50GB 只要 NT$30，是小容量裡最便宜的；OneDrive 單買容量不划算，它的價值幾乎全在「Microsoft 365 訂閱附帶的 1TB」——如果你沒在付 Microsoft 365，OneDrive 的性價比其實不高。
-
-一句話：**選 OneDrive 還是 iCloud，本質是選 Windows 還是 Mac，不是選雲端硬碟。**
-
----
-
-## Google Drive vs iCloud：只在這兩個之間選的話
-
-<!-- IG-angle: 把 Google Drive 跟 iCloud 抽出來直接對打，回答用 iPhone 但不買 Microsoft 365 的人 -->
-**如果你用 iPhone、但不想被綁進 Apple 或 Microsoft 任何一邊，Google Drive 和 iCloud 二選一的答案是：跨平台、跨裝置存取就選 Google Drive，純 Apple 裝置間無縫同步就選 iCloud。** 這是 iPhone 用戶最常卡住的一組——iCloud 是手機內建的、最省事，但你只要有一台 Windows 電腦或 Android 裝置，它就開始綁手綁腳。
-
-直接看四個判斷點：
-
-- **免費容量**：Google Drive 15GB vs iCloud 5GB，Google 多三倍。但 Google 的 15GB 是 Gmail、Drive、Photos 共用，iCloud 的 5GB 還要扛 iPhone 全機備份，兩邊都容易滿，實際差距沒帳面那麼大。
-- **跨裝置存取**：Google Drive 在 Windows、Mac、Android、iOS、Web 全平台都能用；iCloud 在 Android 沒有官方 App、在 Windows 也只是堪用。**只要你不是「所有裝置都是 Apple」，Google Drive 幾乎一定比較順。**
-- **付費價格（2026 台灣）**：iCloud 50GB 只要 NT$30，是小容量裡最便宜的；Google One 最低 100GB NT$65。如果你只要一點點空間放手機備份，iCloud 50GB 划算；要的是 100GB 以上 + 跨平台，Google One 才是主力。200GB 兩邊同價（都是 NT$90），看你綁哪個生態系。
-- **文件協作**：大量用 Google Docs／Sheets → Google Drive 是自然的家；只是放照片和備份、人又在 Apple 生態裡 → iCloud 夠用。
-
-一句話：**用 iPhone 的人預設會落到 iCloud，但只要你有跨平台需求或想要更大的免費空間，Google Drive 才是更穩的主力——iCloud 留著備份手機系統資料就好。**
+100 GB 值不值得訂、什麼時候該升級，細節看這篇：[Google One 100GB 方案值不值得訂？](/productivity/google-one-review/)
 
 ---
 
@@ -144,7 +112,7 @@ Google 的 15 GB 免費額度是三者最高的，但 Gmail 也在吃這個空�
 
 沒有一個「最好」的雲端硬碟，只有最適合你生態系的選擇。
 
-Windows 主力 → OneDrive。Apple 全家桶 → iCloud。其他情況，或者不確定從哪開始 → Google Drive（免費額度最大、跨平台最廣）。如果你的主要需求是筆記和知識管理，Google Drive 配合 Docs 只是基礎，可以看[筆記 App 比較：[Notion](https://www.notion.so/)、[Obsidian](https://obsidian.md/)、Logseq 哪個適合上班族？](/productivity/note-app-compare/)了解更適合的工具選擇。
+Windows 主力 → OneDrive。Apple 全家桶 → iCloud。其他情況，或者不確定從哪開始 → Google Drive（免費額度最大、跨平台最廣）。如果你的主要需求是筆記和知識管理，Google Drive 配合 Docs 只是基礎，可以看[筆記 App 比較：Notion、Obsidian、Logseq 哪個適合上班族？](/productivity/note-app-compare/)了解更適合的工具選擇。
 
 → [Google Drive](https://drive.google.com)｜[OneDrive](https://onedrive.live.com)｜[iCloud](https://www.icloud.com)
 
