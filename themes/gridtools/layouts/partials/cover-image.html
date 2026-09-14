@@ -1,0 +1,27 @@
+{{/* cover-image — resolve a page's .Params.image to { src, width, height }.
+     Two sources on this site:
+       1. page-bundle resource (relative filename, e.g. "foo-hero.webp") -> .Resources.GetMatch
+       2. site-root static path (e.g. "/images/foo.jpg", file lives in static/) -> imageConfig
+     Intrinsic width/height let the browser reserve the cover box before the file
+     arrives, so the article body is not pushed down on load (CLS / unsized-images).
+     Missing size -> build warning (so `hugo --minify` zero-warning catches a regression). */}}
+{{- $ref := .Params.image -}}
+{{- $src := $ref -}}
+{{- $w := 0 -}}
+{{- $h := 0 -}}
+{{- with .Resources.GetMatch $ref -}}
+  {{- $src = .RelPermalink -}}
+  {{- $w = .Width -}}
+  {{- $h = .Height -}}
+{{- else -}}
+  {{- $file := path.Join "static" (strings.TrimPrefix "/" $ref) -}}
+  {{- if fileExists $file -}}
+    {{- $cfg := imageConfig $file -}}
+    {{- $w = $cfg.Width -}}
+    {{- $h = $cfg.Height -}}
+  {{- end -}}
+{{- end -}}
+{{- if not (and $w $h) -}}
+  {{- warnf "cover-image: %q on %s has no intrinsic size; <img> will be unsized (CLS)" $ref .RelPermalink -}}
+{{- end -}}
+{{- return (dict "src" $src "width" $w "height" $h) -}}

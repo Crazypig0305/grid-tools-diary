@@ -28,12 +28,9 @@
     </header>
 
     {{- with .Params.image }}
-    {{- $coverSrc := . }}
-    {{- with $.Resources.GetMatch . }}
-      {{- $coverSrc = .RelPermalink }}
-    {{- end }}
+    {{- $cover := partial "cover-image.html" $ }}
     <div class="article-cover">
-      <img src="{{ $coverSrc }}" alt="{{ $.Title }}" loading="eager" decoding="async">
+      <img src="{{ $cover.src }}" alt="{{ $.Title }}"{{ with $cover.width }} width="{{ . }}"{{ end }}{{ with $cover.height }} height="{{ . }}"{{ end }} loading="eager" decoding="async">
     </div>
     {{- end }}
 

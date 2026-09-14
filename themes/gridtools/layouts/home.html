@@ -81,9 +81,8 @@
           </div>
           {{ else if $realImg }}
           <div class="feat-img">
-            {{ $src := .Params.image }}
-            {{ with $page.Resources.GetMatch .Params.image }}{{ $src = .RelPermalink }}{{ end }}
-            <img src="{{ $src }}" alt="{{ $page.Title }}" loading="eager" fetchpriority="high">
+            {{ $cover := partial "cover-image.html" $page }}
+            <img src="{{ $cover.src }}" alt="{{ $page.Title }}"{{ with $cover.width }} width="{{ . }}"{{ end }}{{ with $cover.height }} height="{{ . }}"{{ end }} loading="eager" fetchpriority="high">
           </div>
           {{ end }}
 
