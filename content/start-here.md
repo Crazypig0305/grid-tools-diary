@@ -2,7 +2,7 @@
 title: "新手從這裡開始"
 description: "不確定從哪篇文章開始看？按你的需求選一條路，直接找到最適合你的工具評測。"
 date: 2026-04-01
-lastmod: 2026-04-24
+lastmod: 2026-09-15
 draft: false
 ---
 
@@ -39,7 +39,7 @@ draft: false
 **如果你在找理財工具**（記帳、數位帳戶）
 
 - [記帳 App 哪個最適合懶人？MOZE vs 麻布記帳 vs CWMoney 真實評比](/finance-tools/budget-app-compare/) — 三款用法場景完全不同，選錯會放棄
-- [麻布記帳自動抓帳真的安全嗎？開放銀行 API 資安風險評測](/finance-tools/moneybook-security/) — 自動帳本好用，但要知道它在做什麼
+- [麻布記帳自動抓帳真的安全嗎？代理同步 vs 開放銀行 API 資安評測](/finance-tools/moneybook-security/) — 自動帳本好用，但要知道它在做什麼
 
 ---
 
