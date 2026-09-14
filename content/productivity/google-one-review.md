@@ -1,7 +1,7 @@
 ---
 title: "Google One 值得訂嗎？100GB 方案性價比分析"
 date: 2023-01-01
-lastmod: 2026-04-16
+lastmod: 2026-09-14
 categories: ["productivity"]
 tags: ["Google One", "雲端儲存", "訂閱服務", "Google", "效率工具"]
 description: "Google One 100GB 方案每月 NT$65，到底值不值得訂？搞清楚你買的是什麼，再決定要不要付這筆錢。"
@@ -9,8 +9,8 @@ image: /images/google-one-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 1 月｜最後更新：2026 年 4 月
-> ⚠️ 重要更新：[Google One](https://one.google.com/) [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF) 已於 2024 年 6 月 20 日正式停服，不再是訂閱權益的一部分。本文已移除 VPN 相關描述並更新定價。
+> 📅 原文發布：2023 年 1 月｜最後更新：2026 年 9 月
+> ⚠️ 重要更新：[Google One](https://one.google.com/) [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF) 已於 2024 年 6 月 20 日正式停服，不再是訂閱權益的一部分。本文已移除 VPN 相關描述；方案與價格已於 2026 年 9 月對照 Google One 台灣官方方案頁重新校對（目前付費方案只有 100 GB、2 TB、5 TB 三層，已沒有 200 GB）。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 ---
@@ -29,9 +29,8 @@ Google 帳號免費提供 15 GB 儲存空間，跨 Gmail、[Google Drive](https:
 |---|---|---|
 | 免費 | 15 GB | NT$0 |
 | 基本版 | 100 GB | NT$65 |
-| 標準版 | 200 GB | NT$90 |
-| 進階版 | 2 TB | NT$330 |
-| AI Pro | 5 TB + Gemini Advanced | $20 USD/月 |
+| Google AI Plus | 2 TB（綁 Gemini 功能）| NT$330 |
+| Google AI Pro | 5 TB（綁 Gemini 進階功能）| NT$650 |
 
 以下分析以大多數人最常考慮的 **100 GB 方案**為主。
 
@@ -45,13 +44,15 @@ Gmail 本身就在吃這個空間，如果你用 Gmail 多年、夾帶附件的�
 
 ## 100 GB 方案實際買到什麼
 
-**儲存空間本身**：100 GB 可以家庭最多 5 人共享，不是每人各 100 GB，是一個帳號主 100 GB 空間共用。
+<!-- IG-synthesis: 2026-09-14 把 Google One 台灣官方方案頁（100 GB 權益只列儲存空間與最多 5 人共用）、Google One 說明頁（Google 商店回饋限 200 GB 以上且只限美加英德澳）與 Google 官方部落格（相簿 AI 編輯 2024-05 起開放所有使用者）交叉讀，得出台灣 100 GB 實際多買到的只有容量與客服——三份文件各自都沒把這個結論講出來 -->
 
-**Google Photos 進階編輯**：Magic Eraser（去除雜物）、Magic Editor（AI 修圖）、Photo Unblur（去模糊）等 AI 編輯功能。這些功能免費版有限制，訂閱後可以更多次使用。
+**儲存空間本身**：100 GB 最多可與 5 人共用，不是每人各 100 GB，是全家共用這一份 100 GB。
+
+**Google Photos AI 編輯：不是訂閱才有**。Magic Eraser（去除雜物）、Photo Unblur（去模糊）等 AI 編輯功能，[自 2024 年 5 月起已開放所有 Google 相簿使用者免費使用](https://blog.google/products/photos/google-photos-editing-features-availability/)；官方方案頁列出的 100 GB 權益也只有儲存空間本身，不要為了修圖功能訂 100 GB。
 
 **Google 專家支援**：可以透過電話、聊天、Email 聯繫 Google 客服，免費帳號基本上沒有這個管道。
 
-**Google Store 回饋**：購買 Google 硬體可以享有部分購物點數回饋，台灣市場是否適用請確認當地活動。
+**Google Store 回饋：台灣的 100 GB 拿不到**。依 [Google One 說明](https://support.google.com/googleone/answer/9003266?hl=zh-Hant)，Google 商店消費金回饋只給 200 GB 以上方案，而且只適用美國、加拿大、英國、德國和澳洲。
 
 ---
 
@@ -73,7 +74,7 @@ Google One VPN 在 2024 年 6 月正式關閉，以「使用率過低」為由�
 
 ## 和其他雲端儲存比較
 
-100 GB 的市場行情：iCloud+ 50 GB 方案約 NT$30/月（100 GB 為 NT$90）、[OneDrive](https://onedrive.live.com/) 100 GB 約 NT$70/月（Microsoft 365 個人版含 1 TB）。
+100 GB 的市場行情：iCloud+ 50 GB 方案 NT$30/月（再上一層是 200 GB NT$90，沒有 100 GB 方案）、[OneDrive](https://onedrive.live.com/) 100 GB（Microsoft 365 Basic）NT$60/月（Microsoft 365 個人版含 1 TB）。
 
 如果你是 Apple 生態系用戶，iCloud+ 更自然。如果你用 Windows 和 Microsoft Office，OneDrive 加上 Microsoft 365 算起來每 GB 更划算。Google One 的優勢是整合 Google 自家服務最順，對 Android + Gmail + Chrome 用戶來說切換成本最低。三個主流雲端硬碟的完整對比可以看這篇：[Google Drive vs OneDrive vs iCloud 三方比較](/productivity/cloud-storage-compare/)
 
