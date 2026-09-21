@@ -1,7 +1,7 @@
 ---
 title: "1Password 漲價 33% 後還值得訂嗎？2026 家庭版 vs 個人版 vs Bitwarden 試算"
 date: 2025-11-10
-lastmod: 2026-09-13T00:19:00+08:00
+lastmod: 2026-09-21T00:00:00+08:00
 description: "1Password 2026 年 3 月起個人版漲至 47.88 美元（漲幅 33%）、家庭版漲至 71.88 美元（漲幅 20%）。本文實際試算三種方案的年費差距，比較 Bitwarden 免費版與付費版的功能落差，幫你決定要續訂、降方案還是直接換掉。"
 categories: ["privacy"]
 tags: ["1password", "bitwarden", "密碼管理器", "隱私安全", "訂閱服務"]
@@ -11,6 +11,7 @@ draft: false
 
 > 📅 原文發布：2025 年 11 月｜最後更新：2026 年 9 月
 > 本文所有訂閱價格已於 2026 年 9 月 12 日逐筆對照 [1Password 官方定價頁](https://1password.com/pricing/personal)與 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)重新查證；Bitwarden 漲價時間與方案內容以[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)為準，漲價前的舊價以 [Internet Archive 存的 2025 年 11 月官方定價頁](https://web.archive.org/web/20251115091230/https://bitwarden.com/pricing/)為準；1Password 漲價前的舊價與新價生效日，則以 [MacRumors 2026 年 2 月 24 日報導](https://www.macrumors.com/2026/02/24/1password-march-price-increase/)引述的官方通知為準（1Password 官方定價頁只列現價）。
+> 2026 年 9 月 21 日：Dashlane 舊免費帳號的升級／匯出期限（2026 年 9 月 16 日）已過，依官方公告與說明中心現行頁面改寫成現況；同日再對照兩家定價頁，價格未變，並依 1Password 官方說明更正家庭版人數的寫法（含 5 人、可再加人另計費，不是上限 5 人）。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 用了 1Password 兩年多，帳單自動續費扣的那天才發現多了一筆——原來漲價通知寄到垃圾信件夾，根本沒看到。
@@ -32,7 +33,7 @@ draft: false
 | 方案 | 原價（每年）| 現價（每年）| 漲幅 |
 |---|---|---|---|
 | 個人版（Individual）| $35.88 USD | $47.88 USD | +33% |
-| 家庭版（Families，≤ 5 人）| $59.88 USD | $71.88 USD | +20% |
+| 家庭版（Families，含 5 人）| $59.88 USD | $71.88 USD | +20% |
 
 換算成台幣（以 1 USD ≈ 32 NTD 計）：
 
@@ -121,15 +122,15 @@ draft: false
 
 | 選擇 | 年費 | 每人均攤（5 人計）| 備註 |
 |---|---|---|---|
-| 繼續訂 1Password 家庭版 | $71.88 USD | NT$460/人 | 最高上限 5 人 |
-| 換 Bitwarden Families | $47.88 USD | NT$306/人 | 最高上限 6 人，省 $24/年 |
+| 繼續訂 1Password 家庭版 | $71.88 USD | NT$460/人 | 含 5 人，超過要另外加價 |
+| 換 Bitwarden Families | $47.88 USD | NT$306/人 | 最多 6 人，省 $24/年 |
 | 5 人各自訂 Bitwarden Premium | $99 USD（5 × $19.80）| NT$634/人 | 無家庭共享密碼庫，不推薦 |
 
 **家庭用戶的計算邏輯**：
 
 Bitwarden Families 方案對比 1Password 家庭版有兩個明確優勢：
 1. 便宜 $24/年（$47.88 vs $71.88）
-2. 支援 6 個成員（vs 1Password 最多 5 人）
+2. 年費內含 6 個成員（1Password 家庭版[官方說明](https://support.1password.com/explore/families/)寫含 5 人，[帳務說明](https://support.1password.com/membership-billing-policy/)寫再加人要另外按比例計費）
 
 唯一需要確認的：**家庭成員願不願意花半小時遷移**。如果父母輩使用者不熟悉 App 操作，遷移成本可能高於年費差距。這是你要自己評估的變數。
 
@@ -166,11 +167,11 @@ Bitwarden Families 方案對比 1Password 家庭版有兩個明確優勢：
 | 功能完整度 | ★★★★☆ | Premium 含 [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF)（[Dashlane 官方說明](https://www.dashlane.com/blog/improved-vpn-experience)：與 Hotspot Shield 合作、透過 Hotspot Shield 的 App 使用），是三者中唯一附 VPN 的；和 Bitwarden 一樣沒有 Travel Mode |
 | 隱私透明度 | ★★★☆☆ | 2023 年起把 Android／iOS App 原始碼放上 GitHub（[官方公告](https://www.dashlane.com/blog/mobile-code-now-publicly-available)；非商業授權、官方說無法拿來自行編譯），不是 Bitwarden 那種整套開源 |
 | CP 值 | 未評分（官方價格未能核對）| 官方定價頁的年費是動態載入，本次查證抓不到靜態標價，沒有價格就不給 CP 值分數；想先試用的話，[官方定價頁](https://www.dashlane.com/pricing-personal)寫有「Try free for 14 days」|
-| 台灣可用性 | ★★★☆☆ | 介面有中文；舊免費帳號從 2025 年 9 月 16 日起已不能新增、編輯、複製，連查看都不行、只能匯出，還在用的人要注意遷移時程 |
+| 台灣可用性 | ★★★☆☆ | 介面有中文；免費方案已停用，舊免費帳號的升級／匯出期限（2026 年 9 月 16 日）也已過，現在要繼續用只能付費 |
 
 這裡刻意不列 Dashlane 的年費數字：它的 [個人方案定價頁](https://www.dashlane.com/pricing-personal)是動態載入的，本次查證（2026 年 9 月 12 日）抓不到官方靜態標價，與其抄一個沒對到官網的數字，不如請你自己開一次官網確認。前面 1Password 與 Bitwarden 的金額則都對得到官方定價頁。
 
-**Dashlane 的特別提醒**：依 [Dashlane 官方公告](https://www.dashlane.com/blog/dashlane-free-ending)，免費方案在 2025 年 9 月 16 日停止，之後舊免費帳號「不能新增、編輯、複製或查看資料，只能匯出」（原文：You will no longer be able to add to, edit, copy, or view your data in Dashlane, just export it）；官方給的最後期限是 2026 年 9 月 16 日，在那之前要升級付費方案或把資料匯出，否則會失去資料存取權。如果你讀到這裡時已經過了這個日期、舊帳號裡還有資料，請直接到官方公告頁或 Dashlane 客服確認現在還有沒有辦法取回。
+**Dashlane 的特別提醒**：依 [Dashlane 官方公告](https://www.dashlane.com/blog/dashlane-free-ending)，免費方案在 2025 年 9 月 16 日停止，之後舊免費帳號「不能新增、編輯、複製或查看資料，只能匯出」（原文：You will no longer be able to add to, edit, copy, or view your data in Dashlane, just export it）；公告給的期限是 2026 年 9 月 16 日，要保有資料存取權，得在那之前升級付費方案或把資料匯出。**這個期限已經過了**，公告沒有寫之後舊帳號怎麼處理。Dashlane 說明中心原本的免費方案停用 FAQ，在 9 月 16 日改寫成〈[Expired personal plans and trials](https://support.dashlane.com/hc/en-us/articles/28150025262098-Expired-personal-plans-and-trials)〉，現行說法是試用結束沒購買、或付費方案到期的帳號「仍可登入、但只能匯出」（原文：you can still log in, but you can only export your passwords），買方案就能恢復，但這篇沒有特別點名舊免費帳號。舊帳號裡還有資料的話，現在就登入試著匯出；匯不出來，從說明中心的 Chat 找客服。
 
 ---
 
@@ -250,7 +251,7 @@ Bitwarden 直接支援 `.1pux` 格式，多數欄位（網站、帳號、密碼�
 
 **5 人家庭：換 Bitwarden Families，年費 $47.88（支援 6 人）。**
 
-比 1Password 家庭版便宜 $24/年，還多支援一個成員。唯一的阻力是家庭成員願不願意配合一次遷移。
+比 1Password 家庭版便宜 $24/年，年費內含的人數還多一位（6 人 vs 5 人）。唯一的阻力是家庭成員願不願意配合一次遷移。
 
 **你有 Travel Mode 需求、UI 完美主義：繼續付 1Password；公司已在用 1Password Business 的話，先確認能不能領免費的 Families 會員。**
 
