@@ -1,7 +1,7 @@
 ---
 title: "Notion vs Todoist 2026：上班族選哪個？這不是筆記 vs 任務管理的問題"
 date: 2026-02-15
-lastmod: 2026-04-26
+lastmod: 2026-09-21
 description: "Notion 和 Todoist 看起來是兩個不同類型的工具，但它們的使用族群高度重疊。本文從上班族真實使用情境切入，說清楚選擇它們的依據不是「你要記筆記還是管任務」，而是你的工作複雜度、整合需求和學習成本——三個真正有差距的維度。"
 categories: ["productivity"]
 tags: ["Notion", "Todoist", "效率工具", "任務管理", "工具評測"]
@@ -9,8 +9,8 @@ image: "notion-vs-todoist-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2026 年 2 月｜最後更新：2026 年 4 月
-> 本文數字已於 2026 年 4 月對照 [Notion](https://www.notion.so/) 及 [Todoist](https://todoist.com/) 官網現況校對更新。
+> 📅 原文發布：2026 年 2 月｜最後更新：2026 年 9 月
+> 本文數字已於 2026 年 9 月對照 [Notion 官方方案頁](https://www.notion.com/pricing)及 [Todoist 官方方案頁](https://www.todoist.com/pricing)校對更新；本次更正了先前版本「Todoist 免費版沒有提醒」的錯誤說法。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 市面上的 Notion vs Todoist 比較文，九成都用同一個框架：「Notion 是筆記工具，Todoist 是任務管理工具，看你需要哪個。」兩款都屬於[個人資訊管理（Personal Information Management）](https://en.wikipedia.org/wiki/Personal_information_management)範疇，但 [Todoist](https://en.wikipedia.org/wiki/Todoist) 的設計核心是基於 [Getting Things Done（GTD 時間管理法）](https://en.wikipedia.org/wiki/Getting_Things_Done)，而 Notion 是以 block-based 編輯器為核心的全功能工作空間。
@@ -31,17 +31,17 @@ draft: false
 
 Notion 在 2025–2026 年做了幾件事，讓它的定位變得更複雜：
 
-**AI 功能大幅擴張**：Notion AI 在 2025 年加入了 Custom Agents，可以跨 Slack、GitHub、Figma 等工具執行任務；2026 年 4 月的會議記錄功能可以直接轉錄 Zoom 和 Teams 通話。這些功能聽起來很強，但**完整 AI 功能需要 Business 方案才能解鎖（$20 USD/月年繳）**，免費版和 Plus 版能用到的 AI 是有限的。
+**AI 功能大幅擴張**：2025 年 5 月推出的 AI 會議記錄（AI Meeting Notes）在桌面版就能轉錄 Zoom、Microsoft Teams 等線上會議，不用另外邀會議機器人；2026 年 2 月的 [Notion 3.3](https://www.notion.com/releases/2026-02-24) 再推出 Custom Agents（自訂 AI 代理），讓 AI 自動跑重複性工作。這些功能聽起來很強，但**完整 AI 功能需要 Business 方案才能解鎖（年繳每人每月 $20 USD）**，Free 和 Plus 方案的 AI 只有「有限試用」。
 
 **定價結構（2026 年）**：
 
 | 方案 | 月費（年繳）| 月費（月繳）| 關鍵限制 |
 |---|---|---|---|
-| Free | $0 | $0 | 上傳附件每檔 5 MB；無限 Block |
+| Free | $0 | $0 | 上傳附件每檔 5 MB；個人使用 Block 無限；版本紀錄 7 天 |
 | Plus | $10 USD | $12 USD | 無限上傳；版本紀錄 30 天 |
 | Business | $20 USD | $24 USD | 含完整 AI；版本紀錄 90 天 |
 
-**重要**：2025 年 5 月 Notion 改版後，AI 功能不再是獨立付費的附加選項，完整 AI 能力（含 Custom Agents、Ask Notion）全部綁定在 Business 方案。如果你只是想要 AI 輔助寫作，Plus 方案有限量試用，用完要升 Business 或放棄 AI 功能。
+**重要**：依 Notion [2025 年 5 月 13 日的版本更新說明](https://www.notion.com/releases/2025-05-13)，Business 與 Enterprise 方案改為內含不限量的 Notion AI（含 Enterprise Search、研究模式、AI 會議記錄），AI 不再是獨立加購的附加選項；現行方案頁上 Free 和 Plus 的 AI 功能都標示為「Limited Trial」（有限試用）。所以如果你只是想要 AI 輔助寫作，試用額度用完就要升 Business 或放棄 AI 功能。Custom Agents 則是另外算錢：官方方案頁寫明「Free to try, then $10 per 1,000 monthly Notion credits」，而[官方 credits 說明](https://www.notion.com/help/buy-and-track-notion-credits-for-custom-agents)載明 credits 只有 Business 與 Enterprise 方案能買——等於升了 Business 之後，用 Custom Agents 還要再按用量付費。
 
 台幣概估（1 USD ≈ 32 NTD）：
 - Plus 方案約 NT$320/月（年繳合計 NT$3,840/年）
@@ -51,19 +51,23 @@ Notion 在 2025–2026 年做了幾件事，讓它的定位變得更複雜：
 
 Todoist 這兩年的主要變動是漲價和加 AI。
 
-**2025 年 12 月調漲**：Pro 方案年費從 $48 漲到 $60（漲幅 25%），月費從 $5 漲到 $7（漲幅 40%）。這次漲價的細節已在 [Todoist 免費版夠用嗎？2025 漲價後 Pro 值不值得升級？](/productivity/todoist-free-vs-pro-2025/) 這篇有完整說明，本文不重複。
+**2025 年 12 月 10 日起調漲**：依 [Todoist 官方定價更新說明](https://www.todoist.com/help/articles/todoist-pro-plan-pricing-update-bxBvHZuJZ)，專業版（Pro）年繳從每年 $48 漲到 $60（折合每月 $4 → $5，漲幅 25%），月繳從每月 $5 漲到 $7（漲幅 40%）。這次漲價的細節已在 [Todoist 免費版夠用嗎？2025 漲價後 Pro 值不值得升級？](/productivity/todoist-free-vs-pro-2025/) 這篇有完整說明，本文不重複。
 
-**2026 年 1 月的新功能**：Todoist Ramble——用語音說出「明天早上 9 點提醒我準備週會資料」，Gemini AI 自動轉成任務並排程。上線三週就有 76,000 人使用，是目前最受注目的新功能。
+**2026 年 1 月的新功能**：Todoist Ramble——用語音說出「明天早上 9 點提醒我準備週會資料」，AI 自動轉成任務並排程。依 Doist 的[正式推出新聞稿](https://www.prnewswire.com/news-releases/introducing-todoist-ramble-ai-that-turns-natural-speech-into-structured-tasks-302666143.html)，Ramble 在 2025 年 11 月開放公開測試、2026 年 1 月 21 日正式推出，語音理解用的是 Google 的 Gemini 2.5 Flash Live 模型；公測頭三週約有 76,000 名使用者、完成約 29 萬次 Ramble。免費版每月可用次數有限，Pro 以上不限次。
 
 **定價結構（2026 年）**：
 
 | 方案 | 月費（年繳）| 月費（月繳）| 關鍵限制 |
 |---|---|---|---|
-| Free | $0 | $0 | 5 個專案；3 個過濾器；**無提醒** |
-| Pro | $5 USD | $7 USD | 300 個專案；提醒功能；日曆視圖 |
-| Business | $8 USD/人 | $10 USD/人 | 25 人協作；管理後台 |
+| 初學者（免費）| $0 | $0 | 5 個專案；3 個過濾器；**只有自動提醒** |
+| 專業版（Pro）| $5 USD | $7 USD | 300 個專案；自訂提醒（可多個、可設地點）；日曆佈局；截止日 |
+| 商務版（Business）| $8 USD/人 | $10 USD/人 | 團隊共享工作區；最多 1,000 名成員與訪客 |
 
-台幣概估：Pro 年費約 NT$1,920/年，比 Notion Plus 便宜約一半。
+台幣概估：Pro 年費約 NT$1,920/年，比 Notion Plus（年繳約 NT$3,840）便宜約一半。
+
+<!-- IG-angle: 依 Todoist 說明中心拆出免費版「自動提醒」與 Pro「自訂／地點提醒」的差別，更正常見的「免費版沒有提醒」說法，讓 Notion vs Todoist 的選擇判準改成「提醒要響幾次、在什麼時間點響」 -->
+
+**提醒要講清楚**：很多文章（包括本文先前版本）寫「Todoist 免費版沒有提醒」，這是錯的。依 Todoist 說明中心的[提醒功能介紹](https://www.todoist.com/help/articles/introduction-to-reminders-9PezfU)，免費版有 **自動提醒**——只要任務排了「日期 + 時間」，就會依你的設定自動發通知；Pro 以上才能對同一個任務加**多個自訂提醒**、設**地點提醒**（通知只會在 iOS／Android 手機上跳出），以及用**截止日（Deadlines）**把「預計哪天做」和「最晚哪天完成」分開記。免費版和 Pro 的差別不是「有沒有提醒」，而是「提醒能不能照你要的時間點、響幾次」。
 
 ---
 
@@ -75,7 +79,7 @@ Todoist 這兩年的主要變動是漲價和加 AI。
 
 這不是因為他們都有特別複雜的需求，而是因為這兩個工具其實在一個關鍵點上有真實的功能重疊：**任務管理**。
 
-Notion 可以建 To-do List 資料庫，設截止日、優先度、狀態，跟 Todoist 的功能表面上看起來差不多。問題是**Notion 的任務管理體驗比 Todoist 慢**——從新增一個任務，到幫它設截止日、設提醒、分配優先度，在 Notion 裡最少需要 5 步以上。Todoist 直接打「明天下午 3 點開會提案」就自動解析了。
+Notion 可以建 To-do List 資料庫，設截止日、優先度、狀態，跟 Todoist 的功能表面上看起來差不多。問題是**Notion 的任務管理體驗比 Todoist 慢**——從新增一個任務，到幫它設截止日、設提醒、分配優先度，在 Notion 裡要逐一點開各個屬性欄位去填。Todoist 直接打「明天下午 3 點開會提案」就自動解析了，而且因為排了日期和時間，免費版也會自動提醒。
 
 所以「不是筆記 vs 任務管理」不是說這兩個工具功能一樣，而是說：**你選哪個，取決於你主力場景的比重，不是你「要不要做任務管理」。**
 
@@ -87,7 +91,7 @@ Notion 可以建 To-do List 資料庫，設截止日、優先度、狀態，跟 
 
 **Todoist 適合「事情很多但結構不複雜」的人。**
 
-典型情境：行政工作者、業務、客服——每天有大量零碎待辦，需要快速新增、快速勾掉。5 個專案的免費限制對大多數一般上班族是夠的（工作、個人、家庭、學習、收件匣），提醒功能是核心需求。
+典型情境：行政工作者、業務、客服——每天有大量零碎待辦，需要快速新增、快速勾掉。5 個專案的免費限制對大多數一般上班族是夠的（工作、個人、家庭、學習、收件匣），提醒功能是核心需求——有時間的任務免費版就會自動提醒，需要同一件事響好幾次才要看 Pro。
 
 **Notion 適合「事情不一定多，但資訊需要整理成結構」的人。**
 
@@ -99,9 +103,9 @@ Notion 可以建 To-do List 資料庫，設截止日、優先度、狀態，跟 
 
 **Todoist 的整合偏向「工作流的動作端」**：日曆同步（Google Calendar、Outlook）、Slack 通知、Zapier 自動化都做得順。如果你已經在用一套工具，想加一個任務管理補進來，Todoist 接進去的摩擦最小。
 
-**Notion 的整合偏向「知識庫的彙整端」**：2026 年 Business 版的 Enterprise Search 可以搜尋 Slack 歷史訊息、GitHub Issues、Figma 檔案。問題是這個功能要 $20 USD/月，而且整合設定不輕鬆——不是按幾下就好。
+**Notion 的整合偏向「知識庫的彙整端」**：Business 方案內含的 Enterprise Search（官方方案頁仍標 Beta）可以一起搜尋 Slack、Microsoft Teams、GitHub 等已連接工具裡的資料。問題是這個功能要年繳每人每月 $20 USD，而且要先把各個工具接進來、設好權限——不是按幾下就好。
 
-**對一般上班族的現實**：Notion 的整合功能大部分是給團隊用的，個人用戶用不到。Todoist 的整合對個人用戶更直接有用，特別是 Google Calendar 同步（免費版就有）。
+**對一般上班族的現實**：Notion 的整合功能大部分是給團隊用的，個人用戶用不到。Todoist 的整合對個人用戶更直接有用，特別是 Google Calendar／Outlook 日曆整合——依 Todoist 說明中心的[日曆整合說明](https://www.todoist.com/help/todoist/integrations/use-the-calendar-integration-rCqwLCt3G)，免費版就能用。
 
 ### 維度三：學習成本
 
@@ -180,17 +184,17 @@ PTT Salary 板的討論裡，可以看到很多人「裝了 Notion 但從來沒�
 | 任務管理體驗 | ★★☆☆☆ | 功能有，但速度慢，自然語言輸入弱，提醒要自己手動設定 |
 | 知識整理能力 | ★★★★★ | Database + Block 組合是市場無競品；資料庫視角切換靈活 |
 | 學習曲線 | ★★☆☆☆ | 真正上手需要 2–4 小時有效投入，不是裝了就能用 |
-| CP 值 | ★★★★☆ | Free 版 Block 無限，對個人用戶已足夠；Plus $10/月 值得看你需不需要 |
+| CP 值 | ★★★★☆ | Free 版 Block 無限，對個人用戶已足夠；要不要升 Plus（年繳每月 $10、月繳 $12）看你需不需要無限上傳 |
 | 跨裝置同步 | ★★★★☆ | 穩定，手機版功能完整；大型 Database 頁面在手機上有點慢 |
 
 ### Todoist Free / Pro（個人使用情境）
 
 | 維度 | 評分 | 說明 |
 |---|---|---|
-| 任務管理體驗 | ★★★★★ | Natural Language Input 業界頂尖；提醒功能完整；操作最快 |
+| 任務管理體驗 | ★★★★★ | Natural Language Input 業界頂尖；免費版就有自動提醒，Pro 再加多個自訂提醒；操作最快 |
 | 知識整理能力 | ★★☆☆☆ | 只能存任務相關資訊，不是知識庫工具 |
 | 學習曲線 | ★★★★★ | 10 分鐘上手，立即能用，不需要初始設定 |
-| CP 值（漲價後）| ★★★☆☆ | $60/年（Pro）比 Notion Plus $10/月 貴，但功能定位不同 |
+| CP 值（漲價後）| ★★★☆☆ | Pro $60/年，只有 Notion Plus 年繳（$120/年）的一半，但比漲價前的 $48 貴了 25%；免費版已有自動提醒，升級的增量要看你用不用得到自訂提醒和日曆佈局 |
 | 跨裝置同步 | ★★★★★ | 輕量 App，同步速度快，手機 Widget 直接勾任務 |
 
 ---
@@ -199,7 +203,7 @@ PTT Salary 板的討論裡，可以看到很多人「裝了 Notion 但從來沒�
 
 **選 Todoist 的三種情境：**
 
-1. **你需要提醒功能，而且靠提醒驅動**：你設好任務，靠通知推你去做。這是 Todoist 的核心場景，而且 Todoist 的通知體驗比 Notion 的 Reminder 更穩定、更主動。
+1. **你需要提醒功能，而且靠提醒驅動**：你設好任務，靠通知推你去做。這是 Todoist 的核心場景：免費版只要任務有日期和時間就會自動提醒，不像 Notion 要自己一筆一筆手動加提醒；需要同一件事提醒好幾次，再升 Pro。
 
 2. **你的工作是大量零碎待辦，不需要背景資料**：行政、業務、客服。任務就是任務，不需要附連結、不需要資料庫，快速新增快速勾掉是唯一需求。
 
@@ -211,7 +215,7 @@ PTT Salary 板的討論裡，可以看到很多人「裝了 Notion 但從來沒�
 
 2. **你已經有一套 Notion 工作空間，任務管理只是其中一小部分**：如果你已經在 Notion 上建了 Wiki、會議記錄模板、專案追蹤，再在裡面加一個 Task Database 是最自然的做法，不需要再引入一個工具。
 
-3. **你的任務本質上是專案型，而不是清單型**：你不只是要勾掉任務，還需要看到任務的進度、關係、背景——Database 的看板和甘特圖視圖在這個情境下才有價值。
+3. **你的任務本質上是專案型，而不是清單型**：你不只是要勾掉任務，還需要看到任務的進度、關係、背景——Database 的看板和時間軸（Timeline）視圖在這個情境下才有價值。
 
 **明確不推薦的情境：**
 
@@ -224,23 +228,23 @@ PTT Salary 板的討論裡，可以看到很多人「裝了 Notion 但從來沒�
 
 **Notion 的真實缺點：**
 
-- **任務管理體驗遠不如 Todoist**：在 Notion 裡新增一個帶提醒的任務，要點的步驟數量是 Todoist 的三到五倍。這個差距在每天要新增 10–20 個任務的場景下，時間成本很快就累積出來。
+- **任務管理體驗遠不如 Todoist**：在 Notion 裡新增一個帶提醒的任務，要分別點開日期、提醒、優先度等欄位去設，Todoist 打一行字就完成。這個差距在每天要新增大量任務的場景下，時間成本很快就累積出來。
 - **學習曲線讓很多人用不起來**：Notion 的功能強大但不直覺，PTT 和 Dcard 上有大量「裝了 Notion 但最後沒在用」的討論，問題幾乎都是初始建置門檻高。
-- **AI 功能要付高價**：完整 AI 需要 Business 方案 $20 USD/月——相當於每年 NT$7,680。對個人用戶來說，這個費率遠超過大多數人的實際使用需求。
-- **Free 方案的 5 MB 附件限制很快會踩到**：只要你的工作跟設計稿、PDF 有關，5 MB 的單檔限制幾乎每週都會被觸發。
+- **AI 功能要付高價**：完整 AI 需要 Business 方案（年繳每人每月 $20 USD）——相當於每年約 NT$7,680；想用 Custom Agents 還要另購 Notion credits。對個人用戶來說，這個費率遠超過大多數人的實際使用需求。
+- **Free 方案的 5 MB 附件限制很快會踩到**：只要你的工作跟設計稿、PDF 有關，5 MB 的單檔限制很容易碰到。
 
 **Todoist 的真實缺點：**
 
-- **免費版沒有提醒是最大的硬傷**：提醒是任務管理工具的核心需求，但 Todoist 免費版完全沒有。這讓免費版對需要被提醒的人幾乎沒有使用價值——你只能靠自己主動打開 App 查看。
+- **免費版的提醒只能「自動」一種**：免費版有提醒，但只在任務排了「日期 + 時間」時依你的設定自動發通知；想對同一件事加「前一天 + 前一小時」兩個提醒、或到某個地點才提醒，都要升 Pro。只設日期沒設時間的任務不會提醒，這點不熟的人容易漏。
 - **沒有辦法存「背景資訊」**：任務就是任務，你只有標題、截止日、優先度和一個小描述欄位。工作上很多任務需要附背景資料、會議討論串、相關文件——Todoist 存不了這些，最後的解法通常是把 Notion 連結貼在描述欄，或是兩個工具並用。
-- **漲價後 $60/年 的 CP 值下滑**：Pro 方案年費從 $48 漲到 $60，對一般上班族來說真正有價值的功能只有提醒，其餘大多數功能（300 個專案、150 個過濾器）多數人用不完。
+- **漲價後 $60/年 的 CP 值下滑**：Pro 方案年費從 $48 漲到 $60，對一般上班族來說真正有感的升級點是自訂提醒、日曆佈局，以及從 5 個專案放寬（多數人用不到 300 個）；其餘像 150 個過濾器，多數人也用不完。
 
 ---
 
 ## 結論：三種上班族，三個明確答案
 
 **你主要需要「記住要做什麼、不讓事情漏掉」**  
-→ **選 Todoist**。先用免費版，如果你真的需要提醒功能（你應該需要），評估升 Pro 還是換 TickTick 免費版（免費就有提醒）。
+→ **選 Todoist**。先用免費版——有時間的任務免費版就會自動提醒，大多數人先這樣用就夠。如果你需要同一件事提醒好幾次，再評估升 Pro（$60/年），或換 [TickTick](https://ticktick.com/about/upgrade) 免費版（官方方案頁標示每個任務可設 2 個提醒）。完整的免費版 vs Pro 取捨見 [Todoist 免費版夠用嗎？](/productivity/todoist-free-vs-pro-2025/)。
 
 **你的工作需要整理、關聯、記錄，不只是記待辦**  
 → **選 Notion**。先從 Free 方案開始，認真花一個下午搭你自己的工作空間，搭好之後是真的有用的工具。如果你只是下載一個模板改幾格、沒有真正理解 Block 和 Database 的邏輯，Notion 給不了你的需求。
