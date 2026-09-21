@@ -1,7 +1,7 @@
 ---
 title: "Spotify 方案怎麼選？2026 漲價後四種方案 + 跟對手比較全測給你看"
 date: 2026-06-09
-lastmod: 2026-09-16
+lastmod: 2026-09-21
 description: "Spotify 2025 年漲價後，個人方案 $168、家庭 $298，到底還划不划算？本文把個人、雙人、家庭、學生四種方案攤開算每人成本，再跟 KKBOX、YouTube Music、Apple Music 同台比較，給你一個有立場的結論：什麼人該留、什麼人該換。"
 categories: ["productivity"]
 tags: ["Spotify", "音樂串流", "訂閱成本", "工具評測", "KKBOX"]
@@ -153,7 +153,7 @@ draft: false
 
 1. **你是一個人聽、只在乎價格**：KKBOX 標準方案 $159 比 Spotify 個人 $168 便宜 9 元，而且 [2026/1/2 起無損開放全付費會員](https://help.kkbox.com/tw/zh-tw/news/1279)、規格給到 Hi-Res——同樣有無損的前提下，你少付一點還拿到更高的解析度上限。
 2. **你深陷 Apple 生態系**：iPhone + Mac + HomePod 的人，[Apple Music](https://music.apple.com/tw/) 的整合度和空間音訊體驗會比 Spotify 更順；價格上個人 $165、家庭 $295 只各便宜 3 元，所以換過去的理由是生態整合，不是省錢。
-3. **你本來就付 YouTube Premium**：YouTube Premium 已含 YouTube Music，等於音樂串流免費送——這種情況下另外付 Spotify 是重複付費。
+3. **你本來就付 YouTube Premium**：YouTube Premium 已含 YouTube Music，等於音樂串流免費送——這種情況下另外付 Spotify 是重複付費。還沒決定 YouTube 要訂 Premium 還是只去影片廣告的 Lite，可以先看 [YouTube Premium 台灣方案怎麼選](/productivity/youtube-premium-plans-taiwan-2026/)。
 
 ---
 
