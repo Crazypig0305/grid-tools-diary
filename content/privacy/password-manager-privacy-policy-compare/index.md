@@ -1,7 +1,7 @@
 ---
 title: "密碼管理器隱私政策真的讀過嗎？Bitwarden、1Password、Dashlane 條款比較"
 date: 2026-02-25
-lastmod: 2026-09-13T01:00:00+08:00
+lastmod: 2026-09-21T00:00:00+08:00
 description: "密碼管理器存放了你所有的帳密，但你讀過它的隱私政策嗎？本文逐條比較 Bitwarden、1Password、Dashlane 三家的資料蒐集範圍、第三方分享條款與開源稽核透明度，給你一個有依據的評分。"
 categories: ["privacy"]
 tags: ["bitwarden", "1password", "dashlane", "密碼管理器", "隱私政策"]
@@ -12,6 +12,7 @@ draft: false
 > 📅 原文發布：2026 年 2 月｜最後更新：2026 年 9 月
 > 本文條款內容初版於 2026 年 4 月校對，2026 年 9 月 12 日再次逐條對照三家官方隱私政策現行版本（[Bitwarden](https://bitwarden.com/privacy/)、[1Password](https://1password.com/legal/privacy/) 2025 年 12 月 29 日生效版、[Dashlane](https://www.dashlane.com/privacy) 2026 年 4 月 8 日更新版）；9 月 13 日再補對照 [1Password Cookie Policy](https://1password.com/legal/cookie-policy) 與 [Dashlane Cookie Policy](https://www.dashlane.com/privacy/cookiepolicy)，修正了幾處三家比較的說法，並把結論改成跟評分表一致（評分未變）。
 > 文中出現的訂閱價格另於 2026 年 9 月 12 日對照 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)與 [1Password 官方定價頁](https://1password.com/pricing/personal)重新查證；Dashlane 的價格因官方定價頁未以靜態文字標示，本次改為不列數字。
+> 2026 年 9 月 21 日：Dashlane 舊免費帳號的升級／匯出期限（2026-09-16）已過，依 Dashlane 官方公告與說明中心 9 月 16 日改寫後的現行頁面，把相關段落改成現況；同日再對照三家定價頁，價格未變。
 > 各家政策隨時可能調整，建議參考本文後仍至官方政策頁確認最新版本。
 
 把幾百組帳號密碼全部交給一個 App 保管，但從來沒去讀過這個 App 的隱私政策——這件事比你想的更常見。
@@ -144,9 +145,11 @@ Dashlane 政策明確說，他們會把**雜湊過的 Email 和裝置 ID** 提�
 
 而且雜湊 Email 那條不是 Dashlane 唯一的廣告分享條款。政策「Marketing and Advertising」一節的「Interest-based advertising」另寫，Dashlane 和第三方廣告夥伴會用 cookie、pixel 等技術，蒐集你在服務內、Dashlane 發出的通訊、以及「other third-party online services over time」（一段時間內你在其他第三方網路服務上）的互動，用來投放它們認為你會感興趣的廣告；同一段接著寫「We may also share information about our users with these companies to facilitate interest-based advertising to those or similar users on other online properties.」——這一條泛稱「information about our users」，也沒有附上「不得挪作他用」的限制，那個限制只綁在雜湊 Email／裝置 ID 那一條。（Dashlane 的 Cookie Policy 另寫明 cookie 只用在官網，任何 App、包括瀏覽器擴充套件都不用 cookie。）政策給的退出方式寫在「Automated Decision Making and Profiling」段：「Disabling all but essential cookies or setting the slider to “active” on the Do Not Sell or Share my Personal Information page will prevent this.」——也就是關掉非必要 cookie，或到「Do Not Sell or Share my Personal Information」頁把開關切到 active。
 
-**免費方案已於 2025 年 9 月停用：**
+**免費方案已於 2025 年 9 月停用，舊免費帳號的期限 2026-09-16 也已經過了：**
 
-依 [Dashlane 官方公告](https://www.dashlane.com/blog/dashlane-free-ending)，免費方案在 2025-09-16 停止，之後舊免費帳號不能新增、編輯、複製，**連查看都不行，只能匯出**（原文：You will no longer be able to add to, edit, copy, or view your data in Dashlane, just export it）。官方給的**最後期限是 2026-09-16**：在那之前要升級付費方案或把資料匯出，否則會失去資料存取權。如果你讀到這裡時已經過了這個日期、舊帳號裡還有資料，請直接到官方公告頁或 Dashlane 客服確認現在還有沒有辦法取回。
+依 [Dashlane 官方公告](https://www.dashlane.com/blog/dashlane-free-ending)，免費方案在 2025-09-16 停止，之後舊免費帳號不能新增、編輯、複製，**連查看都不行，只能匯出**（原文：You will no longer be able to add to, edit, copy, or view your data in Dashlane, just export it）。公告給的期限是 2026-09-16：要保有資料存取權，得在那之前升級付費方案或把資料匯出（原文：By September 16th, 2026, to maintain access to your data, make sure to upgrade to a Premium or Friends & Family plan or export your data）。**這個期限已經過了**，而公告沒有寫期限過後舊帳號會被怎麼處理。
+
+原本那篇〈FAQ about the Dashlane Free plan discontinuation〉說明頁，在 2026 年 9 月 16 日改寫成〈[Expired personal plans and trials](https://support.dashlane.com/hc/en-us/articles/28150025262098-Expired-personal-plans-and-trials)〉，現行寫法是：試用結束沒購買、或付費方案到期的帳號進入「受限狀態」（limited state），仍可登入、但只能匯出，買方案就能解除（原文：If you don't switch to a paid plan, you can still log in, but you can only export your passwords）。這篇沒有特別點名舊免費帳號、也沒再提 2026-09-16。另外 Dashlane 隱私政策寫明，超過 13 個月未活動的帳號會被自動刪除（見上方保留期限）。所以舊帳號裡還有資料的話，現在就登入試著匯出 CSV；登不進去或匯出不了，從說明中心右下角的 Chat 找客服。
 
 **管轄地：**
 
@@ -179,7 +182,7 @@ Dashlane 總部在美國紐約，子公司在法國巴黎。跨司法管轄，�
 
 **開源 / 稽核透明度**：Bitwarden 的差距主要在這一維度——整套程式碼開源可自行審查、稽核報告直接公開下載；Dashlane 只公開了手機 App 的原始碼（非商業授權），1Password 未開源。1Password 與 Dashlane 同給三星，是因為兩家各公開了一部分、但都做不到 Bitwarden 那樣整套自己查：1Password 可查的是第三方稽核與認證（程式碼不公開；年度滲透測試報告要進 Trust Center、SOC 2 報告要另外申請），Dashlane 可看的是部分原始碼（只有手機 App，而且是非商業授權、無法自行編譯）。兩家離 Bitwarden「整套開源＋稽核報告直接下載」都還差一段，所以同分。
 
-**自架 / 脫離廠商可能性**：只有 Bitwarden 官方支援自架（另有第三方相容伺服器 Vaultwarden）。不使用 Bitwarden 公司的雲端服務就可以使用 Bitwarden，這在三家中是唯一做到的。1Password 和 Dashlane 都不能自架、只能用官方雲端，兩家能做的都是把資料匯出後換平台（1Password 可匯出 .1pux 或 CSV；Dashlane 連停用的舊免費帳號都保留匯出功能，但只到 2026-09-16 前），所以同給兩星。
+**自架 / 脫離廠商可能性**：只有 Bitwarden 官方支援自架（另有第三方相容伺服器 Vaultwarden）。不使用 Bitwarden 公司的雲端服務就可以使用 Bitwarden，這在三家中是唯一做到的。1Password 和 Dashlane 都不能自架、只能用官方雲端，兩家能做的都是把資料匯出後換平台（1Password 可匯出 .1pux 或 CSV；Dashlane 的[官方說明](https://support.dashlane.com/hc/en-us/articles/28150025262098-Expired-personal-plans-and-trials)寫明，付費方案到期或試用結束沒購買的帳號仍可登入匯出），所以同給兩星。
 
 **資料保留條款具體性**：Dashlane 給出註冊資料 30 天、IP 日誌 45 天加備份 1 年、客服錄音最多 2 年等具體期限；Bitwarden 沒給天數，但把行政資料的保留期綁在「你還是客戶的期間」加上法律要求；1Password 的主條款是保留到「達成政策所列目的所必要」的期間（除非法律要求更久，或你指示刪除），你沒主動要求刪除時要多久由它自己判斷，所以比 Bitwarden 再少一星。
 
@@ -219,7 +222,7 @@ ETH 新聞稿提到各家修補的速度不一，但這件事說明的不是「�
 **Dashlane 的現實限制：**
 
 - 免費方案已於 2025 年 9 月停用（官方定價頁仍有 Premium 14 天免費試用），而且年費金額在[官方個人方案定價頁](https://www.dashlane.com/pricing-personal)是動態載入的、查不到靜態標價，付錢前得自己開一次官網對
-- 舊免費帳號只剩匯出功能，依 [Dashlane 官方公告](https://www.dashlane.com/blog/dashlane-free-ending)，最後期限 2026-09-16 前沒有升級或匯出就會失去資料存取權——期限前還能自己匯出；過了期限，請直接看官方公告或問 Dashlane 客服還有沒有辦法取回
+- 舊免費帳號在 2025 年 9 月後只剩匯出功能，[官方公告](https://www.dashlane.com/blog/dashlane-free-ending)給的升級或匯出期限 2026-09-16 已過，公告沒寫之後舊帳號怎麼處理；現行說明頁只寫到期帳號「仍可登入、只能匯出」、沒點名舊免費帳號（細節見上方 Dashlane 段）——還有資料留在舊帳號的話，先登入試匯出，不行就找客服
 - 會把雜湊過的 Email／裝置 ID 交給服務商優化廣告投放（政策的白話摘要直接寫成交給廣告商）；興趣廣告段另寫會和第三方廣告夥伴蒐集你在服務內、通訊與其他第三方網路服務上的互動，並把使用者資訊分享給他們，在其他網路平台對你或相似用戶投放廣告，這一條沒有用途限制。政策給的退出方式是關掉非必要 cookie，或到「Do Not Sell or Share my Personal Information」頁把開關切到 active（原文：Disabling all but essential cookies or setting the slider to “active” on the Do Not Sell or Share my Personal Information page will prevent this）。1Password 也有同性質的行銷夥伴條款，見上
 - 內建 VPN 由第三方 Hotspot Shield 提供，這部分不在 Dashlane 的隱私聲明保護範圍內——只在你用這個 VPN 時才相關
 - 政策寫明用 Google Analytics 分析服務使用情況——這一點和 Bitwarden 一樣（1Password 的 Cookie Policy 也列了 GA cookie）
