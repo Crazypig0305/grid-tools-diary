@@ -1,64 +1,62 @@
 ---
 title: "Repocket 台灣可以用嗎？2026 年最新評測：資安風險與值不值得開"
 date: 2026-03-25
-lastmod: 2026-06-11
-description: "Repocket 2026 年台灣現況：iOS / Android App 狀態、每 GB 收益、$20 出金門檻、PayPal 是否還能用、與 Honeygain / EarnApp 的資安層級比較——讓你在安裝前把問題問清楚。"
+lastmod: 2026-09-28
+description: "Repocket 2026 年台灣現況：手機 App 在 Google Play 與 App Store 都查無、出金門檻與費率官方未公開、與 Honeygain / EarnApp 的資安層級比較——讓你在安裝前把問題問清楚。"
 categories: ["earn-apps"]
 tags: ["Repocket", "掛機app", "頻寬共享", "資安評估", "被動收入"]
 image: "repocket-taiwan-review-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2026 年 3 月｜最後更新：2026 年 4 月
-> 本文數字已於 2026 年 4 月對照平台官網及多方評測資訊校對更新。
+> 📅 原文發布：2026 年 3 月｜最後更新：2026 年 9 月
+> 2026 年 9 月 28 日依 Repocket 官方[條款](https://repocket.com/terms-and-conditions)、[出金與獎勵政策](https://repocket.com/payment-and-rewards-policy)、[隱私政策](https://repocket.com/privacy-policy)，以及 Google Play、App Store 現況更正：Android 與 iOS App 目前兩個商店都查無（前一版寫 Android 版持續維護）；每 GB 單價、$20 出金門檻、PayPal／Tremendous／USDT 出金方式都查不到官方公開依據，已改為「以登入後出金頁為準」，並刪除依賴這些數字的月收試算；營運主體補上 Repocket Pte. Ltd.；Bright Data 並非上市公司，已更正；Honeygain 營運公司名稱依其條款更正為 Honeygain, UAB；Pawns.app 官方已停止頻寬分享，移出推薦排序。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 用了 [掛機 App 2026 年現況評估](/earn-apps/idle-apps-2026-revenue-evaluation/) 那篇的讀者可能注意到，[Repocket](https://repocket.com/) 沒有在推薦範圍內。理由在那篇末尾的 FAQ 寫了一句：「台灣有資安疑慮」。
 
-這篇單獨把 Repocket 拆開來看，因為它的情況比其他三款複雜——既不是明確的詐騙，也不是乾淨的推薦。2026 年的現況是什麼，安裝前要想清楚哪些事，這篇說完。
+這篇單獨把 Repocket 拆開來看，因為它的情況比另外兩款更複雜——既不是明確的詐騙，也不是乾淨的推薦。2026 年的現況是什麼，安裝前要想清楚哪些事，這篇說完。
 
 ---
 
 ## Repocket 是什麼
 
-Repocket 是新加坡公司 Geonode 旗下的頻寬共享 App，商業模式和 [Honeygain](https://www.honeygain.com/)、[EarnApp](https://earnapp.com/) 相同：你把閒置的網路頻寬和住宅 IP 分享出去，企業客戶付 Geonode 使用費，Geonode 分一部分給你。
+Repocket 由新加坡的 Repocket Pte. Ltd. 營運（見[隱私政策](https://repocket.com/privacy-policy)），[Geonode 官網](https://geonode.com/)把 Repocket 列為自家住宅代理網路的來源之一。商業模式和 [Honeygain](https://www.honeygain.com/)、[EarnApp](https://earnapp.com/) 相同：你把閒置的網路頻寬和住宅 IP 分享出去，企業客戶付代理使用費，平台分一部分給你。
 
 Geonode 本身是一家住宅代理服務商，為企業客戶提供住宅 IP 租用服務。Repocket 是他們獲取 IP 來源的工具——你安裝它，就是在加入他們的 IP 資源池。
 
 | 項目 | 內容 |
 |---|---|
-| 公司 | Geonode（新加坡）|
+| 營運主體 | Repocket Pte. Ltd.（新加坡）；Geonode 官網稱 Repocket 為其自有代理網路來源 |
 | 商業模式 | 住宅 IP 頻寬共享 |
-| 收益計算 | 按 GB 計費（台灣約 $0.10–$0.20 USD/GB）|
-| 出金門檻 | $20 USD |
-| 支援平台 | Windows、macOS、Linux、Android（iOS 狀態見下節）|
+| 收益計算 | 官方政策寫明主要按 GB 計費，但沒有公開單價 |
+| 出金門檻 | 官方未公開固定數字，以登入後出金頁為準 |
+| 支援平台 | 官網下載頁只列桌面版；Google Play、App Store 目前查無（2026 年 9 月查詢）|
 | 官網 | repocket.com |
 
 ---
 
 ## 台灣可以用嗎：2026 年現況確認
 
-**地區支援**：Repocket 官方未封鎖台灣，可以安裝使用。
+**地區支援**：Repocket [條款](https://repocket.com/terms-and-conditions)沒有列出禁止使用的國家，只要求使用不違反新加坡與你居住地的法律；台灣用戶可以安裝桌面版使用。
 
-**iOS App 狀態**：這是目前資訊最混亂的一塊。截至 2026 年 4 月，多個評測站的資訊相互矛盾——部分評測說 iOS 版可用，另一部分說行動 App 已停止維護。Google Play 上的 Android App 有持續更新記錄，iOS 版的狀態建議直接在 App Store 搜尋「Repocket」確認。
+**手機 App 狀態**：Repocket 的 Android App 在 Google Play 的頁面目前回傳「找不到」，iOS 版在台灣、美國等區的 App Store 也查無（2026 年 9 月查詢）。官網的[下載頁](https://repocket.com/download-app)目前只寫「Try Our Bandwidth sharing apps for desktop」，也就是只提供桌面版。想用手機跑的人，這款目前沒有官方管道；網路上流傳的舊版安裝檔來源不明，不建議裝。
 
-**Android App 狀態**：Google Play 版本有持續維護，2026 年可用。
+**出金管道**：Repocket 的[出金與獎勵政策](https://repocket.com/payment-and-rewards-policy)（2026 年 7 月 3 日版）只列出出金可能包含「加密錢包、交易所、銀行或匯款服務」等類型，實際門檻與選項要登入後在出金頁看；政策也寫明平台可以隨時、不另行通知新增、暫停或移除任何出金方式。所以開始掛機前先登入看一次出金頁，確認有你能用的方式，比累積一段時間後才發現出不了金更實際。另外提醒：若出金頁有加密貨幣（例如 USDT）選項而你選了它，幣到手之後在鏈上搬動（例如轉進交易所換台幣）還有一層轉帳手續費，這層成本常被忽略——以 USDT 流通最大宗的 TRON 鏈為例，三種省法的實算見[TRON 轉帳手續費比較](/finance-tools/tron-usdt-transfer-fee-3-ways/)。
 
-**出金管道**：出金方式在 2025 年底有過調整。已知的管道包括 PayPal、Tremendous（禮品卡）、以及 USDT（Polygon 網絡）。但多個用戶回報 PayPal 選項曾被無預告移除後又恢復，建議在累積到出金門檻前先確認帳戶的可用出金管道。另外提醒：若選 USDT 出金，幣到手之後在鏈上搬動（例如轉進交易所換台幣）還有一層轉帳手續費，這層成本常被忽略——以 USDT 流通最大宗的 TRON 鏈為例，三種省法的實算見[TRON 轉帳手續費比較](/finance-tools/tron-usdt-transfer-fee-3-ways/)。
-
-**這是台灣用戶最需要先確認的兩件事：iOS App 能不能裝、PayPal 出金現在是否可用**。在這兩個問題沒有確認之前，不建議花時間等待收益累積到 $20 才發現出不了金。
+**這是台灣用戶最需要先確認的兩件事：你是不是只打算用桌面電腦跑、登入後的出金頁有沒有你能用的方式**。兩件都確認了，再決定要不要長期開著。
 
 ---
 
 ## 資安層級怎麼看：Repocket 個別評估
 
-這是 B 站在評測掛機 App 時的核心維度，也是 Repocket 與其他三款最大的差異所在。
+這是 B 站在評測掛機 App 時的核心維度，也是 Repocket 與 Honeygain、EarnApp 最大的差異所在。
 
-### Geonode 的背景透明度
+### 營運公司的背景透明度
 
-Honeygain 的母公司 Tengai 是立陶宛公司，有 [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) 合規記錄；EarnApp 屬於 Bright Data，是上市規模的代理服務商，企業客戶清單公開。相比之下，Geonode 是一家新加坡小型新創，公司資訊的公開程度較低，沒有上市公司的定期財報與第三方稽核義務。
+Honeygain 由立陶宛的 Honeygain, UAB 營運（[使用條款](https://www.honeygain.com/terms-of-use/)揭露公司代碼與註冊地址），受 [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) 規範；EarnApp 屬於以色列的 Bright Data，不是上市公司，[官網](https://brightdata.com/about)的沿革寫明 2017 年由英國的 EMK Capital 收購，也公開了公司沿革、總部地址與「5 萬家以上組織」的客戶規模。相比之下，Repocket 的隱私政策雖然有公司名稱與新加坡地址，但出金門檻、費率、支援平台這些使用者最需要的資訊都沒有公開。
 
-這不代表 Geonode 有惡意，但在「公司跑路或政策突變的風險」這個維度上，Geonode 比 Honeygain、Bright Data 的風險確實更高。
+這不代表 Repocket 有惡意，但在「政策突變時你能不能事先知道」這個維度上，它比 Honeygain、Bright Data 更難評估。
 
 ### 流量使用的可見性
 
@@ -70,27 +68,27 @@ Honeygain 的母公司 Tengai 是立陶宛公司，有 [GDPR](https://en.wikiped
 
 在台灣早期的掛機 App 討論中，Repocket 曾有「使用 port 25 傳輸流量」的疑慮被提及。Port 25 是 SMTP（電子郵件傳輸）使用的標準埠，如果代理流量透過這個埠傳送，代表你的 IP 可能被用於大量寄送電子郵件——這會直接損害你 IP 的電子郵件聲譽。
 
-Repocket 官方的 Internet Sharing Policy 頁面並沒有明確說明哪些 port 被限制或排除，這個透明度問題在 Honeygain 和 EarnApp 的相關文件裡也同樣存在。目前沒有近期（2025–2026）的獨立技術測試確認或否認這個問題是否已被改善。
+Repocket 的[條款](https://repocket.com/terms-and-conditions)禁止把服務用於垃圾郵件（spam），但官方的 Internet Sharing Policy 頁面並沒有說明技術上哪些 port 被限制或排除，這個透明度問題在 Honeygain 和 EarnApp 的相關文件裡也同樣存在。目前沒有近期（2025–2026）的獨立技術測試確認或否認這個問題是否已被改善。
 
 **對普通台灣用戶的意義**：如果你的 IP 被用於 SMTP 流量，你的 IP 電子郵件聲譽可能受損，導致你自己寄出的信被更多人標記為垃圾郵件。這個風險是具體且日常的，不是理論性的。如果你對「自己這條網路的 IP 到底會怎麼被使用」這件事在意，也值得順著看[上班族到底需不需要 VPN](/privacy/do-you-need-vpn/)——掛機 App 是把住宅 IP 借出去，VPN 是把出口 IP 換掉，方向相反但問的是同一件事。
 
 ### 與 Honeygain、EarnApp 的資安對比
 
-| 維度 | Honeygain | EarnApp（Bright Data）| Repocket（Geonode）|
+| 維度 | Honeygain | EarnApp（Bright Data）| Repocket |
 |---|---|---|---|
-| 公司透明度 | 中（有公司實體，GDPR）| 高（上市規模，客戶清單公開）| 低（新創，資訊有限）|
+| 公司透明度 | 中（有公司實體，GDPR）| 高（公開沿革、總部與客戶規模；非上市）| 低（有公司名稱與地址；門檻、費率、支援平台未公開）|
 | 流量日誌可見性 | 無 | 無 | 無 |
 | port 限制聲明 | 無明確文件 | 無明確文件 | 無明確文件 |
-| 第三方資安研究 | 有（趨勢科技 2023 年報告）| 有（多份獨立評測）| 少 |
+| 第三方資安研究 | 有（[趨勢科技 2023 年報告](https://www.trendmicro.com/en_us/research/23/b/hijacking-your-bandwidth-how-proxyware-apps-open-you-up-to-risk.html)）| 有（多份獨立評測）| 少 |
 | IP 聲譽風險 | 中 | 中低 | 中至中高 |
 
 這個對比的結論：Repocket 不是特別危險，但在同類工具裡，它的資安透明度最低、可供參照的獨立研究最少。這對重視「在裝之前把問題搞清楚」的人來說是一個實質的資訊缺口。
 
-### 四維度資安層級對照圖
+### 三維度資安層級對照圖
 
-把上面四個維度的對比評為 1-5 分（5 = 透明度 / 風險可控度最高），三平台的差距用圖看更明顯：
+把上表的「公司透明度」「第三方資安研究」兩個維度，加上前面提到的「出金規則公開程度」，共三個維度評為 1-5 分（5 = 透明度 / 風險可控度最高），三平台的差距用圖看更明顯：
 
-<figure class="ig-chart" role="img" aria-label="四平台資安透明度評分對照，Repocket 全維度墊底">
+<figure class="ig-chart" role="img" aria-label="三平台資安透明度三維度評分對照，Repocket 全維度墊底">
 <svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#F3F6FB;font-family:'Noto Sans TC','IBM Plex Sans',sans-serif;">
   <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1F4E8E">三平台資安透明度評分（1-5 分制）</text>
   <text x="360" y="48" text-anchor="middle" font-size="12" fill="#5A6B82">分數越高 = 透明度 / 可參照研究 / 風險可控度越好</text>
@@ -121,7 +119,7 @@ Repocket 官方的 Internet Sharing Policy 頁面並沒有明確說明哪些 por
   <rect x="200" y="190" width="96" height="14" fill="#E2943E"/>
   <text x="303" y="202" font-size="11" fill="#E2943E" font-weight="600">Repocket 1.0</text>
 
-  <text x="190" y="230" text-anchor="end" font-size="12" fill="#1F4E8E" font-weight="500">出金穩定性</text>
+  <text x="190" y="230" text-anchor="end" font-size="12" fill="#1F4E8E" font-weight="500">出金規則透明</text>
   <rect x="200" y="218" width="384" height="14" fill="#1F4E8E"/>
   <text x="590" y="230" font-size="11" fill="#1F4E8E" font-weight="600">EarnApp 4.0</text>
   <rect x="200" y="234" width="288" height="14" fill="#5A8CC4"/>
@@ -134,9 +132,9 @@ Repocket 官方的 Internet Sharing Policy 頁面並沒有明確說明哪些 por
   <rect x="370" y="310" width="14" height="10" fill="#5A8CC4"/>
   <text x="390" y="319" font-size="11" fill="#5A6B82">Honeygain</text>
   <rect x="500" y="310" width="14" height="10" fill="#E2943E"/>
-  <text x="520" y="319" font-size="11" fill="#5A6B82">Repocket（Geonode）</text>
+  <text x="520" y="319" font-size="11" fill="#5A6B82">Repocket</text>
 </svg>
-<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：各平台公司結構（上市 vs 中小型 vs 新創）、第三方資安研究數量（2023-2026 公開資料）、用戶出金管道穩定性回報。Repocket 在三維度都明顯落後、非「特別危險」但屬資訊缺口最大。</figcaption>
+<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：各平台公司公開資訊（Bright Data 官網沿革、Honeygain 條款、Repocket 隱私政策）、第三方資安研究數量（2023-2026 公開資料）、出金規則公開程度（EarnApp 說明中心的門檻、手續費與處理時間彼此一致；Honeygain 雖也公開門檻與手續費，但其手續費頁〔2026 年 2 月版〕仍寫 JumpToken 出金免手續費，與 2026 年 8 月 JMPT 退場後的現況不一致，故低一分；Repocket 門檻與費率不公開，且政策寫明可隨時不另行通知調整出金方式）。Repocket 在三維度都明顯落後、非「特別危險」但屬資訊缺口最大。</figcaption>
 </figure>
 
 ---
@@ -145,22 +143,17 @@ Repocket 官方的 Internet Sharing Policy 頁面並沒有明確說明哪些 por
 
 ### 台灣 IP 的收益估算
 
-Repocket 官方宣稱的費率是 $0.20 USD/GB，但這個數字適用於北美和歐洲的住宅 IP。台灣 IP 的實際費率較低，根據多個評測來源推估約在 $0.10 USD/GB 左右——和 Honeygain 的台灣費率相近。
+Repocket 的[出金與獎勵政策](https://repocket.com/payment-and-rewards-policy)寫明目前主要按分享的 GB 數計費，實際金額取決於流量需求、地區、IP 品質等因素，但官方沒有公開每 GB 單價，也沒有地區費率表。本文前一版用「台灣約 $0.10/GB」推估月收，這個單價查不到官方依據，依賴它的月收與「幾個月才能出金」試算也一併刪除。
 
-台灣 IP 在住宅代理市場的需求本來就偏低（主要客戶需要歐美 IP），這是所有掛機平台的共同限制，不是 Repocket 獨有的問題。
-
-一台裝置、台灣家用寬頻、每天 18 小時開機：
-
-- 日均實際被使用流量：0.5–2 GB（需求端決定）
-- 月均收益估算：$1.5–$6 USD
-
-$20 的出金門檻，在這個收益範圍下，需要 3–13 個月才能累積到。
+台灣 IP 在住宅代理市場的需求本來就偏低（主要客戶需要歐美 IP），這是所有掛機平台的共同限制，不是 Repocket 獨有的問題。想知道自己一台電腦能賺多少，最直接的方法是裝桌面版跑一週，看後台累積的金額再決定要不要繼續。
 
 ### 出金現況
 
-- **出金門檻**：$20 USD
-- **出金方式**：PayPal / Tremendous / USDT（Polygon）
-- **注意事項**：出金管道的穩定性不如 Honeygain 和 EarnApp，多個用戶曾回報 PayPal 選項被無預告移除的情況。
+- **出金門檻**：官方未公開固定數字，以登入後出金頁為準
+- **出金方式**：政策列出的類型是加密錢包、交易所、銀行或匯款服務，實際選項依地區不同
+- **注意事項**：政策寫明平台可隨時不另行通知調整出金方式；出金相關手續費原則上由用戶負擔，可能直接從出金金額扣除
+
+<!-- IG-angle: 逐條對照 Repocket 2026 年 7 月版條款與出金政策、Google Play 與 App Store 查詢結果，指出手機版已兩店查無、門檻與單價不公開，把判斷改成「先登入看出金頁、用桌面版試跑一週」 -->
 
 與三款平台的出金比較，可以參考：[三款掛機 App 出金體驗比較](/earn-apps/passive-app-payout-compare/)
 
@@ -170,10 +163,10 @@ $20 的出金門檻，在這個收益範圍下，需要 3–13 個月才能累�
 
 | 維度 | 評分 | 說明 |
 |---|---|---|
-| 資安透明度 | ★★☆☆☆ | Geonode 公司規模小、資訊有限；port 限制聲明缺失；第三方研究稀少 |
-| 台灣可用性 | ★★★☆☆ | 地區不封鎖、Android App 可用；iOS 狀態不穩定；出金管道曾有波動 |
-| 收益表現 | ★★☆☆☆ | 台灣 IP 費率低（約 $0.10/GB）；$20 門檻高；月收 $1.5–$6 為正常範圍 |
-| 出金體驗 | ★★☆☆☆ | 出金管道選項多但穩定性差；PayPal 有過無預告變動紀錄 |
+| 資安透明度 | ★★☆☆☆ | 出金門檻、費率、支援平台未公開；port 限制聲明缺失；第三方研究稀少 |
+| 台灣可用性 | ★★☆☆☆ | 地區不封鎖、桌面版可用；Android、iOS 兩個商店都查無 |
+| 收益表現 | ★★☆☆☆ | 按 GB 計費但單價不公開；台灣 IP 需求本來就偏低 |
+| 出金體驗 | ★★☆☆☆ | 門檻與選項要登入才看得到；政策保留隨時不另行通知調整出金方式的權利 |
 
 ---
 
@@ -181,13 +174,13 @@ $20 的出金門檻，在這個收益範圍下，需要 3–13 個月才能累�
 
 除了資安透明度低之外，Repocket 還有幾個需要正視的問題：
 
-**出金管道不穩定**：PayPal 無預告移除的事件說明平台對出金政策的溝通比 Honeygain 和 EarnApp 更不透明。累積到 $20 才發現出金管道有問題，是可能發生的情境。
+**出金規則不公開**：Honeygain 和 EarnApp 都在說明中心寫出門檻與手續費（見 [Honeygain 手續費說明](https://support.honeygain.com/hc/en-us/articles/4412743372690-What-are-the-payout-fees)、[EarnApp 手續費說明](https://help.earnapp.com/hc/en-us/articles/10147389004049--What-are-the-transaction-fees-on-redeems)），Repocket 要登入才看得到，且政策保留隨時調整的權利。解法是開始掛機前先登入看出金頁，確認有你能用的方式再開始累積。
 
-**收益資訊分散**：Repocket 沒有類似 Honeygain「Earnings Calculator」的官方預估工具，且台灣的使用者回報樣本少，月收估算的可靠性比另外兩款低。
+**收益資訊不透明**：官方不公開每 GB 單價，台灣的使用者回報樣本又少，事前很難估月收。解法是先用一台桌面電腦試跑一週，用後台實際數字判斷。
 
-**iOS 狀態模糊**：蘋果用戶在安裝前要自行確認，不能依賴幾個月前的評測文章。
+**沒有手機版**：Google Play、App Store 目前都查無，只打算用手機跑的人可以直接略過這款。
 
-**公司階段**：Geonode 仍是相對早期的創業公司，這類服務的長期穩定性（兩年後還在嗎）比已有更長時間累積的平台更難評估。
+**長期穩定性**：Repocket 的條款寫明平台可以隨時新增、移除或停止任何功能與支援環境，手機版目前從兩個商店消失，原因官方未說明。這類服務兩年後長什麼樣子，比 Honeygain、EarnApp 更難預測。
 
 ---
 
@@ -195,11 +188,11 @@ $20 的出金門檻，在這個收益範圍下，需要 3–13 個月才能累�
 
 **不是首選**。
 
-如果你的目標是在台灣安裝一款掛機 App，Repocket 在同類工具中的資安透明度最低、出金管道最不穩定，且台灣 IP 的收益表現不比 Honeygain 和 EarnApp 好。在沒有明確優勢的情況下，選擇資訊更透明的平台是合理的決策。
+如果你的目標是在台灣安裝一款掛機 App，Repocket 在同類工具中的資安透明度最低、出金與收益規則最不公開，手機版也在兩個商店都查無。在沒有明確優勢的情況下，選擇資訊更透明的平台是合理的決策。
 
-**什麼情況下可以考慮**：你已經在跑 Honeygain 和 EarnApp，想嘗試第三個平台分散看看。前提是先確認你的 iOS 能安裝（如果你是 iPhone 用戶）、出金管道目前是否可用。Repocket 在試跑階段的機會成本不高，但不值得作為第一台裝置的選擇。
+**什麼情況下可以考慮**：你已經有一台長時間開著的桌面電腦，想多試一個平台。前提是先登入確認出金頁有你能用的方式。如果那台電腦同時在跑 EarnApp，要先知道 [EarnApp 官方說明](https://help.earnapp.com/hc/en-us/articles/10201052442897--Why-is-my-IP-address-blocked)提到：同一個 IP 上跑其他會產生自動化流量的頻寬分享 App，可能拉低 IP 評分而被它封鎖。Repocket 不值得作為第一台裝置的選擇。
 
-**2026 年的推薦排序**（台灣用戶、工具評測角度）：EarnApp > Honeygain > [Pawns](https://pawns.app/).app > Repocket
+**2026 年的推薦排序**（台灣用戶、工具評測角度）：EarnApp > Honeygain > Repocket。前一版排在第三的 Pawns.app，[官方說明](https://pawns.app/llm-info/)已寫明 2026 年不再提供頻寬分享，已移出排序。
 
 ---
 
@@ -207,7 +200,7 @@ $20 的出金門檻，在這個收益範圍下，需要 3–13 個月才能累�
 
 **Q：Repocket 和 Honeygain 能同時跑嗎？**
 
-可以，但同一個 IP 的流量需求固定，兩個平台同時跑意味著需求被分食，個別收益都會降低。多台裝置分別安裝不同平台，比一台同時跑多款更有效率。
+技術上可以，但同一個 IP 的流量需求固定，兩個平台同時跑意味著需求被分食。另外 EarnApp 官方寫明，同一 IP 上跑其他產生自動化流量的頻寬分享 App 可能讓 IP 被它封鎖；Honeygain [官方說明](https://support.honeygain.com/hc/en-us/articles/360013231420-What-is-the-current-payout-rate)也會限制同一個網路連線同時使用的裝置數。要同時跑，先確認你最在意的那一款不會因此被擋。
 
 **Q：Repocket 會讓我的手機或電腦中毒嗎？**
 
@@ -215,7 +208,7 @@ $20 的出金門檻，在這個收益範圍下，需要 3–13 個月才能累�
 
 **Q：台灣用戶一個月能賺多少？**
 
-根據現有的使用者回報和費率推估，台灣地區單台裝置月收約 $1.5–$6 USD，出金需要累積到 $20，大約要 3–13 個月。
+Repocket 官方沒有公開每 GB 單價，出金門檻也要登入才看得到，事前無法可靠推估。建議用一台桌面電腦試跑一週，看後台累積金額與出金頁門檻，再決定要不要長期開著。
 
 ---
 
