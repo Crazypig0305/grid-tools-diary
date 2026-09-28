@@ -36,7 +36,7 @@ draft: false
 | OneDrive | 5 GB | 100 GB，價格見[官方頁](https://www.microsoft.com/zh-tw/microsoft-365/p/microsoft-365-basic/cfq7ttc0ktxs)（Microsoft 365 基本版）| 1 TB，NT$3,090／年，約 NT$258／月（[Microsoft 365 個人版](https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products)，含 Word、Excel）|
 | iCloud | 5 GB | 50 GB，NT$30／月（[iCloud+](https://support.apple.com/zh-tw/108047)）| 2 TB，NT$300／月 |
 
-Google 的 15 GB 免費額度是三者最高的，但 Gmail 和相簿也在吃這個空間，實際可用量視情況而定。Apple 的 5 GB 非常容易滿，尤其 iCloud 備份會吃很多空間。OneDrive 的 5 GB 免費額度偏少，而且它划算的點不在小容量——Microsoft 365 個人版一年 NT$3,090 就附 1 TB，如果你本來就要用 Word、Excel，這 1 TB 等於順便送的；沒在用 Office 的話，OneDrive 的性價比並不突出。
+Google 的 15 GB 免費額度是三者最高的，但 Gmail 和相簿也在吃這個空間，實際可用量視情況而定。Apple 的 5 GB 非常容易滿，尤其 iCloud 備份會吃很多空間。LINE 的免費聊天備份也是存進 iCloud 或 Google 雲端硬碟，但加大容量不會讓它多備份照片影片，差別見 [LINE Premium 值得嗎](/productivity/line-premium-worth-it-2026/)。OneDrive 的 5 GB 免費額度偏少，而且它划算的點不在小容量——Microsoft 365 個人版一年 NT$3,090 就附 1 TB，如果你本來就要用 Word、Excel，這 1 TB 等於順便送的；沒在用 Office 的話，OneDrive 的性價比並不突出。
 
 付費的直接比較：小容量是 iCloud 50 GB 的 NT$30 最便宜；到了 2 TB，iCloud+ 的 NT$300 比 Google AI Plus 的 NT$330 便宜，而且 Google 這一層已經和 Gemini AI 功能綁在一起賣。
 
