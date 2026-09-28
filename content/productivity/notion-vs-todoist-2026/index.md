@@ -230,7 +230,7 @@ PTT Salary 板的討論裡，可以看到很多人「裝了 Notion 但從來沒�
 
 - **任務管理體驗遠不如 Todoist**：在 Notion 裡新增一個帶提醒的任務，要分別點開日期、提醒、優先度等欄位去設，Todoist 打一行字就完成。這個差距在每天要新增大量任務的場景下，時間成本很快就累積出來。
 - **學習曲線讓很多人用不起來**：Notion 的功能強大但不直覺，PTT 和 Dcard 上有大量「裝了 Notion 但最後沒在用」的討論，問題幾乎都是初始建置門檻高。
-- **AI 功能要付高價**：完整 AI 需要 Business 方案（年繳每人每月 $20 USD）——相當於每年約 NT$7,680；想用 Custom Agents 還要另購 Notion credits。對個人用戶來說，這個費率遠超過大多數人的實際使用需求。
+- **AI 功能要付高價**：完整 AI 需要 Business 方案（年繳每人每月 $20 USD）——相當於每年約 NT$7,680；想用 Custom Agents 還要另購 Notion credits。對個人用戶來說，這個費率遠超過大多數人的實際使用需求。如果只是想要 AI 幫忙寫東西，通用 AI 助理的入門付費方案每月約一百多到三百多元，價位怎麼比見[ChatGPT Go、Plus 與同價位 AI 訂閱比較](/productivity/chatgpt-go-ads-taiwan-2026/)。
 - **Free 方案的 5 MB 附件限制很快會踩到**：只要你的工作跟設計稿、PDF 有關，5 MB 的單檔限制很容易碰到。
 
 **Todoist 的真實缺點：**
