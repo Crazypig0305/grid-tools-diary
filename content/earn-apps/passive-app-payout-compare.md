@@ -78,7 +78,7 @@ draft: false
 
 EarnApp 門檻低、費率公開、現金路線最單純；Honeygain 在 2026 年 8 月改版後選項變多（$0.50 起的 JumpTask、0% 平台費禮品卡），但 PayPal 每筆仍有 $2 固定費加 2%，適合接受禮品卡或願意累積大額再出的人；Repocket 的門檻、出金方式與費率都沒有公開，Android App 也已不在 Google Play，資訊透明度排最後。
 
-選掛機平台不能只看收益，把出金手續費算進去之後的實際到手金額才是真正的比較基準。選平台前也建議確認資安與耗電成本：[掛機 App 資安風險評估](/earn-apps/passive-app-security/)、[掛機 App 耗電耗流量實測](/earn-apps/passive-app-battery-test/)。
+選掛機平台不能只看收益，把出金手續費算進去之後的實際到手金額才是真正的比較基準。選平台前也建議確認資安與耗電成本：[掛機 App 資安風險評估](/earn-apps/passive-app-security/)、[掛機 App 耗電、耗流量與手機影響整理](/earn-apps/passive-app-battery-test/)。
 
 ---
 
