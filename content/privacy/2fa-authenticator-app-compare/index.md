@@ -2,7 +2,7 @@
 title: "2FA Authenticator App 怎麼選？2026 五款主流工具比較"
 description: "2FA 該用哪個 Authenticator App？Google / Microsoft / Authy / 1Password 內建 / Bitwarden 內建五款主流工具比較，含跨裝置同步、備份機制、開源狀態、企業 admin 觀察三場景風險矩陣，最後給三種使用情境的明確推薦組合。"
 date: 2026-05-18
-lastmod: 2026-09-13T00:19:00+08:00
+lastmod: 2026-10-05T11:30:00+08:00
 canonicalURL: "https://gridtoolsdiary.com/privacy/2fa-authenticator-app-compare/"
 categories: ["privacy"]
 tags: ["2FA", "authenticator", "雙因素驗證", "passkey", "資安"]
@@ -23,7 +23,7 @@ draft: false
 
 依據國際 [Internet Engineering Task Force (IETF) RFC 6238 規範](https://datatracker.ietf.org/doc/html/rfc6238)，標準的時間型一次性密碼（Time-based One-Time Password, TOTP）應該由「使用者裝置上的應用程式」依共享密鑰與當前時間獨立產生，伺服器端不傳輸驗證碼本身。
 
-簡訊 2FA 不符合這個原則：驗證碼是由伺服器產生後傳送到電信網路，過程中可能被 SIM swap 攻擊（攻擊者向電信業者申辦補卡）或 SS7 信令網路漏洞攔截。[Wikipedia 的 Multi-factor Authentication 條目](https://en.wikipedia.org/wiki/Multi-factor_authentication)整理了這段歷史：美國國家標準暨技術研究院（NIST）在 2016 年 7 月的指引草案曾提議淘汰簡訊驗證。2017 年 6 月定稿的 [SP 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) 沒有淘汰它，而是在 §5.1.3.3 改列為「受限制（RESTRICTED）」但仍可使用（原文：Use of the PSTN for out-of-band verification is RESTRICTED），並要求驗證方用電話網路（簡訊或語音）傳碼前，先考量換機、換 SIM 卡、號碼轉移等風險訊號。現行的 [NIST SP 800-63B-4](https://pages.nist.gov/800-63-4/sp800-63b.html)（2025 年 8 月定稿，§3.1.3.3）延續這個「受限制」分類，換機、換 SIM、號碼轉移這些風險訊號的要求也仍在。
+簡訊 2FA 不符合這個原則：驗證碼是由伺服器產生後傳送到電信網路，過程中可能被 SIM swap 攻擊（攻擊者向電信業者申辦補卡）或 SS7 信令網路漏洞攔截。[Wikipedia 的 Multi-factor Authentication 條目](https://en.wikipedia.org/wiki/Multi-factor_authentication)整理了這段歷史：美國國家標準暨技術研究院（NIST）在 2016 年 7 月的指引草案曾提議淘汰簡訊驗證。2017 年 6 月定稿的 [SP 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) 沒有淘汰它，而是在 §5.1.3.3 改列為「受限制（RESTRICTED）」但仍可使用（原文：Use of the PSTN for out-of-band verification is RESTRICTED），並要求驗證方用電話網路（簡訊或語音）傳碼前，先考量換機、換 SIM 卡、號碼轉移等風險訊號。現行的 [NIST SP 800-63B-4](https://pages.nist.gov/800-63-4/sp800-63b.html)（[NIST 標示 2025 年 7 月發布](https://csrc.nist.gov/pubs/sp/800/63/b/4/final)，§3.1.3.3）延續這個「受限制」分類，換機、換 SIM、號碼轉移這些風險訊號的要求也仍在。
 
 換句話說，**只要你有更好的選項，就不應該依賴簡訊 2FA**。而「更好的選項」就是 Authenticator App。
 
@@ -34,7 +34,7 @@ draft: false
 | App | 費用 | 跨裝置同步 | 備份機制 | 開源 | 企業 admin 可見 |
 |---|---|---|---|---|---|
 | **Google Authenticator** | 免費 | ✅（2023 年新增）| 透過 Google 帳號 | ❌ | ❌（個人帳號）|
-| **Microsoft Authenticator** | 免費 | ✅ | 透過 Microsoft 帳號 | ❌ | ⚠️（企業 M365 環境可見）|
+| **Microsoft Authenticator** | 免費 | ⚠️（備份還原，換機用）| iPhone 用 iCloud；Android 用 Microsoft 個人帳號（[2027 年 1 月起改 Google One 備份](https://support.microsoft.com/zh-tw/authenticator/back-up-your-accounts-in-microsoft-authenticator)）| ❌ | ⚠️（企業 M365 環境可見）|
 | **Authy** | 免費 | ✅（多裝置）| 雲端加密備份 | ❌ | ❌（個人 App，官網未提企業管理功能）|
 | **1Password 內建** | 付費（USD 47.88/年起）| ✅（隨密碼庫）| 隨密碼庫雲端備份 | ❌ | ❌（個人方案）|
 | **Bitwarden 內建** | Premium USD 19.80/年 | ✅（隨密碼庫）| 隨密碼庫雲端備份 | ✅ | ❌（個人方案）|
@@ -90,19 +90,19 @@ Bitwarden Premium（USD 19.80/年）內建 TOTP 功能，邏輯與 1Password 相
 | App | 救援難度 |
 |---|---|
 | Google Authenticator | 容易（Google 帳號還在即可恢復）|
-| Microsoft Authenticator | 容易（M 帳號還在即可恢復）|
+| Microsoft Authenticator | 同平台容易（iPhone 靠 iCloud、Android 靠備份用的 Microsoft 個人帳號；公司帳號只還原名稱、要重新登入）；iPhone 與 Android 互換時備份不能還原，要逐一重新綁定（[換機步驟](/privacy/microsoft-authenticator-backup-change-2026/)）|
 | Authy | 容易（多裝置已登入即可）|
 | 1Password 內建 | 容易（隨密碼庫恢復）|
 | Bitwarden 內建 | 容易（隨密碼庫恢復）|
 
-五款都有雲端同步後，**這個場景已不再是選擇關鍵**。真正麻煩的是「同步雲端被攻破」的下一個場景。
+五款都有雲端備份或同步後，**同平台換機這個場景已不再是選擇關鍵**；例外是 Microsoft Authenticator 的備份不能跨 iPhone 與 Android 還原，常換平台的人要把這點算進去。真正麻煩的是「同步雲端被攻破」的下一個場景。
 
 ### 場景二：雲端帳號被盜
 
 | App | 攻擊面 |
 |---|---|
 | Google Authenticator | Google 帳號被盜 = 全 2FA 暴露 |
-| Microsoft Authenticator | M 帳號被盜 = 全 2FA 暴露 |
+| Microsoft Authenticator | Android：備份用的 Microsoft 個人帳號被盜 = 第三方帳號驗證碼可被還原到別的手機（[微軟還原說明](https://support.microsoft.com/en-us/authenticator/restore-account-credentials-from-microsoft-authenticator)：登入備份帳號即可還原）。[2027 年 1 月起改用 Google One 備份](https://support.microsoft.com/zh-tw/authenticator/back-up-your-accounts-in-microsoft-authenticator)。iPhone：備份改放 iCloud，風險改看 Apple 帳號的保護；微軟沒有寫備份放在 iCloud 哪一部分、是否端對端加密。公司帳號：兩邊都只備份名稱 |
 | Authy | Authy 帳號被接管（例如手機號碼被 SIM swap、被加掛新裝置）**再加上**備份密碼被猜中或外洩 = 全 2FA 暴露；只接管帳號、沒有備份密碼的話解不開（2022 年 8 月確實發生過帳號被接管的事件：[Twilio 官方說明](https://www.twilio.com/en-us/blog/august-2022-social-engineering-attack)有 93 個 Authy 帳號被加掛了未授權裝置）|
 | 1Password 內建 | 主密碼+Secret Key 被盜 = 密碼與 2FA 同時暴露 |
 | Bitwarden 內建 | 主密碼被盜 = 密碼與 2FA 同時暴露 |
@@ -180,7 +180,7 @@ Passkey 本身的備份策略也仍在演進中：iCloud Keychain、Google Passw
 
 選 Authenticator App 沒有「最佳解」，只有「在你的場景下風險可接受的解」。
 
-五款主流 App 在「跨裝置同步」與「裝置遺失救援」上差異已不大；真正的差異在於**雲端被攻破的攻擊面**（純本地 vs 雲端同步）與**企業 admin 可見性**。
+五款主流 App 在「同平台換機、裝置遺失救援」上差異已不大（例外是 Microsoft Authenticator 不能跨 iPhone 與 Android 還原）；真正的差異在於**雲端被攻破的攻擊面**（純本地 vs 雲端同步）與**企業 admin 可見性**。
 
 對非技術背景使用者來說，最重要的不是糾結哪一款最好，而是**確實開啟 2FA、確實備份備援碼、確實理解 2FA 不是萬靈丹**——配合密碼管理器、Passkey、實體安全金鑰（如 YubiKey）多層防護，才是現代資安的合理姿態。
 
