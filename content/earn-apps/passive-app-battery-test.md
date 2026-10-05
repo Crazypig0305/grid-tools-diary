@@ -1,158 +1,100 @@
 ---
-title: "掛機 App 耗電耗流量實測：Honeygain vs EarnApp vs Repocket 哪個最省手機資源？"
+title: "掛機 App 會很耗電、耗流量、傷手機嗎？Honeygain、EarnApp、Repocket 手機資源影響整理（2026）"
 date: 2023-03-15
-lastmod: 2026-04-16
+lastmod: 2026-10-05
 categories: ["earn-apps"]
-tags: ["Honeygain", "EarnApp", "Repocket", "掛機App", "耗電測試"]
-description: "掛機 App 到底多耗電？Honeygain、EarnApp、Repocket 三款在同一支手機實測，告訴你對電池和流量的真實影響。"
+tags: ["Honeygain", "EarnApp", "Repocket", "掛機App", "耗電", "流量"]
+description: "掛機 App 跑在手機上會多耗電、吃多少流量、會不會傷電池？依 Honeygain、EarnApp、Repocket 2026 年官方說明整理：耗電來自維持連線、流量沒有固定值、行動數據最不划算，以及哪款現在還能在手機上跑。"
 image: /images/passive-app-compare.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 3 月｜最後更新：2026 年 4 月
-> [EarnApp](https://earnapp.com/) 已於 2025 年改為按時計費，收益數字與原測試期間不同，請參閱個別評測文章。本文聚焦於資源消耗（電力、流量），這部分測試結果仍具參考性。
+> 📅 原文發布：2023 年 3 月｜最後更新：2026 年 10 月
+> 2026 年 10 月 5 日更正：前一版的「7 天平均每日耗電 %、每日流量 MB」兩張表與對照圖，拿不出可供查證的原始紀錄與量測方法，已整段移除，改依 Honeygain、EarnApp 官方說明整理影響因素；同時補上手機版現況——Repocket 的 Android、iOS App 兩個商店都查無、官網只提供桌面版；Honeygain 與 EarnApp 的 Android 版都不在 Google Play，要從官網下載；EarnApp 官方寫明電量低於 30% 會自動停止；EarnApp 自 2025 年 8 月 20 日改為按時計費，流量多寡不再直接等於收益。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
----
-
-## 測試動機
-
-如果要在手機上長時間跑掛機 App，電池和流量消耗是實際要花的成本。理論上「跑著就有錢」，但如果每個月多耗 5 GB 流量、手機壽命縮短，這些都算在帳裡。
-
-這篇記錄的是我在同一支 Android 手機、相同時段、相同 Wi-Fi 環境下，分別跑三款 App 的耗電和流量數據。
+**結論先講：** 掛機 App 在手機上的成本，主要不是運算，而是「長時間維持網路連線」的耗電，加上被平台用掉的流量。耗多少沒有固定值——三家官方都沒公布每日耗電或流量的標準數字，流量取決於你所在地區當下的需求。在「備用機＋接電＋Wi-Fi」的條件下，影響很小；拿主力機、用行動數據跑，最不划算。2026 年手機上還能跑的只剩 Honeygain 和 EarnApp 的 Android 版（都要從官網下載），Repocket 目前只有桌面版。
 
 ---
 
-## 測試環境
+## 三款 App 的手機資源影響對照（2026 年 10 月）
 
-- 裝置：Android 手機（6,000 mAh 電池）
-- 連線：家用 Wi-Fi（200 Mbps 光纖）
-- 測試方式：每款 App 連跑 7 天，記錄系統電池用量統計和每日流量
-- 計算基準：App 在背景運行（螢幕關閉）的耗電量
-
----
-
-## 電池消耗數據
-
-| App | 7 天平均每日耗電 | 佔總耗電比例 |
-|---|---|---|
-| [Honeygain](https://www.honeygain.com/) | 3–5% | 中等 |
-| EarnApp | 2–4% | 偏低 |
-| [Repocket](https://repocket.com/) | 4–6% | 中等偏高 |
-
-三款在螢幕關閉、Wi-Fi 維持連線的狀態下耗電量都在可接受範圍。充電習慣正常的話，背景跑這些 App 不會讓手機電池撐不過一天。
-
-耗電的主要來源不是 App 本身的運算，而是維持網路連線的電力。這類掛機 App 本質上屬於[住宅代理（residential proxy）](https://en.wikipedia.org/wiki/Proxy_server#Residential_proxy)網路，會在背景持續維持連線、轉發第三方流量請求，所以即使運算負荷低、連線保持本身就有電力成本。這表示如果你的手機本來就長時間在 Wi-Fi 環境下，額外的電耗增量其實不多。
+| 項目 | [Honeygain](https://www.honeygain.com/) | [EarnApp](https://earnapp.com/) | [Repocket](https://repocket.com/) |
+|---|---|---|---|
+| 手機版現況 | Android 可用，從官網下載；官方寫明 iOS 目前不提供 | Android 版標示 beta，從官網後台或華為應用市場下載；iOS 改由 Bright Rewards 提供，必須停在螢幕前景才會運作 | Google Play、App Store 都查無，官網下載頁只列桌面版 |
+| 是否在 Google Play | 否 | 否（官方說明 Google 政策限制代理類 App 上架）| 否 |
+| 官方對耗電的說法 | 未公布數字；官方教學是關閉手機的電池最佳化，避免 App 被系統關掉 | 「會用掉一些電」，建議接電使用；電量低於 30% 自動停止 | 未公布 |
+| 流量控制 | 使用計量型行動方案時，可在 App 內設每月流量上限 | iOS 的 Bright Rewards 可手動開啟行動數據並設每月上限（GB）；Android 版官方未說明 | —（無手機版）|
+| 收益和流量的關係 | 依分享的流量累積點數，但官方說明沒有固定費率，看地區需求 | 2025 年 8 月 20 日起按「實際被使用的時間」計費，不按 GB | 主要按分享的 GB 計費，單價未公開 |
 
 ---
 
-## 流量消耗數據
+## 為什麼會耗電：問題在「一直連著網路」
 
-這個差異比電耗更明顯。
+這類掛機 App 本質上是[住宅代理（residential proxy）](https://en.wikipedia.org/wiki/Proxy_server#Residential_proxy)網路的節點：你的手機在背景維持連線，等平台把企業客戶的請求轉過來。運算負荷不高，但連線要一直保持著，電就一直在用。
 
-| App | 7 天總流量使用 | 每日平均 |
-|---|---|---|
-| Honeygain | 約 280–420 MB | 40–60 MB/天 |
-| EarnApp | 約 350–700 MB | 50–100 MB/天 |
-| Repocket | 約 140–350 MB | 20–50 MB/天 |
+官方說法也對得上這一點。[EarnApp 說明中心](https://help.earnapp.com/hc/en-us/articles/11902783438865-Will-EarnApp-reduce-my-battery-life)直接寫「因為使用你的網路連線，所以會用掉一些電」，建議在手機接電時使用；電量掉到 30% 時 EarnApp 會自動停止，不會把你的手機電耗光。
 
-流量差異比較大，因為這直接取決於平台當下的需求量，不是固定值。同樣的裝置和時段，某天可能用 200 MB，另一天可能不到 50 MB。
-
-### 三款 App 資源消耗對照圖
-
-把上面兩張表用同一張圖呈現，每天耗電與每天流量的差距能直接看出來：
-
-<figure class="ig-chart" role="img" aria-label="三平台耗電與流量雙軸對比，EarnApp 最省電但流量最多">
-<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#F3F6FB;font-family:'Noto Sans TC','IBM Plex Sans',sans-serif;">
-  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#1F4E8E">三款掛機 App 7 天實測資源消耗</text>
-  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#5A6B82">Android 6,000 mAh + 200 Mbps Wi-Fi + 螢幕關閉背景運行</text>
-
-  <line x1="80" y1="80" x2="80" y2="280" stroke="#1F4E8E" stroke-width="1.5"/>
-  <line x1="80" y1="280" x2="680" y2="280" stroke="#1F4E8E" stroke-width="1.5"/>
-  <line x1="680" y1="80" x2="680" y2="280" stroke="#E2943E" stroke-width="1.5"/>
-
-  <text x="70" y="85" text-anchor="end" font-size="11" fill="#1F4E8E">8%</text>
-  <text x="70" y="135" text-anchor="end" font-size="11" fill="#1F4E8E">6%</text>
-  <text x="70" y="185" text-anchor="end" font-size="11" fill="#1F4E8E">4%</text>
-  <text x="70" y="235" text-anchor="end" font-size="11" fill="#1F4E8E">2%</text>
-  <text x="70" y="285" text-anchor="end" font-size="11" fill="#1F4E8E">0</text>
-
-  <text x="40" y="180" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="500" transform="rotate(-90 40 180)">每日耗電 %</text>
-
-  <text x="690" y="85" font-size="11" fill="#E2943E">120</text>
-  <text x="690" y="135" font-size="11" fill="#E2943E">90</text>
-  <text x="690" y="185" font-size="11" fill="#E2943E">60</text>
-  <text x="690" y="235" font-size="11" fill="#E2943E">30</text>
-  <text x="690" y="285" font-size="11" fill="#E2943E">0</text>
-
-  <text x="715" y="180" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="500" transform="rotate(-90 715 180)">每日流量 MB</text>
-
-  <rect x="140" y="180" width="40" height="100" fill="#1F4E8E"/>
-  <text x="160" y="172" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">3-5%</text>
-  <rect x="185" y="155" width="40" height="125" fill="#E2943E"/>
-  <text x="205" y="147" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">40-60</text>
-  <text x="182" y="305" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">Honeygain</text>
-
-  <rect x="320" y="205" width="40" height="75" fill="#1F4E8E"/>
-  <text x="340" y="197" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">2-4%</text>
-  <rect x="365" y="105" width="40" height="175" fill="#E2943E"/>
-  <text x="385" y="97" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">50-100</text>
-  <text x="362" y="305" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">EarnApp</text>
-
-  <rect x="500" y="155" width="40" height="125" fill="#1F4E8E"/>
-  <text x="520" y="147" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">4-6%</text>
-  <rect x="545" y="220" width="40" height="60" fill="#E2943E"/>
-  <text x="565" y="212" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">20-50</text>
-  <text x="542" y="305" text-anchor="middle" font-size="13" fill="#1F4E8E" font-weight="500">Repocket</text>
-
-  <rect x="200" y="330" width="14" height="10" fill="#1F4E8E"/>
-  <text x="220" y="339" font-size="11" fill="#5A6B82">每日耗電（%）</text>
-  <rect x="370" y="330" width="14" height="10" fill="#E2943E"/>
-  <text x="390" y="339" font-size="11" fill="#5A6B82">每日流量（MB）</text>
-</svg>
-<figcaption style="font-size:13px;color:#5A6B82;margin-top:8px;">資料來源：Android 系統電池用量統計 + 各 App 後台流量紀錄、7 天連跑取每日平均值。注意：流量為平台需求決定、非固定值；耗電主要來自維持網路連線、非運算負荷。</figcaption>
-</figure>
+Honeygain 這邊要注意的是另一個成本：[官方的 Android 優化說明](https://support.honeygain.com/hc/en-us/articles/30688476547740-How-to-optimize-Honeygain-on-Android)承認 Android 各廠牌的電池最佳化會把它從背景關掉，建議你關閉省電模式、把 Honeygain 設成「不最佳化」。這等於主動讓一個 App 不受系統省電管理，主力機這樣設，續航一定比原本差；備用機就無所謂。
 
 ---
 
-## 行動網路 vs Wi-Fi 的差距
+## 會吃多少流量：官方說沒有固定值
 
-以上數據都是在 Wi-Fi 環境測的。如果你打算用行動數據跑掛機 App，情況完全不同。
+前一版文章列過每日流量的區間，這次刪掉，因為官方的說法本來就不支持「固定多少 MB」這種寫法：
 
-月租 30 GB 的門號，光是掛機 App 一個月就可能消耗 1–3 GB，佔總配額的 3–10%。考慮到收益通常只有幾塊美金，在行動數據上跑幾乎不划算。順帶一提，會在背景偷吃流量的不只掛機 App，雲端硬碟的自動同步同樣會——這部分各家差異見[雲端硬碟哪個最好用](/productivity/cloud-storage-compare/)。這三款 App 都建議只在 Wi-Fi 環境下執行，[Honeygain 官方使用條款](https://www.honeygain.com/terms-of-use/)亦明示需在使用者可控的設備與網路上運行，Honeygain 和 Repocket 甚至在設定裡有「僅 Wi-Fi」選項。
+- **Honeygain**：[官方說明](https://support.honeygain.com/hc/en-us/articles/30688345333660-What-is-the-current-traffic-rate)寫明「目前沒有固定的流量費率」，你的連線會不會被用、用多少，取決於當下的需求和你所在的地區；某地區供給過多時，官方會暫時降低部分用戶的分享量。另一篇[說明](https://support.honeygain.com/hc/en-us/articles/30688342040348-Does-doing-other-network-activities-influence-my-earnings)也寫到，你自己看影片、下載遊戲，不會讓 Honeygain 分享得更多。
+- **EarnApp**：[官方費率說明](https://help.earnapp.com/hc/en-us/articles/38191916327441--What-are-the-EarnApp-rates-How-are-they-calculated)寫明 2025 年 8 月 20 日起改為按時計費，收益看裝置「實際被使用的時間」，美國以外地區每個 IP 每月上限 $5（前提是 24 小時連線、網速達標、而且真的有需求）。也就是說，對 EarnApp 來說，被用掉的流量多，不代表賺得多。
 
----
-
-## 手機發熱
-
-長時間背景跑網路任務會讓手機溫度略高，但這三款都是輕量級的流量轉發，不是高運算負荷的工作。實測過程中手機溫度比看 YouTube 還低，不構成過熱問題。
+實際用掉多少，你只能看自己手機的「數據用量」統計：裝好後跑一週，在系統設定裡看該 App 的 Wi-Fi 與行動數據用量，比任何別人給的數字都準。
 
 ---
 
-## 對電池壽命的長期影響
+## 行動網路 vs Wi-Fi：行動數據是最貴的跑法
 
-這個比較難量化，但有一個基本判斷：
+[Honeygain 使用條款](https://www.honeygain.com/terms-of-use/)把風險寫得很清楚：在計量型或行動網路上分享，可能產生數據費用（出國漫遊會更貴）；電信或網路業者可能把分享流量視為違反他們的條款，進而限速、暫停或終止服務；你的 IP 也可能被列入第三方封鎖名單、更常跳出驗證碼。條款同時寫明這些費用由使用者自行負擔。
 
-鋰電池的壽命和充放電次數有關，也和工作溫度有關。如果掛機 App 讓你每天多充一次電，長期下來確實有影響。但如果你本來就會定時充電、溫度也正常，多跑一個輕量背景 App 的邊際影響很小。
+所以即使 Honeygain 的[提高收益說明](https://support.honeygain.com/hc/en-us/articles/30688341894428-How-to-increase-earnings)提到可以改用行動網路、用不同 IP 的多台裝置分散流量，對台灣有流量上限的門號來說仍不划算：流量要算進你的月租配額，收益卻沒有保證。
+
+兩款手機可用的 App，官方公開的流量控制說明不一樣：
+
+- **Honeygain**：[官方頁面](https://www.honeygain.com/sell-internet-data/app/)寫明使用計量型行動方案時，可在 App 內設定每月流量上限。
+- **EarnApp**：[官方說明](https://help.earnapp.com/hc/en-us/articles/12831649620113-Can-i-use-Mobile-Data-to-generate-earnings)寫的是 iOS 版 Bright Rewards 的做法：在設定裡手動開啟「Use mobile data」，並填入每月最多使用幾 GB。Android 版 EarnApp 能不能設行動數據上限，說明中心的 Android 分類沒有寫（2026 年 10 月查詢）；在 Android 上跑，就用手機系統內建的數據用量警告或上限來管。
+
+建議的設法：主力機不要開行動數據分享；如果一定要開，上限設在你月租配額裡「確定用不到」的那一塊。會在背景偷吃流量的也不只掛機 App，雲端硬碟的自動同步同樣會——各家差異見[雲端硬碟哪個最好用](/productivity/cloud-storage-compare/)。
 
 ---
 
-## 三款排序
+## 會不會傷手機：電池、發熱與安裝方式
 
-**最省資源：EarnApp > Repocket > Honeygain**（流量層面 Repocket 較省，電耗層面 EarnApp 較省）
+**電池與發熱**：這類 App 的工作是轉發網路請求，不是高運算任務，兩家說明中心也查不到發熱相關的說明（2026 年 10 月搜尋）。真正會影響電池壽命的，是長時間高溫和頻繁充放電；如果掛機讓你每天要多充一次電，長期就會累積成電池老化。備用機固定接電、放在通風處跑，是比較好的條件。
 
-**流量最穩定：** 三款都有明顯的流量波動，沒有一款能保證每天固定量。
+**安裝方式（比耗電更值得注意）**：Honeygain 與 EarnApp 的 Android 版都不在 Google Play，要從官網下載安裝檔。EarnApp [官方說明](https://help.earnapp.com/hc/en-us/articles/26412170727825-Why-am-I-receiving-a-Harmful-app-warning-message)寫明，Google 政策限制代理類 App 上架，安裝時可能被 Google 標示為「有害應用程式」，之後也可能被 Play 保護機制停用；官方給的解法是關閉「使用 Play 保護機制掃描應用程式」，但這會讓手機對所有商店外的 App 都停止掃描。主力機不建議這樣做。安裝前的資安考量，見[掛機 App 資安風險評估](/earn-apps/passive-app-security/)。
 
-**建議使用條件：** 家用 Wi-Fi + 長時間不用的舊手機或備用裝置，是跑這類 App 最划算的組合。主力手機建議評估電池用量後再決定。
+**同一網路只算一台**：Honeygain [官方說明](https://support.honeygain.com/hc/en-us/articles/30688346556956-What-is-the-maximum-number-of-devices-allowed-by-Honeygain)寫明，同一個網路（IP）只能有一台裝置在分享，多的會顯示「Network overused」；另外寫明在電腦上跑的收益比只用手機多 30%。家裡如果有長時間開著的電腦，手機就不必再跑同一個平台。
+
+<!-- IG-angle: 前一版的耗電／流量「實測表」拿不出原始紀錄已移除，改逐條對照 Honeygain 說明中心與使用條款、EarnApp 說明中心（30% 低電量自動停止、2025-08-20 按時計費、行動數據上限設定僅見於 iOS 的 Bright Rewards、Android 版不在 Google Play 需關閉 Play 保護機制），把「耗多少」的問題改成「哪些設定決定你耗多少」 -->
+
+---
+
+## 從資源成本看，三款怎麼選
+
+**手機上值得跑的條件只有一種：閒置的 Android 備用機＋接電＋家用 Wi-Fi。** 符合這個條件，Honeygain 和 EarnApp 對手機的影響都小；不符合，就不值得。
+
+- **EarnApp**：電量低於 30% 會自動停止，不會把電耗光。缺點是 Android 版仍標 beta、官方沒說明能不能限制行動數據用量，安裝還要面對 Google 的有害應用程式警告。
+- **Honeygain**：可設每月流量上限，但官方的穩定運作教學是關閉電池最佳化，主力機續航會受影響；同一網路只算一台，家裡已有電腦在跑就不必再加手機。
+- **Repocket**：手機版目前兩個商店都查無、官網只提供桌面版，手機用戶直接略過。詳見[Repocket 台灣評測](/earn-apps/repocket-taiwan-review-2026/)。
+
+**不值得跑的情況**：主力機、只有行動數據、或你不願意關閉 Play 保護機制。這三種情況的成本（續航、流量配額、資安）都比掛機收益明確。
 
 ---
 
 ## 結論
 
-三款掛機 App 對電池的影響在正常使用情境下算是可接受的，流量消耗的差異比電耗更值得關注。
+掛機 App 對手機的影響，關鍵不在「哪一款比較省」，而在你怎麼跑：Wi-Fi、接電、備用機，耗電和流量的成本就很低；主力機加行動數據，成本最高、收益又不固定。
 
-如果你的網路有流量上限、或者這支手機是主力機，建議設定「僅 Wi-Fi」並觀察一週的流量消耗，再決定要不要長期跑。備用手機、吃到飽的 Wi-Fi 環境，跑起來的成本最低。
+2026 年手機上實際能選的是 Honeygain 和 EarnApp 的 Android 版，兩款都要從官網下載。裝好後第一週，打開系統的電池與數據用量統計，看該 App 實際用了多少，再決定要不要長期跑。
 
 ---
 
-📌 本文為資源消耗測試評比，不含推薦連結。如需了解各平台出金方式與手續費，見[三款掛機 App 出金體驗比較](/earn-apps/passive-app-payout-compare/)。安裝前若對資安有疑慮，可先看[掛機 App 資安風險評估](/earn-apps/passive-app-security/)。
+📌 本文為資源消耗整理，不含推薦連結。各平台出金方式與手續費見[三款掛機 App 出金體驗比較](/earn-apps/passive-app-payout-compare/)；收益面的現況見[掛機 App 2026 年現況評估](/earn-apps/idle-apps-2026-revenue-evaluation/)。

@@ -32,7 +32,7 @@ draft: false
 
 - [掛機 App 2026 年還值得跑嗎？Honeygain / EarnApp / Pawns 現況評估](/earn-apps/idle-apps-2026-revenue-evaluation/) — 收益下滑後，現在裝還划不划算的總評
 - [掛機 App 資安風險評估：頻寬共享真的安全嗎？](/earn-apps/passive-app-security/) — 裝之前先看這篇，搞清楚你在讓出什麼
-- [掛機 App 耗電耗流量實測：Honeygain vs EarnApp vs Repocket](/earn-apps/passive-app-battery-test/) — 對手機資源的實際影響數字
+- [掛機 App 耗電、耗流量與手機影響整理：Honeygain、EarnApp、Repocket](/earn-apps/passive-app-battery-test/) — 依官方說明整理的影響因素與手機版現況
 - [三款掛機 App 出金體驗比較：哪個最快手續費最低？](/earn-apps/passive-app-payout-compare/) — 真的能出金才算數
 - [Repocket 台灣可以用嗎？2026 年資安與值不值得評測](/earn-apps/repocket-taiwan-review-2026/) — 第四款掛機 App 單獨拆開，資安透明度為何墊底
 
