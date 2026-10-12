@@ -1,7 +1,7 @@
 ---
 title: "麻布記帳 2026 全面收費後還值得繼續用嗎？付費版評測與替代方案整理"
 date: 2026-04-15
-lastmod: 2026-09-15
+lastmod: 2026-10-13
 description: "麻布記帳 2026 年 4 月起全面收費：現在月費 NT$149、年費 NT$690（只到 2026 年底），2027 年起年費 NT$1,499。評測付費後買到什麼、缺點在哪，並比較 CWMoney、MOZE、Notion 三個替代方案，直接告訴你該留還是換。"
 categories: ["finance-tools"]
 tags: ["麻布記帳", "記帳app", "CWMoney", "MOZE", "理財工具"]
@@ -9,7 +9,7 @@ image: "moneybook-paywall-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2026 年 4 月｜最後更新：2026 年 9 月
+> 📅 原文發布：2026 年 4 月｜最後更新：2026 年 10 月
 > 本文價格、試用與替代方案已於 2026 年 9 月對照麻布記帳[官方收費公告](https://blog.moneybook.com.tw/?p=6341)、[官網](https://moneybook.com.tw/)、App Store 訂閱方案與各替代 App 官方頁面重新校對。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
@@ -50,10 +50,11 @@ draft: false
   <line x1="80" y1="240" x2="680" y2="240" stroke="#1F4E8E" stroke-width="1.5"/>
 
   <text x="70" y="85" text-anchor="end" font-size="11" fill="#1F4E8E">1500</text>
-  <text x="70" y="125" text-anchor="end" font-size="11" fill="#1F4E8E">1200</text>
-  <text x="70" y="165" text-anchor="end" font-size="11" fill="#1F4E8E">900</text>
-  <text x="70" y="205" text-anchor="end" font-size="11" fill="#1F4E8E">600</text>
-  <text x="70" y="245" text-anchor="end" font-size="11" fill="#1F4E8E">300</text>
+  <text x="70" y="117" text-anchor="end" font-size="11" fill="#1F4E8E">1200</text>
+  <text x="70" y="149" text-anchor="end" font-size="11" fill="#1F4E8E">900</text>
+  <text x="70" y="181" text-anchor="end" font-size="11" fill="#1F4E8E">600</text>
+  <text x="70" y="213" text-anchor="end" font-size="11" fill="#1F4E8E">300</text>
+  <text x="70" y="245" text-anchor="end" font-size="11" fill="#1F4E8E">0</text>
 
   <text x="160" y="258" text-anchor="middle" font-size="11" fill="#5A6B82">2026/4-5</text>
   <text x="160" y="272" text-anchor="middle" font-size="10" fill="#5A6B82">早鳥期</text>
@@ -62,24 +63,24 @@ draft: false
   <text x="600" y="258" text-anchor="middle" font-size="11" fill="#5A6B82">2027/1 起</text>
   <text x="600" y="272" text-anchor="middle" font-size="10" fill="#5A6B82">全價期</text>
 
-  <polyline points="160,148 380,148 600,40" stroke="#1F4E8E" stroke-width="3" fill="none"/>
-  <circle cx="160" cy="148" r="5" fill="#1F4E8E"/>
-  <circle cx="380" cy="148" r="5" fill="#1F4E8E"/>
-  <circle cx="600" cy="40" r="6" fill="#1F4E8E"/>
-  <text x="160" y="138" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">$690</text>
-  <text x="380" y="138" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">$690</text>
-  <text x="600" y="30" text-anchor="middle" font-size="12" fill="#1F4E8E" font-weight="700">$1,499</text>
+  <polyline points="160,166 380,166 600,80" stroke="#1F4E8E" stroke-width="3" fill="none"/>
+  <circle cx="160" cy="166" r="5" fill="#1F4E8E"/>
+  <circle cx="380" cy="166" r="5" fill="#1F4E8E"/>
+  <circle cx="600" cy="80" r="6" fill="#1F4E8E"/>
+  <text x="160" y="156" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">$690</text>
+  <text x="380" y="156" text-anchor="middle" font-size="11" fill="#1F4E8E" font-weight="600">$690</text>
+  <text x="600" y="68" text-anchor="middle" font-size="12" fill="#1F4E8E" font-weight="700">$1,499</text>
 
-  <polyline points="160,232 380,221 600,221" stroke="#E2943E" stroke-width="3" fill="none" stroke-dasharray="6,3"/>
-  <circle cx="160" cy="232" r="5" fill="#E2943E"/>
-  <circle cx="380" cy="221" r="5" fill="#E2943E"/>
-  <circle cx="600" cy="221" r="5" fill="#E2943E"/>
-  <text x="160" y="225" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$69</text>
-  <text x="380" y="214" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$149</text>
-  <text x="600" y="214" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$149</text>
+  <polyline points="160,233 380,224 600,224" stroke="#E2943E" stroke-width="3" fill="none" stroke-dasharray="6,3"/>
+  <circle cx="160" cy="233" r="5" fill="#E2943E"/>
+  <circle cx="380" cy="224" r="5" fill="#E2943E"/>
+  <circle cx="600" cy="224" r="5" fill="#E2943E"/>
+  <text x="160" y="224" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$69</text>
+  <text x="380" y="215" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$149</text>
+  <text x="600" y="215" text-anchor="middle" font-size="11" fill="#E2943E" font-weight="600">$149</text>
 
-  <text x="660" y="55" font-size="11" fill="#1F4E8E" font-weight="600">+117%</text>
-  <text x="660" y="68" font-size="10" fill="#5A6B82">年費漲幅</text>
+  <text x="660" y="84" font-size="11" fill="#1F4E8E" font-weight="600">+117%</text>
+  <text x="660" y="97" font-size="10" fill="#5A6B82">年費漲幅</text>
 
   <rect x="200" y="290" width="14" height="10" fill="#1F4E8E"/>
   <text x="220" y="299" font-size="11" fill="#5A6B82">年費（NT$/年）</text>
@@ -135,7 +136,7 @@ PTT 和 Dcard 上有不少討論提到，麻布記帳在特定銀行的同步常
 
 **3. 沒有免費退路**
 
-以前免費版雖然有限制，但至少能用基本記帳功能。現在沒有任何免費方案——7 天試用期結束後不付費，同步和記帳都不能用。沒有「降回免費但保留手動記帳」的選項。
+以前免費版雖然有限制，但至少能用基本記帳功能。現在沒有任何免費方案——7 天試用期結束後不付費，同步和記帳都不能用。官方收費公告沒說明舊用戶能不能再試用；App Store 版本說明只寫七天免費試用是給「尚未訂閱的朋友們」，以前訂閱過的人能不能再拿到，以 App 內訂閱頁顯示為準。沒有「降回免費但保留手動記帳」的選項。
 
 ---
 
@@ -148,11 +149,11 @@ PTT 和 Dcard 上有不少討論提到，麻布記帳在特定銀行的同步常
 
 麻布記帳目前持有 ISO/IEC 27001（資訊安全管理）與 ISO/IEC 27701（隱私資訊管理）認證，並依金管會核備的「Open API 安控標準」完成滲透測試與社交工程演練，這些都是查得到的事實。問題不在它有沒有做資安，而在它**取得資料的方式**。
 
-台灣的開放銀行（Open Banking）目前停在第二階段（客戶資料），多數銀行還沒開放標準化的 OAuth 授權，所以麻布對許多銀行仍走「代理登入」——也就是你得把網銀帳密交給它，由它代你登入抓資料。這跟「銀行直接授權第三方讀取」是兩回事：認證再多，只要是代理帳密模式，帳密就多經過一手。對這點在意的人，這不是被認證能完全消除的疑慮，而是一個你要自己決定能不能接受的取捨。代理登入跟 OAuth 授權實際差在哪、哪些風險是真的、哪些是誤會，另一篇[麻布記帳自動抓帳真的安全嗎？代理同步 vs 開放銀行 API 資安評測](/finance-tools/moneybook-security/)拆得更完整。
+依[麻布官方說明](https://blog.moneybook.com.tw/?p=1105)，台灣的開放銀行（Open Banking）採銀行自願合作、不強制開放，政策雖已推進到第三階段（交易面），但第二階段的客戶資料 API 要全面取代現有同步方式仍需一段過渡期，所以麻布對許多銀行仍走「代理登入」——也就是你得把網銀帳密交給它，由它代你登入抓資料。這跟「銀行直接授權第三方讀取」是兩回事：認證再多，只要是代理帳密模式，帳密就多經過一手。對這點在意的人，這不是被認證能完全消除的疑慮，而是一個你要自己決定能不能接受的取捨。代理登入跟 OAuth 授權實際差在哪、哪些風險是真的、哪些是誤會，另一篇[麻布記帳自動抓帳真的安全嗎？代理同步 vs 開放銀行 API 資安評測](/finance-tools/moneybook-security/)拆得更完整。
 
 **再說倒閉：它真的倒過一次——然後活回來了。**
 
-這點值得攤開講，因為它常被當成都市傳說。麻布記帳的前身在 2017 年確實因為被銀行界視為「非法攔截資料」、合作談不成、資金燒光而結束營業；2018 年被收購、改名重整後，搭上金管會推動的開放銀行政策，從「被銀行封殺」翻身成「與財金公司及二十多家銀行簽約合作」的合法第三方。
+這點值得攤開講，因為它常被當成都市傳說。麻布記帳的前身在 2017 年確實因為被銀行界視為「非法攔截資料」、合作談不成、資金燒光而結束營業；2018 年被收購、改名重整後，搭上金管會推動的開放銀行政策，從「被銀行封殺」翻身成合法的第三方業者：2019 年開放銀行第一階段，它是國內首家與多家銀行介接 API 的公開資料整合服務（[官方說明](https://blog.moneybook.com.tw/?p=1105)），現在官方公告列出的銀行連線有三十多家。
 
 所以「會不會倒閉」的誠實回答是：**它倒過、也證明過自己能在合法框架下重生，目前正常營運、無近期停服跡象，但沒有任何 App 能保證永遠不收**。實務上你能做的防護很單純——麻布記帳本身**不持有你的錢**（它只讀資料、不是金融機構，你的存款一直在銀行端），所以最壞情況不是「錢不見」，而是「同步服務停掉、要換工具」。真正怕資料斷掉的人，定期把消費紀錄匯出備份，就把這個風險降到可接受的範圍了。
 
@@ -175,7 +176,7 @@ PTT 和 Dcard 上有不少討論提到，麻布記帳在特定銀行的同步常
 
 **CWMoney**：免費版功能相當完整，支援掃描發票 QR Code 自動記帳、多帳戶管理、圖表分析。唯一沒有的是自動銀行同步，所有消費仍需手動輸入或掃發票。台灣用戶評價普遍不錯，進階版（付費）增加 CSV 匯出和共享帳本。
 
-**MOZE**：iOS 限定，介面是市場上最精緻的記帳 App 之一，支援多帳戶、信用卡對帳、外幣記帳。缺點是 Android 完全沒有，且無自動同步功能。如果你是 iPhone 用戶、不需要自動同步，MOZE 是視覺體驗最好的選擇。如果你對 MOZE 付費版的細節有疑問，可以參考這篇：[MOZE 記帳 App 免費版夠用嗎？付費版值不值得升級？](/finance-tools/moze-review/)
+**MOZE**：iOS 限定，介面是市場上最精緻的記帳 App 之一，支援多帳戶與多幣種帳戶統計，信用卡對帳模式則屬專業版（[官方方案頁](https://moze.app/pricing)）。缺點是 Android 完全沒有，且無自動同步功能。如果你是 iPhone 用戶、不需要自動同步，MOZE 是視覺體驗最好的選擇。如果你對 MOZE 付費版的細節有疑問，可以參考這篇：[MOZE 記帳 App 免費版夠用嗎？付費版值不值得升級？](/finance-tools/moze-review/)
 
 **[Notion](https://www.notion.so/) 自製帳本**：可自訂程度最高，但學習成本也最高。如果你本來就在用 Notion、對自己的記帳分類有特殊需求，這個方向值得評估。但從頭建立一套記帳系統需要時間，不適合想直接用的人。
 
@@ -196,7 +197,7 @@ PTT 和 Dcard 上有不少討論提到，麻布記帳在特定銀行的同步常
 
 **你主要依賴自動銀行同步，且有多個帳戶 + 信用卡要追蹤 → 付費繼續用，趁 2026/12/31 前用 NT$690 年費訂下去。**
 
-這個功能在台灣市場上沒有免費的同類替代品。如果你每個月的消費分散在多家銀行，手動輸入的成本（時間 + 遺漏率）遠大於年費 NT$690。
+這個功能在台灣市場上沒有免費的同類替代品。如果你每個月的消費分散在多家銀行，手動輸入的成本（時間 + 遺漏率）遠大於年費 NT$690。只是 NT$690 只算得到第一年：官方沒說續約能否沿用，2027 年續約請以 NT$1,499（每月約 125 元）重算一次，到時同步若仍是你每天在用的功能再續。
 
 **你主要用手動記帳、偶爾用自動同步 → 認真考慮換 CWMoney。**
 
