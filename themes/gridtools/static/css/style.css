@@ -200,3 +200,32 @@
   .ed-row--score{grid-template-columns:1fr}
   .mini-tile{width:110px}
 }
+
+/* ── 文章更新紀錄 + 利益揭露（2026-10-13）──
+   來源：文章內 `> 📅 …` / `> 📌 …` 引文，由 _markup/render-blockquote.html 轉成元件。
+   形狀：editorial 資料列——日期是「小標籤＋粗數值」欄位（中間細分隔線）、說明句一行一段；
+   無底色、無左色條、無外框。文首時上方已有標題區分隔線／封面，所以不再畫上線；
+   緊接作者的 `---` 時由那條 hr 當下緣，避免兩條線疊在一起。 */
+.article-body .update-log{margin:1.6em 0;padding:14px 0 16px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);font-family:var(--zh)}
+.article-body>.update-log:first-child{margin-top:0;padding-top:0;border-top:0}
+.article-body .update-log:has(+hr){border-bottom:0;padding-bottom:0;margin-bottom:0}
+.ul-dates{display:flex;flex-wrap:wrap;align-items:flex-end;gap:6px 0;margin:0}
+.ul-date{display:flex;flex-direction:column;gap:2px;padding-right:22px}
+.ul-date+.ul-date{padding-left:22px;border-left:1px solid var(--border)}
+.ul-date dt{font-family:var(--zh);font-size:.7rem;font-weight:400;letter-spacing:.08em;color:var(--ink-mid);line-height:1.4}
+.ul-date dd{margin:0;font-family:var(--sans);font-size:.92rem;font-weight:700;color:var(--ink);line-height:1.5;letter-spacing:.01em}
+.ul-date--last dd{color:var(--navy)}
+.ul-dates+.ul-notes{margin-top:10px}
+.article-body .ul-note{margin:0 0 .4em;font-size:.82rem;line-height:1.8;color:var(--ink-mid)}
+.article-body .ul-note:last-child{margin-bottom:0}
+.article-body .ul-note--flag{color:var(--ink)}
+.ul-flag{font-weight:700;font-size:.76rem;letter-spacing:.04em;color:var(--amber-deep);margin-right:.6em;white-space:nowrap}
+.article-body .ul-note--discl{margin-top:.7em;padding-top:.7em;border-top:1px dashed var(--border)}
+.ul-note--discl .ul-flag{color:var(--navy)}
+.article-body .affiliate-disclosure{display:block;margin:1.6em 0;color:var(--ink-mid)}
+.affiliate-disclosure strong{font-weight:700;color:var(--navy);margin-right:.6em}
+@media (max-width:600px){
+  .ul-date{padding-right:16px}
+  .ul-date+.ul-date{padding-left:16px}
+  .ul-date dd{font-size:.88rem}
+}

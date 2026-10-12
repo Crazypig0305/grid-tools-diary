@@ -1,0 +1,94 @@
+{{- /*
+  B site blockquote render hook (2026-10-13).
+  Posts mark two kinds of notes with a leading emoji inside a plain markdown quote:
+    > 📅 原文發布：...｜最後更新：...   (+ follow-up lines: corrections, "check official site")
+    > 📌 本文不含/無聯盟連結...
+  Consecutive ">" lines render as ONE <p> joined by soft line breaks, so the hook
+  splits on those breaks to keep each line on its own row.
+  - 📅 block  -> .update-log (date fields + one note per line; ⚠️ lines get a flag label)
+  - 📌 line   -> .affiliate-disclosure (existing B component, previously unused)
+  - anything else -> plain <blockquote> exactly as before
+  Markdown is never edited; the emoji is only used as the trigger and is not rendered.
+*/ -}}
+{{- $text := .Text -}}
+{{- $plain := trim (.Text | plainify) " \n\t" -}}
+{{- if and (eq .Type "regular") (or (hasPrefix $plain "📅") (hasPrefix $plain "📌")) -}}
+  {{- /* flatten paragraphs into one line-per-row list */ -}}
+  {{- $flat := replaceRE `(?s)</p>\s*<p>` "\n" $text -}}
+  {{- $flat = replaceRE `(?s)^\s*<p>|</p>\s*$` "" $flat -}}
+  {{- $lines := slice -}}
+  {{- range split $flat "\n" -}}
+    {{- $l := trim . " \t" -}}
+    {{- if $l -}}{{- $lines = $lines | append $l -}}{{- end -}}
+  {{- end -}}
+
+  {{- /* sort lines: date-head / notes / disclosures */ -}}
+  {{- $dates := slice -}}
+  {{- $notes := slice -}}
+  {{- $discl := slice -}}
+  {{- range $i, $l := $lines -}}
+    {{- if hasPrefix $l "📌" -}}
+      {{- $discl = $discl | append (trim (strings.TrimPrefix "📌" $l) " ") -}}
+    {{- else if hasPrefix $l "📅" -}}
+      {{- $body := trim (strings.TrimPrefix "📅" $l) " " -}}
+      {{- $paren := "" -}}
+      {{- if and (in $body "｜") (in $body "：") -}}
+        {{- /* trailing （…） after the last date = an extra note, not part of the date */ -}}
+        {{- with findRESubmatch `^([^（]*｜[^（]*)（(.*)）\s*$` $body 1 -}}
+          {{- $body = index (index . 0) 1 -}}
+          {{- $paren = index (index . 0) 2 -}}
+        {{- end -}}
+        {{- range split $body "｜" -}}
+          {{- $part := trim . " " -}}
+          {{- with findRESubmatch `^([^：]{1,8})：\s*(.+)$` $part 1 -}}
+            {{- $dates = $dates | append (dict "k" (index (index . 0) 1) "v" (index (index . 0) 2)) -}}
+          {{- else -}}
+            {{- $notes = $notes | append (dict "t" $part "flag" "") -}}
+          {{- end -}}
+        {{- end -}}
+        {{- with $paren -}}{{- $notes = $notes | append (dict "t" . "flag" "") -}}{{- end -}}
+      {{- else -}}
+        {{- $notes = $notes | append (dict "t" $body "flag" "") -}}
+      {{- end -}}
+    {{- else if hasPrefix $l "⚠" -}}
+      {{- $body := trim (replaceRE `^⚠\x{FE0F}?\s*` "" $l) " " -}}
+      {{- with findRESubmatch `^([^：<]{1,14})：\s*(.+)$` $body 1 -}}
+        {{- $notes = $notes | append (dict "t" (index (index . 0) 2) "flag" (index (index . 0) 1)) -}}
+      {{- else -}}
+        {{- $notes = $notes | append (dict "t" $body "flag" "更新") -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $notes = $notes | append (dict "t" $l "flag" "") -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if or $dates $notes -}}
+<aside class="update-log" aria-label="更新紀錄">
+  {{- if $dates }}
+  <dl class="ul-dates">
+    {{- range $i, $d := $dates }}
+    <div class="ul-date{{ if eq (add $i 1) (len $dates) }} ul-date--last{{ end }}"><dt>{{ $d.k | safeHTML }}</dt><dd>{{ $d.v | safeHTML }}</dd></div>
+    {{- end }}
+  </dl>
+  {{- end }}
+  {{- if or $notes $discl }}
+  <div class="ul-notes">
+    {{- range $notes }}
+    <p class="ul-note{{ if .flag }} ul-note--flag{{ end }}">{{ with .flag }}<b class="ul-flag">{{ . | safeHTML }}</b>{{ end }}{{ .t | safeHTML }}</p>
+    {{- end }}
+    {{- /* a 📌 line sharing the quote with a 📅 line stays inside the same log as its last row */ -}}
+    {{- range $discl }}
+    <p class="ul-note ul-note--discl"><b class="ul-flag">利益揭露</b>{{ . | safeHTML }}</p>
+    {{- end }}
+  </div>
+  {{- end }}
+</aside>
+  {{- else -}}
+  {{- range $discl }}
+<aside class="affiliate-disclosure" aria-label="利益揭露"><strong>利益揭露</strong>{{ . | safeHTML }}</aside>
+  {{- end -}}
+  {{- end -}}
+{{- else -}}
+<blockquote{{ with .Attributes }}{{ range $k, $v := . }} {{ $k }}="{{ $v }}"{{ end }}{{ end }}>
+{{ $text }}</blockquote>
+{{- end -}}
