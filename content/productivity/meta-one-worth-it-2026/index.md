@@ -1,7 +1,7 @@
 ---
 title: "Meta One 值得訂嗎？2026 台灣 IG Plus、Core、Premium 方案怎麼選"
 date: 2026-10-12
-lastmod: 2026-10-12
+lastmod: 2026-10-13
 description: "Meta One 是 Meta 2026 年 9 月在台灣上線的付費訂閱，IG、FB、WhatsApp 與 Meta AI 的核心功能仍然免費。本文整理 Instagram Plus 69 元、Core、Premium 的差別與網頁、App 內購價差，以及怎麼取消、能不能退款。"
 categories: ["productivity"]
 tags: ["Meta One", "Instagram Plus", "訂閱成本", "社群平台", "工具評測"]
@@ -72,9 +72,9 @@ Instagram Plus 是只作用在 IG 的單一方案。依 [Instagram 官方介紹�
 
 <!-- IG-synthesis: 把媒體報導的三個 Plus 單價加總（69＋69＋49＝187 元）跟 Core 的網頁價 159、App 內購價 199 對照，再疊上 Meta 說明中心「個人方案網頁訂閱還沒開放」的現況，推出「在 App 裡訂 Core 可能比三個 Plus 分開買還貴」這個媒體報導沒寫的結論 -->
 
-Core 的賣點是「比分開訂便宜」，[說明中心](https://www.meta.com/help/subscriptions/1887238708654023/)也這樣寫。但把媒體報導的數字加起來看，三個 Plus 分開訂是 69＋69＋49＝187 元，等網頁版開放後，Core 159 元確實比較便宜；**App 內購的 Core 是 199 元，反而比三個 Plus 加總還貴 12 元**，多出來的只有 Meta AI 生成額度。
+Core 的賣點是「比分開訂便宜」，[說明中心](https://www.meta.com/help/subscriptions/1887238708654023/)也這樣寫。把媒體報導的數字加起來看，三個 Plus 分開訂是 69＋69＋49＝187 元。先講前提：報導只給 Plus 一個價格、沒有分網頁和 App 內購，而個人方案現在只能在 App 裡訂（見下段），所以這裡假設 187 元就是你在 App 裡會付的錢。照這個前提，等網頁版開放後，Core 159 元確實比較便宜；**App 內購的 Core 是 199 元，反而比三個 Plus 加總還貴 12 元**，多出來的只有 Meta AI 生成額度。
 
-但網頁版目前還沒開放。[Meta 說明中心](https://www.meta.com/en-gb/help/subscriptions/960854640235758/)寫明個人方案目前透過 iPhone、Android 的 App 開放，網頁版註冊還在準備中；[訂閱步驟說明](https://www.meta.com/help/subscriptions/1275481294766689/)裡的網頁入口，也只寫了 Meta Business Suite 這一條路。所以實際做法是：
+網頁版目前還沒開放。[Meta 說明中心](https://www.meta.com/en-gb/help/subscriptions/960854640235758/)寫明個人方案目前透過 iPhone、Android 的 App 開放，網頁版註冊還在準備中；[訂閱步驟說明](https://www.meta.com/help/subscriptions/1275481294766689/)裡的網頁入口，也只寫了 Meta Business Suite 這一條路。所以實際做法是：
 
 1. **只要 IG 功能**：訂 Instagram Plus，不必比 Core。
 2. **三個 App 的 Plus 都想要**：目前只能在 App 裡訂，Core 199 元只有在你會用到 AI 生成額度時才划算，否則三個 Plus 分開買比較省；之後網頁版開放了，再換成 159 元的網頁版。
