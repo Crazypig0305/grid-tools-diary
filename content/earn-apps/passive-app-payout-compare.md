@@ -38,7 +38,7 @@ draft: false
 
 這個部分最容易被忽略。
 
-**Honeygain（Honeygain 模式 PayPal）**：依[官方說明中心](https://support.honeygain.com/hc/en-us/articles/4412743372690-What-are-the-payout-fees)，PayPal 出金由代付商 Tipalti 收費，非美國用戶每筆 $2 + 2%（官方標示上限 $22）。舉例：$20 出金，扣 $2 固定費和 2%（$0.40），合計 $2.40，實際入帳約 $17.60。官方另寫明：若你申請以美元以外的幣別出金，再加 2.5% 換匯費；PayPal 本身的收款、提領費用另計。想少被扣，就一次累積多一點再出，讓 $2 固定費攤得薄一些。
+**Honeygain（Honeygain 模式 PayPal）**：依[官方說明中心](https://support.honeygain.com/hc/en-us/articles/30688387290268-What-are-the-payout-fees)，PayPal 出金由代付商 Tipalti 收費，非美國用戶每筆 $2 + 2%（官方標示上限 $22）。舉例：$20 出金，扣 $2 固定費和 2%（$0.40），合計 $2.40，實際入帳約 $17.60。官方另寫明：若你申請以美元以外的幣別出金，再加 2.5% 換匯費；PayPal 本身的收款、提領費用另計。想少被扣，就一次累積多一點再出，讓 $2 固定費攤得薄一些。
 
 **Honeygain（走 JumpTask）**：依 [JumpTask 出金頁](https://jumptask.io/payouts/)，禮品卡 0% 平台費、預付型卡片（PayPal、Wise、Visa 等）收面額 4%、加密貨幣只有 Base 鏈上的 USDC 免費，其他幣種有網路費。要注意兩點：一是 JMPT 代幣已退場，JumpTask 自 2026 年 8 月 10 日起改用固定匯率的點數（1,000 點 = $1），加密貨幣出金改經合作商 GIFQ 處理；二是選 JumpTask 模式會失去 Honeygain 模式的 5% 收益加成與 30% 推薦分潤（2026 年 8 月從 25% 調高）。這裡要分清兩件事：「JumpTask 模式」是收益一產生就直接進 JumpTask；「轉到 JumpTask」是留在 Honeygain 模式、累積到 $20 後把餘額轉過去換禮品卡或加密貨幣。[官方公告](https://www.honeygain.com/blog/honeygain-payouts-update/)把加成與分潤列為 Honeygain 模式的權益，但對「Honeygain 模式單次轉出到 JumpTask」會不會影響加成，官方未說明。
 
