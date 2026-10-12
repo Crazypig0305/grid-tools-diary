@@ -1,7 +1,7 @@
 ---
 title: "Repocket 台灣可以用嗎？2026 年最新評測：資安風險與值不值得開"
 date: 2026-03-25
-lastmod: 2026-09-28
+lastmod: 2026-10-13
 description: "Repocket 2026 年台灣現況：手機 App 在 Google Play 與 App Store 都查無、出金門檻與費率官方未公開、與 Honeygain / EarnApp 的資安層級比較——讓你在安裝前把問題問清楚。"
 categories: ["earn-apps"]
 tags: ["Repocket", "掛機app", "頻寬共享", "資安評估", "被動收入"]
@@ -9,7 +9,7 @@ image: "repocket-taiwan-review-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2026 年 3 月｜最後更新：2026 年 9 月
+> 📅 原文發布：2026 年 3 月｜最後更新：2026 年 10 月
 > 2026 年 9 月 28 日依 Repocket 官方[條款](https://repocket.com/terms-and-conditions)、[出金與獎勵政策](https://repocket.com/payment-and-rewards-policy)、[隱私政策](https://repocket.com/privacy-policy)，以及 Google Play、App Store 現況更正：Android 與 iOS App 目前兩個商店都查無（前一版寫 Android 版持續維護）；每 GB 單價、$20 出金門檻、PayPal／Tremendous／USDT 出金方式都查不到官方公開依據，已改為「以登入後出金頁為準」，並刪除依賴這些數字的月收試算；營運主體補上 Repocket Pte. Ltd.；Bright Data 並非上市公司，已更正；Honeygain 營運公司名稱依其條款更正為 Honeygain, UAB；Pawns.app 官方已停止頻寬分享，移出推薦排序。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
@@ -174,7 +174,7 @@ Repocket 的[出金與獎勵政策](https://repocket.com/payment-and-rewards-pol
 
 除了資安透明度低之外，Repocket 還有幾個需要正視的問題：
 
-**出金規則不公開**：Honeygain 和 EarnApp 都在說明中心寫出門檻與手續費（見 [Honeygain 手續費說明](https://support.honeygain.com/hc/en-us/articles/4412743372690-What-are-the-payout-fees)、[EarnApp 手續費說明](https://help.earnapp.com/hc/en-us/articles/10147389004049--What-are-the-transaction-fees-on-redeems)），Repocket 要登入才看得到，且政策保留隨時調整的權利。解法是開始掛機前先登入看出金頁，確認有你能用的方式再開始累積。
+**出金規則不公開**：Honeygain 和 EarnApp 都在說明中心寫出門檻與手續費（見 [Honeygain 手續費說明](https://support.honeygain.com/hc/en-us/articles/30688387290268-What-are-the-payout-fees)、[EarnApp 手續費說明](https://help.earnapp.com/hc/en-us/articles/10147389004049--What-are-the-transaction-fees-on-redeems)），Repocket 要登入才看得到，且政策保留隨時調整的權利。解法是開始掛機前先登入看出金頁，確認有你能用的方式再開始累積。
 
 **收益資訊不透明**：官方不公開每 GB 單價，台灣的使用者回報樣本又少，事前很難估月收。解法是先用一台桌面電腦試跑一週，用後台實際數字判斷。
 
@@ -200,7 +200,7 @@ Repocket 的[出金與獎勵政策](https://repocket.com/payment-and-rewards-pol
 
 **Q：Repocket 和 Honeygain 能同時跑嗎？**
 
-技術上可以，但同一個 IP 的流量需求固定，兩個平台同時跑意味著需求被分食。另外 EarnApp 官方寫明，同一 IP 上跑其他產生自動化流量的頻寬分享 App 可能讓 IP 被它封鎖；Honeygain [官方說明](https://support.honeygain.com/hc/en-us/articles/360013231420-What-is-the-current-payout-rate)也會限制同一個網路連線同時使用的裝置數。要同時跑，先確認你最在意的那一款不會因此被擋。
+技術上可以，但同一個 IP 的流量需求固定，兩個平台同時跑意味著需求被分食。另外 EarnApp 官方寫明，同一 IP 上跑其他產生自動化流量的頻寬分享 App 可能讓 IP 被它封鎖；Honeygain [官方說明](https://support.honeygain.com/hc/en-us/articles/30688346556956-What-is-the-maximum-number-of-devices-allowed-by-Honeygain)則規定每個 IP／網路只能連 1 台裝置，多的會顯示「Network overused」。要同時跑，先確認你最在意的那一款不會因此被擋。
 
 **Q：Repocket 會讓我的手機或電腦中毒嗎？**
 
