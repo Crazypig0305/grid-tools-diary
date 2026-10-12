@@ -1,7 +1,7 @@
 ---
 title: "MOZE 記帳 App 免費版夠用嗎？付費版值不值得升級？"
 date: 2022-11-01
-lastmod: 2026-09-15
+lastmod: 2026-10-13
 categories: ["finance-tools"]
 tags: ["MOZE", "記帳App", "理財工具", "iOS"]
 description: "MOZE 免費版和付費版的差距在哪？用了三個月後，直接告訴你哪種人免費版就夠，哪種人值得升 Premium。"
@@ -9,7 +9,7 @@ image: /images/moze-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2022 年 11 月｜最後更新：2026 年 9 月
+> 📅 原文發布：2022 年 11 月｜最後更新：2026 年 10 月
 > [MOZE](https://moze.app/) 於 2024–2025 年推出 4.0 版，加入 iPad 支援和 AI 語音記帳。2026 年 9 月依 MOZE [官網定價頁](https://moze.app/pricing)與 App Store 訂閱方案更正價格、各方案功能與試用資訊。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
@@ -28,8 +28,10 @@ draft: false
 | 方案 | 功能 | 價格 |
 |---|---|---|
 | 免費版（基本版）| 基本記帳、多帳戶與信用帳戶、專案預算、每月報表、多幣種帳戶統計、iCloud / Dropbox 備份 | NT$0 |
-| Premium（專業版）| 跨裝置即時同步、信用卡進階功能（對帳模式、自動扣繳、帳單分期）、紅利回饋、借還款追蹤、30 點 AI 永久點數 | 年繳 NT$600（平均每月 NT$50）<br>月繳 NT$60 |
+| Premium（專業版）| 跨裝置即時同步、信用卡進階功能（對帳模式、自動扣繳、帳單分期）、紅利回饋、借還款追蹤、30 點 AI 永久點數 | App Store 台灣：年繳 NT$600（平均每月 NT$50）<br>月繳 NT$60 |
 | Premium+AI | Premium 全功能 + 每月配發 AI 點數（語音記帳、拍照記帳、截圖記帳、發票歸帳自動分類）| 官網標 US$3.99／月（專業版 US$1.99）|
+
+表中 NT$ 是 [App Store 台灣區](https://apps.apple.com/tw/app/id1460011387)的 App 內購買價，US$ 是 [MOZE 官網定價頁](https://moze.app/pricing)的美元標價，兩者幣別與購買管道不同、不要直接換算比較。
 
 免費版不用試，下載就能長期用；Premium 第一次訂閱有 14 天免費試用（試用結束才開始第一期訂閱），試過再決定。
 
@@ -78,7 +80,9 @@ MOZE 的設計是它在市場上最清楚的差異點，這點不能不提。這
 
 **適合用 MOZE 的人**：iOS 用戶、在乎 App 設計、想要手動記帳但介面要好看、有跨 Apple 裝置使用需求。
 
-**不適合的人**：Android 用戶（根本無法安裝）、想要銀行帳戶自動同步的人（MOZE 沒有銀行自動同步，需要手動輸入每一筆；想要自動同步可參考[記帳 App 比較](/finance-tools/budget-app-compare/)中[麻布記帳](https://moneybook.com.tw/)的介紹——它目前主要是代你登入網銀網頁抓資料，不是透過[金融監督管理委員會](https://www.fsc.gov.tw/)推動的 [Open Banking（開放銀行）](https://en.wikipedia.org/wiki/Open_banking) API）、需要家庭共帳功能的人。
+**不適合的人**：Android 用戶（根本無法安裝）、想要銀行帳戶自動同步的人、需要家庭共帳功能的人。MOZE 沒有銀行自動同步，每一筆都要手動輸入。
+
+想要自動同步，可參考[記帳 App 比較](/finance-tools/budget-app-compare/)中[麻布記帳](https://moneybook.com.tw/)的介紹。要先知道它目前主要是代你登入網銀網頁抓資料，不是透過[金融監督管理委員會](https://www.fsc.gov.tw/)推動的 [Open Banking（開放銀行）](https://en.wikipedia.org/wiki/Open_banking) API。
 
 ---
 
