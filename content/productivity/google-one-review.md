@@ -1,7 +1,7 @@
 ---
 title: "Google One 值得訂嗎？100GB 方案性價比分析"
 date: 2023-01-01
-lastmod: 2026-09-14
+lastmod: 2026-10-13
 categories: ["productivity"]
 tags: ["Google One", "雲端儲存", "訂閱服務", "Google", "效率工具"]
 description: "Google One 100GB 方案每月 NT$65，到底值不值得訂？搞清楚你買的是什麼，再決定要不要付這筆錢。"
@@ -9,7 +9,7 @@ image: /images/google-one-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 1 月｜最後更新：2026 年 9 月
+> 📅 原文發布：2023 年 1 月｜最後更新：2026 年 10 月
 > ⚠️ 重要更新：[Google One](https://one.google.com/) [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF) 已於 2024 年 6 月 20 日正式停服，不再是訂閱權益的一部分。本文已移除 VPN 相關描述；方案與價格已於 2026 年 9 月對照 Google One 台灣官方方案頁重新校對（目前付費方案只有 100 GB、2 TB、5 TB 三層，已沒有 200 GB）。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
@@ -48,9 +48,9 @@ Gmail 本身就在吃這個空間，如果你用 Gmail 多年、夾帶附件的�
 
 **儲存空間本身**：100 GB 最多可與 5 人共用，不是每人各 100 GB，是全家共用這一份 100 GB。
 
-**Google Photos AI 編輯：不是訂閱才有**。Magic Eraser（去除雜物）、Photo Unblur（去模糊）等 AI 編輯功能，[自 2024 年 5 月起已開放所有 Google 相簿使用者免費使用](https://blog.google/products/photos/google-photos-editing-features-availability/)；官方方案頁列出的 100 GB 權益也只有儲存空間本身，不要為了修圖功能訂 100 GB。
+**Google Photos AI 編輯：不是訂閱才有**。Magic Eraser（去除雜物）、Photo Unblur（去模糊）等 AI 編輯功能，[自 2024 年 5 月起已開放所有 Google 相簿使用者免費使用](https://blog.google/products/photos/google-photos-editing-features-availability/)，裝置門檻是至少 3 GB RAM 且 Android 8.0／iOS 15 以上，或 ChromeOS 118 以上的 Chromebook Plus；官方方案頁列出的 100 GB 權益也只有儲存空間本身，不要為了修圖功能訂 100 GB。
 
-**Google 專家支援**：可以透過電話、聊天、Email 聯繫 Google 客服，免費帳號基本上沒有這個管道。
+**Google One 支援團隊**：台灣方案頁的 100 GB 權益沒有列這項，但 [Google One 說明](https://support.google.com/googleone/answer/9003266?hl=zh-Hant)寫明會員可透過即時通訊、電話或電子郵件聯繫 Google One 支援團隊，範圍是會籍管理、功能使用方式與儲存空間狀態等問題。
 
 **Google Store 回饋：台灣的 100 GB 拿不到**。依 [Google One 說明](https://support.google.com/googleone/answer/9003266?hl=zh-Hant)，Google 商店消費金回饋只給 200 GB 以上方案，而且只適用美國、加拿大、英國、德國和澳洲。
 
