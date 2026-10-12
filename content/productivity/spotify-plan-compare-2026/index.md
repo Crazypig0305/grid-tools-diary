@@ -50,16 +50,16 @@ draft: false
 |---|---|---|---|---|
 | [KKBOX](https://help.kkbox.com/tw/zh-tw/news/1279) | $159 | $260 | 約 $43 | 2026/1/2 起無損（Hi-Fi / Hi-Res）開放全付費會員 |
 | Apple Music | $165 | $295 | 約 $49 | 內建無損 + 空間音訊 |
-| **Spotify** | **$168** | **$298** | **約 $50** | Premium 全方案含無損（2025 年 9 月宣布推出，上限 24-bit/44.1kHz）|
+| **Spotify** | **$168** | **$298** | **約 $50** | Premium 全方案含無損（[2025 年 9 月宣布推出](https://newsroom.spotify.com/2025-09-10/lossless-listening-arrives-on-spotify-premium-with-a-richer-more-detailed-listening-experience/)，上限 24-bit/44.1kHz）|
 | YouTube Music | $169 | $269 | 約 $45 | 音樂單獨訂；想連 YouTube 去廣告要升 Premium（每月 $199）|
 
-單人方案這一欄，Spotify 的 $168 是四家裡第二貴的，比最便宜的 KKBOX（$159）貴 9 元，跟 Apple Music（$165）差 3 元，比 YouTube Music（$169）也只便宜 1 元——四家全擠在 $159～$169 這個十元區間，價格本身已經不構成選擇理由。**至於「Spotify 付費還沒有無損」這件事，已經不成立**——Spotify 在 2025 年 9 月宣布推出無損（最高 24-bit/44.1kHz FLAC），台灣官網方案頁現在把無損音質列為所有 Premium 方案的內建功能；KKBOX 也在 2026/1/2 把 Hi-Fi / Hi-Res 開放給全體付費會員，Apple Music 本來就內建無損與空間音訊。換句話說，無損在四大平台已經是標配、不再是誰的賣點。
+單人方案這一欄，Spotify 的 $168 是四家裡第二貴的，比最便宜的 KKBOX（$159）貴 9 元，跟 Apple Music（$165）差 3 元，比 YouTube Music（$169）也只便宜 1 元——四家全擠在 $159～$169 這個十元區間，價格本身已經不構成選擇理由。**至於「Spotify 付費還沒有無損」這件事，已經不成立**——Spotify 在 2025 年 9 月[宣布推出無損](https://newsroom.spotify.com/2025-09-10/lossless-listening-arrives-on-spotify-premium-with-a-richer-more-detailed-listening-experience/)（最高 24-bit/44.1kHz FLAC），台灣官網方案頁現在把無損音質列為所有 Premium 方案的內建功能；KKBOX 也在 2026/1/2 把 Hi-Fi / Hi-Res 開放給全體付費會員，Apple Music 本來就內建無損與空間音訊。換句話說，無損在四大平台已經是標配、不再是誰的賣點。
 
 提醒一個容易被混淆的點：YouTube Music 的單獨訂閱（音樂）目前網頁／Android 版每月 $169，跟「YouTube Premium」（影片去廣告 + 音樂的綑綁包、每月 $199）是兩回事——想要 YouTube 去廣告，得付到 $199 的 Premium，不是付 $169 就有。
 
 換句話說，如果你只是一個人聽、又對 Spotify 的特定功能沒有非用不可的依賴，純算價格，KKBOX 標準方案（$159）或 Apple Music（$165）確實比 Spotify 個人方案省——但一個月只省 3 到 9 元，這種差距不足以當換平台的理由，真正該比的是推薦品質、曲庫和生態整合。
 
-> 上表價格依各平台 2026 年 10 月台灣官方頁面現況：[KKBOX 付費中心](https://ssl.kkbox.com/tw/billing/index.php)（個人 $159、家庭 6 人 $260）與 [KKBOX 2026/1/2 調整公告](https://help.kkbox.com/tw/zh-tw/news/1279)（全付費會員開放無損）、[Apple Music 台灣官網](https://www.apple.com/tw/apple-music/)（個人 $165、家庭 $295）、[YouTube Music Premium 方案頁](https://music.youtube.com/music_premium)（個人 $169、家庭 $269）與 [YouTube Premium 方案頁](https://www.youtube.com/premium)（個人 $199、家庭 $479）、[Spotify 台灣官網](https://www.spotify.com/tw/premium/)（個人 $168、家庭 $298，且 Premium 全方案已含無損音質）。四家家庭方案皆為最多 6 人。價格隨時可能調整，下單前請以各官網為準。
+> 上表價格依各平台 2026 年 10 月台灣官方頁面現況：[KKBOX 付費中心](https://ssl.kkbox.com/tw/billing/index.php)（個人 $159、家庭 6 人 $260）與 [KKBOX 2026/1/2 調整公告](https://help.kkbox.com/tw/zh-tw/news/1279)（全付費會員開放無損）、[Apple Music 台灣官網](https://www.apple.com/tw/apple-music/)（個人 $165、家庭 $295）、[YouTube Music Premium 方案頁](https://music.youtube.com/music_premium)（個人 $169、家庭 $269）與 [YouTube Premium 方案頁](https://www.youtube.com/premium)（個人 $199、家庭 $479）、[Spotify 台灣官網](https://www.spotify.com/tw/premium/)（個人 $168、家庭 $298，且 Premium 全方案已含無損音質）。四家家庭方案皆為最多 6 人（含訂閱者本人）：[Spotify Family](https://www.spotify.com/tw/family/) 最多 6 個 Premium 帳戶、KKBOX 付費中心列「6 人家庭方案」、Apple Music 台灣官網寫家庭方案可與另外最多五人分享、[YouTube 家庭方案](https://support.google.com/youtube/answer/7507744?hl=zh-Hant)管理員可與最多 5 位家庭成員共用；Spotify 無損規格見其 [2025 年 9 月官方公告](https://newsroom.spotify.com/2025-09-10/lossless-listening-arrives-on-spotify-premium-with-a-richer-more-detailed-listening-experience/)。價格隨時可能調整，下單前請以各官網為準。
 
 <!-- IG-data: 把 Spotify / KKBOX / Apple Music / YouTube Music 2026 台灣單人與家庭方案並排成同一張比較表，標出四家單人方案全擠在 $159~$169 十元區間（Spotify $168 只贏 YouTube Music 1 元）、家庭方案每人成本 Spotify 約 $50 反而最貴，給出可直接比對的相對座標 -->
 
