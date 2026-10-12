@@ -100,7 +100,9 @@
 
 {{/* BlogPosting：image 僅在解析到非空 url 時才輸出（Google image 非必填、寧缺勿空、
      禁再輸出 url:""）。dict 動態組裝、解析不到 image 時整個 image 鍵省略。
-     author 用站級 Person（沿用 B 站既有站級 author 模式）。 */}}
+     author 用站級 Organization（name＝站名、url＝首頁）：本站沒有具名真人作者
+     （registry persona_type 非 real、頁面無 byline），Person 配站名＝型別不符；
+     Google Article 文件：Person 給人、Organization 給組織，並建議附 url。 */}}
 {{- $data := dict
   "@context" "https://schema.org"
   "@type" "BlogPosting"
@@ -109,7 +111,7 @@
   "url" $canonURL
   "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
   "dateModified" $dateModified
-  "author" (dict "@type" "Person" "name" site.Title)
+  "author" (dict "@type" "Organization" "name" site.Title "url" site.BaseURL)
   "publisher" (dict "@type" "Organization" "name" site.Title "url" site.BaseURL)
   "inLanguage" "zh-TW"
   "mainEntityOfPage" (dict "@type" "WebPage" "@id" $canonURL)
