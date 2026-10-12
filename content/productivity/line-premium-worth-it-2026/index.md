@@ -149,7 +149,7 @@ iCloud+ 價格依 Apple 支援頁 2026 年 9 月 18 日發布的台灣價目；G
 
 **LINE Premium 值不值得：跨系統換機或要保存聊天室照片影片的人值得，其他人不值得。** 它賣的核心是進階備份，這件事加買 iCloud+ 或 Google One 容量都做不到；無痕收回、編輯訊息只是附帶，不構成付 165 元的理由。只換一次機的人，訂一個月、備份完再取消，記得 30 天內把照片影片存到手機相簿。
 
-LINE Premium 跟其他訂閱一樣，重點是先看自己用到哪個功能再決定要不要付。同樣的判斷方式可以延伸看 [Google One 100GB 值不值得訂](/productivity/google-one-review/) 和 [YouTube Premium 各方案怎麼選](/productivity/youtube-premium-plans-taiwan-2026/)。
+LINE Premium 跟其他訂閱一樣，重點是先看自己用到哪個功能再決定要不要付。同樣的判斷方式可以延伸看 [Google One 100GB 值不值得訂](/productivity/google-one-review/)、[YouTube Premium 各方案怎麼選](/productivity/youtube-premium-plans-taiwan-2026/) 和 [Meta One 與 Instagram Plus 值不值得訂](/productivity/meta-one-worth-it-2026/)。
 
 → [LINE Premium 基本說明（LINE 支援中心）](https://help.line.me/line/smartphone/?contentId=20027124&lang=zh-Hant)
 
