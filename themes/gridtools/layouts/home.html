@@ -9,7 +9,7 @@
 
 {{/* ============ ① 揭露條（首頁專屬信任條）============ */}}
 <div class="disclosure">
-  <p><b>我們獨立實測、不接業配。</b>部分連結為推薦連結，不影響我們的評分，也不影響你的價格。</p>
+  <p><b>我們獨立評測、不接業配。</b>部分連結為推薦連結，不影響我們的結論，也不影響你的價格。</p>
 </div>
 
 {{/* ============ ② 身分／信任帶（hero，首頁專屬）============ */}}
@@ -18,33 +18,25 @@
     <div class="band-col">
       <span class="band-pill"><span class="dot" aria-hidden="true"></span>2026 版・繁中工具評測</span>
       <h1>測了才寫，只告訴你值不值得付這個錢</h1>
-      <p class="band-sub">不業配、每個工具至少比兩個、資安 × 耗電 × 穩定性都自己打分。給你立場，不給「視需求而定」。</p>
+      <p class="band-sub">不業配、每個工具至少比兩個。給你立場，不給「視需求而定」。</p>
       <div class="trust-row">
-        <span>實測 30+ 工具</span>
-        <span>每維度獨立打分</span>
         <span>有立場不含糊</span>
         <span>繁中在地評測</span>
       </div>
       <div class="cta-row">
         <a href="#featured" class="btn btn-primary">看最新工具評測 <span class="arrow" aria-hidden="true">&rarr;</span></a>
-        <a href="/start-here/" class="btn btn-ghost">看評分方法</a>
+        <a href="/start-here/" class="btn btn-ghost">新手從這裡開始</a>
       </div>
     </div>
 
-    {{/* 評分示範卡（靜態 placeholder、之後接真資料） */}}
-    <div class="hero-card" aria-label="評分示範卡">
+    {{/* 結論卡（2026-10-13：原評分示範卡的 9.0/9.5/7.4 是無實際評分來源的 placeholder、已移除；改放 password-manager-recommendation-2026 的真實結論） */}}
+    <div class="hero-card" aria-label="結論卡">
       <div class="hc-top">
-        <span class="hc-label">評分示範 · 密碼管理器</span>
+        <span class="hc-label">我們的結論 · 密碼管理器</span>
         <span class="hc-pick">就選這個</span>
       </div>
       <div class="hc-name">Bitwarden</div>
-      <div class="hc-score"><span class="n">9.0</span><span class="d">/ 10 綜合</span></div>
-      <div class="hc-dims">
-        <span class="badge good"><span class="lbl">資安</span><span class="n">9.0</span></span>
-        <span class="badge good"><span class="lbl">CP 值</span><span class="n">9.5</span></span>
-        <span class="badge mid"><span class="lbl">介面</span><span class="n">7.4</span></span>
-      </div>
-      <p class="hc-verdict">實測 6 款密碼管理器後的綜合首選——免費版就夠用、開源可查核，大多數人不用多想。</p>
+      <p class="hc-verdict">大多數人裝 Bitwarden 就對了，免費版就夠用、開源可查核。1Password、Proton Pass、Apple 密碼各適合誰：<a href="/privacy/password-manager-recommendation-2026/">看 6 種情境怎麼選</a></p>
     </div>
   </div>
 </section>
@@ -91,7 +83,7 @@
             <h3>{{ .Title }}</h3>
             <p>{{ .Description | default (.Summary | plainify | truncate 110) }}</p>
             <span class="feat-date">{{ $catName }}{{ if not .Date.IsZero }}・{{ .Date.Format "2006-01-02" }}{{ end }}</span>
-            <span class="read-link">讀完整實測 <span class="arrow" aria-hidden="true">&rarr;</span></span>
+            <span class="read-link">讀完整評測 <span class="arrow" aria-hidden="true">&rarr;</span></span>
           </div>
         </div>
       </a>
