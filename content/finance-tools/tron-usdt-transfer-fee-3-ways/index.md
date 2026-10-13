@@ -77,7 +77,7 @@ draft: false
 
 > 「Most Tron-native wallets let you rent energy for a few cents, which is why the floor on a TRC20 transfer is closer to $0.20 than $1 in practice.」（多數 TRON 原生錢包能用幾美分租到能量，所以一筆 TRC-20 轉帳的實際地板價接近 0.2 美元、而不是 1 美元。）——Eco〈[Cheapest Way to Send USDT: Network Fee Comparison 2026](https://eco.com/support/en/articles/15010637-cheapest-way-to-send-usdt-network-fee-comparison-2026)〉（2026）
 
-這類服務市面上不少（錢包內建租賃、Telegram 機器人、獨立平台都有），這裡拿 **TRXFlow** 當案例看運作方式：它是運營多年的 TRON 能量調度平台，做法是聚合閒置質押資源、用調度系統分配給需求端，官網標示（2026 年 6 月校對）一般 USDT 轉帳租能量約 2 TRX、空錢包約 4 TRX（依市場行情浮動）。以當前燃燒價 6.5 TRX 對照，**省幅約七成**；空錢包情境 13 TRX 對 4 TRX，省幅也差不多。它的服務地址在 [TronScan 鏈上公開可查](https://tronscan.org/#/address/TVNzifXhMnZuHjFPBNua79nF1fZtpK9qL8)，每筆能量委托紀錄都是公開資料——這點值得當成你篩選這類服務的基本門檻：**敢把服務地址攤在鏈上讓人查的，至少調度量是真是假騙不了人**。
+這類服務市面上不少（錢包內建租賃、Telegram 機器人、獨立平台都有），這裡拿 **TRXFlow** 當案例看運作方式：它是運營多年的 TRON 能量調度平台，做法是聚合閒置質押資源、用調度系統分配給需求端，官網標示（2026 年 10 月校對）一般 USDT 轉帳租能量約 2 TRX、空錢包約 4 TRX（依市場行情浮動）。以當前燃燒價 6.5 TRX 對照，**省幅約七成**；空錢包情境 13 TRX 對 4 TRX，省幅也差不多。它的服務地址在 [TronScan 鏈上公開可查](https://tronscan.org/#/address/TVNzifXhMnZuHjFPBNua79nF1fZtpK9qL8)，每筆能量委托紀錄都是公開資料——這點值得當成你篩選這類服務的基本門檻：**敢把服務地址攤在鏈上讓人查的，至少調度量是真是假騙不了人**。
 
 **優點：**
 
@@ -129,7 +129,7 @@ draft: false
 
 📌 本文部分連結為聯盟行銷連結，透過連結註冊後我會收到一小筆佣金，不影響你的費用，也不影響本文的評測立場。
 
-<a href="https://trxflow.ai/" rel="sponsored nofollow noopener" target="_blank">TRXFlow 官方網站</a>
+<a href="https://trxflow.io/" rel="sponsored nofollow noopener" target="_blank">TRXFlow 官方網站</a>
 
 ---
 
