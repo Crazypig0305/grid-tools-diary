@@ -13,7 +13,7 @@ draft: false
 > 本文價格、試用與替代方案已於 2026 年 9 月對照麻布記帳[官方收費公告](https://blog.moneybook.com.tw/?p=6341)、[官網](https://moneybook.com.tw/)、App Store 訂閱方案與各替代 App 官方頁面重新校對。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
-用了麻布記帳三年，4 月 1 日那天打開 App，發現同步按鈕灰掉了——沒付費就不能同步、也不能記帳。
+如果你是麻布記帳的老用戶，2026 年 4 月 1 日之後打開 App，會發現不付費就不能同步、也不能記帳——免費方案從這天起停止了。
 
 直接說結論：**麻布記帳現在（2026 年 9 月）月費 NT$149、年費 NT$690，年費價只維持到 2026 年底，2027 年起年費變 NT$1,499。** 值不值得付只看一件事：你是不是真的靠「自動銀行同步」在記帳。是，就在年底前訂年費；主要手動記帳的人，換 CWMoney 或 MOZE 的免費版就夠。
 
@@ -216,5 +216,5 @@ PTT 和 Dcard 上有不少討論提到，麻布記帳在特定銀行的同步常
 相關文章：
 
 - [麻布記帳自動抓帳真的安全嗎？代理同步 vs 開放銀行 API 資安評測](/finance-tools/moneybook-security/)
-- [記帳 App 哪個最適合懶人？MOZE vs 麻布記帳 vs CWMoney 真實評比](/finance-tools/budget-app-compare/)
+- [記帳 App 哪個最適合懶人？MOZE vs 麻布記帳 vs CWMoney 評比](/finance-tools/budget-app-compare/)
 - [MOZE 記帳 App 免費版夠用嗎？付費版值不值得升級？](/finance-tools/moze-review/)

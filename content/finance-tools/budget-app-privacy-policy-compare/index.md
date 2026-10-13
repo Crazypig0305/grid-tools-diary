@@ -1,7 +1,7 @@
 ---
 title: "記帳 App 隱私政策真的讀過嗎？2026 五款台灣常用 App 資料條款比較"
 date: 2026-03-05
-lastmod: 2026-09-21
+lastmod: 2026-10-13
 description: "你把消費紀錄、銀行帳戶、甚至帳密都交給了記帳 App——但那份隱私政策你真的讀過嗎？本文橫向比較麻布記帳、CWMoney、MOZE、AndroMoney、記帳城市五款 App 的資料條款，從廣告 ID 使用、第三方分享到銀行串接風險一次說清楚。"
 categories: ["finance-tools"]
 tags: ["記帳app", "隱私政策", "個資安全", "銀行串接", "資安評測"]
@@ -250,4 +250,4 @@ MOZE 是五款中最尊重隱私的，但功能限制最多。麻布記帳的資
 
 - [麻布記帳 2026 全面收費後還值得繼續用嗎？付費版評測與替代方案整理](/finance-tools/moneybook-paywall-2026/)
 - [麻布記帳自動抓帳真的安全嗎？代理同步 vs 開放銀行 API 資安評測](/finance-tools/moneybook-security/)
-- [記帳 App 哪個最適合懶人？MOZE vs 麻布記帳 vs CWMoney 真實評比](/finance-tools/budget-app-compare/)
+- [記帳 App 哪個最適合懶人？MOZE vs 麻布記帳 vs CWMoney 評比](/finance-tools/budget-app-compare/)

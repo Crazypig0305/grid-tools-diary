@@ -46,11 +46,11 @@ Google 的 15 GB 免費額度是三者最高的，但 Gmail 和相簿也在吃�
 
 ## 跨平台使用體驗
 
-**Google Drive**：Windows、Mac、iOS、Android、Web 都有原生 App 或支援，跨平台最廣泛。唯一的問題是 Windows 上的 Drive 桌面 App 偶爾有同步問題。
+**Google Drive**：Windows、Mac、iOS、Android、Web 都有原生 App 或支援，跨平台最廣泛。要注意的是電腦端要另外裝「Google 雲端硬碟」桌面版，資料夾才會出現在檔案總管或 Finder 裡。
 
-**OneDrive**：在 Windows 上整合最深，幾乎是 Windows 的一部分，資料夾直接出現在檔案總管裡。Mac 版可用但體驗沒有 Windows 版流暢。iOS / Android 都有 App。資料傳輸時走 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) 加密；存放在雲端時，[每個檔案以獨立的 AES-256 金鑰加密](https://support.microsoft.com/zh-tw/office/onedrive-%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AD%B7%E6%82%A8%E5%9C%A8%E9%9B%B2%E7%AB%AF%E4%B8%AD%E7%9A%84%E8%B3%87%E6%96%99-23c6ea94-3608-48d7-8bf0-80e142edd1e1)，公司／學校帳號的 OneDrive 另外加上 [BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/) 磁碟層級加密（見 [Microsoft 的 OneDrive 加密說明](https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo)）。
+**OneDrive**：在 Windows 上整合最深，幾乎是 Windows 的一部分，資料夾直接出現在檔案總管裡。Mac 也有官方 App，但沒有 Windows 那種內建在系統裡的整合。iOS / Android 都有 App。資料傳輸時走 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) 加密；存放在雲端時，[每個檔案以獨立的 AES-256 金鑰加密](https://support.microsoft.com/zh-tw/office/onedrive-%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AD%B7%E6%82%A8%E5%9C%A8%E9%9B%B2%E7%AB%AF%E4%B8%AD%E7%9A%84%E8%B3%87%E6%96%99-23c6ea94-3608-48d7-8bf0-80e142edd1e1)，公司／學校帳號的 OneDrive 另外加上 [BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/) 磁碟層級加密（見 [Microsoft 的 OneDrive 加密說明](https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo)）。
 
-**iCloud**：在 Apple 裝置上無縫整合，Mac 和 iPhone 之間的同步幾乎感覺不到延遲。Windows 有 iCloud for Windows，但整合度遠不如 Apple 裝置。Android 根本沒有官方 App。
+**iCloud**：內建在 iPhone、iPad、Mac 的系統裡，用同一個 Apple 帳號登入就會自動同步，不用另外裝 App。Windows 有 iCloud for Windows，但整合度遠不如 Apple 裝置。Android 根本沒有官方 App。
 
 ---
 

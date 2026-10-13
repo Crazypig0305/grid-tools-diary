@@ -1,7 +1,7 @@
 ---
 title: "Todoist 免費版夠用嗎？2025 漲價後 Pro 值不值得升級？"
 date: 2026-01-15
-lastmod: 2026-09-21
+lastmod: 2026-10-13
 description: "Todoist 2025 年 12 月 10 日起調漲 Pro 年費 25%，從每年 $48 漲到 $60。免費版（官方稱「初學者」）有 5 個專案上限、只有自動提醒；Pro 多了自訂提醒、日曆佈局與 300 個專案。本文逐項對照官方方案表，評估 Pro 功能上班族用不用得到，並比較 TickTick、Microsoft To Do、Apple 提醒事項的遷移成本。"
 categories: ["productivity"]
 tags: ["todoist", "效率工具", "任務管理", "訂閱服務", "工具評測"]
@@ -220,7 +220,7 @@ Todoist 在 2025 年 12 月 10 日起調整 Pro 方案定價，以下是漲價�
 
 **Todoist 的真實缺點：**
 
-- **免費版的提醒只能「自動」**：有提醒，但只能照設定統一提前多久響、一個任務不能自己加第二個提醒，這個差距要用過才會發現
+- **免費版的提醒只能「自動」**：有提醒，但只能照設定統一提前多久響、一個任務不能自己加第二個提醒，這個差距在方案比較表上不顯眼，容易忽略
 - **$60/年 的費率，對比功能增量，CP 值在漲價後下滑**：漲價前的 $48 是比較合理的定價，$60 讓它的性價比落在市場中偏高的位置
 - **日曆視圖在 Pro 才有**：這個視角在其他工具的免費版就有（TickTick 免費版有基本日曆），Todoist 把它放在付費版背後，顯得有點守舊
 - **任務管理工具的替代方案太多**：這個市場高度競爭，Todoist 的護城河不如密碼管理器這類工具牢固——換工具的成本在這個類別相對低
@@ -255,5 +255,5 @@ TickTick 免費版就能一個任務設兩個提醒，Todoist 要付 $60/年 才
 相關文章：
 
 - [筆記 App 比較：Notion、Obsidian、Logseq 哪個適合一般上班族？](/productivity/note-app-compare/)
-- [Notion 免費版夠用嗎？上班族真實使用三個月評測](/productivity/notion-free-review/)
+- [Notion 免費版夠用嗎？上班族會撞到的 3 個上限](/productivity/notion-free-review/)
 - [Google One 值得訂嗎？100GB 方案性價比分析](/productivity/google-one-review/)

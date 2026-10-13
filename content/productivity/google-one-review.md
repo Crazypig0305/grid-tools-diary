@@ -38,7 +38,7 @@ Google 帳號免費提供 15 GB 儲存空間，跨 Gmail、[Google Drive](https:
 
 ## 15 GB 為什麼不夠
 
-Gmail 本身就在吃這個空間，如果你用 Gmail 多年、夾帶附件的信都沒清，很可能已經用了 5–8 GB。Google Photos 如果沒有開「儲存空間節省畫質」，原始畫質的照片累積很快。加上 Drive 裡的各種文件，15 GB 對長期使用 Google 服務的人來說不算多。
+Gmail 本身就在吃這個空間，如果你用 Gmail 多年、夾帶附件的信都沒清，光是信箱就可能吃掉好幾 GB（到「管理 Google 帳戶 → 儲存空間」可以看到 Gmail、相簿、雲端硬碟各用了多少）。Google Photos 如果沒有開「儲存空間節省畫質」，原始畫質的照片累積很快。加上 Drive 裡的各種文件，15 GB 對長期使用 Google 服務的人來說不算多。
 
 ---
 
@@ -86,7 +86,7 @@ Google One 100 GB 方案在定價上沒有問題，NT$65/月換算下來是市�
 
 值不值得訂，取決於你有沒有需要。如果你的 Google 帳號已經快滿了、主要靠 Google Photos 存照片，就訂，不用猶豫。如果你對自己的 Google 使用量不清楚，先去「管理 Google 帳戶 → 儲存空間」看一下實際用量，用了多少再決定。
 
-雲端儲存只是每月一堆訂閱裡的一筆。如果你也在重算其他訂閱划不划算，音樂串流是另一個值得每年重算的項目——[Spotify 漲價後四種方案 + 跟對手比較全測給你看](/productivity/spotify-plan-compare-2026/)把每人成本拆給你看，同樣的「該留還是該換」邏輯。
+雲端儲存只是每月一堆訂閱裡的一筆。如果你也在重算其他訂閱划不划算，音樂串流是另一個值得每年重算的項目——[Spotify 漲價後四種方案 + 跟對手每人成本比較](/productivity/spotify-plan-compare-2026/)把每人成本拆給你看，同樣的「該留還是該換」邏輯。
 
 → [Google One 方案頁面](https://one.google.com/about/plans)
 

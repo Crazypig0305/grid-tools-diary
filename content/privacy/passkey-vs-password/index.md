@@ -15,7 +15,7 @@ draft: false
 
 Passkey 從 2022 年 Apple WWDC 首次商品化到現在已經四年。Google Account、Microsoft 365、GitHub、X、Adobe、PayPal 等主流服務全部支援，Apple iCloud Keychain / Google Password Manager / 1Password / Bitwarden / Dashlane 全部能存。也就是說——**Passkey 已經不是「未來技術」、是「現在預設選項」**。
 
-<!-- IG-firsthand: 跨生態系（iPhone + Windows）親身踩過 Passkey 不能跨平台同步坑、實際情境驗證跨平台密碼管理器在 Passkey 時代仍必要 -->
+<!-- IG-synthesis: 把 FIDO Alliance 規範、各平台 Passkey 同步範圍與 Credential Exchange 草案進度並排，拆出跨生態系（iPhone + Windows、iPhone 換 Android）時平台原生 Passkey 無法直接搬移、跨平台密碼管理器仍是中介層的情境 -->
 
 對使用者來說、問題從「Passkey 是什麼」變成「我已經付了密碼管理器訂閱、Passkey 出現後還要繼續用嗎？」
 

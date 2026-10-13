@@ -1,8 +1,8 @@
 ---
 title: "1Password 漲價 33% 後還值得訂嗎？2026 家庭版 vs 個人版 vs Bitwarden 試算"
 date: 2025-11-10
-lastmod: 2026-09-21T00:00:00+08:00
-description: "1Password 2026 年 3 月起個人版漲至 47.88 美元（漲幅 33%）、家庭版漲至 71.88 美元（漲幅 20%）。本文實際試算三種方案的年費差距，比較 Bitwarden 免費版與付費版的功能落差，幫你決定要續訂、降方案還是直接換掉。"
+lastmod: 2026-10-13
+description: "1Password 2026 年 3 月起個人版漲至 47.88 美元（漲幅 33%）、家庭版漲至 71.88 美元（漲幅 20%）。本文試算三種方案的年費差距，比較 Bitwarden 免費版與付費版的功能落差，幫你決定要續訂、降方案還是直接換掉。"
 categories: ["privacy"]
 tags: ["1password", "bitwarden", "密碼管理器", "隱私安全", "訂閱服務"]
 image: "1password-price-hike-2026-hero.webp"
@@ -14,9 +14,9 @@ draft: false
 > 2026 年 9 月 21 日：Dashlane 舊免費帳號的升級／匯出期限（2026 年 9 月 16 日）已過，依官方公告與說明中心現行頁面改寫成現況；同日再對照兩家定價頁，價格未變，並依 1Password 官方說明更正家庭版人數的寫法（含 5 人、可再加人另計費，不是上限 5 人）。
 > 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
-用了 1Password 兩年多，帳單自動續費扣的那天才發現多了一筆——原來漲價通知寄到垃圾信件夾，根本沒看到。
+很多 1Password 老用戶是在自動續費扣款那天，才發現金額跟去年不一樣——漲價通知是用 email 寄的，被分到促銷或垃圾信件夾就很容易漏看。
 
-查了一下，個人版從每年 $35.88 漲到 $47.88，漲幅 33%。家庭版從 $59.88 漲到 $71.88，漲幅 20%。這讓我認真思考一件事：**密碼管理器這個東西，我到底在付哪些功能的錢？**
+查了一下，個人版從每年 $35.88 漲到 $47.88，漲幅 33%。家庭版從 $59.88 漲到 $71.88，漲幅 20%。這時候該問的是：**密碼管理器這個東西，你到底在付哪些功能的錢？**
 
 在密碼管理器市場裡，Bitwarden 一直是「便宜版 1Password」的位置存在——開源、免費版就很夠用、付費版只要 $19.80/年。而且 Bitwarden 才剛漲過：[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)日期是 2026 年 1 月 21 日，Premium 從 $10 漲到 $19.80（98% 漲幅），比 1Password 早兩個月。兩家的年費差距在那兩個月之間是 $16.08，1Password 漲完之後拉大到 $28.08——這個市場今年整體都在重新定價。
 
@@ -70,7 +70,7 @@ draft: false
 
 ## Bitwarden 真正的功能邊界在哪裡
 
-我實際用過 Bitwarden 免費版三個月，以下是直接功能對比：
+Bitwarden 免費版和 1Password 的功能對比如下（依兩家官方方案頁）：
 
 | 功能 | 1Password 個人版 | Bitwarden 免費版 | Bitwarden Premium（$19.80/年）|
 |---|---|---|---|
@@ -138,7 +138,7 @@ Bitwarden Families 方案對比 1Password 家庭版有兩個明確優勢：
 
 ## 三工具多維度評分
 
-以下評分基於公開測試資料與實際使用經驗，四個維度各給五星制評分。
+以下評分依三家官方定價頁、說明文件與公開的稽核資訊，四個維度各給五星制評分，是本站的判斷、不是實測分數。
 
 功能完整度這一格，三家用同一把尺：每家都至少缺一項別家有的功能——1Password 沒有指定聯絡人的緊急存取、附件空間也比 Bitwarden Premium 小；Bitwarden Premium 和 Dashlane 都沒有 1Password 的 Travel Mode（Dashlane 另外多了 VPN）。所以這一格三家都給四星，缺什麼、多什麼寫在說明欄，哪一項對你比較重要，要回到前面的情境試算自己判斷：
 
@@ -149,7 +149,7 @@ Bitwarden Families 方案對比 1Password 家庭版有兩個明確優勢：
 | 功能完整度 | ★★★★☆ | Travel Mode、Watchtower、1GB 附件、救援碼都有；但沒有 Bitwarden Premium 那種指定聯絡人的緊急存取，附件空間也只有它的五分之一（1GB vs 5GB）|
 | 隱私透明度 | ★★★☆☆ | 閉源，有年度第三方稽核但程式碼不公開，信任基礎全靠報告 |
 | CP 值（漲價後）| ★★☆☆☆ | $47.88 是 Bitwarden Premium 的 2.4 倍，部分功能台灣用戶用不到 |
-| 台灣可用性 | ★★★★★ | 介面完整繁中化，App 流暢，信用卡 / 台灣發卡行付款均可 |
+| 台灣可用性 | ★★★★★ | 介面完整繁中化，信用卡 / 台灣發卡行付款均可 |
 
 ### Bitwarden Premium（$19.80 USD/年）
 
@@ -183,15 +183,15 @@ Bitwarden Families 方案對比 1Password 家庭版有兩個明確優勢：
 
 這功能讓你在出入境前可以暫時隱藏特定密碼庫——只有 1Password 有。對常去某些國家的商務旅行者，或手機裡有需要在特定情境隱藏的資訊的人，這個功能有真實的需求，不是說說而已。
 
-**2. 你在意自動填寫的流暢度**
+**2. 你在意自動填寫少一個步驟**
 
-測試了幾個禮拜後，Bitwarden 的瀏覽器延伸套件在某些情境下需要手動點一下才觸發（1Password 較主動偵測輸入框）。如果你是那種「任何多一個步驟都很煩」的人，這個差異會影響你的使用感受。
+Bitwarden 官方說明寫明，瀏覽器擴充功能的「頁面載入時自動填入」預設是關閉的（原文：By default, on page load is not turned on），預設要點擴充功能、右鍵選單或快捷鍵才填入（[官方自動填入說明](https://bitwarden.com/help/auto-fill-browser/)）。如果你是那種「任何多一個步驟都很煩」的人，換之前先用 Bitwarden 免費版在常用網站試兩週再決定。
 
 **3. 公司已在用 1Password Business**
 
 依 [1Password 官方說明](https://support.1password.com/link-family/)，公司用的是 1Password Business 的話，員工可以拿到一個免費的 1Password Families 會員（原文：When you're part of a team that uses 1Password Business, you get a complimentary 1Password Families membership），只要跟公司帳號連結就一直有效。如果你公司是這個方案，個人根本不需要另外付費。先去問問 IT。
 
-以上三種情況都不符合的話，繼續付 $47.88 主要是在付「習慣成本」——你懶得花 30 分鐘遷移，這也是很合理的理由，只要你清楚知道這就是你在付的東西。
+以上三種情況都不符合的話，繼續付 $47.88 主要是在付「習慣成本」——你不想花時間遷移，這也是很合理的理由，只要你清楚知道這就是你在付的東西。
 
 ---
 
@@ -211,12 +211,11 @@ Bitwarden 直接支援 `.1pux` 格式，多數欄位（網站、帳號、密碼�
 匯入後對比兩邊的項目數量。數量對不上時，先查是哪一類項目沒進來（例如附件、登入以外的項目類型），再手動補上。
 
 **步驟 4：安裝 Bitwarden 延伸套件並停用 1Password**
-從 Chrome Web Store / Firefox Add-ons 安裝 Bitwarden 延伸套件，停用 1Password 延伸套件。兩個同時開著有時候會搶輸入框。
+從 Chrome Web Store / Firefox Add-ons 安裝 Bitwarden 延伸套件，停用 1Password 延伸套件。兩個密碼管理器的擴充功能同時開著，可能會在同一個輸入框各自跳出填入提示。
 
 **步驟 5：觀察 1–2 週**
 先不急著取消 1Password 訂閱，保留兩週讓自己確認 Bitwarden 在常用網站的自動填寫都正常。
 
-整個核心操作不超過 30 分鐘，觀察期另外算。
 
 ---
 
@@ -226,8 +225,8 @@ Bitwarden 直接支援 `.1pux` 格式，多數欄位（網站、帳號、密碼�
 
 **Bitwarden 的真實缺點：**
 
-- **自動填寫主動性不如 1Password**：瀏覽器延伸套件在某些網站（特別是使用 iframe 登入框的網站）偶爾需要手動點選 icon 才觸發，1Password 在同樣情境較主動
-- **行動版 App 設計陽春**：功能齊全但視覺設計明顯不如 1Password，如果你很在意 App 體驗，這個落差是真實存在的
+- **自動填寫預設要手動觸發**：「頁面載入時自動填入」預設關閉，要自己到設定開；遇到 iframe 裡的登入框，手動填入前官方會先跳警告；特定網站填不進去，官方建議用 linked custom fields 強制填入（[官方自動填入說明](https://bitwarden.com/help/auto-fill-browser/)）
+- **介面精緻度**：功能齊全，但我的看法是介面設計不如 1Password 精緻；這是主觀判斷，很在意 App 外觀的話，下載免費版自己看一眼最準
 - **免費版 TOTP 不可用**：如果你習慣把所有 2FA 整合在密碼庫，免費版做不到，要付 $19.80/年 升 Premium
 - **自架複雜**：官方自架版要用 Docker 架設（第三方的 Vaultwarden 也一樣要會 Docker），普通用戶直接用官方雲端就好，不要被這個嚇到
 
@@ -263,6 +262,6 @@ Bitwarden 直接支援 `.1pux` 格式，多數欄位（網站、帳號、密碼�
 
 相關文章：
 
-- [Bitwarden 免費開源密碼管理器三個月真實評測](/privacy/bitwarden-review/)
+- [Bitwarden 好用嗎？免費開源密碼管理器優缺點評測](/privacy/bitwarden-review/)
 - [Bitwarden vs 1Password：小資族選免費還是付費密碼管理器？](/privacy/bitwarden-vs-1password/)
 - [上班族到底需不需要 VPN？不廢話直接說](/privacy/do-you-need-vpn/)

@@ -1,7 +1,7 @@
 ---
 title: "NordVPN vs Surfshark：2026 台灣用戶選哪個？台幣價格、隱私、功能逐項比較"
 date: 2022-10-01
-lastmod: 2026-10-05
+lastmod: 2026-10-13
 categories: ["privacy"]
 tags: ["VPN", "NordVPN", "Surfshark", "VPN比較", "隱私安全"]
 description: "NordVPN 和 Surfshark 哪個值得買？依兩家台灣官網的新台幣價格，逐項比較方案、裝置數、內含功能、隱私管轄地與台灣適用性，給你一個有立場的答案。"
@@ -122,7 +122,7 @@ NordVPN 單一帳戶最多同時 10 台裝置。Surfshark 不限裝置數量，�
 
 多裝置、要擋廣告、看重價格 → Surfshark。最在意公司所在地 → NordVPN。
 
-預算不夠，也可以先參考[免費 VPN 的測試結果](/privacy/free-vpn-test/)，看看 [ProtonVPN](https://protonvpn.com/) 免費版是否符合你的需求。
+預算不夠，也可以先參考[五款免費 VPN 的比較](/privacy/free-vpn-test/)，看看 [ProtonVPN](https://protonvpn.com/) 免費版是否符合你的需求。
 
 → [NordVPN 台灣官網方案頁](https://nordvpn.com/zh-tw/pricing/)｜[Surfshark 台灣官網方案頁](https://surfshark.com/zh-tw/pricing)
 

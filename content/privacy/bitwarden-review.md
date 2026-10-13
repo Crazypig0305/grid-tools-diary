@@ -1,10 +1,10 @@
 ---
-title: "Bitwarden 好用嗎？免費開源密碼管理器三個月真實評測"
+title: "Bitwarden 好用嗎？免費開源密碼管理器優缺點評測"
 date: 2023-10-01
-lastmod: 2026-09-13T00:19:00+08:00
+lastmod: 2026-10-13
 categories: ["privacy"]
 tags: ["Bitwarden", "密碼管理器", "資安工具", "免費工具", "隱私安全"]
-description: "Bitwarden 真的免費而且好用嗎？用了三個月，從設定到日常使用告訴你它的實際優缺點。"
+description: "Bitwarden 真的免費而且好用嗎？依官方定價頁與說明文件，從設定、日常使用到免費版限制，告訴你它的優缺點和誰該升 Premium。"
 image: /images/bitwarden-password.png
 draft: false
 ---
@@ -46,19 +46,19 @@ Bitwarden 免費版是一款不縮水的免費密碼管理器：開源、無裝�
 
 Bitwarden 的設定不複雜。建立帳號、設定主密碼、安裝瀏覽器擴充功能（Chrome、Firefox、Safari 都有），這三步做完就可以開始用了。遇到登入頁面，它會自動偵測並提示儲存密碼，或者自動填入已儲存的帳密。
 
-把舊密碼搬進來的方式是匯入，支援從 Chrome、Firefox、[1Password](https://1password.com/)、[LastPass](https://www.lastpass.com/) 等主流平台匯出的格式，整個過程大概花 10–20 分鐘。
+把舊密碼搬進來的方式是匯入，支援從 Chrome、Firefox、[1Password](https://1password.com/)、[LastPass](https://www.lastpass.com/) 等主流平台匯出的格式：先在原本的工具匯出檔案，再到 Bitwarden 網頁版匯入。匯出的明文檔案記得匯入完就刪掉，不要留在下載資料夾。
 
 ---
 
-## 實際使用三個月的感受
+## 日常使用會遇到的優缺點
 
-**瀏覽器整合**很順，Chrome 擴充功能的自動填入速度快、精準度高。偶爾在某些網站的登入框偵測不到需要手動觸發，但不常見。
+**瀏覽器整合**：擴充功能遇到登入頁會提示儲存帳密。要注意的是，官方說明寫明「頁面載入時自動填入」預設是關閉的，預設要點擴充功能、右鍵選單或快捷鍵才填入，想自動填要自己到設定開；特定網站填不進去，官方建議用 linked custom fields 強制填入（[官方自動填入說明](https://bitwarden.com/help/auto-fill-browser/)）。
 
-**手機 App** 在 iOS 和 Android 上都有，支援生物辨識解鎖（Face ID / 指紋）。行動端的自動填入需要在設定裡啟用系統層級的自動填入，設定完後就跟原生密碼管理工具差不多順。
+**手機 App** 在 iOS 和 Android 上都有，支援生物辨識解鎖（Face ID / 指紋）。行動端的自動填入要到系統設定裡把 Bitwarden 設為自動填入來源：iOS 是在「自動填寫密碼與通行密鑰」裡打開並勾選 Bitwarden（[官方 iOS 自動填入說明](https://bitwarden.com/help/auto-fill-ios/)），Android 另有[官方 Android 自動填入說明](https://bitwarden.com/help/auto-fill-android/)。沒做這一步，手機上就只能開 App 複製貼上。
 
 **密碼產生器**內建，長度和字元組合都可以自訂，每次需要設定新密碼直接叫出來用。
 
-**多裝置同步**沒遇過問題。電腦新增的帳號，幾秒後手機上就同步了。這個功能在免費版就包含，是 Bitwarden 相對其他競品最大的優勢之一。
+**多裝置同步**：電腦上新增的帳號會同步到手機和其他裝置，裝置數量不限。這個功能在免費版就包含，是 Bitwarden 相對其他競品最大的優勢之一。
 
 ---
 

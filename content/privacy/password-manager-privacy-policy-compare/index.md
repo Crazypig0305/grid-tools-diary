@@ -1,7 +1,7 @@
 ---
 title: "密碼管理器隱私政策真的讀過嗎？Bitwarden、1Password、Dashlane 條款比較"
 date: 2026-02-25
-lastmod: 2026-09-21T00:00:00+08:00
+lastmod: 2026-10-13
 description: "密碼管理器存放了你所有的帳密，但你讀過它的隱私政策嗎？本文逐條比較 Bitwarden、1Password、Dashlane 三家的資料蒐集範圍、第三方分享條款與開源稽核透明度，給你一個有依據的評分。"
 categories: ["privacy"]
 tags: ["bitwarden", "1password", "dashlane", "密碼管理器", "隱私政策"]
@@ -207,7 +207,7 @@ ETH 新聞稿提到各家修補的速度不一，但這件事說明的不是「�
 **Bitwarden 的現實限制：**
 
 - 免費版不含 TOTP（[2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication) 整合），需升 Premium（$19.80/年）才有
-- 行動版 App 設計陽春，視覺體驗明顯不如 1Password
+- 介面設計：我的看法是不如 1Password 精緻，這是主觀判斷，下載免費版自己看一眼最準
 - 使用了 Google Analytics，對極度重視隱私的用戶是矛盾點（Dashlane 政策同樣寫明用 GA，1Password 的 Cookie Policy 也列了 GA cookie，這一點不是 Bitwarden 獨有）
 - 自架（官方版或第三方的 Vaultwarden）都需要懂 Docker，普通用戶不適合
 
@@ -265,4 +265,4 @@ Dashlane Premium 內建的 VPN 由 Hotspot Shield 提供，只有你真的用這
 - [密碼管理器推薦 2026：6 種情境，幫你選對那一個](/privacy/password-manager-recommendation-2026/)
 - [1Password 漲價 33% 後還值得訂嗎？2026 家庭版 vs 個人版 vs Bitwarden 試算](/privacy/1password-price-hike-2026/)
 - [Bitwarden vs 1Password：小資族選免費還是付費密碼管理器？](/privacy/bitwarden-vs-1password/)
-- [Bitwarden 好用嗎？免費開源密碼管理器三個月真實評測](/privacy/bitwarden-review/)
+- [Bitwarden 好用嗎？免費開源密碼管理器優缺點評測](/privacy/bitwarden-review/)

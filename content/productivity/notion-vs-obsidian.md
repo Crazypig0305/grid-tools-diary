@@ -1,7 +1,7 @@
 ---
 title: "Notion vs Obsidian 2026 比較：不寫程式的一般人選哪個？直接說結論"
 date: 2022-08-15
-lastmod: 2026-09-28
+lastmod: 2026-10-13
 categories: ["productivity"]
 tags: ["Notion", "Obsidian", "筆記軟體", "知識管理", "效率工具"]
 description: "Notion 和 Obsidian 怎麼選？一張比較表看資料存放、同步、協作、資料庫、AI 與 2026 年官方價格，再依使用情境直接說哪種人適合哪個。"
@@ -105,7 +105,7 @@ Obsidian 的基本操作不需要寫程式，用 Markdown 記筆記也不難—�
 
 ## 直接說結論
 
-不確定的話，先從 Notion 開始。它的免費版已經夠用，不需要什麼前置設定，你可以在用的過程中搞清楚自己真正需要什麼功能。關於 Notion 免費版實際夠不夠用，可以看這篇評測：[Notion 免費版夠用嗎？上班族真實使用三個月評測](/productivity/notion-free-review/)
+不確定的話，先從 Notion 開始。它的免費版已經夠用，不需要什麼前置設定，你可以在用的過程中搞清楚自己真正需要什麼功能。關於 Notion 免費版夠不夠用，可以看這篇評測：[Notion 免費版夠用嗎？上班族會撞到的 3 個上限](/productivity/notion-free-review/)
 
 如果你很在意資料自主性、喜歡自己設定系統、或者想要記錄的是長期的知識連結而不只是任務清單，Obsidian 值得花時間試試。
 

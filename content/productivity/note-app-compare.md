@@ -1,17 +1,17 @@
 ---
 title: "Notion vs Evernote vs Obsidian：上班族筆記工具 2026 完整評比"
 date: 2024-01-08
-lastmod: 2026-10-05
+lastmod: 2026-10-13
 categories: ["productivity"]
 tags: ["Notion", "Evernote", "Obsidian", "筆記App", "工具比較", "效率工具", "上班族"]
-description: "同時用過 Notion、Evernote 和 Obsidian 三到六個月，從上班族角度評比：哪個最適合不寫程式的一般人？免費版夠不夠用？資料帶不帶得走？"
+description: "依三家 2026 年官方方案頁，從上班族角度評比 Notion、Evernote 和 Obsidian：哪個最適合不寫程式的一般人？免費版夠不夠用？資料帶不帶得走？"
 image: /images/note-app-compare.jpg
 draft: false
 ---
 
 > 📅 原文發布：2024 年 1 月｜最後更新：2026 年 10 月
 > 2026 年 10 月依 [Notion 官方方案頁](https://www.notion.com/pricing)、[Evernote 官方方案比較頁](https://evernote.com/compare-plans)、[Obsidian 官方定價頁](https://obsidian.md/pricing)更正：Notion 個人付費方案現在叫 Plus（年繳每人每月 10 美元），不是舊的 Personal Pro；Evernote 現行方案為 Free／Starter／Advanced 等，免費版是 50 則筆記、1 個筆記本、1 台裝置；Notion 與 Evernote 免費版其實都能離線使用（前一版寫「付費才支援」）。
-> 本文評測基於個人使用體驗，各工具功能與費率可能調整，建議至官網確認最新條件。
+> 本文依各工具官方方案頁與說明文件整理，各工具功能與費率可能調整，建議至官網確認最新條件。
 > 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
 
 ---
@@ -20,7 +20,7 @@ draft: false
 
 已經有分別評測 [Notion](https://www.notion.so/) 和 [Obsidian](https://obsidian.md/) 的文章了，但很多人問的是「到底哪個最適合我？」——不是要看個別評測，是要一個直接告訴他選哪個的答案。
 
-這篇就做這件事。三個工具都用過超過三個月，從一般上班族的角度出發（不寫程式、不做複雜資料庫），給出選擇建議。
+這篇就做這件事：依三家官方方案頁與說明文件，從一般上班族的角度出發（不寫程式、不做複雜資料庫），給出選擇建議。
 
 ---
 
@@ -45,7 +45,7 @@ draft: false
 
 **好用的地方：**
 
-整合性強。任務清單、筆記、專案管理可以都在同一個地方，不用開好幾個 App。介面乾淨，搜尋快。免費版對個人使用來說夠用（頁面和區塊數量不限，可以建很多內容）。
+整合性強。任務清單、筆記、專案管理可以都在同一個地方，不用開好幾個 App。介面乾淨。免費版對個人使用來說夠用（頁面和區塊數量不限，可以建很多內容）。
 
 **不好用的地方：**
 
@@ -53,13 +53,13 @@ draft: false
 
 資料完全在 Notion 的雲端，如果 Notion 關服或費率調整，遷移成本高。
 
-**適合你如果：** 你想要一個整合所有工作追蹤的工作台，願意花一到兩週摸熟它的架構邏輯。想知道免費版能撐多久，可以參考這篇實測：[Notion 免費版夠用嗎？上班族三個月評測](/productivity/notion-free-review/)
+**適合你如果：** 你想要一個整合所有工作追蹤的工作台，願意花一到兩週摸熟它的架構邏輯。想知道免費版能撐多久，可以參考這篇：[Notion 免費版夠用嗎？上班族會撞到的 3 個上限](/productivity/notion-free-review/)
 
 ### Evernote
 
 **好用的地方：**
 
-最直覺，開啟就記，分類靠筆記本和標籤。剪貼網頁文章很方便。適合快速記零碎訊息的習慣。
+上手門檻低，開新筆記就能記，分類靠筆記本和標籤。官方有 [Web Clipper 瀏覽器擴充功能](https://evernote.com/features/webclipper)，可以把網頁文章、截圖直接存進筆記。適合快速記零碎訊息的習慣。
 
 **不好用的地方：**
 
@@ -96,7 +96,7 @@ Evernote 更直覺，但免費版只有 50 則筆記、1 台裝置，長期用�
 
 如果你什麼都不確定，**先從 Notion 免費版試用兩週**。它的功能夠多、免費版夠用，試完再決定是否進階或換到其他工具。
 
-挑工具的原則放在哪類 App 都一樣：先問「一個月後我還會打開它嗎」，而不是被得獎或話題沖昏頭。這套過濾邏輯我們也用在 [Apple 設計大獎 App 實測過濾](/productivity/apple-design-award-apps-daily-use/) 那篇——同樣是砍掉中看不中用、只留真的會天天回去打開的。
+挑工具的原則放在哪類 App 都一樣：先問「一個月後我還會打開它嗎」，而不是被得獎或話題沖昏頭。這套過濾邏輯我們也用在 [Apple 設計大獎 App 上班族角度過濾](/productivity/apple-design-award-apps-daily-use/) 那篇——同樣是砍掉中看不中用、只留真的會天天回去打開的。
 
 ---
 
