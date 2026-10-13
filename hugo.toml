@@ -26,9 +26,9 @@ disableKinds = ['taxonomy', 'term']
   pagerSize = 12
 
 [params]
-  tagline = '我測了這個工具，這是結果'
-  description = '效率工具、隱私安全、掛機 App、理財工具——每篇都有實際使用結論，告訴你值不值得裝'
-  aboutText = '32 歲，數位產業工作者。裝過太多沒用的 App，現在任何工具至少比兩個才下決定。'
+  tagline = '工具值不值得付費，直接給結論'
+  description = '效率工具、隱私安全、掛機 App、理財工具——每篇都有直接結論，告訴你值不值得裝'
+  aboutText = '32 歲，數位產業工作者。任何工具至少比兩個才下結論。'
   aboutLink = '/about/'
 
 [[menus.main]]
