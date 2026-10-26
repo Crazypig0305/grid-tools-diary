@@ -46,7 +46,7 @@ Gmail 本身就在吃這個空間，如果你用 Gmail 多年、夾帶附件的�
 
 <!-- IG-synthesis: 2026-09-14 把 Google One 台灣官方方案頁（100 GB 權益只列儲存空間與最多 5 人共用）、Google One 說明頁（Google 商店回饋限 200 GB 以上且只限美加英德澳）與 Google 官方部落格（相簿 AI 編輯 2024-05 起開放所有使用者）交叉讀，得出台灣 100 GB 實際多買到的只有容量與客服——三份文件各自都沒把這個結論講出來 -->
 
-**儲存空間本身**：100 GB 最多可與 5 人共用，不是每人各 100 GB，是全家共用這一份 100 GB。
+**儲存空間本身**：100 GB 最多可與 5 人共用，不是每人各 100 GB，是全家共用這一份 100 GB。開法、誰能加入、家人看不看得到檔案，整理在 [Google One 家庭共用規則](/productivity/google-one-family-sharing/)。
 
 **Google Photos AI 編輯：不是訂閱才有**。Magic Eraser（去除雜物）、Photo Unblur（去模糊）等 AI 編輯功能，[自 2024 年 5 月起已開放所有 Google 相簿使用者免費使用](https://blog.google/products/photos/google-photos-editing-features-availability/)，裝置門檻是至少 3 GB RAM 且 Android 8.0／iOS 15 以上，或 ChromeOS 118 以上的 Chromebook Plus；官方方案頁列出的 100 GB 權益也只有儲存空間本身，不要為了修圖功能訂 100 GB。
 
