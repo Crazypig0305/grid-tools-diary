@@ -1,15 +1,15 @@
 ---
 title: "2026 LINE Premium 值得嗎？165 元月費只有兩種人該訂"
 date: 2026-09-28
-lastmod: 2026-09-28
+lastmod: 2026-10-26
 description: "LINE Premium 台灣月費 165 元（iOS、Android 同價）。免費備份只存文字、只能同系統換機，Premium 進階備份才帶得走照片影片並可跨 iOS／Android，加買 iCloud、Google One 容量也取代不了。本文講清楚誰該訂、編輯訊息轉付費影響多大、取消後資料會不會不見。"
 categories: ["productivity"]
 tags: ["LINE Premium", "LINE 備份", "訂閱成本", "通訊軟體", "工具評測"]
 draft: false
 ---
 
-> 📅 原文發布：2026 年 9 月｜最後更新：2026 年 9 月
-> 本文價格與規則已於 2026 年 9 月 28 日逐項對照 [LINE 台灣新聞室](https://www.linecorp.com/tw/pr/news/2026/0323-2/)、[LINE 支援中心](https://help.line.me/line/smartphone/?contentId=20027124&lang=zh-Hant)、App Store 與 Google Play 頁面校對。
+> 📅 原文發布：2026 年 9 月｜最後更新：2026 年 10 月
+> 本文價格與規則已於 2026 年 10 月 26 日逐項對照 [LINE 台灣新聞室](https://www.linecorp.com/tw/pr/news/2026/0323-2/)、[LINE 支援中心](https://help.line.me/line/smartphone/?contentId=20027124&lang=zh-Hant)與 App Store 頁面校對。
 > 訂閱價格與功能隨時可能調整，建議參考本文後仍至官方說明確認最新條件。
 
 直接說結論：**LINE Premium 台灣月費 165 元，iOS 和 Android 同價，一年 1,980 元。只有兩種人值得訂：要在 iPhone 和 Android 之間換機的人，以及想把聊天室裡的照片、影片、檔案長期保存下來的人。** 只為了無痕收回、編輯訊息、換字型，不值得每月付 165 元。
@@ -22,7 +22,7 @@ draft: false
 
 [LINE](https://zh.wikipedia.org/wiki/LINE_(%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F)) 在 2026 年 3 月 23 日開始在台灣分批釋出 LINE Premium 會員計畫。[官方新聞稿](https://www.linecorp.com/tw/pr/news/2026/0323-2/)寫明月費 165 元、首次訂閱可享首月免費試用，但同一個 Apple 或 Google 帳號訂過就不能再試用；訊息傳送、語音和視訊通話仍然免費。
 
-官方說明的付款管道只有 App Store 和 Google Play，兩邊商店頁的「費用方案」都寫每月 165 元，所以沒有 YouTube Premium 那種 iOS 內購比網頁貴的價差，在哪支手機訂都一樣。另一個要知道的限制：[支援中心](https://help.line.me/line/smartphone/?contentId=20027124&lang=zh-Hant)寫明一筆會員資格無法同時用在多台裝置，沒有家庭共用。
+[支援中心](https://help.line.me/line/smartphone/?contentId=20027124&lang=zh-Hant)寫明費用為 NT$165、付款透過 App Store 與 Google Play 處理，沒有另外分 iOS、Android 兩種價格，App Store 的 LINE 內購清單也是 165 元，所以沒有 YouTube Premium 那種 iOS 內購比網頁貴的價差，在哪支手機訂都一樣。另一個要知道的限制：支援中心寫明一筆會員資格無法同時用在多台裝置，沒有家庭共用，下一節講清楚。
 
 | 項目 | LINE Premium 內容 |
 |---|---|
@@ -31,10 +31,35 @@ draft: false
 | 備份 | 進階備份：文字、照片、影片、檔案、語音，100GB，可跨 iOS／Android |
 | 收回訊息 | 送出後 7 天內可收回；對方未讀時可無痕收回 |
 | 相簿 | 可上傳影片與原始畫質照片 |
-| 其他 | 專屬字型、應用程式圖示、自選個人檔案、每月在 LINE MUSIC 自選 3 首當鈴聲／來電答鈴 |
+| 其他 | 編輯已傳送的訊息、專屬字型、應用程式圖示、自選個人檔案、每月在 LINE MUSIC 自選 3 首當鈴聲／來電答鈴 |
 | 優惠 | 試用期後每月 LINE 禮物優惠券總額 NT$250、LINE 購物／旅遊點數紅包 |
 
 別跟 **LINE 貼圖超值方案**搞混。App Store 的 LINE 內購清單裡同時有 165 元和 120 元的「月租方案」，120 元那個是貼圖超值方案的進階型，跟 Premium 是兩個獨立訂閱。依[支援中心的方案說明](https://help.line.me/line/?contentId=20013665&lang=zh-Hant)，貼圖超值方案基本型月租 NT$80、進階型月租 NT$120，只管貼圖、表情貼和主題，不含任何備份功能。
+
+---
+
+## LINE Premium 有家庭方案嗎？沒有，一份會員只跟著一個 LINE 帳號
+
+<!-- IG-synthesis: 2026-10-26 把 LINE 支援中心的會員資格規則（綁定帳號、裝置限制）、相簿說明頁的「所有成員皆可瀏覽」與 Apple、Google 的家人共享規定並排，整理出「Premium 不能多人共用，但一個人訂的相簿影片全群看得到」這個多人方案比價文沒拆開的差別 -->
+
+沒有。截至 2026 年 10 月 26 日，LINE 台灣在[會員計畫新聞稿](https://www.linecorp.com/tw/pr/news/2026/0323-2/)和[支援中心](https://help.line.me/line/smartphone/?contentId=20027124&lang=zh-Hant)列出的只有每月 165 元這一種 LINE Premium 方案，沒有家庭方案、共享方案或多人優惠。支援中心寫的三條規則，決定了它為什麼沒辦法一人付費全家用：
+
+| 官方規則 | 對多人共用的意思 |
+|---|---|
+| 會員資格連結在「使用中的 LINE 帳號」，變更使用國家／地區時會被終止 | 會員功能跟著訂閱的那個 LINE 帳號走，家人各自的 LINE 帳號不會一起變成會員 |
+| 一個 LINE 帳號只能在一台主要裝置上使用，且只能用一個 Apple 或 Google 帳號 | 不能拿同一個 LINE 帳號裝在家人手機上分著用 |
+| 一筆會員資格無法同時於多台裝置上使用 | 一筆 165 元只對應一個人的使用 |
+
+所以家裡三個人都想要跨系統換機或進階備份，就是三筆訂閱、每月 495 元。App Store 內購清單上的 120 元「月租方案（進階型）」、100 元「學生方案（進階型）」都是貼圖超值方案，不是 Premium 的便宜版；依[貼圖超值方案說明](https://help.line.me/line/?contentId=20013665&lang=zh-Hant)，學生方案只限日本、台灣、印尼使用，而且一樣只管貼圖。
+
+想多人一起省，官方規則下做得到的有這四種：
+
+1. **只讓真的需要的人訂。** 跨系統換機、靠聊天室存照片影片的人才需要 Premium，其他家人用免費版即可，判斷方式見文末「只有這兩種人該訂」。
+2. **誰換機誰訂一個月。** 首月免費試用是看 Apple 或 Google 帳號，同一個帳號訂過就不能再試；家人用的是各自的 Apple ID 或 Google 帳號，換機時各用自己的試用月做完進階備份再取消，取消步驟見後面「取消 LINE Premium」那一節。
+3. **家族群組的照片影片，一個人訂就能全群看。** 依[相簿說明](https://help.line.me/line/android/sp?lang=zh-Hant&contentId=20000248)，只有 Premium 會員能在相簿上傳 5 分鐘以內的影片和原始畫質照片，而「所有成員皆可瀏覽上傳至相簿內的項目」。限制是這只解決「看得到」：其他人的聊天記錄不會因此被備份，而且上傳者的會員到期 30 天後，相簿影片會刪除、其他成員也看不到，重要的影片要各自下載存到手機。
+4. **只需要文字備份的家人，共用雲端容量就好。** 標準備份存在自己的 iCloud 雲碟或 Google 雲端硬碟，容量不夠時，[iCloud+](https://support.apple.com/zh-tw/108047) 最多可與五位其他家庭成員共享（50GB 每月 NT$30），[Google One](https://one.google.com/about/plans) 100GB（每月 NT$65）可與最多 5 位其他人共用。這解決的是「文字備份跑得動」，不會讓標準備份多存照片或跨系統，原因見下面兩節。
+
+訂閱前可以在 LINE 主頁「設定」→「LINE Premium」→「會員資訊」確認自己目前的會員狀態，避免家人以為已經有人訂就能共用。真正有家庭方案、能一份錢多人用的訂閱，可以對照 [YouTube Premium 各方案怎麼選](/productivity/youtube-premium-plans-taiwan-2026/)和 [Spotify 方案比較](/productivity/spotify-plan-compare-2026/)。
 
 ---
 
@@ -74,7 +99,7 @@ LINE 的聊天記錄存在手機裡的 App，不在 LINE 的伺服器上，所�
 | [Google One](https://one.google.com/about/plans) 100GB | NT$65 | 不能（標準備份只存文字）| 不能 |
 | LINE Premium | NT$165 | 可以（進階備份，100GB）| 可以 |
 
-iCloud+ 價格依 Apple 支援頁 2026 年 9 月 18 日發布的台灣價目；Google One 的 2TB、5TB 已分別是 Google AI Plus（NT$330）和 Google AI Pro（NT$650），跟 Gemini 綁在一起賣，跟 LINE 備份更無關。
+iCloud+ 價格依 Apple 支援頁 2026 年 9 月 29 日發布的台灣價目；Google One 的 2TB、5TB 已分別是 Google AI Plus（NT$330）和 Google AI Pro（NT$650），跟 Gemini 綁在一起賣，跟 LINE 備份更無關。
 
 反過來說，加買雲端容量也不是沒用：iPhone 的免費 iCloud 只有 5GB，LINE 要求 iCloud 雲碟保有足夠空間才能做標準備份，空間不夠時花 NT$30 升級 50GB，是讓文字備份跑得動最便宜的辦法。**容量解決的是「備份得了」，Premium 解決的是「備份得到照片影片、帶得過另一個系統」**，兩件事不能互換。雲端硬碟本身怎麼選，可以看 [Google Drive vs OneDrive vs iCloud 三方比較](/productivity/cloud-storage-compare/)。
 
@@ -86,13 +111,15 @@ iCloud+ 價格依 Apple 支援頁 2026 年 9 月 18 日發布的台灣價目；G
 
 無痕收回也不是真的無痕：支援中心註明對方可能已經從推播通知看到部分內容，對方已讀或版本不支援時也無法無痕收回。為了偶爾傳錯訊息，一年付 1,980 元，換到的是「少數情況下對方看不到收回提示」，性價比很低。
 
-**編輯訊息**是 [2026 年 8 月 20 日新聞稿](https://www.linecorp.com/tw/pr/news/2026/0820/)宣布的新功能：一對一和群組聊天室送出後 15 分鐘內、Keep 筆記 6 天內可改自己送出的文字，改完會顯示「已編輯」，照片、貼圖、社群和官方帳號聊天室不適用。目前在 LINE Labs 開放所有人免費試用，官方原話是：
+**編輯訊息**是 [2026 年 8 月 20 日新聞稿](https://www.linecorp.com/tw/pr/news/2026/0820/)宣布的新功能：一對一和群組聊天室送出後 15 分鐘內、Keep 筆記 6 天內可改自己送出的文字，改完會顯示「已編輯」，照片、貼圖、社群和官方帳號聊天室不適用。它一開始在 LINE Labs 開放所有人免費試用，官方當時的原話是：
 
 > 「LINE Labs免費試用結束後，編輯訊息將正式轉為LINE Premium會員專屬功能，先前已完成編輯的訊息不受影響，仍會保留修改後的內容。」——[LINE 台灣新聞室](https://www.linecorp.com/tw/pr/news/2026/0820/)（2026）
 
-試用結束日期官方說會在 LINE 設定頁的「最新資訊」另行公告，截至 9 月 28 日的官方新聞稿沒有寫日期。15 分鐘內改錯字很方便，但刪掉重打一樣能做到，不構成訂閱理由。
+這個試用已經結束：[LINE 支援中心的公告](https://help.line.me/line/smartphone?contentId=200002181&lang=zh-Hant)寫明 LINE Labs 已於 2026 年 10 月 20 日結束提供「編輯訊息」，設定畫面中的項目同步刪除，並註明要使用這項會員專屬功能需把 LINE 更新到最新版本；[LINE Premium 基本說明](https://help.line.me/line/smartphone/?contentId=20027124&lang=zh-Hant)的會員優惠清單也已列出「編輯已傳送的訊息」。也就是說，從 10 月 20 日起編輯訊息已經是 Premium 會員功能，免費用戶不能再用。15 分鐘內改錯字很方便，但刪掉重打一樣能做到，仍然不構成訂閱理由。
 
-至於「LINE Labs 要付費嗎？」：LINE Labs 本身是[設定裡的試用區](https://help.line.me/line/smartphone/?contentId=20008668&lang=zh-Hant)，開啟不用付費，說明頁也沒有提到任何費用；要注意的只是像編輯訊息這種「先免費試、之後轉 Premium」的功能。
+LINE 在 [2026 年 10 月 13 日新聞稿](https://www.linecorp.com/tw/pr/news/2026/1013-4)另外預告，2026 年第四季到 2027 年上半年會陸續推出 6 項會員進階功能：除了已經上線的編輯訊息，還有無聲訊息、通話錄製、預約訊息、無痕預覽、稍後標為已讀。後面這 5 項在支援中心的會員優惠清單裡還沒出現，還沒上線的功能不適合當成現在付費的理由，等它們真的出現在你的 LINE 設定裡，再看值不值得。
+
+至於「LINE Labs 要付費嗎？」：LINE Labs 本身是[設定裡的試用區](https://help.line.me/line/smartphone/?contentId=20008668&lang=zh-Hant)，開啟不用付費，說明頁也沒有提到任何費用；要注意的只是像編輯訊息這種「先免費試、之後轉 Premium」的功能——編輯訊息就是在 2026 年 10 月 20 日從 LINE Labs 移除的。
 
 ---
 
@@ -141,7 +168,7 @@ iCloud+ 價格依 Apple 支援頁 2026 年 9 月 18 日發布的台灣價目；G
 - 不會回頭救已過期的媒體，初次備份沒抓到的也不會補，越晚開始救到的越少。
 - 沒有家庭共用，一人一份 165 元；[iCloud+](https://support.apple.com/zh-tw/108047) 和 [Google One](https://one.google.com/about/plans) 都能跟最多 5 位家人共用容量。
 - 取消後 30 天進階備份資料就刪除，相簿影片也會刪，忘了先存就沒了。
-- 備份以外的功能（收回、編輯、字型、圖示）單獨看都撐不起月費，而編輯訊息還會從免費試用變成付費專屬。
+- 備份以外的功能（收回、編輯、字型、圖示）單獨看都撐不起月費，而編輯訊息從 2026 年 10 月 20 日起已改為付費會員專屬、免費用戶不能再用。
 
 ---
 
