@@ -1,13 +1,17 @@
 ---
 title: "2FA Authenticator App 怎麼選？2026 五款主流工具比較"
-description: "2FA 該用哪個 Authenticator App？Google / Microsoft / Authy / 1Password 內建 / Bitwarden 內建五款主流工具比較，含跨裝置同步、備份機制、開源狀態、企業 admin 觀察三場景風險矩陣，最後給三種使用情境的明確推薦組合。"
+description: "2FA 該用哪個 Authenticator App？Google / Microsoft / Authy / 1Password 內建 / Bitwarden 內建五款主流工具比較，含跨裝置同步、備份機制、開源狀態、企業 admin 觀察三場景風險矩陣，分清獨立的 Bitwarden Authenticator 與密碼庫內建驗證碼，最後給三種情境的推薦組合。"
 date: 2026-05-18
-lastmod: 2026-10-05T11:30:00+08:00
+lastmod: 2026-11-02T14:07:00+08:00
 canonicalURL: "https://gridtoolsdiary.com/privacy/2fa-authenticator-app-compare/"
 categories: ["privacy"]
 tags: ["2FA", "authenticator", "雙因素驗證", "passkey", "資安"]
 draft: false
 ---
+
+> 📅 原文發布：2026 年 5 月｜最後更新：2026 年 11 月
+> 2026 年 11 月 2 日依 Bitwarden 官方說明補上獨立的 Bitwarden Authenticator App（免費、不用帳號，跟密碼管理器內建的驗證碼功能是兩個產品），新增「2FA 工具有哪幾種」分類整理，1Password 費用欄改寫成個人版原價並註明官網目前另有新客首年優惠。
+> 各 App 的功能與價格隨時可能調整，以各家官網為準。
 
 只用密碼登入的時代已經結束。從 Google、Apple、Microsoft 到大部分銀行與政府服務，現在預設都會推使用者開啟「兩步驟驗證（2FA）」——除了密碼之外，再加一道由 Authenticator App 產生的六位數動態驗證碼。
 
@@ -16,6 +20,20 @@ draft: false
 本文比較 2026 年五款最常被推薦的 Authenticator App——**Google Authenticator、Microsoft Authenticator、Authy、1Password 內建、Bitwarden 內建**——從跨裝置同步、備份機制、開源狀態、企業 admin 可見性四個維度評估，並針對三種典型使用情境給明確的推薦組合。
 
 文章後段也會處理兩個近年常被問到的問題：**Passkey 出現後，2FA App 是不是要被淘汰了？備援碼（recovery code）到底應該怎麼保管？**
+
+## 2FA 工具有哪幾種？
+
+先把「2FA 工具」分清楚，因為手機商店裡的 Authenticator App 只是其中一類。登入時「密碼之外的第二道驗證」常見有五種做法：
+
+| 類型 | 代表 | 怎麼驗證 | 適合誰 |
+|---|---|---|---|
+| 簡訊／語音驗證碼 | 許多網站與銀行都有提供 | 服務方把驗證碼傳到你的手機號碼 | 沒有其他選項時才用（原因見下一節）|
+| 獨立 Authenticator App | Google Authenticator、Microsoft Authenticator、Authy、Bitwarden Authenticator、Aegis | 手機 App 依共享密鑰與時間自己算出六位數（TOTP）| 多數人的主力 2FA |
+| 密碼管理器內建驗證碼 | 1Password、Bitwarden Premium | 密碼庫同時存密碼與 TOTP 密鑰，登入時一起填 | 已在付費用密碼管理器、重視操作順手的人 |
+| 實體安全金鑰 | YubiKey 這類 FIDO 金鑰 | 插上或感應實體裝置確認登入 | 主要 Email、管理員帳號這類被盜代價最高的帳號 |
+| Passkey（通行金鑰）| Apple、Google、Microsoft 帳號與支援的網站 | 用裝置上的臉部、指紋或 PIN 解鎖，同時取代密碼與第二因素 | 服務有支援就優先改用（見後段 Passkey 章節）|
+
+這篇比較的是第二、三類——也就是大多數網站在「開啟兩步驟驗證」時要你掃 QR code 的那種。Passkey 在文末有專節，實體金鑰在結論提到；想看密碼管理器本身怎麼選，見[密碼管理器推薦 2026]({{< ref "/privacy/password-manager-recommendation-2026" >}})。
 
 ## 為什麼 2FA 不能只靠簡訊？
 
@@ -36,12 +54,14 @@ draft: false
 | **Google Authenticator** | 免費 | ✅（2023 年新增）| 透過 Google 帳號 | ❌ | ❌（個人帳號）|
 | **Microsoft Authenticator** | 免費 | ⚠️（備份還原，換機用）| iPhone 用 iCloud；Android 用 Microsoft 個人帳號（[2027 年 1 月起改 Google One 備份](https://support.microsoft.com/zh-tw/authenticator/back-up-your-accounts-in-microsoft-authenticator)）| ❌ | ⚠️（企業 M365 環境可見）|
 | **Authy** | 免費 | ✅（多裝置）| 雲端加密備份 | ❌ | ❌（個人 App，官網未提企業管理功能）|
-| **1Password 內建** | 付費（USD 47.88/年起）| ✅（隨密碼庫）| 隨密碼庫雲端備份 | ❌ | ❌（個人方案）|
+| **1Password 內建** | 付費（個人版原價 USD 47.88/年）| ✅（隨密碼庫）| 隨密碼庫雲端備份 | ❌ | ❌（個人方案）|
 | **Bitwarden 內建** | Premium USD 19.80/年 | ✅（隨密碼庫）| 隨密碼庫雲端備份 | ✅ | ❌（個人方案）|
 
 <!-- IG-angle: 把「企業 admin 看不看得到我的驗證碼」這個多數比較文沒列的維度拉進五款比較表，再用手機遺失／雲端帳號被盜／企業可見性三個風險場景做矩陣，把「哪個最好」換成「你最怕哪種情況」 -->
 
-> 💲 費用欄更正（2026 年 9 月 12 日）：兩款密碼管理器內建方案今年都調過價，本文原本沿用的是舊價。現價已對照 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)（Premium $19.80/年，[2026 年 1 月 21 日調整](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)）與 [1Password 官方定價頁](https://1password.com/pricing/personal)（個人版 $47.88/年）更正；1Password 新價從 2026 年 3 月 27 日當天或之後的第一次續訂起套用，出處是 [MacRumors 2026 年 2 月 24 日報導](https://www.macrumors.com/2026/02/24/1password-march-price-increase/)引述的官方通知。
+> 💲 費用欄更正（2026 年 9 月 12 日）：兩款密碼管理器內建方案今年都調過價，本文原本沿用的是舊價。現價已對照 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)（Premium $19.80/年，[2026 年 1 月 21 日調整](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)）與 [1Password 官方定價頁](https://1password.com/pricing/personal)（個人版 $47.88/年）更正；1Password 新價從 2026 年 3 月 27 日當天或之後的第一次續訂起套用，出處是 [MacRumors 2026 年 2 月 24 日報導](https://www.macrumors.com/2026/02/24/1password-march-price-increase/)引述的官方通知。2026 年 11 月 2 日複查時，1Password 定價頁另標示新客直接在官網買年繳方案、第一年每月 USD 2.99 的優惠價，原價仍是每月 USD 3.99（年繳 USD 47.88）；優惠會變動，結帳前以官網為準。
+
+> 表中的「Bitwarden 內建」是 Bitwarden 密碼管理器裡的驗證碼功能。Bitwarden 另外還有一款獨立、免費的 **Bitwarden Authenticator** App，兩者不是同一個產品，差別見下方「Bitwarden Authenticator（獨立 App）」一節。
 
 ### Google Authenticator
 
@@ -75,11 +95,31 @@ Twilio 旗下產品（[Authy 官方](https://authy.com/)），同一個 Authy �
 
 ### Bitwarden 內建 2FA
 
-Bitwarden Premium（USD 19.80/年）內建 TOTP 功能，邏輯與 1Password 相同，但有兩個關鍵差異：**價格約是 1Password 個人方案的四成，且程式碼完全開源**（[Bitwarden GitHub](https://github.com/bitwarden) 可審閱）。
+Bitwarden Premium（USD 19.80/年）內建 TOTP 功能，邏輯與 1Password 相同，但有兩個關鍵差異：**價格約是 1Password 個人版原價的四成，且程式碼完全開源**（[Bitwarden GitHub](https://github.com/bitwarden) 可審閱）。要注意免費帳號的限制：依 [Bitwarden 官方說明](https://bitwarden.com/help/authenticator-keys/)，所有帳號都能把驗證碼密鑰存進密碼庫，但要「產生」驗證碼得有 Premium 或付費組織（Families、Teams、Enterprise）會籍。
 
 「密碼與 2FA 同庫」的爭議在 Bitwarden 同樣存在。但對預算敏感、且偏好開源軟體的使用者，Bitwarden 內建 2FA 是性價比最高的選項。
 
 延伸閱讀：[Bitwarden 完整評測]({{< ref "/privacy/bitwarden-review" >}})｜[Bitwarden vs 1Password 完整比較]({{< ref "/privacy/bitwarden-vs-1password" >}})。
+
+### Bitwarden Authenticator（獨立 App）跟 Bitwarden 內建差在哪？
+
+搜「Bitwarden Authenticator」的人常把兩樣東西混在一起。Bitwarden 官方說明寫得很清楚，它有兩個驗證器：一個是上面講的密碼管理器內建功能，另一個是獨立的 [Bitwarden Authenticator](https://bitwarden.com/help/bitwarden-authenticator/) App（[App Store](https://apps.apple.com/us/app/bitwarden-authenticator/id6497335175)、[Google Play](https://play.google.com/store/apps/details?id=com.bitwarden.authenticator) 都有上架）。
+
+| | Bitwarden Authenticator（獨立 App）| Bitwarden 密碼管理器內建 |
+|---|---|---|
+| 費用與帳號 | 免費，不需要 Bitwarden 帳號 | 免費帳號只能存密鑰；產生驗證碼要 Premium（USD 19.80/年）或付費組織 |
+| 平台 | 只有手機（iOS 15 以上、Android 9 以上）| 手機、瀏覽器擴充、桌面版、網頁版都能用 |
+| 驗證碼存在哪 | 預設存在你的手機上 | 存在你的 Bitwarden 密碼庫 |
+| 備份 | 跟著手機系統的雲端備份走（官方舉例 iCloud 備份或 Google One）；也可以手動匯出 .json 或 .csv 檔 | 隨密碼庫雲端備份 |
+
+直接說結論：**如果你想要一個跟密碼庫分開、又不想付費的驗證器，Bitwarden Authenticator 可以用；但它沒有桌面版，而且備份靠手機的雲端帳號。**幾個細節要先知道：
+
+- **存放方式：** 官方說明寫明驗證碼密鑰與相關資料存在手機上「未加密的本地資料庫」（原文：stored in a local unencrypted database on your device），備份交給手機系統的雲端備份。所以它把驗證碼跟密碼庫分開了，但沒有脫離手機的 Apple 帳號／Google 帳號——那兩個帳號的保護要顧好。
+- **跟密碼管理器同步：** 依[官方同步說明](https://bitwarden.com/help/totp-sync/)，兩個 App 要裝在同一支手機（iOS，或 Android 12 以上），在密碼管理器的 Settings（設定）→ Account security（帳戶安全性）打開 Allow authenticator syncing（允許驗證器同步）。同步過來的驗證碼是以登入項目存在密碼庫裡、不在手機另存一份——也就是說，**開了同步，驗證碼就回到「跟密碼同庫」的狀態**，前面講的同庫爭議也一起回來。想讓它當「跟密碼庫分開的那份」，就別開同步。
+- **搬家：** [匯入說明](https://bitwarden.com/help/authenticator-import-export/)列出可以從 Google Authenticator（用它的「轉移帳戶」QR code）、LastPass Authenticator、2FAS（只收沒設密碼的備份）、Raivo（限 iOS）、Aegis（限 Android、檔案要沒加密）匯入。匯出格式是 .json 或 .csv，官方說明沒有提到加密匯出的選項，匯出檔要當成沒加密的檔案保管，用完刪掉或放進你自己加密的地方。
+- **開源：** Bitwarden 的 [iOS 程式碼庫](https://github.com/bitwarden/ios)把密碼管理器和 Authenticator 放在一起公開；Android 版原本[獨立的程式碼庫](https://github.com/bitwarden/authenticator-android)已封存、併進 Bitwarden 的 Android 程式碼庫。
+
+適合：想用一個不必註冊任何帳號、又能從 Google Authenticator 直接匯入舊驗證碼的人；或用 Bitwarden 免費版、不想為了驗證碼升 Premium 的人。不適合：需要在電腦上產生驗證碼的人（它只有手機版），以及想要完全不碰雲端備份的人（Android 用 Aegis 比較貼近這個需求，見場景二）。
 
 ## 三場景風險矩陣
 
@@ -137,7 +177,7 @@ Passkey 的本質是「無密碼登入」——用裝置上的生物辨識（Fac
 - 不支援 Passkey 的服務 → 繼續用密碼 + Authenticator App
 - 兩者並行，不需要二選一
 
-Passkey 本身的備份策略也仍在演進中：iCloud Keychain、Google Password Manager、1Password、Bitwarden 都已支援跨裝置同步 Passkey，但「裝置全失」的恢復流程目前各家差異很大，建議高敏感帳號仍保留 TOTP 作為備援機制。
+Passkey 本身的備份策略也仍在演進中：iCloud Keychain、Google Password Manager、1Password、Bitwarden 都已支援跨裝置同步 Passkey，但「裝置全失」的恢復流程目前各家差異很大，建議高敏感帳號仍保留 TOTP 作為備援機制。Passkey 跟「密碼＋2FA」在釣魚抵抗、帳號救援上的完整比較，見 [Passkey vs Password]({{< ref "/privacy/passkey-vs-password" >}})。
 
 ## 備援碼（Recovery Code）怎麼保管？
 
@@ -163,7 +203,7 @@ Passkey 本身的備份策略也仍在演進中：iCloud Keychain、Google Passw
 
 **情境 A：已用 Bitwarden 管理密碼、預算敏感、偏好開源**
 - Authenticator：**Bitwarden 內建 2FA**（已付 Premium 即可用）
-- 高敏感帳號（主 Email、銀行）：驗證碼另存一份在跟密碼庫分開的 App 做雙保險——Android 可用純本地的 **Aegis**；iPhone 則挑符合這兩個條件之一的 App：能在 App 設定裡把 iCloud／雲端同步整個關掉，或能匯出加了密碼的備份檔讓你自己保管。確認方法是裝好後先進 App 的設定頁，找「同步」「備份」「iCloud」這幾個選項，看能不能關、能不能匯出成加密檔；兩樣都做不到的，驗證碼就跟密碼庫一樣掛在雲端帳號上，當不了雙保險。常被推薦的 Raivo OTP 主打功能就是同步到 iCloud（見場景二），挑的時候同樣照這兩個條件檢查
+- 高敏感帳號（主 Email、銀行）：驗證碼另存一份在跟密碼庫分開的 App 做雙保險——Android 可用純本地的 **Aegis**；iPhone 則挑符合這兩個條件之一的 App：能在 App 設定裡把 iCloud／雲端同步整個關掉，或能匯出加了密碼的備份檔讓你自己保管。確認方法是裝好後先進 App 的設定頁，找「同步」「備份」「iCloud」這幾個選項，看能不能關、能不能匯出成加密檔；兩樣都做不到的，驗證碼就跟密碼庫一樣掛在雲端帳號上，當不了雙保險。常被推薦的 Raivo OTP 主打功能就是同步到 iCloud（見場景二），挑的時候同樣照這兩個條件檢查。同一家的 Bitwarden Authenticator 也能拿來分開放，前提是別開跟密碼庫的同步；但照官方說明，它的備份走手機的 iCloud 備份／Google One、匯出檔沒有加密選項，所以它做到的是「跟密碼庫分開」，不是「脫離雲端帳號」（細節見上方 Bitwarden Authenticator 一節）
 - 備援碼：紙本 + 保險箱
 
 **情境 B：已用 1Password、跨裝置體驗優先**
