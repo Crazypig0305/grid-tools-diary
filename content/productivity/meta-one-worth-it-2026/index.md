@@ -1,18 +1,21 @@
 ---
 title: "Meta One 值得訂嗎？2026 台灣 IG Plus、Core、Premium 方案怎麼選"
 date: 2026-10-12
-lastmod: 2026-10-13
+lastmod: 2026-11-02
 description: "Meta One 是 Meta 2026 年 9 月在台灣上線的付費訂閱，IG、FB、WhatsApp 與 Meta AI 的核心功能仍然免費。本文整理 Instagram Plus 69 元、Core、Premium 的差別與網頁、App 內購價差，以及怎麼取消、能不能退款。"
 categories: ["productivity"]
 tags: ["Meta One", "Instagram Plus", "訂閱成本", "社群平台", "工具評測"]
 draft: false
 ---
 
-> 📅 原文發布：2026 年 10 月｜最後更新：2026 年 10 月
-> 本文方案與規則已於 2026 年 10 月 12 日對照 [Meta 新聞室](https://about.fb.com/news/2026/09/introducing-meta-one/)、[Meta 說明中心](https://www.meta.com/help/subscriptions/960854640235758/) 與 [Instagram Plus 官方介紹頁](https://about.instagram.com/features/instagram-plus) 校對；台幣價格官方頁面需登入結帳才顯示，本文採媒體報導數字並註明出處。
+> 📅 原文發布：2026 年 10 月｜最後更新：2026 年 11 月
+> 本文方案與規則已於 2026 年 11 月 2 日再次對照 [Meta 新聞室](https://about.fb.com/news/2026/09/introducing-meta-one/)、[Meta 說明中心](https://www.meta.com/help/subscriptions/960854640235758/) 與 [Instagram Plus 官方介紹頁](https://about.instagram.com/features/instagram-plus) 校對；台幣價格官方頁面需登入結帳才顯示，本文採媒體報導數字並註明出處。
 > 訂閱價格與功能隨時可能調整，請以你在 App 結帳畫面看到的金額為準。
+> 2026 年 11 月 2 日更新：補上「Meta One 是什麼」的一句話說明與官方寫的開放現況，修正創作者／商家方案的功能描述，並在優缺點與結論的價格比較補上計算前提。
 
 直接說結論：**Meta One 一般人不用訂。** Meta 官方寫明 Instagram、Facebook、WhatsApp 的核心功能和日常使用的 Meta AI 都維持免費，付費買到的是限時動態工具、自訂圖示、更多 AI 生成額度這類加值功能。真的想要 IG 的限動功能，只買單一的 **Instagram Plus（依媒體報導月費 NT$69）** 就夠，不必上到 Core 組合包。
+
+**Meta One 是什麼？** 一句話：它是 Meta 在 2026 年 9 月推出的付費訂閱，把 Instagram、Facebook、WhatsApp 的加值功能和更多 Meta AI 生成額度收進同一套方案，分成單一 App 的 Plus、個人組合包 Core／Premium，以及給創作者和商家的 Essential 以上方案。
 
 如果決定要訂，先看兩件事：同一個 Core 方案，媒體報導 App 內購 199 元、網頁版 159 元，但 Meta 說明中心寫明個人方案的網頁訂閱目前還沒開放，現在只能在 App 裡用 199 元訂；另外 Meta 官方寫明取消後不退款，退款只能走當初付款的 App Store 或 Google Play。下面依序拆：Meta One 是什麼、各方案差在哪、IG Plus 有哪些功能、價差怎麼省，以及怎麼取消、在哪退款。
 
@@ -20,7 +23,9 @@ draft: false
 
 ## Meta One 是什麼？2026 年 9 月在台灣上線的 Meta 付費訂閱
 
-[Meta](https://zh.wikipedia.org/wiki/Meta_Platforms) 在 2026 年 9 月 15 日發布〈[Introducing Meta One](https://about.fb.com/news/2026/09/introducing-meta-one/)〉，把旗下 App 的付費功能整合成同一套訂閱，依 [INSIDE 報導](https://inside.com.tw/article/42413-meta-one-taiwan-launch)，台灣從 9 月 16 日開始可以訂。方案分三層：單一 App 的 Plus、個人用的組合包（Core、Premium）、創作者與商家用的組合包。
+[Meta](https://zh.wikipedia.org/wiki/Meta_Platforms) 在 2026 年 9 月 15 日發布〈[Introducing Meta One](https://about.fb.com/news/2026/09/introducing-meta-one/)〉，把旗下 App 的付費功能整合成同一套訂閱，依 [INSIDE 報導](https://inside.com.tw/article/42413-meta-one-taiwan-launch)，台灣從 9 月 16 日開始可以訂。方案分三層：單一 App 的 Plus、個人用的組合包（Core、Premium）、創作者與商家用的組合包。概念跟 [Google One](/productivity/google-one-review/) 用一個帳號的訂閱同時升級 Gmail、雲端硬碟、相簿的空間類似，差別是 Meta One 賣的是功能和 AI 額度，不是儲存空間。
+
+[Meta 說明中心](https://www.meta.com/help/subscriptions/960854640235758/)對它的定義是「一項付費訂閱服務，可在不同的適用 Meta 技術（包括 Instagram、Facebook 和 WhatsApp）上新增額外功能」，並寫明 Meta One 目前仍在限定測試階段、尚未開放所有地區，正透過 iPhone 和 Android 上的 Meta App 逐步推出。想確認自己能不能訂，依[訂閱步驟說明](https://www.meta.com/help/subscriptions/1275481294766689/)到 IG 的個人檔案 → 右上角選單 → 往下捲到訂閱區塊，有出現「Meta One」就能訂；同一頁寫明沒看到這個選項，代表你的帳號可能還無法使用。
 
 最重要的一句在官方新聞稿裡：
 
@@ -43,9 +48,9 @@ draft: false
 | WhatsApp Plus | 只想要 WhatsApp 加值功能 | 專屬主題與圖示、特效貼圖、可釘選更多對話 | NT$49 | US$2.99 |
 | Core（核心方案） | 個人 | 三個 App 的 Plus 福利＋更多 Meta AI 圖片與影片生成額度 | App 內購 199／網頁 159（尚未開放） | US$7.99 |
 | Premium（高級方案） | 個人 | Core 全部內容＋最高的 Meta AI 生成額度 | App 內購 650／網頁 519（尚未開放） | US$19.99 |
-| Essential（基本方案）以上 | 創作者、商家 | 驗證標章、防冒名保護、IG 連結頁；往上加排程、進階分析與共用帳號 | App 內購 459 元起 | US$14.99 起 |
+| Essential（基本方案）以上 | 創作者、商家 | 驗證標章與防冒名保護（需通過身分驗證）、WhatsApp Business 驗證頻道；往上加限動排程、貼文與 Reels 放連結、進階分析與團隊共用存取 | App 內購 459 元起／網頁 369 元起 | US$14.99 起 |
 
-「Essential」是英文版名稱，台灣說明中心的中文頁寫成「基本方案」，往上還有進階、專家、頂級（英文 Advanced、Expert、Max），這些是給經營粉專或品牌帳號的人，跟一般使用者無關。另外要注意，依 [Meta 說明中心](https://www.meta.com/help/subscriptions/1887238708654023/)，粉絲專頁或 IG 專業商業帳號不符合訂閱 Core 的資格。
+「Essential」是英文版名稱，台灣說明中心的中文頁寫成「基本方案」，往上還有進階、專家、頂級（英文 Advanced、Expert、Max），這些是給經營粉專或品牌帳號的人，跟一般使用者無關；表中基本方案的「網頁 369 元起」只有 [TechNews 報導](https://technews.tw/2026/09/15/meta-one-subscription-now-available-in-taiwan/)列出，INSIDE 只寫創作者與商家組合包 459 元起。另外要注意，依 [Meta 說明中心](https://www.meta.com/help/subscriptions/1887238708654023/)，粉絲專頁或 IG 專業商業帳號不符合訂閱 Core 的資格。
 
 ---
 
@@ -132,10 +137,10 @@ Core 和 Premium 的差別主要在 AI 生成額度。日常問答、偶爾生�
 **優點：**
 - 單一 Plus 方案價格低，可以只買用得到的那個 App。
 - 月繳、隨時可以在 App 裡取消，取消後用到週期結束。
-- Core 一次拿到 IG、FB、WhatsApp 三邊的 Plus 福利，等個人方案開放網頁訂閱後，網頁價 159 元會比三個 Plus 分開買便宜。
+- Core 一次拿到 IG、FB、WhatsApp 三邊的 Plus 福利，等個人方案開放網頁訂閱後，網頁價 159 元會比三個 Plus 分開買便宜（以媒體報導的 Plus 單價合計 187 元計，報導沒有分網頁和 App 內購價）。
 
 **缺點：**
-- 個人方案的網頁版訂閱還沒開放，現在在 App 內購的 Core、Premium 都比媒體報導的網頁價貴約兩成五，App 內的 Core 甚至比三個 Plus 分開買還貴。
+- 個人方案的網頁版訂閱還沒開放，現在在 App 內購的 Core、Premium 都比媒體報導的網頁價貴約兩成五，App 內的 Core 甚至比三個 Plus 分開買（同樣以報導的 187 元計）還貴。
 - 取消不退款，App 內購的退款只能向 Apple 或 Google 申請，不保證通過。
 - 粉專、IG 商業帳號不能訂 Core，商家要看另一套 Essential 以上的方案。
 - 加值功能大多是限動與外觀類，對不常發限動的人幾乎沒有感。
@@ -144,7 +149,7 @@ Core 和 Premium 的差別主要在 AI 生成額度。日常問答、偶爾生�
 
 ## 結論
 
-**Meta One 值不值得：大多數人不值得，常發限動的人買 Instagram Plus 就夠。** 核心功能和日常 Meta AI 都免費，Core、Premium 主要是賣 AI 生成額度；個人方案的網頁訂閱目前還沒開放，現在在 App 內購的 Core 199 元比三個 Plus 分開買還貴，網頁版開放後才是 159 元。取消記得用當初付款的管道，Meta 本身不退款。
+**Meta One 值不值得：大多數人不值得，常發限動的人買 Instagram Plus 就夠。** 核心功能和日常 Meta AI 都免費，Core、Premium 主要是賣 AI 生成額度；個人方案的網頁訂閱目前還沒開放，現在在 App 內購的 Core 199 元比三個 Plus 分開買（依報導合計 187 元）還貴，網頁版開放後才是 159 元。取消記得用當初付款的管道，Meta 本身不退款。
 
 同樣的「先看自己用到哪個功能再付錢」，可以延伸看 [LINE Premium 值不值得訂](/productivity/line-premium-worth-it-2026/)、[YouTube Premium 各方案怎麼選](/productivity/youtube-premium-plans-taiwan-2026/)，以及 AI 訂閱的比較 [ChatGPT Go vs Plus 怎麼選](/productivity/chatgpt-go-ads-taiwan-2026/)。
 
