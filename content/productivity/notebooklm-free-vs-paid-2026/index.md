@@ -1,20 +1,20 @@
 ---
 title: "NotebookLM 免費版夠用嗎？2026 改名 Gemini Notebook 後 Plus、Pro 怎麼選"
 date: 2026-10-12
-lastmod: 2026-10-12
-description: "NotebookLM 已改名 Gemini Notebook，9 月 2 日起對話與語音摘要改成「運算量額度、每 5 小時重設」，網路上的每日 50 次已是舊制。本文對照官方上限與台灣價格：免費版每本 50 個來源、Plus 月費 NT$165 用量 2 倍、Pro NT$650 用量 4 倍，告訴你哪個上限先撞到才值得付費。"
+lastmod: 2026-11-09
+description: "NotebookLM 已改名 Gemini Notebook，9 月 2 日起對話與語音摘要改成「運算量額度、每 5 小時重設」，網路上的每日 50 次已是舊制。本文對照官方上限與台灣價格：免費版每本 50 個來源、Plus 月費 NT$165 用量 2 倍、Pro NT$650 用量 4 倍；也說明搜「Google Pro」其實指的是 Google AI Pro（舊名 Google One AI Premium），NotebookLM 付費該訂哪個方案，以及哪個上限先撞到才值得付費。"
 categories: ["productivity"]
 tags: ["NotebookLM", "Gemini Notebook", "Google AI Plus", "AI 訂閱", "方案比較", "工具評測"]
 draft: false
 ---
 
-> 📅 原文發布：2026 年 10 月｜最後更新：2026 年 10 月
-> 本文上限與價格已於 2026 年 10 月 12 日逐項對照 [Google 說明中心〈管理 Gemini Notebook 用量限制〉](https://support.google.com/gemininotebook/answer/17670842?hl=zh-Hant)、[〈升級 Gemini Notebook〉](https://support.google.com/gemininotebook/answer/16213268?hl=en)、[Google AI 方案頁（台灣）](https://one.google.com/about/google-ai-plans/?hl=zh-TW)與 App Store 台灣區頁面校對。
+> 📅 原文發布：2026 年 10 月｜最後更新：2026 年 11 月
+> 本文上限與價格已於 2026 年 10 月 12 日逐項對照 [Google 說明中心〈管理 Gemini Notebook 用量限制〉](https://support.google.com/gemininotebook/answer/17670842?hl=zh-Hant)、[〈升級 Gemini Notebook〉](https://support.google.com/gemininotebook/answer/16213268?hl=en)、[Google AI 方案頁（台灣）](https://one.google.com/about/google-ai-plans/?hl=zh-TW)與 App Store 台灣區頁面校對；2026 年 11 月 9 日複查，方案名稱（Google AI Plus／Pro／Ultra）、筆記本與來源數上限、雲端空間均與上述官方頁一致，並新增「Google Pro 是哪個方案」一節。
 > 官方寫明用量上限「可能會變動」，建議參考本文後仍以你帳號內「設定 → 用量」與官網為準。
 
 直接說結論：**NotebookLM（現名 Gemini Notebook）免費版對一般上班族夠用，付費前先看你撞到的是哪一種上限。** 每本筆記本放不下第 51 個來源，或一週好幾次看到「已達用量上限」、等 5 小時會耽誤工作，才值得升 Google AI Plus（台灣月費 NT$165，用量是免費版的 2 倍、每本 100 個來源）。Google AI Pro（NT$650）只有兩種人需要：單一筆記本要放 101～300 個來源，或 Plus 的 2 倍用量仍然不夠。
 
-先更正一個流傳很廣的說法：「免費版每天 50 次對話、3 個語音摘要」是舊制。依 Google 說明中心，**2026 年 9 月 2 日起改成依運算量計算的用量額度，每 5 小時重設一次，另有每週上限**；只剩筆記本數量和每本來源數還是固定數字。下面依序拆：改名的事、新制怎麼算、各層上限與台灣價格、上限怎麼解除，以及和 ChatGPT 專案的比較。
+先更正一個流傳很廣的說法：「免費版每天 50 次對話、3 個語音摘要」是舊制。依 Google 說明中心，**2026 年 9 月 2 日起改成依運算量計算的用量額度，每 5 小時重設一次，另有每週上限**；只剩筆記本數量和每本來源數還是固定數字。下面依序拆：改名的事、新制怎麼算、各層上限與台灣價格、搜「Google Pro」到底是哪個方案、上限怎麼解除，以及和 ChatGPT 專案的比較。
 
 ---
 
@@ -73,6 +73,22 @@ draft: false
 Plus 有兩個容量版本要分清楚：方案頁台灣區標每月 NT$165、400 GB，比較表的儲存空間欄寫「400 GB or 2 TB」；[App Store 台灣區 Gemini 頁面](https://apps.apple.com/tw/app/google-gemini/id6477489729)列「Google AI Plus (400 GB)」NT$165，[Google One 頁面](https://apps.apple.com/tw/app/google-one/id1451784328)列「Google AI Plus (2 TB)」NT$330。網頁版 2 TB 的台幣價格本次查證時官方頁沒有顯示，以結帳頁為準。兩版在 Gemini Notebook 的權限相同，差別只在雲端空間。
 
 另一個常見混淆：**Google One 的純儲存方案（例如 100 GB）不會升級 Gemini Notebook**。說明中心列出的升級途徑只有 Google AI Plus、Pro、Ultra，以及符合資格的 Google Workspace 或 Google Cloud 方案。雲端空間要怎麼買才划算，見 [Google One 值得訂嗎](/productivity/google-one-review/)。
+
+---
+
+## 搜「Google Pro」其實是找哪個方案？NotebookLM 付費綁的是它
+
+很多人搜「google pro」想付費用 Gemini Notebook，第一關就卡在搞不清楚要訂什麼。先把名字講清楚：**Google 沒有一個單一產品叫「Google Pro」，你要找的幾乎都是「Google AI Pro」這個 AI 訂閱方案。** 它跟另外兩個常被混在一起的東西不一樣：
+
+- **Google AI Plus／Pro／Ultra**：AI 訂閱，會升級 Gemini App、Gemini Notebook，並附帶雲端空間。要解鎖 NotebookLM 的付費功能，訂的就是這一條。
+- **Google One**：單純買雲端空間（像 100 GB 那種）。**純儲存方案不會升級 Gemini Notebook**，兩者最容易被搞混，差別見 [Google One 值得訂嗎](/productivity/google-one-review/)。
+- **Google Workspace**：公司或學校帳號，符合資格的授權也能用 Gemini Notebook，部分版本有較高上限，要問公司 IT 你屬於哪一種。
+
+名字會亂，是因為這個 AI 訂閱改過好幾次名。它 2024 年 2 月上線時叫 **Google One AI Premium**，搭配的模型叫 Gemini Advanced；2025 年 Google I/O 改名 **Google AI Pro**，Gemini Advanced 這個名字一起退場；2026 年 I/O 再把整條產品線拆成 **Google AI Plus／Pro／Ultra** 三層，用量也改成前面講的運算量制。所以你在舊文章看到的「Google One AI Premium」「Gemini Advanced」，指的就是現在的 Google AI Pro，不是另外一個東西。
+
+**NotebookLM（Gemini Notebook）的付費到底綁哪個？** 依 Google 說明中心，官方列出的升級途徑只有 Google AI Plus、Pro、Ultra，或符合資格的 Google Workspace／Google Cloud 授權——**沒有單獨販售的「NotebookLM Pro」訂閱**。各方案的台灣月費、以及給 Gemini Notebook 的筆記本數與每本來源數，都在上一節的對照表：Plus NT$165、Pro NT$650、Ultra NT$3,300 起（官方台灣方案頁的金額由 JavaScript 載入、本次查證時沒有直接顯示，實際價格以結帳頁為準）。
+
+**只想用 NotebookLM 的人，該不該為它訂 Google AI Pro？結論：多數人不該，要付就先付 Plus。** NotebookLM 免費版對一般上班族就夠；真的撞到上限，該升的是每月 NT$165 的 **Google AI Plus**（每本來源 50 → 100、額度變 2 倍），而不是 NT$650 的 Pro。Pro 比 Plus 每月多付的 NT$485，主要是買 Gemini App 的 4 倍額度、5 TB 雲端空間和 YouTube Premium Lite 這些 NotebookLM 以外的東西——如果你只用 Gemini Notebook，等於多付了用不到的部分。**唯一值得為了 NotebookLM 直接上 Pro 的情況，是你單一筆記本要放 101～300 個來源**（Plus 上限是 100 個、這道硬上限沒有別的方法繞過）。想順便比其他 AI 訂閱划不划算，可參考 [ChatGPT Go 值得嗎](/productivity/chatgpt-go-ads-taiwan-2026/)。
 
 ---
 
