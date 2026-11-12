@@ -9,11 +9,6 @@ image: "youtube-premium-plans-taiwan-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2026 年 9 月｜最後更新：2026 年 10 月
-> 本文價格與規則已於 2026 年 10 月 26 日逐項對照 [YouTube Premium 台灣方案頁](https://www.youtube.com/premium)、[YouTube 說明中心](https://support.google.com/youtube/answer/15968883?hl=zh-Hant)、App Store 頁面與 [Spotify 台灣方案頁](https://www.spotify.com/tw/premium/)校對。
-> 10 月 26 日更新：10 月 12 日官方方案頁列出的 Lite 家庭 $279 選項，10 月 26 日未登入查看已不顯示，Lite 家庭一節與相關試算改成「登入後看得到才適用」；新增〈YouTube Premium 跟 Spotify 怎麼選〉一節。
-> 訂閱價格隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
 直接說結論：**截至 2026 年 10 月 26 日，台灣的 YouTube Premium 沒有漲價。** 官方方案頁的價格是個人 $199、雙人 $299、家庭 $479、學生 $119，另外還有只去掉大部分影片廣告的 Premium Lite $119。9 月 23 日起生效的那波調漲點名歐洲多國和新加坡，台灣不在名單上，到 10 月 26 日官方頁價格也沒變；台灣上一次調價是 2025 年 4 月，而且只動了家庭方案。
 
 真正會讓你多花錢的不是漲價，是**選錯方案和選錯付款管道**：只看創作者影片的人付了 $199 買用不到的音樂功能，iPhone 用戶在 App 裡訂閱，每個月比網頁多付約 3 成。下面依序拆解：漲價時間線、六個方案每人成本、Lite 少了什麼、Lite 家庭能不能訂、同住規則、iOS 價差、對號入座的選法，最後是已經在付 Spotify 的人該怎麼選。

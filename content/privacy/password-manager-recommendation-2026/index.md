@@ -9,10 +9,6 @@ tags: ["密碼管理器", "Bitwarden", "1Password", "Proton Pass", "Apple Passwo
 draft: false
 ---
 
-> 📅 原文發布：2026 年 6 月｜最後更新：2026 年 9 月
-> ⚠️ 更正（2026 年 9 月）：本文前一版有幾處寫錯，已逐條對照官方頁面改正——① 前一版寫「Proton Pass 今年降價到月付 1.99 美元」：1.99 美元是 2024 年 1 月那次降價的價格，而且從 2024 年 11 月 7 日起新用戶已改為每月 2.99 美元（12 個月方案、年繳 35.88 美元），舊戶才保留原價；② 前一版寫 1Password「今年漲了兩次」，實際只漲一次（2026 年 3 月 27 日起）；③ 前一版寫 Apple Passwords 有 Android App、iOS 與 Windows 版不能匯入匯出，兩者都不對——Android 沒有 App，iPhone 與 Windows 都有官方的 CSV 匯入匯出；④ Bitwarden Premium 漲價前的舊價由 9.99 美元更正為 10 美元。
-> 各家方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
 如果你只想要一句結論：**大多數人裝 [Bitwarden](/privacy/bitwarden-review/) 就對了，免費版就夠用；願意多花一點買順手體驗就選 1Password；在意隱私、又用得到匿名信箱的選 Proton Pass；全套 Apple 裝置、只想免費內建的就用 Apple Passwords。** 這四個是 2026 年台灣上班族真正該考慮的選項，其他的（LastPass、NordPass、Dashlane）要嘛出過事、要嘛沒有理由特別選。
 
 <!-- IG-synthesis: 把市面 6+ 款密碼管理器收斂成「4 個值得考慮 + 6 種讀者情境對應表」的選擇框架，非逐款評測、而是「你是哪種人就裝哪個」的決策分流 -->
@@ -34,6 +30,8 @@ draft: false
 | 第三方資安稽核 | 有（[Mandiant 2024](https://bitwarden.com/help/is-bitwarden-audited/)）| 有（多項認證）| 有 | 未公開獨立稽核報告 |
 | 自架（self-host）| 可（官方支援自架）| 否 | 否 | 否 |
 | 特色 | 開源、便宜、可自架 | 體驗最順、Watchtower | 匿名信箱、Proton 生態整合 | 全 Apple 裝置零設定 |
+
+Bitwarden、1Password、Proton Pass 的方案與價格隨時可能調整，付款前以各家官網定價頁為準。
 
 幾個 2026 年要先知道的事實：
 

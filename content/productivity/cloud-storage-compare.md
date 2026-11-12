@@ -9,13 +9,6 @@ image: /images/google-one-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 6 月｜最後更新：2026 年 11 月
-> 三家的免費容量與付費方案價格已於 2026 年 9 月對照官方方案頁重新校對（Google One 台灣方案頁目前只列 100 GB、2 TB、5 TB 三層）。
-> 2026 年 11 月依 Microsoft 官方說明更正：Microsoft 365 家用版的 OneDrive 從每人 1 TB 改成全家共用 2 TB，2026 年 10 月 8 日起的新訂閱或升級的訂閱適用，已在訂的家用版在 2027 年 5 月 2 日或之後第一次續約時改制。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## 三個定位不一樣
 
 先說清楚這三個各自代表什麼，三者皆屬於[雲端儲存（cloud storage）](https://en.wikipedia.org/wiki/Cloud_storage)服務範疇：
@@ -42,6 +35,8 @@ Google 的 15 GB 免費額度是三者最高的，但 Gmail 和相簿也在吃�
 付費的直接比較：小容量是 iCloud 50 GB 的 NT$30 最便宜；到了 2 TB，iCloud+ 的 NT$300 比 Google AI Plus 的 NT$330 便宜，而且 Google 這一層已經和 Gemini AI 功能綁在一起賣。
 
 三家都能跟家人共用：Google One 每個方案最多可再跟 5 人共用、iCloud+ 最多可與 5 位其他家庭成員共享，兩者都是全家共用同一份容量；[Microsoft 365 家用版](https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products)（NT$4,190／年）最多 6 人，2026 年 10 月 8 日起的新訂閱或升級的訂閱也改成全家共用 2 TB——原本是每人各自 1 TB，已在訂的家用版會在 2027 年 5 月 2 日或之後第一次續約時改成共用（[Microsoft 儲存空間變更說明](https://support.microsoft.com/zh-tw/onedrive/changes-to-microsoft-365-storage)）。
+
+三家的方案與價格隨時可能調整，訂閱前以各自的官方方案頁為準。
 
 ---
 

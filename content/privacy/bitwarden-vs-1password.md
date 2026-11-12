@@ -9,13 +9,6 @@ image: /images/bitwarden-vs-1password.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 2 月｜最後更新：2026 年 9 月
-> ⚠️ 定價更新：[Bitwarden](https://bitwarden.com/) Premium 於 2026 年 1 月 21 日從 $10 漲至 $19.80/年（[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)；舊價見 [Internet Archive 存的 2025 年 11 月官方定價頁](https://web.archive.org/web/20251115091230/https://bitwarden.com/pricing/)「$10/Year」）；[1Password](https://1password.com/) 於 2026 年 3 月 27 日起調漲（新價在當天或之後的第一次續訂套用）。
-> 本文所有價格已於 2026 年 9 月 12 日對照 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)與 [1Password 官方定價頁](https://1password.com/pricing/personal)逐筆查證（1Password 定價頁另掛新客首年促銷價，本文一律以原價計）。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## 兩個工具分別是什麼
 
 密碼管理器解決一件事：你不可能記住所有帳號的獨立強密碼，它幫你記，你只需要記一個主密碼。
@@ -37,6 +30,8 @@ draft: false
 | 無限密碼（免費版）| 是 | — |
 | 跨裝置同步（免費版）| 是 | — |
 | 第三方安全稽核 | 每年找外部資安公司稽核，[稽核清單與報告](https://bitwarden.com/help/is-bitwarden-audited/)公開；[SOC 2](https://en.wikipedia.org/wiki/System_and_Organization_Controls) Type II、SOC 3、ISO 27001 等認證（[官方合規頁](https://bitwarden.com/compliance/)）| 有第三方稽核，ISO 27001／27017／27018／27701 與 SOC 2 Type 2 等多項認證（[官方稽核說明](https://support.1password.com/security-assessments/)）|
+
+表中是兩家的原價：Bitwarden Premium 於 2026 年 1 月 21 日從 $10 漲至 $19.80/年（[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)；舊價見 [Internet Archive 存的 2025 年 11 月官方定價頁](https://web.archive.org/web/20251115091230/https://bitwarden.com/pricing/)「$10/Year」），[1Password](https://1password.com/) 於 2026 年 3 月 27 日起調漲（新價在當天或之後的第一次續訂套用）；1Password 定價頁另掛新客首年促銷價，本文一律以原價計。實際價格以 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)與 [1Password 官方定價頁](https://1password.com/pricing/personal)為準。
 
 ---
 

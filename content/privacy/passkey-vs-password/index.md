@@ -9,10 +9,6 @@ tags: ["passkey", "密碼管理器", "FIDO", "webauthn", "雙因素驗證", "資
 draft: false
 ---
 
-> 📅 原文發布：2026 年 4 月｜最後更新：2026 年 5 月
-> 本文資訊已於 2026 年 5 月對照 FIDO Alliance、Apple、Google、Microsoft 官方文件校對。
-> Passkey 規範與平台支援更新較快，建議參考本文後仍至官網確認最新狀態。
-
 Passkey 從 2022 年 Apple WWDC 首次商品化到現在已經四年。Google Account、Microsoft 365、GitHub、X、Adobe、PayPal 等主流服務全部支援，Apple iCloud Keychain / Google Password Manager / 1Password / Bitwarden / Dashlane 全部能存。也就是說——**Passkey 已經不是「未來技術」、是「現在預設選項」**。
 
 <!-- IG-synthesis: 把 FIDO Alliance 規範、各平台 Passkey 同步範圍與 Credential Exchange 草案進度並排，拆出跨生態系（iPhone + Windows、iPhone 換 Android）時平台原生 Passkey 無法直接搬移、跨平台密碼管理器仍是中介層的情境 -->
@@ -45,6 +41,8 @@ Passkey 是 [FIDO Alliance](https://fidoalliance.org/passkeys/) 與 [W3C WebAuth
 | **新裝置首次登入** | iCloud Sync 自動 / Google Auto-Fill 自動 / 跨生態系需要 QR code 跨裝置 | 密碼管理器 master password 解鎖即可 |
 | **離線可用性** | ✅ 私鑰在本地、不需網路 | ✅ 2FA App 用 TOTP 算法、本地產生 |
 | **支援網站範圍** | 2026 約 200+ 主流服務、持續擴增中 | 100% 網站支援密碼 |
+
+Passkey 規範與各平台支援更新得快，設定前以 FIDO Alliance 與 Apple、Google、Microsoft 官方說明的最新狀態為準。
 
 <!-- IG-data: 四維度比較表整合 FIDO Alliance / WebAuthn 規範 + Google 實證數據、Passkey vs 密碼 + 2FA 並排對照、釣魚抵抗等具體量化差異 -->
 

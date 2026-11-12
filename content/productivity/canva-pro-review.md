@@ -9,9 +9,6 @@ image: /images/canva-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2022 年 3 月｜最後更新：2026 年 10 月
-> 本文價格與方案內容已於 2026 年 10 月 5 日對照 [Canva 台灣定價頁](https://www.canva.com/zh_tw/pricing/)重新核對；Canva 會調整方案，下單前以官網顯示為準。
-
 **先講結論：** 2026 年 Canva Pro 在台灣是年繳 NT$3,600（攤下來每月 NT$300）、月繳 NT$450，一個帳號只限一人用。每週都要產社群圖、常需要去背或一鍵改尺寸的人，值得升；一個月只做幾張圖的人，免費版就夠。如果你只是想去背，Adobe Express 免費版就做得到，不必為這件事付 Canva 的錢。
 
 ---
@@ -38,6 +35,8 @@ draft: false
 | 平台 | 網頁、桌面版、iOS、Android | 同左 |
 
 去背和改尺寸屬於官方說的「AI 設計師工具」，Pro 用這兩個不扣每月 AI 額度，但官方註明受合理使用限制。
+
+Canva 會調整方案，下單前以 [Canva 台灣定價頁](https://www.canva.com/zh_tw/pricing/)顯示為準。
 
 ---
 

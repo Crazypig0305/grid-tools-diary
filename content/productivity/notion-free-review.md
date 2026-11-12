@@ -9,12 +9,6 @@ image: /images/notion-og.png
 draft: false
 ---
 
-> 📅 原文發布：2021 年 11 月｜最後更新：2026 年 10 月
-> 2026 年 10 月依 [Notion 官方方案頁](https://www.notion.com/pricing)、[Evernote 官方方案比較頁](https://evernote.com/compare-plans)與官方公告更正：Plus 價格改為年繳每人每月 10 美元（月繳 12 美元）、Plus 來賓不限（前一版寫 100 人）、Plus 的 Notion AI 同樣只有限量試用；Evernote 免費版已開放離線筆記與筆記歷史、單則筆記上限 200 MB。
-> 平台方案隨時可能調整，建議參考本文後至官網確認最新條件。
-
----
-
 ## [Notion](https://www.notion.so/) 是什麼
 
 把筆記、資料庫、任務管理、Wiki 整進同一個 App 的工作空間工具。一句話就這樣。底層架構是經典的 [block-based editor（區塊式編輯器）](https://en.wikipedia.org/wiki/Notion_(productivity_software))設計、由 Notion Labs 開發；官方在 [2024 年 9 月宣布](https://www.notion.com/blog/100-million-of-you)用戶突破 1 億。

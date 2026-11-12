@@ -9,10 +9,6 @@ image: "notion-vs-todoist-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2026 年 2 月｜最後更新：2026 年 9 月
-> 本文數字已於 2026 年 9 月對照 [Notion 官方方案頁](https://www.notion.com/pricing)及 [Todoist 官方方案頁](https://www.todoist.com/pricing)校對更新；本次更正了先前版本「Todoist 免費版沒有提醒」的錯誤說法。
-> 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
 市面上的 Notion vs Todoist 比較文，九成都用同一個框架：「Notion 是筆記工具，Todoist 是任務管理工具，看你需要哪個。」兩款都屬於[個人資訊管理（Personal Information Management）](https://en.wikipedia.org/wiki/Personal_information_management)範疇，但 [Todoist](https://en.wikipedia.org/wiki/Todoist) 的設計核心是基於 [Getting Things Done（GTD 時間管理法）](https://en.wikipedia.org/wiki/Getting_Things_Done)，而 Notion 是以 block-based 編輯器為核心的全功能工作空間。
 
 這個說法沒錯，但對真正在選工具的人幾乎沒有幫助。
@@ -63,7 +59,7 @@ Todoist 這兩年的主要變動是漲價和加 AI。
 | 專業版（Pro）| $5 USD | $7 USD | 300 個專案；自訂提醒（可多個、可設地點）；日曆佈局；截止日 |
 | 商務版（Business）| $8 USD/人 | $10 USD/人 | 團隊共享工作區；最多 1,000 名成員與訪客 |
 
-台幣概估：Pro 年費約 NT$1,920/年，比 Notion Plus（年繳約 NT$3,840）便宜約一半。
+台幣概估：Pro 年費約 NT$1,920/年，比 Notion Plus（年繳約 NT$3,840）便宜約一半。兩邊方案隨時可能調整，訂閱前以 [Notion 官方方案頁](https://www.notion.com/pricing)與 [Todoist 官方方案頁](https://www.todoist.com/pricing)為準。
 
 <!-- IG-angle: 依 Todoist 說明中心拆出免費版「自動提醒」與 Pro「自訂／地點提醒」的差別，更正常見的「免費版沒有提醒」說法，讓 Notion vs Todoist 的選擇判準改成「提醒要響幾次、在什麼時間點響」 -->
 

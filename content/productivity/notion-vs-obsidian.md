@@ -9,12 +9,6 @@ image: /images/notion-vs-obsidian.jpg
 draft: false
 ---
 
-> 📅 原文發布：2022 年 8 月｜最後更新：2026 年 9 月
-> 2026 年 9 月依 [Notion 官方方案頁](https://www.notion.com/pricing)、[Obsidian 官方定價頁](https://obsidian.md/pricing)與官方說明更正：Obsidian 已內建 Bases 資料庫檢視（前一版寫「無，需插件」）、Notion 沒有內建關聯圖（前一版寫「基本」）、Notion 桌面與手機 App 已可離線、Obsidian 不付費也能用第三方方式跨裝置同步，並補上 AI 功能與兩邊的 2026 年價格。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## 先說結論
 
 - **要管任務、跟人協作、打開就能用** → 選 [Notion](https://www.notion.com/pricing)。個人用的免費版就夠記筆記、跑待辦。
@@ -60,6 +54,8 @@ draft: false
 - **Publish**（把筆記發布成網站）：年繳每站每月 8 美元（月繳 10 美元）。
 
 所以兩邊的實際花費差在同步：Notion 跨裝置同步免費；Obsidian 只用一台電腦就不用花錢，全蘋果裝置可以走 iCloud（[官方同步說明](https://obsidian.md/help/sync-notes)提醒 Windows 上的 iCloud Drive 可能造成檔案重複或損毀），要 Windows、Android 混著用又不想自己架同步，就是每月 4 到 5 美元的 Sync。
+
+兩邊的方案與價格隨時可能調整，訂閱前以 Notion 官方方案頁與 Obsidian 官方定價頁為準。
 
 <!-- IG-data: 依兩家 2026 年 9 月官方定價頁與說明頁整理：實際花費差在跨裝置同步（Notion 免費 vs Obsidian Sync 年繳每月 4 美元起）；Obsidian Bases 看板檢視依官方 Views 說明需 1.14、官方更新紀錄顯示 1.14 目前只在 Catalyst 搶先測試版，正式版為 1.13 -->
 

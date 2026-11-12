@@ -9,12 +9,6 @@ image: /images/passive-app-compare.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 8 月｜最後更新：2026 年 9 月
-> 2026 年 9 月 28 日依 [Honeygain 官方出金改版公告](https://www.honeygain.com/blog/honeygain-payouts-update/)、Honeygain／[EarnApp](https://help.earnapp.com/hc/en-us/articles/10147246886801--What-are-the-available-payment-methods-and-processing-time) 說明中心、[JumpTask 出金頁](https://jumptask.io/payouts/)與 Repocket 官方條款更正：Honeygain 2026 年 8 月出金改版後，JumpTask 模式 $0.50 起可出、新增禮品卡、加密貨幣改經 JumpTask 出金（Honeygain 模式 PayPal 門檻仍是 $20），JumpToken（JMPT）已停止作為出金方式，前一版「JumpToken 是唯一免手續費路線」不成立；EarnApp 處理日更正為週一至週四；Repocket 的門檻、出金方式與「20% 平台費」查不到官方公開依據，已改寫，並補上 Android App 已不在 Google Play 的現況。
-> [EarnApp](https://earnapp.com/) 計費制度已於 2025 年 8 月 20 日改為按時計費，收益率另見個別評測。平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## 為什麼出金體驗很重要
 
 評測掛機 App 的文章大多著重「能賺多少」，但賺到錢和拿到錢是兩回事。出金門檻太高、手續費吃掉一大塊、或者處理時間拖很長——這些都是真實的使用成本。
@@ -31,6 +25,8 @@ draft: false
 | 出金方式 | Honeygain 模式：PayPal，或轉到 JumpTask 換禮品卡／加密貨幣；JumpTask 模式：禮品卡、加密貨幣、預付型 PayPal 等 | PayPal、Wise、Amazon 禮品卡 | 條款列的類型是加密錢包、交易所、銀行或匯款服務；實際選項依地區，以出金頁為準 |
 | 處理時間 | PayPal：首次需註冊 Tipalti，完成後約 2–3 個工作天；JumpTask：禮品卡即時、加密貨幣 15–20 分鐘 | 週一至週四每日處理一次，最長約 10 個工作天到帳 | 官方未公開 |
 | 台灣用戶注意 | PayPal 需所在國家支援（台灣支援）；GIFQ 禮品卡清單有台灣適用品牌（例：7-Eleven Taiwan）| Amazon 禮品卡只有 .com / .de / .co.uk / .tr 站，台灣沒有 Amazon 站 | Android App 目前在 Google Play 查無（2026 年 9 月查詢）|
+
+EarnApp 的計費制度已於 2025 年 8 月 20 日改為按時計費，收益率另見個別評測；三家的出金門檻與方式隨時可能調整，申請出金前以各自的出金頁與說明中心為準。
 
 ---
 

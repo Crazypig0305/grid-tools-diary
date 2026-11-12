@@ -9,16 +9,11 @@ image: "1password-price-hike-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2025 年 11 月｜最後更新：2026 年 9 月
-> 本文所有訂閱價格已於 2026 年 9 月 12 日逐筆對照 [1Password 官方定價頁](https://1password.com/pricing/personal)與 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)重新查證；Bitwarden 漲價時間與方案內容以[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)為準，漲價前的舊價以 [Internet Archive 存的 2025 年 11 月官方定價頁](https://web.archive.org/web/20251115091230/https://bitwarden.com/pricing/)為準；1Password 漲價前的舊價與新價生效日，則以 [MacRumors 2026 年 2 月 24 日報導](https://www.macrumors.com/2026/02/24/1password-march-price-increase/)引述的官方通知為準（1Password 官方定價頁只列現價）。
-> 2026 年 9 月 21 日：Dashlane 舊免費帳號的升級／匯出期限（2026 年 9 月 16 日）已過，依官方公告與說明中心現行頁面改寫成現況；同日再對照兩家定價頁，價格未變，並依 1Password 官方說明更正家庭版人數的寫法（含 5 人、可再加人另計費，不是上限 5 人）。
-> 訂閱方案隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
 很多 1Password 老用戶是在自動續費扣款那天，才發現金額跟去年不一樣——漲價通知是用 email 寄的，被分到促銷或垃圾信件夾就很容易漏看。
 
 查了一下，個人版從每年 $35.88 漲到 $47.88，漲幅 33%。家庭版從 $59.88 漲到 $71.88，漲幅 20%。這時候該問的是：**密碼管理器這個東西，你到底在付哪些功能的錢？**
 
-在密碼管理器市場裡，Bitwarden 一直是「便宜版 1Password」的位置存在——開源、免費版就很夠用、付費版只要 $19.80/年。而且 Bitwarden 才剛漲過：[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)日期是 2026 年 1 月 21 日，Premium 從 $10 漲到 $19.80（98% 漲幅），比 1Password 早兩個月。兩家的年費差距在那兩個月之間是 $16.08，1Password 漲完之後拉大到 $28.08——這個市場今年整體都在重新定價。
+在密碼管理器市場裡，Bitwarden 一直是「便宜版 1Password」的位置存在——開源、免費版就很夠用、付費版只要 $19.80/年。而且 Bitwarden 才剛漲過：[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)日期是 2026 年 1 月 21 日，Premium 從 $10（舊價見 [Internet Archive 存的 2025 年 11 月官方定價頁](https://web.archive.org/web/20251115091230/https://bitwarden.com/pricing/)）漲到 $19.80（98% 漲幅），比 1Password 早兩個月。兩家的年費差距在那兩個月之間是 $16.08，1Password 漲完之後拉大到 $28.08——這個市場今年整體都在重新定價。
 
 <!-- IG-data: 把兩家 2026 年漲價的時間點並排（Bitwarden 官方公告 2026-01-21；1Password 新價 2026-03-27 生效，消息是 2026-02-24 由 MacRumors 轉述 1Password 寄給用戶的通知才公開），算出兩家年費差距在那兩個月之間是 $16.08、1Password 漲完後為 $28.08——兩個差額是本文自算，兩家的來源各自只講自己的價格，沒有這個跨品牌對照 -->
 

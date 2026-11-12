@@ -9,13 +9,6 @@ image: /images/bitwarden-password.png
 draft: false
 ---
 
-> 📅 原文發布：2023 年 10 月｜最後更新：2026 年 9 月
-> [Bitwarden](https://bitwarden.com/) Premium 已於 2026 年 1 月 21 日調整為 $19.80/年（[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)），調整前是 $10/年（[Internet Archive 存的 2025 年 11 月官方定價頁](https://web.archive.org/web/20251115091230/https://bitwarden.com/pricing/)寫「$10/Year」）；同一次調整也把 Premium 的加密附件空間提高到 5 GB。
-> 本文的免費版與 Premium 功能對照、價格與文中引用的官方原文，已於 2026 年 9 月 12 日逐項對照 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)與各個引用來源重新確認。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## 先說結論
 
 Bitwarden 免費版是一款不縮水的免費密碼管理器：開源、無裝置數量限制、無密碼數量限制、跨平台同步全部免費（見[官方定價頁](https://bitwarden.com/pricing/)）。
@@ -37,6 +30,8 @@ Bitwarden 免費版是一款不縮水的免費密碼管理器：開源、無裝�
 | 加密附件 | — | 5 GB |
 | 保險庫健康報告 | — | ✓ |
 | 平台 | Windows、Mac、Linux、iOS、Android、Web | 同左 |
+
+Premium 已於 2026 年 1 月 21 日調整為 $19.80/年（[官方公告](https://bitwarden.com/blog/bitwarden-launches-enhanced-premium-plan/)），調整前是 $10/年（[Internet Archive 存的 2025 年 11 月官方定價頁](https://web.archive.org/web/20251115091230/https://bitwarden.com/pricing/)寫「$10/Year」）；同一次調整也把 Premium 的加密附件空間提高到 5 GB。方案與價格隨時可能調整，升級前以 [Bitwarden 官方定價頁](https://bitwarden.com/pricing/)為準。
 
 ---
 

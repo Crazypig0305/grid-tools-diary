@@ -8,11 +8,6 @@ tags: ["Meta One", "Instagram Plus", "訂閱成本", "社群平台", "工具評�
 draft: false
 ---
 
-> 📅 原文發布：2026 年 10 月｜最後更新：2026 年 11 月
-> 本文方案與規則已於 2026 年 11 月 2 日再次對照 [Meta 新聞室](https://about.fb.com/news/2026/09/introducing-meta-one/)、[Meta 說明中心](https://www.meta.com/help/subscriptions/960854640235758/) 與 [Instagram Plus 官方介紹頁](https://about.instagram.com/features/instagram-plus) 校對；台幣價格官方頁面需登入結帳才顯示，本文採媒體報導數字並註明出處。
-> 訂閱價格與功能隨時可能調整，請以你在 App 結帳畫面看到的金額為準。
-> 2026 年 11 月 2 日更新：補上「Meta One 是什麼」的一句話說明與官方寫的開放現況，修正創作者／商家方案的功能描述，並在優缺點與結論的價格比較補上計算前提。
-
 直接說結論：**Meta One 一般人不用訂。** Meta 官方寫明 Instagram、Facebook、WhatsApp 的核心功能和日常使用的 Meta AI 都維持免費，付費買到的是限時動態工具、自訂圖示、更多 AI 生成額度這類加值功能。真的想要 IG 的限動功能，只買單一的 **Instagram Plus（依媒體報導月費 NT$69）** 就夠，不必上到 Core 組合包。
 
 **Meta One 是什麼？** 一句話：它是 Meta 在 2026 年 9 月推出的付費訂閱，把 Instagram、Facebook、WhatsApp 的加值功能和更多 Meta AI 生成額度收進同一套方案，分成單一 App 的 Plus、個人組合包 Core／Premium，以及給創作者和商家的 Essential 以上方案。

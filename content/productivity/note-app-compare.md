@@ -9,13 +9,6 @@ image: /images/note-app-compare.jpg
 draft: false
 ---
 
-> 📅 原文發布：2024 年 1 月｜最後更新：2026 年 10 月
-> 2026 年 10 月依 [Notion 官方方案頁](https://www.notion.com/pricing)、[Evernote 官方方案比較頁](https://evernote.com/compare-plans)、[Obsidian 官方定價頁](https://obsidian.md/pricing)更正：Notion 個人付費方案現在叫 Plus（年繳每人每月 10 美元），不是舊的 Personal Pro；Evernote 現行方案為 Free／Starter／Advanced 等，免費版是 50 則筆記、1 個筆記本、1 台裝置；Notion 與 Evernote 免費版其實都能離線使用（前一版寫「付費才支援」）。
-> 本文依各工具官方方案頁與說明文件整理，各工具功能與費率可能調整，建議至官網確認最新條件。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## 為什麼要做這個比較？
 
 已經有分別評測 [Notion](https://www.notion.so/) 和 [Obsidian](https://obsidian.md/) 的文章了，但很多人問的是「到底哪個最適合我？」——不是要看個別評測，是要一個直接告訴他選哪個的答案。

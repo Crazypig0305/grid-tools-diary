@@ -9,12 +9,6 @@ image: /images/moze-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2022 年 11 月｜最後更新：2026 年 10 月
-> [MOZE](https://moze.app/) 於 2024–2025 年推出 4.0 版，加入 iPad 支援和 AI 語音記帳。2026 年 9 月依 MOZE [官網定價頁](https://moze.app/pricing)與 App Store 訂閱方案更正價格、各方案功能與試用資訊。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## MOZE 是什麼
 
 台灣開發的記帳 App，主打介面設計和手動記帳的細膩體驗。在 iOS 記帳類別裡算是口碑最好的本土工具，沒有之一。
@@ -31,7 +25,7 @@ draft: false
 | Premium（專業版）| 跨裝置即時同步、信用卡進階功能（對帳模式、自動扣繳、帳單分期）、紅利回饋、借還款追蹤、30 點 AI 永久點數 | App Store 台灣：年繳 NT$600（平均每月 NT$50）<br>月繳 NT$60 |
 | Premium+AI | Premium 全功能 + 每月配發 AI 點數（語音記帳、拍照記帳、截圖記帳、發票歸帳自動分類）| 官網標 US$3.99／月（專業版 US$1.99）|
 
-表中 NT$ 是 [App Store 台灣區](https://apps.apple.com/tw/app/id1460011387)的 App 內購買價，US$ 是 [MOZE 官網定價頁](https://moze.app/pricing)的美元標價，兩者幣別與購買管道不同、不要直接換算比較。
+表中 NT$ 是 [App Store 台灣區](https://apps.apple.com/tw/app/id1460011387)的 App 內購買價，US$ 是 [MOZE 官網定價頁](https://moze.app/pricing)的美元標價，兩者幣別與購買管道不同、不要直接換算比較。方案與價格隨時可能調整，訂閱前以 App 內顯示與官網定價頁為準。
 
 免費版不用試，下載就能長期用；Premium 第一次訂閱有 14 天免費試用（試用結束才開始第一期訂閱），試過再決定。
 

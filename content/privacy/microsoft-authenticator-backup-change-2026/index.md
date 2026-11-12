@@ -8,10 +8,6 @@ tags: ["Microsoft Authenticator", "2FA", "雙因素驗證", "換手機", "資安
 draft: false
 ---
 
-> 📅 原文發布：2026 年 10 月｜最後更新：2026 年 10 月
-> 本文內容已於 2026 年 10 月 5 日逐項對照 [微軟說明頁〈在 Microsoft Authenticator 中備份您的帳戶〉](https://support.microsoft.com/zh-tw/authenticator/back-up-your-accounts-in-microsoft-authenticator)、[〈還原帳戶認證〉](https://support.microsoft.com/en-us/authenticator/restore-account-credentials-from-microsoft-authenticator)、[Microsoft Learn 換機文件](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-transfer-authenticator-new-phone)與 App Store 台灣區頁面校對。
-> 備份規則隨 App 版本調整，換機前建議再到微軟說明頁確認一次。
-
 直接說結論：**Microsoft Authenticator 的備份已經跟著手機系統走了。** iPhone 版改用 iCloud 備份，App 裡原本的「雲端備份」開關被拿掉，要到 iPhone 的 iCloud 設定裡開；Android 版目前仍用 Microsoft 個人帳號備份，但微軟說明頁寫明 2027 年 1 月起改從 Google One 備份啟用。兩邊的備份不能互通：iPhone 備份的帳號還原不到 Android 手機上，反過來也一樣。
 
 所以換手機前要分兩種情況處理。同平台換機（iPhone 換 iPhone、Android 換 Android），先確認舊手機的備份真的開著、公司帳號準備重新登入、舊手機留到全部驗證過再清；跨平台換機，備份幫不上忙，每個帳號都要在新手機重新綁定。下面依序拆解。
@@ -58,6 +54,8 @@ Android 的變動寫在[微軟說明頁](https://support.microsoft.com/zh-tw/aut
 ## 換手機前先做這三件事
 
 <!-- IG-synthesis: 微軟把換機資訊拆在三個地方（Support 備份頁、Support 還原頁、Microsoft Learn 換機文件），各自只講一段；本節把三頁的條件合併成「換機前三件事」，並把 iOS 端的版本門檻（6.8.33）、開過一次 App、舊手機保留到驗證完這幾個散在不同頁的細節放進同一張清單 -->
+
+備份規則會隨 App 版本調整，換機前建議再到微軟說明頁確認一次。
 
 ### 第一件：確認舊手機的備份真的開著
 

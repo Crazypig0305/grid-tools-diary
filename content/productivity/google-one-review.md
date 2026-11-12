@@ -9,12 +9,6 @@ image: /images/google-one-og.jpg
 draft: false
 ---
 
-> 📅 原文發布：2023 年 1 月｜最後更新：2026 年 10 月
-> ⚠️ 重要更新：[Google One](https://one.google.com/) [VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF) 已於 2024 年 6 月 20 日正式停服，不再是訂閱權益的一部分。本文已移除 VPN 相關描述；方案與價格已於 2026 年 9 月對照 Google One 台灣官方方案頁重新校對（目前付費方案只有 100 GB、2 TB、5 TB 三層，已沒有 200 GB）。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## Google One 是什麼
 
 Google 帳號免費提供 15 GB 儲存空間，跨 Gmail、[Google Drive](https://drive.google.com/) 和 Google Photos 共用。15 GB 超過之後，要嘛清資料，要嘛付費升級——[Google One](https://en.wikipedia.org/wiki/Google_One) 就是付費方案的名稱，於 2018 年正式推出、屬於 Google 的[訂閱經濟（subscription business model）](https://en.wikipedia.org/wiki/Subscription_business_model)消費端服務。
@@ -31,6 +25,8 @@ Google 帳號免費提供 15 GB 儲存空間，跨 Gmail、[Google Drive](https:
 | 基本版 | 100 GB | NT$65 |
 | Google AI Plus | 2 TB（綁 Gemini 功能）| NT$330 |
 | Google AI Pro | 5 TB（綁 Gemini 進階功能）| NT$650 |
+
+方案與價格隨時可能調整，訂閱前以 Google One 台灣官方方案頁為準。
 
 以下分析以大多數人最常考慮的 **100 GB 方案**為主。
 

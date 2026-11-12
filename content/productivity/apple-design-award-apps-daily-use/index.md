@@ -8,7 +8,6 @@ description: "2024-2025 Apple Design Awards 得獎 App 有 20 多個，但用「
 draft: false
 ---
 
-> 📅 本文依 2026 年 6 月的 Apple 官方得獎公告與各 App 官方定價整理，各 App 功能與費率可能調整，建議至官網確認最新條件。
 > 📌 本文無聯盟連結；得獎名單與評價以 Apple 官方公告為準，評測立場為個人實用度判斷。
 
 ---

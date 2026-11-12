@@ -8,11 +8,6 @@ tags: ["ChatGPT", "ChatGPT Go", "AI 訂閱", "方案比較", "工具評測"]
 draft: false
 ---
 
-> 📅 原文發布：2026 年 9 月｜最後更新：2026 年 10 月
-> 本文價格與規則已於 2026 年 10 月 12 日逐項對照 [ChatGPT 官方定價頁](https://chatgpt.com/zh-Hant/pricing/)、[OpenAI 說明中心〈Ads in ChatGPT〉](https://help.openai.com/en/articles/20001047-ads-in-chatgpt)與 App Store 台灣區頁面校對。
-> 2026 年 10 月 12 日更新：補上 Go 是什麼、10 月起 Go 與 Plus 日常對話模型的差別（GPT-6 Luna vs GPT-6 Sol）、Plus 能不能年繳、Pro 三種用量層級，以及 Google AI Plus 最新台灣價格與 Gemini 廣告動向。
-> 訂閱價格與廣告政策隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
 直接說結論：**只是嫌廣告，不值得為此從 Go 升到 Plus；用量真的撞到 Go 的上限，或需要更強的模型，才值得升。** ChatGPT 從 2026 年 9 月 24 日起在台灣對免費版和 Go 方案顯示廣告，Plus、Pro、Business、Enterprise、Edu 都沒有。以 2026 年 10 月 12 日官方定價頁的台灣價格計算，Go 每月 NT$270、Plus 每月 NT$690，為了「不看廣告」升級，一個月多付 NT$420，一年多付 NT$5,040。
 
 先說明 Go 是什麼：ChatGPT Go 是 OpenAI 介於免費版和 Plus 之間的平價訂閱，[2026 年 1 月起全球推出](https://openai.com/zh-Hant/index/introducing-chatgpt-go/)。依 OpenAI 10 月 7 日的 [GPT-6 公告](https://openai.com/zh-Hant/index/gpt-6-for-everyone/)，Go 和免費版的日常對話都由 GPT-6 Luna 驅動，Go 多的是工具額度、上傳與生圖額度，以及較長的上下文（定價頁列 54K，免費版 27K）；Plus 的日常對話則改由較強的 GPT-6 Sol 驅動，還多了進階推理模型，而且沒有廣告。

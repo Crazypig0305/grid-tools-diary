@@ -9,10 +9,6 @@ image: "repocket-taiwan-review-2026-hero.webp"
 draft: false
 ---
 
-> 📅 原文發布：2026 年 3 月｜最後更新：2026 年 10 月
-> 2026 年 9 月 28 日依 Repocket 官方[條款](https://repocket.com/terms-and-conditions)、[出金與獎勵政策](https://repocket.com/payment-and-rewards-policy)、[隱私政策](https://repocket.com/privacy-policy)，以及 Google Play、App Store 現況更正：Android 與 iOS App 目前兩個商店都查無（前一版寫 Android 版持續維護）；每 GB 單價、$20 出金門檻、PayPal／Tremendous／USDT 出金方式都查不到官方公開依據，已改為「以登入後出金頁為準」，並刪除依賴這些數字的月收試算；營運主體補上 Repocket Pte. Ltd.；Bright Data 並非上市公司，已更正；Honeygain 營運公司名稱依其條款更正為 Honeygain, UAB；Pawns.app 官方已停止頻寬分享，移出推薦排序。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
 用了 [掛機 App 2026 年現況評估](/earn-apps/idle-apps-2026-revenue-evaluation/) 那篇的讀者可能注意到，[Repocket](https://repocket.com/) 沒有在推薦範圍內。理由在那篇末尾的 FAQ 寫了一句：「台灣有資安疑慮」。
 
 這篇單獨把 Repocket 拆開來看，因為它的情況比另外兩款更複雜——既不是明確的詐騙，也不是乾淨的推薦。2026 年的現況是什麼，安裝前要想清楚哪些事，這篇說完。

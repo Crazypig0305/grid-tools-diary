@@ -9,12 +9,6 @@ image: /images/protonvpn-og.png
 draft: false
 ---
 
-> 📅 原文發布：2024 年 2 月｜最後更新：2026 年 10 月
-> 2026 年 10 月 13 日依 [ProtonVPN 官方定價頁](https://protonvpn.com/pricing)、[免費版說明頁](https://protonvpn.com/free-vpn)與[無日誌政策說明](https://protonvpn.com/support/no-logs-vpn/)更正方案價格、免費版伺服器範圍與稽核紀錄；前一版的速度損耗百分比拿不出測試紀錄，已刪除。
-> 平台規則隨時可能調整，建議參考本文後仍至官網確認最新條件。
-
----
-
 ## Proton[VPN](https://zh.wikipedia.org/wiki/%E8%99%9B%E6%93%AC%E7%A7%81%E4%BA%BA%E7%B6%B2%E8%B7%AF) 是什麼
 
 ProtonVPN 是 Proton AG 開發的 VPN 服務，同一家公司也做 ProtonMail（加密郵件）。總部在瑞士，強調隱私優先的設計哲學，程式碼開源可以公開審查。
@@ -30,6 +24,8 @@ ProtonVPN 是 Proton AG 開發的 VPN 服務，同一家公司也做 ProtonMail�
 | Free | 無流量與速度上限、1 台裝置、伺服器在 10 個國家且由系統隨機分配 | 免費 |
 | VPN Plus | 140 多個國家、20,000 台以上伺服器、10 台裝置、支援串流平台與 P2P | 兩年方案每月 $3.49 USD（首期 $83.76，之後每 12 個月 $83.88）|
 | Proton Unlimited | VPN Plus 加上 Proton 其他服務（郵件、雲端硬碟、密碼管理等）的付費方案 | 兩年方案每月 $7.99 USD（首期 $191.76，之後每 12 個月 $119.88）|
+
+價格以 [ProtonVPN 官方定價頁](https://protonvpn.com/pricing)為準，方案與促銷隨時可能調整。
 
 官方[免費版說明頁](https://protonvpn.com/free-vpn)寫免費版「Has no data or speed limits」（沒有流量與速度上限），而且沒有使用期限。不限流量又不限速，這在免費 VPN 裡非常罕見；代價是只能用 1 台裝置、不能自己挑國家。
 
