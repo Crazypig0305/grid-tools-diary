@@ -169,6 +169,8 @@ draft: false
 **你一個人聽、只想花最少的錢**
 → **可以換，但別期待省很多**。KKBOX 標準方案 $159 一個月省 9 元，2026 年起無損也開放給全付費會員、解析度上限還比 Spotify 高一階，純算 CP 值贏過 Spotify 個人方案。不過一年也就差一百出頭，離不開 Discover Weekly 的話，留著不算虧。
 
+決定要換的話，取消前先確認自己是向 Spotify、Google Play、Apple 還是電信業者付款，取消位置不一樣，步驟見 [Spotify 取消訂閱怎麼做](/productivity/spotify-cancel-premium-2026/)。
+
 **你能湊滿家庭方案、或重度依賴推薦與 Podcast**
 → **留下來**。家庭方案每人約 $50，雖然比 KKBOX、YouTube Music、Apple Music 的家庭方案各貴幾塊錢，但只有個人方案的三分之一，加上推薦引擎和跨裝置體驗的優勢，沒必要為了每月幾元折騰換平台。
 

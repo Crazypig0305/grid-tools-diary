@@ -182,7 +182,7 @@ Lite 在音樂內容上等於沒付錢。Premium 內含 YouTube Music Premium，
 
 對號入座：
 
-- **換成只訂 YouTube Premium：** 每天看 YouTube 影片、聽歌不追無損。換之前先用 YouTube Music 搜一遍你常聽的歌單和 Podcast 找不找得到；符合資格的新會員有 1 個月免費試用，可以在試用期內確認，再取消 Spotify。
+- **換成只訂 YouTube Premium：** 每天看 YouTube 影片、聽歌不追無損。換之前先用 YouTube Music 搜一遍你常聽的歌單和 Podcast 找不找得到；符合資格的新會員有 1 個月免費試用，可以在試用期內確認，再取消 Spotify。取消 Spotify 要看你是向誰付款，各管道的取消路徑見 [Spotify 取消訂閱怎麼做](/productivity/spotify-cancel-premium-2026/)。
 - **留 Spotify：** 在意無損音質、和同住家人共用（Family 每人約 $50），或很少看 YouTube 影片。只有你一個人受不了影片廣告的話加 Lite $119，不要加完整 Premium；家裡有 2 人以上也要影片去廣告，Spotify Family 加 Lite 會超過 Premium 家庭 $479，改成只訂 Premium 家庭比較省，除非全家很在意無損音質、願意為此多付。
 - **兩個都想用：** Lite＋Spotify $287，不要 Premium＋Spotify $367。
 
