@@ -19,7 +19,7 @@ Todoist 自 2025 年 12 月 10 日起調漲 Pro 方案——年費從 $48 漲到
 
 ## Todoist 是什麼：一句話說清楚
 
-[Todoist](https://en.wikipedia.org/wiki/Todoist) 是一款跨平台任務管理工具，支援 iOS、Android、Windows、Mac 和瀏覽器。由 Amir Salihefendić 創立的 Doist 公司於 2007 年推出，官方方案頁標示使用者超過 3000 萬人。設計的核心邏輯是：用「專案」作為最高層容器，任務放在專案裡，支援子任務、標籤、截止日、優先度和過濾器。
+[Todoist](https://en.wikipedia.org/wiki/Todoist) 是一款跨平台任務管理工具，支援 iOS、Android、Windows、Mac 和瀏覽器。由 Amir Salihefendić 創立的 Doist 公司於 2007 年推出，官方方案頁標示使用者超過 3000 萬人。設計的核心邏輯是：用「專案」作為最高層容器，任務放在專案裡，支援子任務、標籤、截止日、優先度和過濾器。各平台去哪下載、中文介面怎麼切、新增任務的寫法，整理在 [Todoist App 怎麼用](/productivity/todoist-app-guide/)。
 
 它在任務管理市場的定位是介於「簡單免費工具（Apple 提醒事項、Google Tasks）」和「複雜重型工具（[Notion](https://www.notion.so/)、Asana）」之間——做一件事專心做，不試圖變成第二大腦或專案管理平台。實作上參考[GTD（Getting Things Done）時間管理法](https://en.wikipedia.org/wiki/Getting_Things_Done)的「inbox → next action」流程。
 

@@ -107,7 +107,7 @@ Notion 可以建 To-do List 資料庫，設截止日、優先度、狀態，跟 
 
 這個維度被嚴重低估。
 
-**Todoist 是真正的低學習曲線工具**：打開就能用，不需要先搭架構，Natural Language Input（直接打一句話就解析日期）讓新手很快就能開始管任務。
+**Todoist 是真正的低學習曲線工具**：打開就能用，不需要先搭架構，Natural Language Input（直接打一句話就解析日期）讓新手很快就能開始管任務。一行打完日期、專案、標籤的寫法，見 [Todoist App 怎麼用](/productivity/todoist-app-guide/)。
 
 **Notion 的學習曲線是真實存在的**：Block-based 系統、Database 的 Property 和 Filter 邏輯、不同的 View 類型——如果你沒有先花時間把這些邏輯搞懂、搭好自己的工作空間，Notion 用起來反而會比 [Google Keep](https://keep.google.com/) 這類打開就記的工具更費力，因為你付出了時間卻沒有得到對應的效率提升。
 
