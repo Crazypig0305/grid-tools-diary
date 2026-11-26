@@ -1,7 +1,7 @@
 ---
 title: "上班族到底需不需要 VPN？不廢話直接說"
 date: 2022-04-01
-lastmod: 2026-10-13
+lastmod: 2026-11-26
 categories: ["privacy"]
 tags: ["VPN", "網路安全", "隱私工具", "資安"]
 description: "VPN 到底該不該買？先搞清楚它能做什麼、不能做什麼，再決定要不要花這筆錢。"
@@ -11,7 +11,7 @@ draft: false
 
 ## 先說結論
 
-大多數人不需要 VPN。但「不需要」不等於沒有用，問題是你的使用情境對不對。
+常用公共 WiFi、需要跨區看內容、不想讓 ISP 看到你瀏覽什麼——這三種情況 VPN 值得用，付費版看 NordVPN 和 Surfshark 怎麼挑，想先試可以從免費的 ProtonVPN 開始。如果你要的是匿名、防毒或帳號安全，VPN 幫不上，下面也寫了該改用什麼。
 
 ---
 
@@ -49,13 +49,13 @@ VPN 的核心功能只有兩件事：
 
 ---
 
-## 你不需要 VPN 的三種情況
+## 這三種需求 VPN 幫不上，改用別的
 
-**你以為 VPN 能讓你「匿名」上網。** 用 VPN 之後你的 IP 從台灣變成荷蘭，但你還是用 Gmail 登入、還是點進 Facebook 發文——這些帳號行為會告訴平台你是誰，IP 換掉沒有意義。真正的匿名需要的東西遠比 VPN 複雜。（另一個和 IP 有關、但方向相反的情境是[掛機 App](/earn-apps/passive-app-security/)：那是把你的住宅 IP 借給別人用，VPN 則是把你的出口 IP 藏起來，搞混的人不少。）
+**你以為 VPN 能讓你「匿名」上網。** 用 VPN 之後你的 IP 從台灣變成荷蘭，但你還是用 Gmail 登入、還是點進 Facebook 發文——這些帳號行為會告訴平台你是誰，IP 換掉沒有意義。真正的匿名需要的東西遠比 VPN 複雜。如果你要的是不讓廣告和追蹤器跨網站跟著你，改用 [Tor Browser](https://www.torproject.org/)：Tor 官方說明它會把你造訪的每個網站隔開，讓第三方追蹤器和廣告跟不過來，流量在 Tor 網路上會被轉送並加密三次；不過一樣的道理，登入自己的帳號，網站還是知道你是誰。（另一個和 IP 有關、但方向相反的情境是[掛機 App](/earn-apps/passive-app-security/)：那是把你的住宅 IP 借給別人用，VPN 則是把你的出口 IP 藏起來，搞混的人不少。）
 
-**你只想防病毒、防釣魚。** VPN 不做這件事。防病毒要靠防毒軟體，防釣魚要靠辨別網址和不點來路不明的連結，兩件事跟 VPN 沒有關係。
+**你只想防病毒、防釣魚。** VPN 不做這件事。防病毒要靠防毒軟體，Windows 本身就內建「Windows 安全性」，[微軟說明](https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963)寫它從開機起就提供即時防護；防釣魚要靠辨別網址和不點來路不明的連結。擔心帳號被盜，該做的是開兩步驟驗證（2FA），驗證 App 怎麼挑見 [2FA Authenticator App 比較](/privacy/2fa-authenticator-app-compare/)。
 
-**你在家用有密碼的 WiFi 做一般上網。** 家用 WPA2/WPA3 加密的 WiFi 已經有基本保護，一般上網、串流、社群媒體的情境不需要再加一層 VPN。
+**你在家用有密碼的 WiFi 做一般上網。** 家用 WPA2/WPA3 加密的 WiFi 已經有基本保護，一般上網、串流、社群媒體的情境不需要再加一層 VPN；出門要連公共 WiFi 時再開就夠了。
 
 ---
 
@@ -77,9 +77,9 @@ VPN 的核心功能只有兩件事：
 - 對 ISP 保存連線紀錄這件事有介意
 
 **不需要買的人：**
-- 主要在家或公司內部網路上網
+- 主要在家或公司內部網路上網（偶爾出門連公共 WiFi，先用免費的 ProtonVPN 就夠）
 - 沒有跨區需求
-- 對於以為 VPN 能讓你「完全匿名」的人——先理解 VPN 的實際功能再決定
+- 想靠 VPN「完全匿名」的人——要擋跨網站追蹤改用 Tor Browser，帳號安全靠 2FA
 
 ---
 
@@ -92,7 +92,7 @@ VPN 的核心功能只有兩件事：
 會，程度取決於你家網路本身的速度、連的伺服器離台灣多遠，以及那台伺服器當下有多少人在用；連到遠端伺服器（如美國）通常比連日本慢。各家 VPN 在你家的實際表現差很多，最準的做法是買了之後在退款期內，用測速網站各測一次開、關 VPN 的速度。
 
 **哪個 VPN 比較好？**
-這個問題留給下一篇專門做比較。這篇先把「需不需要買」說清楚比較重要。
+付費版的比較整理在 [NordVPN vs Surfshark](/privacy/nordvpn-vs-surfshark/)：多數台灣用戶選 Surfshark Starter 兩年方案（每月 NT$78、裝置數量不限），在意公司管轄地選 NordVPN 基本方案兩年方案（每月 NT$109）。只想先試、或只在公共 WiFi 用，[ProtonVPN 免費版](/privacy/protonvpn-review/)不限流量也不限速，但只能 1 台裝置、不支援串流平台。
 
 ---
 
@@ -100,9 +100,9 @@ VPN 的核心功能只有兩件事：
 
 需不需要 VPN，要問的不是「VPN 好不好」，而是「我的哪個具體問題，VPN 能解決？」
 
-常用公共 WiFi、需要跨區、在乎 ISP 紀錄——這三個其中之一符合，VPN 是值得的工具，綁長約一個月一百元上下不算貴。都不符合，可能你對 VPN 的期待是它做不到的事，買了也不會有你要的效果。
+常用公共 WiFi、需要跨區、在乎 ISP 紀錄——這三個其中之一符合，VPN 是值得的工具，綁長約一個月一百元上下不算貴。都不符合，你要解決的多半是別的問題：防追蹤用 Tor Browser、防毒用系統內建防護、帳號安全開 2FA，這筆錢不用花在 VPN 上。
 
-如果確定需要，再看 [NordVPN 和 [Surfshark](https://surfshark.com/) 的具體選擇比較](/privacy/nordvpn-vs-surfshark/)。
+確定需要的話：要追劇跨區或多台裝置，看 [NordVPN 和 Surfshark 的具體比較](/privacy/nordvpn-vs-surfshark/)；只在公共 WiFi 用、想先免費試，看 [ProtonVPN 評測](/privacy/protonvpn-review/)。
 
 ---
 
